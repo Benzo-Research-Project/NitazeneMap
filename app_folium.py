@@ -5,17 +5,23 @@ import pandas as pd
 import folium
 from folium import plugins
 import math 
+from datetime import datetime
+import pgeocode
+nomi = pgeocode.Nominatim('gb')
 
 # Read in the data
 df = pd.read_csv('data/wedinos_alerts_2024.csv', sep='\t', encoding='utf-8')
 df['intent'] = df['intent'].apply(str.lower)
+datelist = []
 for idx, row in df.iterrows():
-    if 'diazepam' in row['intent']:
-        df.at[idx, row['intent']] = 'diazepam'
+    df.loc[idx,'date_received'] = pd.Timestamp(row['date_received'])
 df['major'] = df['major'].apply(str.lower)
 df2 = df.dropna(subset=['longitude', 'latitude']).reset_index(drop=True)
 df.set_index(df.columns[0], inplace=True)
 df2.set_index(df2.columns[0], inplace=True)
+#transform every unique date to a number
+numdate = [x for x in range(len(df2['date_received'].unique()))]
+dates = df2['date_received'].unique()
 
 # Initialize the app - incorporate css
 external_stylesheets = ['https://brp.org.uk/files/main_style.css']
@@ -52,7 +58,7 @@ app.layout = [html.Div(className='wsite-section-wrap', style={"width":"100%"}, c
                             'margin': '10px'
                         },
                         # Allow multiple files to be uploaded
-                        multiple=True
+                        multiple=False
                     ),
                     html.Div(id='output-data-upload')
                 ]),
@@ -61,22 +67,28 @@ app.layout = [html.Div(className='wsite-section-wrap', style={"width":"100%"}, c
                     dcc.Dropdown(df2.intent.unique(), '', id='dropdown-selection', style={'borderRadius': '10px'})
                 ]),
             ]),
-            html.Div(style={'borderRadius':'10px'}, children=[
-                html.Iframe(srcDoc=fig, width='100%', height='750', style={'borderRadius': '10px','border':'none','overflow': 'hidden','display': 'inline-block'}, id='graph-content')
+            html.Div(style={'border': '3px solid #eee','borderRadius':'10px','transform':'translateZ(0px)','overflow':'hidden','display':'block'}, children=[
+                html.Iframe(srcDoc=fig, width='100%', height='725', style={'borderRadius': '10px','border':'none','overflow': 'hidden','display': 'inline-block','margin':'0 auto'}, id='graph-content')
             ]),
-        ]),html.Br(),
+        ]),
+        dcc.Slider(id="graph-slider",
+                   min=numdate[0],
+                   max=numdate[-1],
+                   value=numdate[0],
+                   tooltip={"placement": "bottom", "always_visible": True, "template": "{dates[numdate[value]]}"},
+                   marks=None),
+        html.Br(),
         html.Div(style={'overflowX': 'scroll','padding': 10}, children=[
             dash_table.DataTable(data=df.to_dict('records'), page_size=10)
         ]),html.Br(),html.Br(),
-        html.P(children='Last updated: 15 December 2024. Locations are placed randomly within the postcode district of each result (e.g. EC1). Data is displayed for informational purposes only, and is owned by WEDINOS. Data does not include results after 4 December 2024 due to WEDINOS experiencing technical issues.', style={'textAlign':'left', 'font-size': '0.8em'})
+        html.P(children='Dataset last updated: 15 December 2024. Locations are placed randomly within the postcode district of each result (e.g. EC1). Data is displayed for informational purposes only, and is owned by WEDINOS. Data does not include results after 4 December 2024 due to WEDINOS experiencing technical issues.', style={'textAlign':'left', 'font-size': '0.8em'})
     ])
 ])]
 
 @callback(
     Output(component_id='graph-content', component_property='srcDoc'),
-    Input(component_id='dropdown-selection', component_property='value')
+    Input(component_id='dropdown-selection', component_property='value'),
 )
-
 def update_graph(col_chosen):
     filtered_df = df2[df2.intent.str.contains(col_chosen)]
     m = folium.Map(
