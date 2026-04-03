@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e9783e6fc5f3d1a4e58a6ea462fe8bec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e9783e6fc5f3d1a4e58a6ea462fe8bec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e9783e6fc5f3d1a4e58a6ea462fe8bec = L.map(
+                "map_e9783e6fc5f3d1a4e58a6ea462fe8bec",
+                {
+                    center: [53.989955, -3.151694],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_824f038cc1ad7427ed7a3b2c884e96fa = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_824f038cc1ad7427ed7a3b2c884e96fa.addTo(map_e9783e6fc5f3d1a4e58a6ea462fe8bec);
+        
+    
+            var marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_aa9554f30e56fcde75584f5603bdcea5 = L.circleMarker(
+                [51.536704166666674, -3.5931333333333337],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_fd015173fb614d1e6c638e7dc6ee8647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f900e5cf782885039f7aea58869172d = $(`<div id="html_6f900e5cf782885039f7aea58869172d" style="width: 100.0%; height: 100.0%;">                 <h1>W074238</h1>                 <p>                 Postcode: <b>CF32</b><br/>                 Date: <b>20 Feb 2026</b><br/>                 Sold as: <b>Xanax</b><br/>                 Tested as: <b>Caffeine</b> with <b>Clobromazolam</b><br/>                 </p>                 </div>`)[0];
+                popup_fd015173fb614d1e6c638e7dc6ee8647.setContent(html_6f900e5cf782885039f7aea58869172d);
+            
+        
+
+        circle_marker_aa9554f30e56fcde75584f5603bdcea5.bindPopup(popup_fd015173fb614d1e6c638e7dc6ee8647)
+        ;
+
+        
+    
+    
+            var circle_marker_03473cecc3039c3c5ebb95f102bdabc4 = L.circleMarker(
+                [53.755025714285715, -2.8387542857142853],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_eb155c10072c4628a91c35778a6a0cb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e15ee327c8bf5769050c76f7116d7c8b = $(`<div id="html_e15ee327c8bf5769050c76f7116d7c8b" style="width: 100.0%; height: 100.0%;">                 <h1>W074195</h1>                 <p>                 Postcode: <b>PR4</b><br/>                 Date: <b>18 Feb 2026</b><br/>                 Sold as: <b>Alprazolam 1mg/ Xanax</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_eb155c10072c4628a91c35778a6a0cb3.setContent(html_e15ee327c8bf5769050c76f7116d7c8b);
+            
+        
+
+        circle_marker_03473cecc3039c3c5ebb95f102bdabc4.bindPopup(popup_eb155c10072c4628a91c35778a6a0cb3)
+        ;
+
+        
+    
+    
+            var circle_marker_fa1618432588e3585604b52f631c4fcc = L.circleMarker(
+                [50.22666071428572, -4.961603571428571],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_95f81db90694cbddba27db29a50d72d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eb34133733882be19b15fcb55f1f8f4 = $(`<div id="html_8eb34133733882be19b15fcb55f1f8f4" style="width: 100.0%; height: 100.0%;">                 <h1>W073801</h1>                 <p>                 Postcode: <b>TR2</b><br/>                 Date: <b>11 Feb 2026</b><br/>                 Sold as: <b>Alprazolam 1mg</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_95f81db90694cbddba27db29a50d72d1.setContent(html_8eb34133733882be19b15fcb55f1f8f4);
+            
+        
+
+        circle_marker_fa1618432588e3585604b52f631c4fcc.bindPopup(popup_95f81db90694cbddba27db29a50d72d1)
+        ;
+
+        
+    
+    
+            var circle_marker_6c5b70d62036795293ca491f382b4682 = L.circleMarker(
+                [52.670813513513515, -3.1976945945945947],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_20a310029c88ce7bb0f15c32e330ecad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e4a6fbedbdcbad494e276a4dd255c0d = $(`<div id="html_9e4a6fbedbdcbad494e276a4dd255c0d" style="width: 100.0%; height: 100.0%;">                 <h1>W073764</h1>                 <p>                 Postcode: <b>SY21</b><br/>                 Date: <b>10 Feb 2026</b><br/>                 Sold as: <b>Xanax 6mg</b><br/>                 Tested as: <b>Caffeine</b> with <b>Clobromazolam</b><br/>                 </p>                 </div>`)[0];
+                popup_20a310029c88ce7bb0f15c32e330ecad.setContent(html_9e4a6fbedbdcbad494e276a4dd255c0d);
+            
+        
+
+        circle_marker_6c5b70d62036795293ca491f382b4682.bindPopup(popup_20a310029c88ce7bb0f15c32e330ecad)
+        ;
+
+        
+    
+    
+            var circle_marker_4878c2b006c30fee61401b8620ead057 = L.circleMarker(
+                [51.58336666666667, -0.1158333333333333],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_885bf389eb8c98c1192ee55548fe2f63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3b730052a2a226519094e298357666e = $(`<div id="html_d3b730052a2a226519094e298357666e" style="width: 100.0%; height: 100.0%;">                 <h1>W073394</h1>                 <p>                 Postcode: <b>N8</b><br/>                 Date: <b>03 Feb 2026</b><br/>                 Sold as: <b>Alprazolam</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_885bf389eb8c98c1192ee55548fe2f63.setContent(html_d3b730052a2a226519094e298357666e);
+            
+        
+
+        circle_marker_4878c2b006c30fee61401b8620ead057.bindPopup(popup_885bf389eb8c98c1192ee55548fe2f63)
+        ;
+
+        
+    
+    
+            var circle_marker_8a6db6a183dd53bf39feaf853b14abf3 = L.circleMarker(
+                [54.5516, -0.963011111111111],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_10286fce4a63a9950a46300aa17d3b36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb3a1f8a5a3eb86d7c9020f7713d17d6 = $(`<div id="html_fb3a1f8a5a3eb86d7c9020f7713d17d6" style="width: 100.0%; height: 100.0%;">                 <h1>W073430</h1>                 <p>                 Postcode: <b>TS12</b><br/>                 Date: <b>03 Feb 2026</b><br/>                 Sold as: <b>Alprazolam 1mg</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_10286fce4a63a9950a46300aa17d3b36.setContent(html_fb3a1f8a5a3eb86d7c9020f7713d17d6);
+            
+        
+
+        circle_marker_8a6db6a183dd53bf39feaf853b14abf3.bindPopup(popup_10286fce4a63a9950a46300aa17d3b36)
+        ;
+
+        
+    
+    
+            var circle_marker_8bfa2065a745f6e916cb1d49b321c45b = L.circleMarker(
+                [51.5196, -3.1196],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_3eb3854548086f3dcfd545c0fe9e1e19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f17ea66e92d54dfc36d865504627e6e6 = $(`<div id="html_f17ea66e92d54dfc36d865504627e6e6" style="width: 100.0%; height: 100.0%;">                 <h1>W073434</h1>                 <p>                 Postcode: <b>CF30</b><br/>                 Date: <b>03 Feb 2026</b><br/>                 Sold as: <b>Xanax 1mg</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_3eb3854548086f3dcfd545c0fe9e1e19.setContent(html_f17ea66e92d54dfc36d865504627e6e6);
+            
+        
+
+        circle_marker_8bfa2065a745f6e916cb1d49b321c45b.bindPopup(popup_3eb3854548086f3dcfd545c0fe9e1e19)
+        ;
+
+        
+    
+    
+            var circle_marker_33f5de6fb95abf9aae88675cc9a2a428 = L.circleMarker(
+                [53.54999999999999, -2.0667],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_4311a4aa43b47e39a2b2a8a0ea933087 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13e61edbaad0f48b91b0fcce403f1b75 = $(`<div id="html_13e61edbaad0f48b91b0fcce403f1b75" style="width: 100.0%; height: 100.0%;">                 <h1>W073381</h1>                 <p>                 Postcode: <b>OL42</b><br/>                 Date: <b>03 Feb 2026</b><br/>                 Sold as: <b>Xanax 1mg</b><br/>                 Tested as: <b>Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_4311a4aa43b47e39a2b2a8a0ea933087.setContent(html_13e61edbaad0f48b91b0fcce403f1b75);
+            
+        
+
+        circle_marker_33f5de6fb95abf9aae88675cc9a2a428.bindPopup(popup_4311a4aa43b47e39a2b2a8a0ea933087)
+        ;
+
+        
+    
+    
+            var circle_marker_1379284e9b73a3a00750db071fc2d3ff = L.circleMarker(
+                [51.527657142857144, -0.0265714285714285],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85);
+        
+    
+        var popup_cd0c42f96d07ca86bf45b8285d634a1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f3e7cbb904d1b6e11aeb2a2b78dae2 = $(`<div id="html_44f3e7cbb904d1b6e11aeb2a2b78dae2" style="width: 100.0%; height: 100.0%;">                 <h1>W073313</h1>                 <p>                 Postcode: <b>E3</b><br/>                 Date: <b>03 Feb 2026</b><br/>                 Sold as: <b>Xanax/ alprazolam</b><br/>                 Tested as: <b>Bromazolam, Tramadol</b><br/>                 </p>                 </div>`)[0];
+                popup_cd0c42f96d07ca86bf45b8285d634a1b.setContent(html_44f3e7cbb904d1b6e11aeb2a2b78dae2);
+            
+        
+
+        circle_marker_1379284e9b73a3a00750db071fc2d3ff.bindPopup(popup_cd0c42f96d07ca86bf45b8285d634a1b)
+        ;
+
+        
+    
+    
+            marker_cluster_022ad7c6a7a3e1e0c64210b1df73fa85.addTo(map_e9783e6fc5f3d1a4e58a6ea462fe8bec);
+        
+    
+            var marker_cluster_0a5678cbf6e2ff0c7ff2c4d8f3c0d94d = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            marker_cluster_0a5678cbf6e2ff0c7ff2c4d8f3c0d94d.addTo(map_e9783e6fc5f3d1a4e58a6ea462fe8bec);
+        
+</script>
+</html>

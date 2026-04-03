@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5785986645f66ab77fe3fe19de390dfc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5785986645f66ab77fe3fe19de390dfc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5785986645f66ab77fe3fe19de390dfc = L.map(
+                "map_5785986645f66ab77fe3fe19de390dfc",
+                {
+                    center: [53.989955, -3.151694],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_526035d02d9bbe6b2a77c1e0486d8f28 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_526035d02d9bbe6b2a77c1e0486d8f28.addTo(map_5785986645f66ab77fe3fe19de390dfc);
+        
+    
+            var marker_cluster_0cc8643035eee820e7a2c05032a9e340 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_6dc6e612fbdc097f75aa9a3c3ca97c4c = L.circleMarker(
+                [51.554525, 0.273875],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_f839c7399f2d2d8e4c23b64c69dee20c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3aefce2dccffb9e797dd837cfe3af60 = $(`<div id="html_e3aefce2dccffb9e797dd837cfe3af60" style="width: 100.0%; height: 100.0%;">                 <h1>W066179</h1>                 <p>                 Postcode: <b>RM14</b><br/>                 Date: <b>01 Jul 2025</b><br/>                 Sold as: <b>Alprazolam</b><br/>                 Tested as: <b>Cocaine, Phenacetin</b> with <b>N-desethylisotonitazene, Ketamine</b><br/>                 </p>                 </div>`)[0];
+                popup_f839c7399f2d2d8e4c23b64c69dee20c.setContent(html_e3aefce2dccffb9e797dd837cfe3af60);
+            
+        
+
+        circle_marker_6dc6e612fbdc097f75aa9a3c3ca97c4c.bindPopup(popup_f839c7399f2d2d8e4c23b64c69dee20c)
+        ;
+
+        
+    
+    
+            var circle_marker_4311d856de3b270eb61f5585794391cc = L.circleMarker(
+                [51.781353333333335, -3.760806666666667],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_aa88d3be148b9358f2f9a3fa803ce0e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b47d801f4b1465e8ead78deb5a9571d3 = $(`<div id="html_b47d801f4b1465e8ead78deb5a9571d3" style="width: 100.0%; height: 100.0%;">                 <h1>W064163</h1>                 <p>                 Postcode: <b>SA9</b><br/>                 Date: <b>30 Apr 2025</b><br/>                 Sold as: <b>Diazepam</b><br/>                 Tested as: <b>Bromazolam, Metonitazene, Pregabalin</b> with <b>N-desethyl metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_aa88d3be148b9358f2f9a3fa803ce0e4.setContent(html_b47d801f4b1465e8ead78deb5a9571d3);
+            
+        
+
+        circle_marker_4311d856de3b270eb61f5585794391cc.bindPopup(popup_aa88d3be148b9358f2f9a3fa803ce0e4)
+        ;
+
+        
+    
+    
+            var circle_marker_779c970ae0c91272c828642d2705c97c = L.circleMarker(
+                [51.5625, -0.074],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_3fecaee295689eb3a491abdc8a45f0ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43e75173806b981adfc4ee75a9badef0 = $(`<div id="html_43e75173806b981adfc4ee75a9badef0" style="width: 100.0%; height: 100.0%;">                 <h1>W062969</h1>                 <p>                 Postcode: <b>N16</b><br/>                 Date: <b>11 Mar 2025</b><br/>                 Sold as: <b>Valium</b><br/>                 Tested as: <b>Metonitazene, Bromazolam</b><br/>                 </p>                 </div>`)[0];
+                popup_3fecaee295689eb3a491abdc8a45f0ac.setContent(html_43e75173806b981adfc4ee75a9badef0);
+            
+        
+
+        circle_marker_779c970ae0c91272c828642d2705c97c.bindPopup(popup_3fecaee295689eb3a491abdc8a45f0ac)
+        ;
+
+        
+    
+    
+            var circle_marker_6cdc180a1d603935b7ffd1b562feac36 = L.circleMarker(
+                [53.3205, -1.54055],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_804159693e099e24be3dc86051aa6d00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de5a2a67c423187080f9c13a998f522 = $(`<div id="html_5de5a2a67c423187080f9c13a998f522" style="width: 100.0%; height: 100.0%;">                 <h1>W061678</h1>                 <p>                 Postcode: <b>S17</b><br/>                 Date: <b>04 Feb 2025</b><br/>                 Sold as: <b>Xanax</b><br/>                 Tested as: <b>Etonitazepyne</b><br/>                 </p>                 </div>`)[0];
+                popup_804159693e099e24be3dc86051aa6d00.setContent(html_5de5a2a67c423187080f9c13a998f522);
+            
+        
+
+        circle_marker_6cdc180a1d603935b7ffd1b562feac36.bindPopup(popup_804159693e099e24be3dc86051aa6d00)
+        ;
+
+        
+    
+    
+            var circle_marker_cc96d481843eef99d0a0fd3935755d73 = L.circleMarker(
+                [51.3936, -0.163],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_0271b7c48116eff80435c13dac6b6bb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fca51747f8c67f2d502489a0b66e019 = $(`<div id="html_2fca51747f8c67f2d502489a0b66e019" style="width: 100.0%; height: 100.0%;">                 <h1>W068941</h1>                 <p>                 Postcode: <b>CR4</b><br/>                 Date: <b>15 Sep 2025</b><br/>                 Sold as: <b>valium/Diazepam</b><br/>                 Tested as: <b>Bromazolam, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_0271b7c48116eff80435c13dac6b6bb1.setContent(html_2fca51747f8c67f2d502489a0b66e019);
+            
+        
+
+        circle_marker_cc96d481843eef99d0a0fd3935755d73.bindPopup(popup_0271b7c48116eff80435c13dac6b6bb1)
+        ;
+
+        
+    
+    
+            var circle_marker_4382c12b200bbbf650cf531c5e35067f = L.circleMarker(
+                [51.673544444444445, -1.3561166666666666],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_7a27843c6978b07e593bdaac05a6e8fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75a73240e0bbcd5c0cb8ad0ab74b293a = $(`<div id="html_75a73240e0bbcd5c0cb8ad0ab74b293a" style="width: 100.0%; height: 100.0%;">                 <h1>W070487</h1>                 <p>                 Postcode: <b>OX13</b><br/>                 Date: <b>05 Nov 2025</b><br/>                 Sold as: <b>valium (diazepam) 10mg</b><br/>                 Tested as: <b>Bromazolam, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_7a27843c6978b07e593bdaac05a6e8fc.setContent(html_75a73240e0bbcd5c0cb8ad0ab74b293a);
+            
+        
+
+        circle_marker_4382c12b200bbbf650cf531c5e35067f.bindPopup(popup_7a27843c6978b07e593bdaac05a6e8fc)
+        ;
+
+        
+    
+    
+            var circle_marker_47b1691c54b2c84686a103dd0f657fd0 = L.circleMarker(
+                [51.673544444444445, -1.3561166666666666],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_ef67a37a686123daeafda8ab9e23d159 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74adc7db7dbd725ed2b38ddd1edd8bdb = $(`<div id="html_74adc7db7dbd725ed2b38ddd1edd8bdb" style="width: 100.0%; height: 100.0%;">                 <h1>W070484</h1>                 <p>                 Postcode: <b>OX13</b><br/>                 Date: <b>05 Nov 2025</b><br/>                 Sold as: <b>VALIUM (DIAZEPAM) 10MG</b><br/>                 Tested as: <b>Bromazolam, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_ef67a37a686123daeafda8ab9e23d159.setContent(html_74adc7db7dbd725ed2b38ddd1edd8bdb);
+            
+        
+
+        circle_marker_47b1691c54b2c84686a103dd0f657fd0.bindPopup(popup_ef67a37a686123daeafda8ab9e23d159)
+        ;
+
+        
+    
+    
+            var circle_marker_e50668a54d7b7b2d1944ed63caaa798f = L.circleMarker(
+                [51.673544444444445, -1.3561166666666666],
+                {"bubblingMouseEvents": true, "color": "#1e3d77", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1e3d77", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_0cc8643035eee820e7a2c05032a9e340);
+        
+    
+        var popup_417f18e589622b469ac234e533e5acaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6148de1150aa60a601cb0354df2438c4 = $(`<div id="html_6148de1150aa60a601cb0354df2438c4" style="width: 100.0%; height: 100.0%;">                 <h1>W069430</h1>                 <p>                 Postcode: <b>OX13</b><br/>                 Date: <b>03 Oct 2025</b><br/>                 Sold as: <b>DIAZEPAM</b><br/>                 Tested as: <b>Metonitazene, Bromazolam</b><br/>                 </p>                 </div>`)[0];
+                popup_417f18e589622b469ac234e533e5acaf.setContent(html_6148de1150aa60a601cb0354df2438c4);
+            
+        
+
+        circle_marker_e50668a54d7b7b2d1944ed63caaa798f.bindPopup(popup_417f18e589622b469ac234e533e5acaf)
+        ;
+
+        
+    
+    
+            marker_cluster_0cc8643035eee820e7a2c05032a9e340.addTo(map_5785986645f66ab77fe3fe19de390dfc);
+        
+    
+            var marker_cluster_6a8d7719593538f843251b5041a07611 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_c9022b6fa4e27edb0da3c5693d4febe3 = L.circleMarker(
+                [53.19930000000001, -3.03614],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_a578664b3c038fbcd66a227c899613ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d26e09d388fac6988a3b643495bba4fe = $(`<div id="html_d26e09d388fac6988a3b643495bba4fe" style="width: 100.0%; height: 100.0%;">                 <h1>W067443</h1>                 <p>                 Postcode: <b>CH54</b><br/>                 Date: <b>05 Aug 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine, 6-Acetylcodeine</b> with <b>Papaverine, Etonitazene, Metonitazene, Dextromethorphan</b><br/>                 </p>                 </div>`)[0];
+                popup_a578664b3c038fbcd66a227c899613ea.setContent(html_d26e09d388fac6988a3b643495bba4fe);
+            
+        
+
+        circle_marker_c9022b6fa4e27edb0da3c5693d4febe3.bindPopup(popup_a578664b3c038fbcd66a227c899613ea)
+        ;
+
+        
+    
+    
+            var circle_marker_040a28b3654d543a55505ae76db6fe09 = L.circleMarker(
+                [57.48231142857143, -1.924825714285714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_76ec1259fb988fa541e732f14f077339 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64607bdbfdfb2f94a795020a4131084c = $(`<div id="html_64607bdbfdfb2f94a795020a4131084c" style="width: 100.0%; height: 100.0%;">                 <h1>W066868</h1>                 <p>                 Postcode: <b>AB42</b><br/>                 Date: <b>21 Jul 2025</b><br/>                 Sold as: <b>Unknown</b><br/>                 Tested as: <b>Noscapine, Heroin, Etonitazene, Paracetamol</b> with <b>Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_76ec1259fb988fa541e732f14f077339.setContent(html_64607bdbfdfb2f94a795020a4131084c);
+            
+        
+
+        circle_marker_040a28b3654d543a55505ae76db6fe09.bindPopup(popup_76ec1259fb988fa541e732f14f077339)
+        ;
+
+        
+    
+    
+            var circle_marker_f3ce6b5c18aad26bdf8f5245839746d1 = L.circleMarker(
+                [56.205405263157886, -3.465305263157895],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8b8b14c3576c5efc7b487451c2823cd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdbb143b3a65cc3b4b79b44c4b5dbe7c = $(`<div id="html_bdbb143b3a65cc3b4b79b44c4b5dbe7c" style="width: 100.0%; height: 100.0%;">                 <h1>W066846</h1>                 <p>                 Postcode: <b>KY13</b><br/>                 Date: <b>17 Jul 2025</b><br/>                 Sold as: <b>unknown</b><br/>                 Tested as: <b>Caffeine, Paracetamol, Noscapine, Heroin</b> with <b>6-MAM, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_8b8b14c3576c5efc7b487451c2823cd9.setContent(html_bdbb143b3a65cc3b4b79b44c4b5dbe7c);
+            
+        
+
+        circle_marker_f3ce6b5c18aad26bdf8f5245839746d1.bindPopup(popup_8b8b14c3576c5efc7b487451c2823cd9)
+        ;
+
+        
+    
+    
+            var circle_marker_ea13debb6c4c7022eaad962025e0fcf1 = L.circleMarker(
+                [55.8906, -4.2904],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_26dbbec73a820c054e678d3cf00f8a06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_478bc53db64cfc3b34d427f0b258ee2e = $(`<div id="html_478bc53db64cfc3b34d427f0b258ee2e" style="width: 100.0%; height: 100.0%;">                 <h1>W066813</h1>                 <p>                 Postcode: <b>G20</b><br/>                 Date: <b>17 Jul 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, 6-Acetylcodeine, Papaverine</b> with <b>Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_26dbbec73a820c054e678d3cf00f8a06.setContent(html_478bc53db64cfc3b34d427f0b258ee2e);
+            
+        
+
+        circle_marker_ea13debb6c4c7022eaad962025e0fcf1.bindPopup(popup_26dbbec73a820c054e678d3cf00f8a06)
+        ;
+
+        
+    
+    
+            var circle_marker_e9ed177a0cc399de664bcd669f4d1180 = L.circleMarker(
+                [57.48231142857143, -1.924825714285714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_30822b5eb30825504333c57dee3a3d86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c13d45f939bdd942ba2f957fba87f16 = $(`<div id="html_3c13d45f939bdd942ba2f957fba87f16" style="width: 100.0%; height: 100.0%;">                 <h1>W066869</h1>                 <p>                 Postcode: <b>AB42</b><br/>                 Date: <b>17 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, 6-MAM, Paracetamol, Metonitazene, 6-Acetylcodeine</b> with <b>Caffeine, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_30822b5eb30825504333c57dee3a3d86.setContent(html_3c13d45f939bdd942ba2f957fba87f16);
+            
+        
+
+        circle_marker_e9ed177a0cc399de664bcd669f4d1180.bindPopup(popup_30822b5eb30825504333c57dee3a3d86)
+        ;
+
+        
+    
+    
+            var circle_marker_1a1efa3b43991151dfdd78d4e6e002ce = L.circleMarker(
+                [57.65489545454545, -2.046884090909091],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_879db29f1196d99f75bc2d323d92b815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb5f4ff4987d10b9eca145bd17e3f7e7 = $(`<div id="html_bb5f4ff4987d10b9eca145bd17e3f7e7" style="width: 100.0%; height: 100.0%;">                 <h1>W066488</h1>                 <p>                 Postcode: <b>AB43</b><br/>                 Date: <b>08 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>6-MAM, Noscapine, Heroin, Papaverine, Caffeine, Paracetamol, 6-Acetylcodeine, Etonitazene, Morphine</b> with <b>Metonitazene, Dextromethorphan</b><br/>                 </p>                 </div>`)[0];
+                popup_879db29f1196d99f75bc2d323d92b815.setContent(html_bb5f4ff4987d10b9eca145bd17e3f7e7);
+            
+        
+
+        circle_marker_1a1efa3b43991151dfdd78d4e6e002ce.bindPopup(popup_879db29f1196d99f75bc2d323d92b815)
+        ;
+
+        
+    
+    
+            var circle_marker_0f09e7eb354bf6708394d7e834d76df9 = L.circleMarker(
+                [55.85647142857143, -3.669085714285714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_512b3270623d2895737819f187903893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3c886cf67eb040827e2d775d02e8820 = $(`<div id="html_d3c886cf67eb040827e2d775d02e8820" style="width: 100.0%; height: 100.0%;">                 <h1>W066390</h1>                 <p>                 Postcode: <b>EH47</b><br/>                 Date: <b>03 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Paracetamol, Codeine, Noscapine, Etonitazene</b> with <b>Heroin</b><br/>                 </p>                 </div>`)[0];
+                popup_512b3270623d2895737819f187903893.setContent(html_d3c886cf67eb040827e2d775d02e8820);
+            
+        
+
+        circle_marker_0f09e7eb354bf6708394d7e834d76df9.bindPopup(popup_512b3270623d2895737819f187903893)
+        ;
+
+        
+    
+    
+            var circle_marker_85747595db519920d62da741b7b21d74 = L.circleMarker(
+                [53.289686206896555, -4.534455172413793],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_b305e71bbf36c52eb31c9f7cd235d0ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f514413e5508d006dd4e07bf22ebbc0 = $(`<div id="html_5f514413e5508d006dd4e07bf22ebbc0" style="width: 100.0%; height: 100.0%;">                 <h1>000231870</h1>                 <p>                 Postcode: <b>LL65</b><br/>                 Date: <b>01 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Heroin, Noscapine, 6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine</b> with <b>Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_b305e71bbf36c52eb31c9f7cd235d0ae.setContent(html_5f514413e5508d006dd4e07bf22ebbc0);
+            
+        
+
+        circle_marker_85747595db519920d62da741b7b21d74.bindPopup(popup_b305e71bbf36c52eb31c9f7cd235d0ae)
+        ;
+
+        
+    
+    
+            var circle_marker_c240cf27c8e33441a76c72c868497cdc = L.circleMarker(
+                [51.5877, -2.9984],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_66057f415251f995b16d48f815c8dde3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c1d512afc1b975dfc2182ec339e1f2a = $(`<div id="html_2c1d512afc1b975dfc2182ec339e1f2a" style="width: 100.0%; height: 100.0%;">                 <h1>000236419</h1>                 <p>                 Postcode: <b>NP20</b><br/>                 Date: <b>01 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Heroin, Caffeine, Diazepam</b> with <b>Etonitazene, 6-Acetylcodeine, 6-MAM, Papaverine, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_66057f415251f995b16d48f815c8dde3.setContent(html_2c1d512afc1b975dfc2182ec339e1f2a);
+            
+        
+
+        circle_marker_c240cf27c8e33441a76c72c868497cdc.bindPopup(popup_66057f415251f995b16d48f815c8dde3)
+        ;
+
+        
+    
+    
+            var circle_marker_0809a0a8b898be79e34966fc7779054f = L.circleMarker(
+                [57.1437, -2.0981],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8f00a39f523cc217c67214b3678e1675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5ac3ff9f0446f62ec51aa4ac5fa8883 = $(`<div id="html_b5ac3ff9f0446f62ec51aa4ac5fa8883" style="width: 100.0%; height: 100.0%;">                 <h1>W066188</h1>                 <p>                 Postcode: <b>AB24</b><br/>                 Date: <b>01 Jul 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Etonitazene, Heroin, 6-MAM</b> with <b>Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_8f00a39f523cc217c67214b3678e1675.setContent(html_b5ac3ff9f0446f62ec51aa4ac5fa8883);
+            
+        
+
+        circle_marker_0809a0a8b898be79e34966fc7779054f.bindPopup(popup_8f00a39f523cc217c67214b3678e1675)
+        ;
+
+        
+    
+    
+            var circle_marker_bce051d77b0405dd08a5ba456ff859c1 = L.circleMarker(
+                [51.509865, -0.118092],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8d2a41cba0ce35f1a728f1c6932087a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c362da75cbd884a90b7d475c4a24303 = $(`<div id="html_6c362da75cbd884a90b7d475c4a24303" style="width: 100.0%; height: 100.0%;">                 <h1>W066112</h1>                 <p>                 Postcode: <b>nan</b><br/>                 Date: <b>25 Jun 2025</b><br/>                 Sold as: <b>Oxy</b><br/>                 Tested as: <b>Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_8d2a41cba0ce35f1a728f1c6932087a5.setContent(html_6c362da75cbd884a90b7d475c4a24303);
+            
+        
+
+        circle_marker_bce051d77b0405dd08a5ba456ff859c1.bindPopup(popup_8d2a41cba0ce35f1a728f1c6932087a5)
+        ;
+
+        
+    
+    
+            var circle_marker_e41cda96a032ea09ba13bfec0273abaa = L.circleMarker(
+                [53.9576, -1.0827],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_fc14d2d1020faa2b8adeb00d1e14f8ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c2817445e0f2870034372814331853 = $(`<div id="html_66c2817445e0f2870034372814331853" style="width: 100.0%; height: 100.0%;">                 <h1>W065751</h1>                 <p>                 Postcode: <b>YO10</b><br/>                 Date: <b>24 Jun 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_fc14d2d1020faa2b8adeb00d1e14f8ef.setContent(html_66c2817445e0f2870034372814331853);
+            
+        
+
+        circle_marker_e41cda96a032ea09ba13bfec0273abaa.bindPopup(popup_fc14d2d1020faa2b8adeb00d1e14f8ef)
+        ;
+
+        
+    
+    
+            var circle_marker_3783cecb8bc23e64928e3e269fc26eee = L.circleMarker(
+                [54.874233333333336, -1.4153666666666669],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_f3cd50f88ffa136cadd7a38dc2212ac2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e251db9987539c9761e4e1cd3d2a6ced = $(`<div id="html_e251db9987539c9761e4e1cd3d2a6ced" style="width: 100.0%; height: 100.0%;">                 <h1>W065559</h1>                 <p>                 Postcode: <b>SR3</b><br/>                 Date: <b>17 Jun 2025</b><br/>                 Sold as: <b>Protonitazene</b><br/>                 Tested as: <b>Protonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_f3cd50f88ffa136cadd7a38dc2212ac2.setContent(html_e251db9987539c9761e4e1cd3d2a6ced);
+            
+        
+
+        circle_marker_3783cecb8bc23e64928e3e269fc26eee.bindPopup(popup_f3cd50f88ffa136cadd7a38dc2212ac2)
+        ;
+
+        
+    
+    
+            var circle_marker_c990c560389dc8ba76caa7cb9ee2d87e = L.circleMarker(
+                [51.718515789473685, -3.030521052631579],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_debe298470744d9c9bd029369ff3c666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60c22490e9da66f9cf8d1ded77cda475 = $(`<div id="html_60c22490e9da66f9cf8d1ded77cda475" style="width: 100.0%; height: 100.0%;">                 <h1>000233966</h1>                 <p>                 Postcode: <b>NP4</b><br/>                 Date: <b>16 Jun 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine</b> with <b>Papaverine, Etonitazene, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_debe298470744d9c9bd029369ff3c666.setContent(html_60c22490e9da66f9cf8d1ded77cda475);
+            
+        
+
+        circle_marker_c990c560389dc8ba76caa7cb9ee2d87e.bindPopup(popup_debe298470744d9c9bd029369ff3c666)
+        ;
+
+        
+    
+    
+            var circle_marker_b2c054e00d65ea60d235d5b65a48d323 = L.circleMarker(
+                [55.80098, -4.12986],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_ba2a1a7212d73e2d0471f4008de5dda2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_603622d41727990a2544468bd2588a79 = $(`<div id="html_603622d41727990a2544468bd2588a79" style="width: 100.0%; height: 100.0%;">                 <h1>000233058</h1>                 <p>                 Postcode: <b>G72</b><br/>                 Date: <b>13 Jun 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Caffeine, Paracetamol, Heroin</b> with <b>6-Acetylcodeine, 6-MAM, Papaverine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_ba2a1a7212d73e2d0471f4008de5dda2.setContent(html_603622d41727990a2544468bd2588a79);
+            
+        
+
+        circle_marker_b2c054e00d65ea60d235d5b65a48d323.bindPopup(popup_ba2a1a7212d73e2d0471f4008de5dda2)
+        ;
+
+        
+    
+    
+            var circle_marker_7ce744b1e6f943b8a61f6c7f58c4a743 = L.circleMarker(
+                [53.9576, -1.0827],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_6c53958c93866fc2d78c8e566c1cd65e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6732f865f56c27d9da53263a8bc5aa42 = $(`<div id="html_6732f865f56c27d9da53263a8bc5aa42" style="width: 100.0%; height: 100.0%;">                 <h1>W064908</h1>                 <p>                 Postcode: <b>YO31</b><br/>                 Date: <b>28 May 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_6c53958c93866fc2d78c8e566c1cd65e.setContent(html_6732f865f56c27d9da53263a8bc5aa42);
+            
+        
+
+        circle_marker_7ce744b1e6f943b8a61f6c7f58c4a743.bindPopup(popup_6c53958c93866fc2d78c8e566c1cd65e)
+        ;
+
+        
+    
+    
+            var circle_marker_c54ab98aa7bdb65b9d56832fb9eade8d = L.circleMarker(
+                [51.5877, -2.9984],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_3b2c626340b97a04a7dbaee7f4a35c1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f5e91a6843b11e7102d6142ff33783d = $(`<div id="html_8f5e91a6843b11e7102d6142ff33783d" style="width: 100.0%; height: 100.0%;">                 <h1>000234248</h1>                 <p>                 Postcode: <b>NP20</b><br/>                 Date: <b>06 Jun 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, Paracetamol, 6-Acetylcodeine</b> with <b>Papaverine, 6-MAM, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_3b2c626340b97a04a7dbaee7f4a35c1c.setContent(html_8f5e91a6843b11e7102d6142ff33783d);
+            
+        
+
+        circle_marker_c54ab98aa7bdb65b9d56832fb9eade8d.bindPopup(popup_3b2c626340b97a04a7dbaee7f4a35c1c)
+        ;
+
+        
+    
+    
+            var circle_marker_1b276b17a0d7c4f675ba25b8fdb90bbb = L.circleMarker(
+                [56.037644444444446, -3.422588888888889],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_25d262cb1f443576134224fb7d4ecac7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c8b3423a8d6267c6d8ce2182428d324 = $(`<div id="html_9c8b3423a8d6267c6d8ce2182428d324" style="width: 100.0%; height: 100.0%;">                 <h1>W062622</h1>                 <p>                 Postcode: <b>KY11</b><br/>                 Date: <b>30 May 2025</b><br/>                 Sold as: <b>80MG QXYCONTIN</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_25d262cb1f443576134224fb7d4ecac7.setContent(html_9c8b3423a8d6267c6d8ce2182428d324);
+            
+        
+
+        circle_marker_1b276b17a0d7c4f675ba25b8fdb90bbb.bindPopup(popup_25d262cb1f443576134224fb7d4ecac7)
+        ;
+
+        
+    
+    
+            var circle_marker_ad388613765aaaf17bcfbb16405134e3 = L.circleMarker(
+                [55.9617, -3.1844],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_c0a897ab93fb7a285dd1792a99cc0fb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f05a0d3cff3d641b2fbb30f479ab4332 = $(`<div id="html_f05a0d3cff3d641b2fbb30f479ab4332" style="width: 100.0%; height: 100.0%;">                 <h1>W062378</h1>                 <p>                 Postcode: <b>EH6</b><br/>                 Date: <b>16 May 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, Papaverine</b> with <b>6-Acetylcodeine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_c0a897ab93fb7a285dd1792a99cc0fb3.setContent(html_f05a0d3cff3d641b2fbb30f479ab4332);
+            
+        
+
+        circle_marker_ad388613765aaaf17bcfbb16405134e3.bindPopup(popup_c0a897ab93fb7a285dd1792a99cc0fb3)
+        ;
+
+        
+    
+    
+            var circle_marker_ba81a25d4531ab7f705525998facd40b = L.circleMarker(
+                [51.4528, -0.4215],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_c4ab46e7e4890b120efc366c85a59a46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fca05afffb999f413473372bab7063f = $(`<div id="html_1fca05afffb999f413473372bab7063f" style="width: 100.0%; height: 100.0%;">                 <h1>W064567</h1>                 <p>                 Postcode: <b>TW14</b><br/>                 Date: <b>13 May 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_c4ab46e7e4890b120efc366c85a59a46.setContent(html_1fca05afffb999f413473372bab7063f);
+            
+        
+
+        circle_marker_ba81a25d4531ab7f705525998facd40b.bindPopup(popup_c4ab46e7e4890b120efc366c85a59a46)
+        ;
+
+        
+    
+    
+            var circle_marker_67c019da1a4db4491a2f013c28298d16 = L.circleMarker(
+                [56.05788, -3.2186399999999997],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_d6ac7de372559b91e422f3a8e6c19130 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b50dacba96dfbb94381cd180b8da8203 = $(`<div id="html_b50dacba96dfbb94381cd180b8da8203" style="width: 100.0%; height: 100.0%;">                 <h1>W064489</h1>                 <p>                 Postcode: <b>KY3</b><br/>                 Date: <b>08 May 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM</b> with <b>Papaverine, 6-Acetylcodeine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_d6ac7de372559b91e422f3a8e6c19130.setContent(html_b50dacba96dfbb94381cd180b8da8203);
+            
+        
+
+        circle_marker_67c019da1a4db4491a2f013c28298d16.bindPopup(popup_d6ac7de372559b91e422f3a8e6c19130)
+        ;
+
+        
+    
+    
+            var circle_marker_b74360601bf266bac9929d8c8df21e99 = L.circleMarker(
+                [56.0277, -2.7334],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_833620249a9e077e1ebd8d6da8a14ccf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_022b52cd674035e989313bd511f73e12 = $(`<div id="html_022b52cd674035e989313bd511f73e12" style="width: 100.0%; height: 100.0%;">                 <h1>W064325</h1>                 <p>                 Postcode: <b>EH39</b><br/>                 Date: <b>07 May 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Paracetamol, Heroin, 6-MAM, Caffeine, 6-Acetylcodeine</b> with <b>Metonitazene, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_833620249a9e077e1ebd8d6da8a14ccf.setContent(html_022b52cd674035e989313bd511f73e12);
+            
+        
+
+        circle_marker_b74360601bf266bac9929d8c8df21e99.bindPopup(popup_833620249a9e077e1ebd8d6da8a14ccf)
+        ;
+
+        
+    
+    
+            var circle_marker_b22190ded776c04f5d44d8bc5991ca78 = L.circleMarker(
+                [51.716703389830506, -1.8806542372881356],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_3de4b30a4cc5c5f27ee7e3458152ebe8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6027bcf9a302f7313c2f889ec08f536 = $(`<div id="html_e6027bcf9a302f7313c2f889ec08f536" style="width: 100.0%; height: 100.0%;">                 <h1>W064092</h1>                 <p>                 Postcode: <b>GL7</b><br/>                 Date: <b>24 Apr 2025</b><br/>                 Sold as: <b>Oxycontin</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_3de4b30a4cc5c5f27ee7e3458152ebe8.setContent(html_e6027bcf9a302f7313c2f889ec08f536);
+            
+        
+
+        circle_marker_b22190ded776c04f5d44d8bc5991ca78.bindPopup(popup_3de4b30a4cc5c5f27ee7e3458152ebe8)
+        ;
+
+        
+    
+    
+            var circle_marker_ddcb5ee63bc1b31a89628e09328ae50c = L.circleMarker(
+                [56.12892702702703, -4.228913513513514],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_20644320fdb2c16314423dd1c398c2c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70e0640eb49ee40de9476537560cb46e = $(`<div id="html_70e0640eb49ee40de9476537560cb46e" style="width: 100.0%; height: 100.0%;">                 <h1>W064301</h1>                 <p>                 Postcode: <b>FK8</b><br/>                 Date: <b>24 Apr 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, Caffeine, Paracetamol, 6-Acetylcodeine</b> with <b>Etonitazene, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_20644320fdb2c16314423dd1c398c2c1.setContent(html_70e0640eb49ee40de9476537560cb46e);
+            
+        
+
+        circle_marker_ddcb5ee63bc1b31a89628e09328ae50c.bindPopup(popup_20644320fdb2c16314423dd1c398c2c1)
+        ;
+
+        
+    
+    
+            var circle_marker_efae39220f06518d0a1c19d7d193b78b = L.circleMarker(
+                [53.9576, -1.0827],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8fa26f54306da403d06d53ac37d8950a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be36e0c75eaa523263f89a76bf10693b = $(`<div id="html_be36e0c75eaa523263f89a76bf10693b" style="width: 100.0%; height: 100.0%;">                 <h1>W063651</h1>                 <p>                 Postcode: <b>YO10</b><br/>                 Date: <b>08 Apr 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_8fa26f54306da403d06d53ac37d8950a.setContent(html_be36e0c75eaa523263f89a76bf10693b);
+            
+        
+
+        circle_marker_efae39220f06518d0a1c19d7d193b78b.bindPopup(popup_8fa26f54306da403d06d53ac37d8950a)
+        ;
+
+        
+    
+    
+            var circle_marker_e2799640803be350b5a6a6e62196f411 = L.circleMarker(
+                [55.954800000000006, -4.5815222222222225],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_94d12428a72b6f3bf22160d05885226c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c553c1b32ec7df08bc38afef62f09d68 = $(`<div id="html_c553c1b32ec7df08bc38afef62f09d68" style="width: 100.0%; height: 100.0%;">                 <h1>W063513</h1>                 <p>                 Postcode: <b>G82</b><br/>                 Date: <b>07 Apr 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Caffeine, Paracetamol, Heroin, 6-MAM</b> with <b>Papaverine, 6-Acetylcodeine, Etonitazene, N-desethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_94d12428a72b6f3bf22160d05885226c.setContent(html_c553c1b32ec7df08bc38afef62f09d68);
+            
+        
+
+        circle_marker_e2799640803be350b5a6a6e62196f411.bindPopup(popup_94d12428a72b6f3bf22160d05885226c)
+        ;
+
+        
+    
+    
+            var circle_marker_3212eb09b7eb286405126818a3936a4f = L.circleMarker(
+                [56.116666666666674, -3.2097],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_42c70ed0edaaaa0c90eee93326c30062 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9808959cd52238160637c64b9cded413 = $(`<div id="html_9808959cd52238160637c64b9cded413" style="width: 100.0%; height: 100.0%;">                 <h1>W049240</h1>                 <p>                 Postcode: <b>KY20</b><br/>                 Date: <b>27 Mar 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Caffeine, 6-MAM</b> with <b>Etonitazene, Heroin, 6-Acetylcodeine, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_42c70ed0edaaaa0c90eee93326c30062.setContent(html_9808959cd52238160637c64b9cded413);
+            
+        
+
+        circle_marker_3212eb09b7eb286405126818a3936a4f.bindPopup(popup_42c70ed0edaaaa0c90eee93326c30062)
+        ;
+
+        
+    
+    
+            var circle_marker_56985a9a38fc5d35f8ae035450f7ae11 = L.circleMarker(
+                [57.16, -2.1567],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_44f19b57a870497b9234c04ee84db659 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fefacad3dee5ca34e1ba1fdcd712d1b9 = $(`<div id="html_fefacad3dee5ca34e1ba1fdcd712d1b9" style="width: 100.0%; height: 100.0%;">                 <h1>W052806</h1>                 <p>                 Postcode: <b>AB16</b><br/>                 Date: <b>20 Mar 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Caffeine, 6-MAM</b> with <b>6-Acetylcodeine, Papaverine, Etonitazene, Phenacetin</b><br/>                 </p>                 </div>`)[0];
+                popup_44f19b57a870497b9234c04ee84db659.setContent(html_fefacad3dee5ca34e1ba1fdcd712d1b9);
+            
+        
+
+        circle_marker_56985a9a38fc5d35f8ae035450f7ae11.bindPopup(popup_44f19b57a870497b9234c04ee84db659)
+        ;
+
+        
+    
+    
+            var circle_marker_909438e6b7af952d93c2a0d00e97baab = L.circleMarker(
+                [55.9358, -3.4882625],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_3d0f709afde894f17e4adb85e0b68b7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f2a86cf96621663de78c9bc9e06e244 = $(`<div id="html_8f2a86cf96621663de78c9bc9e06e244" style="width: 100.0%; height: 100.0%;">                 <h1>W062874</h1>                 <p>                 Postcode: <b>EH52</b><br/>                 Date: <b>11 Mar 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM</b> with <b>Thebacon, Etonitazene, Papaverine, Morphine</b><br/>                 </p>                 </div>`)[0];
+                popup_3d0f709afde894f17e4adb85e0b68b7b.setContent(html_8f2a86cf96621663de78c9bc9e06e244);
+            
+        
+
+        circle_marker_909438e6b7af952d93c2a0d00e97baab.bindPopup(popup_3d0f709afde894f17e4adb85e0b68b7b)
+        ;
+
+        
+    
+    
+            var circle_marker_7a04747bd531d762746820a6d2b1c4c8 = L.circleMarker(
+                [53.9576, -1.0827],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8e26b79194c01a8946b831159f560953 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9726da70396c5877ccc5f968b6f3213 = $(`<div id="html_a9726da70396c5877ccc5f968b6f3213" style="width: 100.0%; height: 100.0%;">                 <h1>W062814</h1>                 <p>                 Postcode: <b>YO10</b><br/>                 Date: <b>11 Mar 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_8e26b79194c01a8946b831159f560953.setContent(html_a9726da70396c5877ccc5f968b6f3213);
+            
+        
+
+        circle_marker_7a04747bd531d762746820a6d2b1c4c8.bindPopup(popup_8e26b79194c01a8946b831159f560953)
+        ;
+
+        
+    
+    
+            var circle_marker_11ec51aa8d49003fff4952f9bdec932b = L.circleMarker(
+                [53.4986, -2.2385],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_bf8331b1ecfc2523b9f2e2bf342ae6c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aae8b0c237ff1b5023c9a41b90cb4b51 = $(`<div id="html_aae8b0c237ff1b5023c9a41b90cb4b51" style="width: 100.0%; height: 100.0%;">                 <h1>W062553</h1>                 <p>                 Postcode: <b>M8</b><br/>                 Date: <b>25 Feb 2025</b><br/>                 Sold as: <b>Unkonwn</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_bf8331b1ecfc2523b9f2e2bf342ae6c9.setContent(html_aae8b0c237ff1b5023c9a41b90cb4b51);
+            
+        
+
+        circle_marker_11ec51aa8d49003fff4952f9bdec932b.bindPopup(popup_bf8331b1ecfc2523b9f2e2bf342ae6c9)
+        ;
+
+        
+    
+    
+            var circle_marker_61c78e4ae77f31713a6cc350e53fcc98 = L.circleMarker(
+                [56.43174736842105, -3.4980552631578945],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_951b9311c3bacb8afbee122c7b7d8547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ea978db9afbb36dfc71991c5dcf4bcc = $(`<div id="html_2ea978db9afbb36dfc71991c5dcf4bcc" style="width: 100.0%; height: 100.0%;">                 <h1>W062578</h1>                 <p>                 Postcode: <b>PH1</b><br/>                 Date: <b>28 Feb 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Caffeine, Noscapine, Heroin</b> with <b>6-MAM, n-desethyl etonitazene, Etonitazene, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_951b9311c3bacb8afbee122c7b7d8547.setContent(html_2ea978db9afbb36dfc71991c5dcf4bcc);
+            
+        
+
+        circle_marker_61c78e4ae77f31713a6cc350e53fcc98.bindPopup(popup_951b9311c3bacb8afbee122c7b7d8547)
+        ;
+
+        
+    
+    
+            var circle_marker_f4dfcf18fc94b0922bb8a4a7ee9d1555 = L.circleMarker(
+                [51.48563333333333, -0.1028333333333333],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_c33afd97f7ecc7925271816b93013c9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b781b1b2b8387ff63e94fac94a6b6524 = $(`<div id="html_b781b1b2b8387ff63e94fac94a6b6524" style="width: 100.0%; height: 100.0%;">                 <h1>W061683</h1>                 <p>                 Postcode: <b>SE17</b><br/>                 Date: <b>30 Jan 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Protodesnitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_c33afd97f7ecc7925271816b93013c9e.setContent(html_b781b1b2b8387ff63e94fac94a6b6524);
+            
+        
+
+        circle_marker_f4dfcf18fc94b0922bb8a4a7ee9d1555.bindPopup(popup_c33afd97f7ecc7925271816b93013c9e)
+        ;
+
+        
+    
+    
+            var circle_marker_ce3259910595035a2f99d4d4e666aa8d = L.circleMarker(
+                [54.77482, -1.56714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_df2a768ba3343bee67ff6a68b3cdbbe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_394271f308e8c4e6480f6cdc671eb043 = $(`<div id="html_394271f308e8c4e6480f6cdc671eb043" style="width: 100.0%; height: 100.0%;">                 <h1>W061473</h1>                 <p>                 Postcode: <b>DH11</b><br/>                 Date: <b>28 Jan 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N-pyrrolidino isotonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_df2a768ba3343bee67ff6a68b3cdbbe3.setContent(html_394271f308e8c4e6480f6cdc671eb043);
+            
+        
+
+        circle_marker_ce3259910595035a2f99d4d4e666aa8d.bindPopup(popup_df2a768ba3343bee67ff6a68b3cdbbe3)
+        ;
+
+        
+    
+    
+            var circle_marker_b010daae84e976891d29b162f94c7554 = L.circleMarker(
+                [51.5333, 0.0833],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_4e7ee7326b2c03163128b51dacca7c24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ef61a3e10226be8b60751d2d2bec7d0 = $(`<div id="html_5ef61a3e10226be8b60751d2d2bec7d0" style="width: 100.0%; height: 100.0%;">                 <h1>W060926</h1>                 <p>                 Postcode: <b>IG11</b><br/>                 Date: <b>08 Jan 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>N,N-dimethyletonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_4e7ee7326b2c03163128b51dacca7c24.setContent(html_5ef61a3e10226be8b60751d2d2bec7d0);
+            
+        
+
+        circle_marker_b010daae84e976891d29b162f94c7554.bindPopup(popup_4e7ee7326b2c03163128b51dacca7c24)
+        ;
+
+        
+    
+    
+            var circle_marker_1c4dde55455c5378bf6d46324edd3657 = L.circleMarker(
+                [55.90278333333333, -3.078175],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_d731acac6fcaadfe84af8dc913de4c1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8e53b1b4b691659680e0fac13b6f4b6 = $(`<div id="html_a8e53b1b4b691659680e0fac13b6f4b6" style="width: 100.0%; height: 100.0%;">                 <h1>W068634</h1>                 <p>                 Postcode: <b>EH22</b><br/>                 Date: <b>11 Sep 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM</b> with <b>6-Acetylcodeine, Metonitazene, Etonitazene, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_d731acac6fcaadfe84af8dc913de4c1e.setContent(html_a8e53b1b4b691659680e0fac13b6f4b6);
+            
+        
+
+        circle_marker_1c4dde55455c5378bf6d46324edd3657.bindPopup(popup_d731acac6fcaadfe84af8dc913de4c1e)
+        ;
+
+        
+    
+    
+            var circle_marker_2b539a2d02a8f1bd702794be205a2989 = L.circleMarker(
+                [56.43174736842105, -3.4980552631578945],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_be65c414353a74d5148d8f70d0a2230d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3dfb4519c5a893f197afafa92dd164c = $(`<div id="html_c3dfb4519c5a893f197afafa92dd164c" style="width: 100.0%; height: 100.0%;">                 <h1>W068560</h1>                 <p>                 Postcode: <b>PH1</b><br/>                 Date: <b>11 Sep 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Caffeine, Paracetamol, Noscapine, Heroin</b> with <b>6-MAM, 6-Acetylcodeine, Papaverine, Metonitazene, Ethylbromazolam</b><br/>                 </p>                 </div>`)[0];
+                popup_be65c414353a74d5148d8f70d0a2230d.setContent(html_c3dfb4519c5a893f197afafa92dd164c);
+            
+        
+
+        circle_marker_2b539a2d02a8f1bd702794be205a2989.bindPopup(popup_be65c414353a74d5148d8f70d0a2230d)
+        ;
+
+        
+    
+    
+            var circle_marker_62ad50e5c5999bc266706e315f27b39c = L.circleMarker(
+                [55.8906, -4.2904],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_57890e3d08725d0baf25499bccdb9f1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9c208e47919983774b18465ac459c28 = $(`<div id="html_b9c208e47919983774b18465ac459c28" style="width: 100.0%; height: 100.0%;">                 <h1>W068539</h1>                 <p>                 Postcode: <b>G20</b><br/>                 Date: <b>09 Sep 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Noscapine, Heroin, Paracetamol, 6-Acetylcodeine, 6-MAM, Metonitazene</b> with <b>Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_57890e3d08725d0baf25499bccdb9f1d.setContent(html_b9c208e47919983774b18465ac459c28);
+            
+        
+
+        circle_marker_62ad50e5c5999bc266706e315f27b39c.bindPopup(popup_57890e3d08725d0baf25499bccdb9f1d)
+        ;
+
+        
+    
+    
+            var circle_marker_0b21ef7d861d2666a6351e695d516aa3 = L.circleMarker(
+                [57.48231142857143, -1.924825714285714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_6491755c790d3ab85f3ca5834a0d5f0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9691dac3c757aa580af25dec24eeaa82 = $(`<div id="html_9691dac3c757aa580af25dec24eeaa82" style="width: 100.0%; height: 100.0%;">                 <h1>W068313</h1>                 <p>                 Postcode: <b>AB42</b><br/>                 Date: <b>01 Sep 2025</b><br/>                 Sold as: <b>heroin/Fentanyl</b><br/>                 Tested as: <b>Noscapine, Etonitazene, Heroin, Paracetamol, Caffeine</b> with <b>Papaverine, 6-Acetylcodeine, 6-MAM</b><br/>                 </p>                 </div>`)[0];
+                popup_6491755c790d3ab85f3ca5834a0d5f0d.setContent(html_9691dac3c757aa580af25dec24eeaa82);
+            
+        
+
+        circle_marker_0b21ef7d861d2666a6351e695d516aa3.bindPopup(popup_6491755c790d3ab85f3ca5834a0d5f0d)
+        ;
+
+        
+    
+    
+            var circle_marker_a0fd977f4675fbbc631990f34166a207 = L.circleMarker(
+                [50.942125, -1.431825],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_4b101acf2cb39d0161a9fd72f4e48e5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab5146851c558916673c1f13f571dbd7 = $(`<div id="html_ab5146851c558916673c1f13f571dbd7" style="width: 100.0%; height: 100.0%;">                 <h1>W067717</h1>                 <p>                 Postcode: <b>SO16</b><br/>                 Date: <b>14 Aug 2025</b><br/>                 Sold as: <b>Oxycodone</b><br/>                 Tested as: <b>Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_4b101acf2cb39d0161a9fd72f4e48e5c.setContent(html_ab5146851c558916673c1f13f571dbd7);
+            
+        
+
+        circle_marker_a0fd977f4675fbbc631990f34166a207.bindPopup(popup_4b101acf2cb39d0161a9fd72f4e48e5c)
+        ;
+
+        
+    
+    
+            var circle_marker_389149f2c053e6b9ef04d3fe1bc819f4 = L.circleMarker(
+                [55.94169999999999, -3.0499],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_8ca72ad875751245c10328d1fb2181c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1322377dd8c957129ed1b8540e069f20 = $(`<div id="html_1322377dd8c957129ed1b8540e069f20" style="width: 100.0%; height: 100.0%;">                 <h1>W069376</h1>                 <p>                 Postcode: <b>EH21</b><br/>                 Date: <b>03 Oct 2025</b><br/>                 Sold as: <b>HEROIN</b><br/>                 Tested as: <b>Paracetamol, Caffeine, Etonitazene</b> with <b>Noscapine, 6-MAM, Heroin</b><br/>                 </p>                 </div>`)[0];
+                popup_8ca72ad875751245c10328d1fb2181c1.setContent(html_1322377dd8c957129ed1b8540e069f20);
+            
+        
+
+        circle_marker_389149f2c053e6b9ef04d3fe1bc819f4.bindPopup(popup_8ca72ad875751245c10328d1fb2181c1)
+        ;
+
+        
+    
+    
+            var circle_marker_4a57c24ebb87e36ff752d8b1e6791502 = L.circleMarker(
+                [56.2, -3.2167000000000003],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_a27636c586492fb5c492490455be26c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5728e222a410730a2c2c14a8b56e54f = $(`<div id="html_e5728e222a410730a2c2c14a8b56e54f" style="width: 100.0%; height: 100.0%;">                 <h1>W053125</h1>                 <p>                 Postcode: <b>KY6</b><br/>                 Date: <b>26 Sep 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Caffeine, Noscapine, 6-MAM</b> with <b>Heroin, 6-Acetylcodeine, Metonitazene, Papaverine, Morphine</b><br/>                 </p>                 </div>`)[0];
+                popup_a27636c586492fb5c492490455be26c3.setContent(html_e5728e222a410730a2c2c14a8b56e54f);
+            
+        
+
+        circle_marker_4a57c24ebb87e36ff752d8b1e6791502.bindPopup(popup_a27636c586492fb5c492490455be26c3)
+        ;
+
+        
+    
+    
+            var circle_marker_a99457ed10df4a28a941a00a2a4f66c9 = L.circleMarker(
+                [55.9521, -3.1965],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_f99fb15e1bef5e71877a4dc389f502d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f72ca01e599670500ec9432d05af80cf = $(`<div id="html_f72ca01e599670500ec9432d05af80cf" style="width: 100.0%; height: 100.0%;">                 <h1>W070790</h1>                 <p>                 Postcode: <b>EH76</b><br/>                 Date: <b>24 Nov 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, Papaverine</b> with <b>6-Acetylcodeine, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_f99fb15e1bef5e71877a4dc389f502d9.setContent(html_f72ca01e599670500ec9432d05af80cf);
+            
+        
+
+        circle_marker_a99457ed10df4a28a941a00a2a4f66c9.bindPopup(popup_f99fb15e1bef5e71877a4dc389f502d9)
+        ;
+
+        
+    
+    
+            var circle_marker_4281be1f553b3246d61350bb2626118a = L.circleMarker(
+                [55.82387142857142, -3.241371428571429],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_83fb4892147fe7b7ddb00d97ae1e2bec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a083949dfc45b231d3145cabd32720d = $(`<div id="html_6a083949dfc45b231d3145cabd32720d" style="width: 100.0%; height: 100.0%;">                 <h1>W069093</h1>                 <p>                 Postcode: <b>EH26</b><br/>                 Date: <b>24 Nov 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin</b> with <b>Papaverine, Phenacetin, 6-Acetylcodeine, Etonitazene, Morphine</b><br/>                 </p>                 </div>`)[0];
+                popup_83fb4892147fe7b7ddb00d97ae1e2bec.setContent(html_6a083949dfc45b231d3145cabd32720d);
+            
+        
+
+        circle_marker_4281be1f553b3246d61350bb2626118a.bindPopup(popup_83fb4892147fe7b7ddb00d97ae1e2bec)
+        ;
+
+        
+    
+    
+            var circle_marker_1e665e02ca7e73108f31609f873f8184 = L.circleMarker(
+                [52.36667333333334, -2.6940066666666667],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_d8acdd188d3729d9c4a022d5fba608df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95b710d4b6ab8ad184ee49fccb0d16ab = $(`<div id="html_95b710d4b6ab8ad184ee49fccb0d16ab" style="width: 100.0%; height: 100.0%;">                 <h1>W071157</h1>                 <p>                 Postcode: <b>SY87</b><br/>                 Date: <b>24 Nov 2025</b><br/>                 Sold as: <b>Pressed nitazenes</b><br/>                 Tested as: <b>AB-MDMSBA</b><br/>                 </p>                 </div>`)[0];
+                popup_d8acdd188d3729d9c4a022d5fba608df.setContent(html_95b710d4b6ab8ad184ee49fccb0d16ab);
+            
+        
+
+        circle_marker_1e665e02ca7e73108f31609f873f8184.bindPopup(popup_d8acdd188d3729d9c4a022d5fba608df)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe30318dc908523ae63cc43fd6de6c6 = L.circleMarker(
+                [51.66792, -3.4671],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_4a2b33f0769617302b8f91b3945353fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62004abbd272cb756b71ec704e51cb03 = $(`<div id="html_62004abbd272cb756b71ec704e51cb03" style="width: 100.0%; height: 100.0%;">                 <h1>W071007</h1>                 <p>                 Postcode: <b>CF43</b><br/>                 Date: <b>18 Nov 2025</b><br/>                 Sold as: <b>Oxy</b><br/>                 Tested as: <b>Bromazolam, N-desethylprotonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_4a2b33f0769617302b8f91b3945353fb.setContent(html_62004abbd272cb756b71ec704e51cb03);
+            
+        
+
+        circle_marker_9fe30318dc908523ae63cc43fd6de6c6.bindPopup(popup_4a2b33f0769617302b8f91b3945353fb)
+        ;
+
+        
+    
+    
+            var circle_marker_a33a3c5592332483b54222ab254b7a30 = L.circleMarker(
+                [51.66792, -3.4671],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_221e8429f923c4753da8876acd506138 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46db8420b96b5e6b7341c00014c5d798 = $(`<div id="html_46db8420b96b5e6b7341c00014c5d798" style="width: 100.0%; height: 100.0%;">                 <h1>W071006</h1>                 <p>                 Postcode: <b>CF43</b><br/>                 Date: <b>18 Nov 2025</b><br/>                 Sold as: <b>Nitazene</b><br/>                 Tested as: <b>N-desethylprotonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_221e8429f923c4753da8876acd506138.setContent(html_46db8420b96b5e6b7341c00014c5d798);
+            
+        
+
+        circle_marker_a33a3c5592332483b54222ab254b7a30.bindPopup(popup_221e8429f923c4753da8876acd506138)
+        ;
+
+        
+    
+    
+            var circle_marker_532928360612b56330246284daefe1b9 = L.circleMarker(
+                [57.65489545454545, -2.046884090909091],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_5fdc9dcc456409e32aa9c0cd8adbea20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9344dd0d0a7da89de8d1303c2baff3e7 = $(`<div id="html_9344dd0d0a7da89de8d1303c2baff3e7" style="width: 100.0%; height: 100.0%;">                 <h1>W070666</h1>                 <p>                 Postcode: <b>AB43</b><br/>                 Date: <b>12 Nov 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>6-MAM, Noscapine, Paracetamol, Heroin, Caffeine</b> with <b>Papaverine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_5fdc9dcc456409e32aa9c0cd8adbea20.setContent(html_9344dd0d0a7da89de8d1303c2baff3e7);
+            
+        
+
+        circle_marker_532928360612b56330246284daefe1b9.bindPopup(popup_5fdc9dcc456409e32aa9c0cd8adbea20)
+        ;
+
+        
+    
+    
+            var circle_marker_4ca00bd0958139dd6fbe62d9b1d8700c = L.circleMarker(
+                [51.89539, 0.15618],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_6635ec052a98622971cd546d04c6e207 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b0a570d6e5f3ccc9b8f0460a485f68e = $(`<div id="html_7b0a570d6e5f3ccc9b8f0460a485f68e" style="width: 100.0%; height: 100.0%;">                 <h1>W070343</h1>                 <p>                 Postcode: <b>CM23</b><br/>                 Date: <b>30 Oct 2025</b><br/>                 Sold as: <b>Nitazene &amp; protonitazene</b><br/>                 Tested as: <b>N-pyrrolidino protonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_6635ec052a98622971cd546d04c6e207.setContent(html_7b0a570d6e5f3ccc9b8f0460a485f68e);
+            
+        
+
+        circle_marker_4ca00bd0958139dd6fbe62d9b1d8700c.bindPopup(popup_6635ec052a98622971cd546d04c6e207)
+        ;
+
+        
+    
+    
+            var circle_marker_05864197b88338e2f95e7192e4de2ba0 = L.circleMarker(
+                [50.87460000000001, 0.5477],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_a7eb246a737670bfb976eac2524b95a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6b411d1f2f5f8721031a086405d97bb = $(`<div id="html_b6b411d1f2f5f8721031a086405d97bb" style="width: 100.0%; height: 100.0%;">                 <h1>W069576</h1>                 <p>                 Postcode: <b>TN37</b><br/>                 Date: <b>07 Oct 2025</b><br/>                 Sold as: <b>HYDROCODONE</b><br/>                 Tested as: <b>N-desethylisotonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_a7eb246a737670bfb976eac2524b95a2.setContent(html_b6b411d1f2f5f8721031a086405d97bb);
+            
+        
+
+        circle_marker_05864197b88338e2f95e7192e4de2ba0.bindPopup(popup_a7eb246a737670bfb976eac2524b95a2)
+        ;
+
+        
+    
+    
+            var circle_marker_b628d576bb592cdfe4c195acb409f78e = L.circleMarker(
+                [55.82387142857142, -3.241371428571429],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_00953252ac4c094fc4698535de4fa88d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40d0e502961727d9f8c7648e639b1576 = $(`<div id="html_40d0e502961727d9f8c7648e639b1576" style="width: 100.0%; height: 100.0%;">                 <h1>W066234</h1>                 <p>                 Postcode: <b>EH26</b><br/>                 Date: <b>26 Sep 2025</b><br/>                 Sold as: <b>Heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin</b> with <b>Papaverine, 6-Acetylcodeine, Phenacetin, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_00953252ac4c094fc4698535de4fa88d.setContent(html_40d0e502961727d9f8c7648e639b1576);
+            
+        
+
+        circle_marker_b628d576bb592cdfe4c195acb409f78e.bindPopup(popup_00953252ac4c094fc4698535de4fa88d)
+        ;
+
+        
+    
+    
+            var circle_marker_a88526e077248ff228f53bffe2f2d9a7 = L.circleMarker(
+                [51.48, -3.18],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_bce870c086414bcbcbc1ad9795028a7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_579a404b3c2098f8182add2f1f48965a = $(`<div id="html_579a404b3c2098f8182add2f1f48965a" style="width: 100.0%; height: 100.0%;">                 <h1>000237012</h1>                 <p>                 Postcode: <b>CF10</b><br/>                 Date: <b>25 Sep 2025</b><br/>                 Sold as: <b>HEROIN</b><br/>                 Tested as: <b>Caffeine, Paracetamol, Heroin, Noscapine, 6-MAM</b> with <b>6-Acetylcodeine, Papaverine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_bce870c086414bcbcbc1ad9795028a7e.setContent(html_579a404b3c2098f8182add2f1f48965a);
+            
+        
+
+        circle_marker_a88526e077248ff228f53bffe2f2d9a7.bindPopup(popup_bce870c086414bcbcbc1ad9795028a7e)
+        ;
+
+        
+    
+    
+            var circle_marker_76f738e293a6821db9084636f83c7753 = L.circleMarker(
+                [54.77482, -1.56714],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_a02c796158642070d593e420d0502bcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba7344ed1ed30afb6113622a6e85e8d9 = $(`<div id="html_ba7344ed1ed30afb6113622a6e85e8d9" style="width: 100.0%; height: 100.0%;">                 <h1>W069131</h1>                 <p>                 Postcode: <b>DH11</b><br/>                 Date: <b>22 Sep 2025</b><br/>                 Sold as: <b>(A) NITAZENE (UNSURE WHICH)</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Medetomidine, Diazepam, 6-MAM, Caffeine, Heroin, N-desethylprotonitazene</b> with <b>6-Acetylcodeine, Papaverine</b><br/>                 </p>                 </div>`)[0];
+                popup_a02c796158642070d593e420d0502bcd.setContent(html_ba7344ed1ed30afb6113622a6e85e8d9);
+            
+        
+
+        circle_marker_76f738e293a6821db9084636f83c7753.bindPopup(popup_a02c796158642070d593e420d0502bcd)
+        ;
+
+        
+    
+    
+            var circle_marker_4a8a9f0eb6c16d6ab789703c1b619883 = L.circleMarker(
+                [55.9617, -3.1844],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_937ed6574d44279f593f935574dcc2a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_763bbdadeffbeb80b646d08ec2ee1e60 = $(`<div id="html_763bbdadeffbeb80b646d08ec2ee1e60" style="width: 100.0%; height: 100.0%;">                 <h1>W067148</h1>                 <p>                 Postcode: <b>EH6</b><br/>                 Date: <b>18 Sep 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Paracetamol, Noscapine, Heroin, Caffeine</b> with <b>6-MAM, Papaverine, 6-Acetylcodeine, Etonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_937ed6574d44279f593f935574dcc2a5.setContent(html_763bbdadeffbeb80b646d08ec2ee1e60);
+            
+        
+
+        circle_marker_4a8a9f0eb6c16d6ab789703c1b619883.bindPopup(popup_937ed6574d44279f593f935574dcc2a5)
+        ;
+
+        
+    
+    
+            var circle_marker_6d940b0840c63eaaa2ff1b93fbee10fa = L.circleMarker(
+                [54.874233333333336, -1.4153666666666669],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_0f7ab1faea00acf60032c30facfd8992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89598af7b9ba5e4fefb2b3f2a5393e61 = $(`<div id="html_89598af7b9ba5e4fefb2b3f2a5393e61" style="width: 100.0%; height: 100.0%;">                 <h1>W072007</h1>                 <p>                 Postcode: <b>SR3</b><br/>                 Date: <b>22 Dec 2025</b><br/>                 Sold as: <b>Desethylprotonitazene</b><br/>                 Tested as: <b>N-desethylprotonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_0f7ab1faea00acf60032c30facfd8992.setContent(html_89598af7b9ba5e4fefb2b3f2a5393e61);
+            
+        
+
+        circle_marker_6d940b0840c63eaaa2ff1b93fbee10fa.bindPopup(popup_0f7ab1faea00acf60032c30facfd8992)
+        ;
+
+        
+    
+    
+            var circle_marker_399bcd3ea23ff65c0e3330c46aae8036 = L.circleMarker(
+                [55.9521, -3.1965],
+                {"bubblingMouseEvents": true, "color": "#ffde5b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde5b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 1}
+            ).addTo(marker_cluster_6a8d7719593538f843251b5041a07611);
+        
+    
+        var popup_5ef50c1b3e0c79adead94ba3c92015c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c473476921ab46281159a4d207483893 = $(`<div id="html_c473476921ab46281159a4d207483893" style="width: 100.0%; height: 100.0%;">                 <h1>W069991</h1>                 <p>                 Postcode: <b>EH7</b><br/>                 Date: <b>16 Dec 2025</b><br/>                 Sold as: <b>heroin</b><br/>                 Tested as: <b>Paracetamol, Caffeine, Noscapine, Heroin</b> with <b>6-MAM, 6-Acetylcodeine, Papaverine, Metonitazene</b><br/>                 </p>                 </div>`)[0];
+                popup_5ef50c1b3e0c79adead94ba3c92015c6.setContent(html_c473476921ab46281159a4d207483893);
+            
+        
+
+        circle_marker_399bcd3ea23ff65c0e3330c46aae8036.bindPopup(popup_5ef50c1b3e0c79adead94ba3c92015c6)
+        ;
+
+        
+    
+    
+            marker_cluster_6a8d7719593538f843251b5041a07611.addTo(map_5785986645f66ab77fe3fe19de390dfc);
+        
+</script>
+</html>
