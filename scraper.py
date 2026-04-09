@@ -8,15 +8,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import requests
 from bs4 import BeautifulSoup
 import json
-import re, html
-import os
+import re
 # Other imports
 from argparse import ArgumentParser
 import yaml
 import time
 import pandas as pd
-import folium
-from folium import plugins
 import pgeocode
 nomi = pgeocode.Nominatim('gb')
 import numpy as np
