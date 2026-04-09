@@ -33,7 +33,7 @@ python scraper.py -n [number of pages to scrape] -d [DDMMYYY–DDMMYYYY]
   
       -n = number of pages to scrape (check the website first, e.g. using the filtering options)
       
-      -d = dates scanned in DDMMYYYY-DDMMYYYY format
+      -d = dates scanned in DDMMYYYY-DDMMYYYY format (note: this is currently used for file naming only)
       
       -f = (optional) alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
       
