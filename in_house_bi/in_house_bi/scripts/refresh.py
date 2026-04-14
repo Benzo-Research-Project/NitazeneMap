@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-SCRIPTS_FOLDER = "in_house_bi/scripts"
+SCRIPTS_FOLDER = "scripts"
 
 def run_script(script_name):
     """Helper to run another script and show output."""
