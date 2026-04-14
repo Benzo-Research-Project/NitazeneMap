@@ -2,8 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-PROCESSED_FOLDER = "in_house_bi/data/processed"
-PLOTS_FOLDER = "in_house_bi/outputs/plots"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+
+RAW_DATA_FOLDER = os.path.join(DATA_DIR, "raw")
+PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
+
 
 
 def load_latest_processed():
