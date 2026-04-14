@@ -5,8 +5,13 @@ from datetime import datetime
 # -----------------------
 # Folder configuration
 # -----------------------
-RAW_DATA_FOLDER = "in_house_bi/data/raw"
-PROCESSED_FOLDER = "in_house_bi/data/processed"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+
+RAW_DATA_FOLDER = os.path.join(DATA_DIR, "raw")
+PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
+
 
 def load_latest_csv():
     """Load the most recent CSV file from raw folder."""
