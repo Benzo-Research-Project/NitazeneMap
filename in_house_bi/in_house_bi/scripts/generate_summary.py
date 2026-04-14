@@ -2,8 +2,15 @@ import pandas as pd
 import os
 from datetime import datetime
 
-PROCESSED_FOLDER = "in_house_bi/data/processed"
-SUMMARY_FOLDER = "in_house_bi/outputs/summaries"
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+
+PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
+OUTPUT_FOLDER = os.path.join(DATA_DIR, "in_house_bi", "outputs", "summaries")
+
 
 
 def load_latest_processed():
