@@ -1,7 +1,10 @@
 import os
 import subprocess
 
-SCRIPTS_FOLDER = "scripts"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPTS_FOLDER = os.path.join(BASE_DIR)
+
 
 def run_script(script_name):
     """Helper to run another script and show output."""
