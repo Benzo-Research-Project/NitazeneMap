@@ -36,4 +36,15 @@ python scraper.py -n [number of pages to scrape] -d [DDMMYYY–DDMMYYYY]
       -d = dates scanned in DDMMYYYY-DDMMYYYY format (note: this is currently used for file naming only)
       
       -f = (optional) alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
+
+### 3. Filtering by country
+1. Amend configurations in config.yaml, such as whether to save amended data (saveData: True/False) and where to pull data from and save to (dataPath: (default is the data file))
+2. Run the script, for example:
+  ```console
+python geofilter.py -f wedinos_benzos_february_2026.csv -c Scotland
+  ```
+  Args:
+  
+      -f = file path for scraped data (e.g. 'data/wedinos_benzos_2025.csv)
       
+      -c = (optional) filter by country (options: England, Wales, Scotland, Northern Ireland, Channel Islands, Isle of Man)'''

@@ -1,0 +1,130 @@
+﻿Postcode prefix,Postcode district,UK region,UK country
+AB,Aberdeen,Scotland,Scotland
+AL,St. Albans,East of England,England
+B,Birmingham,West Midlands,England
+BA,Bath,South West,England
+BB,Blackburn,North West,England
+BD,Bradford,North West,England
+BF,British Forces,Non-geographic,Non-geographic
+BH,Bournemouth,South West,England
+BL,Bolton,North West,England
+BN,Brighton,South East,England
+BR,Bromley,Greater London,England
+BS,Bristol,South West,England
+BT,Belfast,Northern Ireland,Northern Ireland
+BX,Non-geographic,Non-geographic,Non-geographic
+CA,Carlisle,North West,England
+CB,Cambridge,East of England,England
+CF,Cardiff,Wales,Wales
+CH,Chester,North West,England
+CM,Chelmsford,East of England,England
+CO,Colchester,East of England,England
+CR,Croydon,Greater London,England
+CT,Canterbury,South East,England
+CV,Coventry,West Midlands,England
+CW,Crewe,North West,England
+DA,Dartford,Greater London,England
+DD,Dundee,Scotland,Scotland
+DE,Derby,East Midlands,England
+DG,Dumfries,Scotland,Scotland
+DH,Durham,North East,England
+DL,Darlington,North East,England
+DN,Doncaster,East Midlands,England
+DT,Dorchester,South West,England
+DY,Dudley,West Midlands,England
+E,London,Greater London,England
+EC,London,Greater London,England
+EH,Edinburgh,Scotland,Scotland
+EN,Enfield,Greater London,England
+EX,Exeter,South West,England
+FK,Falkirk,Scotland,Scotland
+FY,Blackpool,North West,England
+G,Glasgow,Scotland,Scotland
+GIR,"Girobank HQ, Bootle",Non-geographic,Non-geographic
+GL,Gloucester,South West,England
+GU,Guilford,South East,England
+GY,Guernsey,Channel Islands,Channel Islands
+HA,Harrow,Greater London,England
+HD,Huddersfield,North West,England
+HG,Harrogate,North East,England
+HP,Hemel,East of England,England
+HR,Hereford,West Midlands,England
+HS,Comhairle nan Eilean Siar,Scotland,Scotland
+HU,Hull,North East,England
+HX,Halifax,North West,England
+IG,Ilford,Greater London,England
+IM,Isle of Man,Isle of Man,Isle of Man
+IP,Ipswich,East of England,England
+IV,Inverness,Scotland,Scotland
+JE,Jersey,Channel Islands,Channel Islands
+KA,Kilmarnock,Scotland,Scotland
+KT,Kingston,Greater London,England
+KW,Kirkwall,Scotland,Scotland
+KY,Kirkaldy,Scotland,Scotland
+L,Liverpool,North West,England
+LA,Lancaster,North West,England
+LD,Llandrindod,Wales,Wales
+LE,Leicester,East Midlands,England
+LL,Llandudno,Wales,Wales
+LN,Lincoln,East Midlands,England
+LS,Leeds,North East,England
+LU,Luton,East of England,England
+M,Manchester,North West,England
+ME,Medway,South East,England
+MK,Milton Keynes,South East,England
+ML,Motherwell,Scotland,Scotland
+N,London,Greater London,England
+NE,Newcastle,North East,England
+NG,Nottingham,East Midlands,England
+NN,Northampton,West Midlands,England
+NP,Newport,Wales,Wales
+NR,Norwich,East of England,England
+NW,London,Greater London,England
+OL,Oldham,North West,England
+OX,Oxford,South East,England
+PA,Paisley,Scotland,Scotland
+PE,Peterborough,East England,England
+PH,Perth,Scotland,Scotland
+PL,Plymouth,South West,England
+PO,Portsmouth,South East,England
+PR,Preston,North West,England
+QC,Awarding Bodies,Non-geographic,Non-geographic
+RG,Reading,South East,England
+RH,Redhill,South East,England
+RM,Romford,Greater London,England
+S,Sheffield,East Midlands,England
+SA,Swansea,Wales,Wales
+SE,London,Greater London,England
+SG,Stevenage,East of England,England
+SK,Stockport,North West,England
+SL,Slough,South East,England
+SM,Sutton,Greater London,England
+SN,Swindon,South West,England
+SO,Southampton,South East,England
+SP,Salisbury,South West,England
+SR,Sunderland,North East,England
+SS,Southend,East of England,England
+ST,Stoke on Trent,West Midlands,England
+SW,London,Greater London,England
+SY,Shrewsbury,Wales,Wales
+TA,Taunton,South West,England
+TD,Galashiels,Scotland,Scotland
+TF,Telford,West Midlands,England
+TN,Tonbridge,South East,England
+TQ,Torquay,South West,England
+TR,Truro,South West,England
+TS,Cleveland,North East,England
+TW,Twickenham,Greater London,England
+UB,Southall,Greater London,England
+W,London,Greater London,England
+WA,Warrington,North West,England
+WC,London,Greater London,England
+WD,Watford,Greater London,England
+WF,Wakefield,North East,England
+WN,Wigan,North West,England
+WR,Worcester,West Midlands,England
+WS,Walsall,West Midlands,England
+WV,Wolverhampton,West Midlands,England
+XX,Amazon.com returns,Non-geographic,Non-geographic
+YO,York,North East,England
+ZE,Shetland,Scotland,Scotland
