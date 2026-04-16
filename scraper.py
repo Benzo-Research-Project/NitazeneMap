@@ -99,7 +99,7 @@ def getFilteredDataframe(all_alerts, daterange, substring_list=benzo_substring_l
     df = pd.DataFrame(columns=col)
     for alert in all_alerts:
         for i in alert:
-            if any(substring in str.lower(alert[i]['intent'].lower()) or str.lower(alert[i]['major'].lower()) or str.lower(alert[i]['minor'].lower()) for substring in substring_list):
+            if any(substring in (str.lower(alert[i]['intent'].lower()) or str.lower(alert[i]['major'].lower()) or str.lower(alert[i]['minor'].lower())) for substring in substring_list):
                 try:
                     if str(nomi.query_postal_code(alert[i]['postcode'])['latitude']) != 'nan':
                         lat, long = float(nomi.query_postal_code(alert[i]['postcode'])['latitude']), float(nomi.query_postal_code(alert[i]['postcode'])['longitude'])
