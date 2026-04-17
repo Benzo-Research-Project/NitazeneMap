@@ -48,7 +48,7 @@ def main():
     '''
     Append geographic region/country data to scraped WEDINOS results.
     Args:
-    -f = file path for scraped data (e.g. 'data/wedinos_benzos_2025.csv)
+    -f = file name for scraped data (e.g. wedinos_benzos_2025.csv)
     -c = filter by country (options: England, Wales, Scotland, Northern Ireland, Channel Islands, Isle of Man)'''
     parser = ArgumentParser()
     parser.add_argument("-f", "--filename", type=str, metavar="FILENAME",
