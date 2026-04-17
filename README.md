@@ -37,7 +37,21 @@ python scraper.py -n [number of pages to scrape] -d [DDMMYYY–DDMMYYYY]
       
       -f = (optional) alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
 
-### 3. Filtering by country
+### 3. Joining datasets together
+1. Amend configurations in config.yaml, such as whether to save amended data (saveData: True/False) and where to pull data from and save to (dataPath: (default is the data file))
+2. Run the script, for example:
+  ```console
+python join.py -f1 [data file 1] -f2 [data file 2]
+  ```
+  Args:
+  
+      -f1 = file path for scraped data (e.g. wedinos_benzos_010126-030526.csv)
+
+      -f2 = file path for scraped data to join to f1 (e.g. wedinos_benzos_290426-300626.csv)
+  
+  Returns a joined file with duplicates removed (e.g. wedinos_benos_010126-300626.csv).
+
+### 4. Filtering by country
 1. Amend configurations in config.yaml, such as whether to save amended data (saveData: True/False) and where to pull data from and save to (dataPath: (default is the data file))
 2. Run the script, for example:
   ```console
@@ -47,4 +61,4 @@ python geofilter.py -f wedinos_benzos_february_2026.csv -c Scotland
   
       -f = file path for scraped data (e.g. 'data/wedinos_benzos_2025.csv)
       
-      -c = (optional) filter by country (options: England, Wales, Scotland, Northern Ireland, Channel Islands, Isle of Man)'''
+      -c = (optional) filter by country (options: England, Wales, Scotland, Northern Ireland, Channel Islands, Isle of Man)
