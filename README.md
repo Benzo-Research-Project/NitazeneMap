@@ -2,7 +2,7 @@
 ### Description
 This is a work in progress package used to monitor and visualise UK drug supply trends using Python and a web API, with a particular focus on nitazenes and counterfeit benzodiazepines. 
 
-All data used in this notebook is owned by WEDINOS and should not be interpreted as a representative sample. The use of this notebook is for informational purposes only. 
+All data used in this package is owned by WEDINOS and should not be interpreted as a representative sample. The use of this package is for informational purposes only. 
 
 ### Maintained by: 
 AJ Martin, Benzo Research Project
