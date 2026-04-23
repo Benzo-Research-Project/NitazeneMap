@@ -1,3 +1,4 @@
+#### 23-04-26: THIS VERSION IS DEPRECIATED – USE scraper.py ####
 # Dynamic Scraper for WEDINOS Data
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -30,7 +31,7 @@ save_data = config['saveData']
 
 col=["date_received","postcode","intent","label","colour","form","consumption_method","effects","major","minor","latitude","longitude"]
 
-def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedinos.org/sample-results
+def scrape(num_pages, url="https://wedinos.org/sample-results"):
     driver = webdriver.Chrome()
     driver.get(url)
 
@@ -43,7 +44,7 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
             # After loading all items, scrape the data
             all_pages.append(driver.page_source)
                 
-            load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/ul/li[@class='nhsuk-pagination-item--next nhsuk-pagination__link nhsuk-pagination__link--next']") # By.XPATH, "//a[text()='Next']"
+            load_more_button = driver.find_element(By.XPATH, "//a[text()='Next']")
             load_more_button.click()
             time.sleep(3)  # Give time for content to load
             current_page += 1
@@ -57,37 +58,35 @@ def parse(all_pages, daterange, save_data=save_data):
     all_alerts = []
     for page in all_pages:
         soup = BeautifulSoup(page, "html.parser")
-        alerts = soup.find_all("article", class_="sample-results__result")
-        #print(alerts)
+        alerts = soup.find_all("div", class_="alert alert-danger")
         #all_alerts.append(alerts)
         for alert in alerts:
             try:
                 tag_re = re.compile(r'(<!--.*?-->|<[^>]*>)')
-                code = str(alert).split('<h2 class="nhsuk-u-margin-top-4 nhsuk-u-margin-bottom-2 nhsuk-heading-m">',1)[1].split('</h2>',1)[0]
-                date_received = str(alert).split('<p>Date received - ',1)[1].split('</p>',1)[0]
-                postcode = tag_re.sub('', str(alert).split('''<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Postcode</th>''',1)[1].split('</td>',1)[0])
-                intent = tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Purchase intent</th>',1)[1].split('</td>',1)[0])
-                label = tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Package label</th>',1)[1].split('</td>',1)[0])
-                colour = tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample colour</th>',1)[1].split('</li>',1)[0])
-                form = tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample form</th>',1)[1].split('</td>',1)[0])
-                consumption_method = tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Consumption method',1)[1].split('</td>',1)[0])
-                effects = list(filter(None, tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Self-reported effects',1)[1].split('</ul>',1)[0]).split('\n')))
-                major = list(filter(None, tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (major)</th>',1)[1].split('</ul>',1)[0]).split('\n'))) # needs splitting by <li class="nhsuk-u-font-size-16"><a class="substanceLink" href="
-                minor = list(filter(None, tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (minor)</th>',1)[1].split('</td>',1)[0]).split('\n'))) # needs splitting by 
-                minor_processed = ", ".join(str(x) for x in minor)
+                code = str(alert).split('<span style="font-size: 1.4em; font-weight: 700">',1)[1].split('</span>',1)[0]
+                date_received = str(alert).split('Date Received: <span style="color: black">',1)[1].split('</span>',1)[0]
+                postcode = str(alert).split('Postcode: <span style="color: black">',1)[1].split(' - </span>',1)[0]
+                intent = str(alert).split('Purchase Intent: <span style="color: black">',1)[1].split('</span>',1)[0]
+                label = str(alert).split('Package Label: <span style="color: black">',1)[1].split('</span>',1)[0]
+                colour = str(alert).split('Sample Colour: <span style="color: black">',1)[1].split('</span>',1)[0]
+                form = str(alert).split('Sample Form: <span style="color: black">',1)[1].split('</span>',1)[0]
+                consumption_method = str(alert).split('Consumption Method: <span style="color: black">',1)[1].split('</span>',1)[0]
+                effects = str(alert).split('Self-Reported Effects: <span style="color: black">',1)[1].split('</span>',1)[0]
+                major = tag_re.sub('', str(alert).split('Sample Upon Analysis (Major): <span style="color: black">',1)[1].split('</span>',1)[0])
+                minor = tag_re.sub('', str(alert).split('Sample Upon Analysis (Minor): <span style="color: black">',1)[1].split('</span>',1)[0])
+                print(f"{postcode}: Sold as {intent} ({label}), was actually {major}.")
                 myAlertData = {
                     "date_received": date_received,
-                    "postcode": ' '.join(postcode.split()),
-                    "intent": ' '.join(intent.split()),
-                    "label": ' '.join(label.split()),
-                    "colour": ' '.join(colour.split()),
-                    "form": ' '.join(form.split()),
-                    "consumption_method": ' '.join(consumption_method.split()),
-                    "effects": ", ".join(str(x) for x in effects[1:]), # removes first blank item in effects list
-                    "major": ", ".join(str(x) for x in major),
-                    "minor": minor_processed if minor_processed.lower() != "not stated" else ""
+                    "postcode": postcode,
+                    "intent": intent,
+                    "label": label,
+                    "colour": colour,
+                    "form": form,
+                    "consumption_method": consumption_method,
+                    "effects": effects,
+                    "major": major,
+                    "minor": minor
                 }
-                print(f"{myAlertData['postcode']}: Sold as {myAlertData['intent']} ({myAlertData['label']}), was actually {myAlertData['major']}.")
                 all_alerts.append({code: myAlertData})
             except Exception as e:
                 print(f"Error processing alert: {e}")
