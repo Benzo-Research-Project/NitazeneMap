@@ -54,7 +54,7 @@ def write_summary(text, year_month):
 def generate_summary(df, year_month):
     """Create a clear, understandable monthly drug summary."""
 
-    month_name = pd.to_datetime(year_month).strftime("%B %Y")
+    month_name = year_month  # use raw identifier instead
 
     total_samples = len(df)
 
