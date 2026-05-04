@@ -36,9 +36,12 @@ def load_latest_processed():
     print(f"📄 Loading processed CSV: {latest}")
     df = pd.read_csv(path)
 
-    year_month = df["year_month"].iloc[0]
+   # extract original file name from processed file
+processed_filename = latest.replace("processed_", "").replace(".csv", "")
+year_month = processed_filename.replace("wedinos_benzos_", "")
 
-    return df, year_month
+
+    return df
 
 
 def create_horizontal_bar_chart(substance_counts, year_month):
