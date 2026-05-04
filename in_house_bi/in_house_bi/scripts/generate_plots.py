@@ -3,11 +3,16 @@ import matplotlib.pyplot as plt
 import os
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 
-RAW_DATA_FOLDER = os.path.join(DATA_DIR, "raw")
+BASE_DIR = os.path.dirname(__file__)
+
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
+
+PLOTS_FOLDER = os.path.join(BASE_DIR, "..", "outputs", "plots")
+
+os.makedirs(PLOTS_FOLDER, exist_ok=True)
+
 
 
 
