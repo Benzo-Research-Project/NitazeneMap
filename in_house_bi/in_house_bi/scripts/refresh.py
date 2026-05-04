@@ -11,13 +11,7 @@ def run_script(script_name):
     path = os.path.join(SCRIPTS_FOLDER, script_name)
     print(f"(Running {script_name})")
 
-    
-    result = subprocess.run(["python", path], capture_output=True, text=True)
-
-    print(result.stdout)
-    if result.stderr:
-        print("⚠️ ERRORS / WARNINGS:")
-        print(result.stderr)
+    subprocess.run(["python", path])
 
 
 def main():
