@@ -24,7 +24,7 @@ def load_latest_processed():
 
     if not files:
         print("❌ No processed CSV files found.")
-        return None
+        return None, None
 
     latest = max(
         files,
@@ -36,7 +36,7 @@ def load_latest_processed():
     print(f"📄 Loaded processed dataset: {latest}")
     df = pd.read_csv(path)
 
-    return df
+    return df, latest
 
 
 
