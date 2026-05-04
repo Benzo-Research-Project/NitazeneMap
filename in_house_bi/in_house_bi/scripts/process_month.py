@@ -105,15 +105,11 @@ def save_processed(df, filename):
     df.to_csv(path, index=False)
     print(f"💾 Saved cleaned CSV → {path}")
 
-
 def main():
     print("🚀 Running monthly processing...")
 
-   import sys
+    df, filename = select_csv()
 
-file_arg = sys.argv[1] if len(sys.argv) > 1 else None
-
-df, filename = select_csv()
     if df is None:
         return
 
