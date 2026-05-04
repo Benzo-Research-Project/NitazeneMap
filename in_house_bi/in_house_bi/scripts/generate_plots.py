@@ -24,9 +24,15 @@ def load_latest_processed():
         print("❌ No processed CSV files found.")
         return None, None
 
-        # pick the most recent one alphabetically
-    latest = sorted(files)[-1]
-    path = os.path.join(PROCESSED_FOLDER, latest)
+
+# pick the most recently modified file
+latest = max(
+    files,
+    key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
+)
+
+path = os.path.join(PROCESSED_FOLDER, latest)
+
 
     print(f"📄 Loading processed CSV: {latest}")
     df = pd.read_csv(path)
