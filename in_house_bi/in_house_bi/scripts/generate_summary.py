@@ -111,12 +111,12 @@ def main():
     print("🚀 Generating summary text...")
 
     df, latest = load_latest_processed()
-if df is None:
-    return
+    if df is None:
+        return
 
-# extract clean name from filename
-year_month = latest.replace("processed_", "").replace(".csv", "")
-year_month = year_month.replace("wedinos_benzos_", "")
+    # ✅ extract clean name from filename
+    year_month = latest.replace("processed_", "").replace(".csv", "")
+    year_month = year_month.replace("wedinos_benzos_", "")
 
     text = generate_summary(df, year_month)
     write_summary(text, year_month)
