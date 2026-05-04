@@ -25,9 +25,11 @@ def load_latest_processed():
     if not files:
         print("❌ No processed CSV files found.")
         return None, None
-
-    latest = sorted(files)[-1]
-    path = os.path.join(PROCESSED_FOLDER, latest)
+        
+latest = max(
+    files,
+    key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
+)
 
     df = pd.read_csv(path)
     year_month = df["year_month"].iloc[0]
