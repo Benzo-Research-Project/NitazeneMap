@@ -19,7 +19,20 @@ def main():
 
     # STEP 1
     print("▶️ Step 1 — Processing data")
-    run_script("process_month.py")
+    
+result = subprocess.run(
+    ["python", os.path.join(SCRIPTS_FOLDER, "process_month.py")],
+    text=True,
+    capture_output=True
+)
+
+print(result.stdout)
+
+# Extract filename used
+for line in result.stdout.splitlines():
+    if "📄 Loading CSV:" in line:
+        filename = line.split("📄 Loading CSV: ")[1].strip()
+
 
     # STEP 2
     print("\n▶️ Step 2 — Generating plots")
