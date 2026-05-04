@@ -1,0 +1,193 @@
+sample_id,date_received,postcode,intent,label,colour,form,consumption_method,effects,major,minor,latitude,longitude,year_month,is_mixture
+W073828,2026-03-10,EH52,DIAZEPAM (10MG),STRIP OF 10 WITH VALIUM 10MG WRITTEN ON THE STRIP,Blue,Tablet,Oral,"Increased Energy, Increased Confidence, Relaxed, Memory Loss",Diazepam,,55.9358,-3.4882625,2026-03,True
+W074683,2026-03-10,NE31,DIAZEPAM,DIAZEPAM,Blue,Tablet,Oral,Relaxed,Diazepam,,54.973,-1.5155,2026-03,True
+W074693,2026-03-10,FK2,DIAZEPAM,DIAZEPAM,White,Tablet,Oral,Relaxed,Ethylbromazolam,,56.01717272727273,-3.755472727272727,2026-03,True
+W074677,2026-03-10,KY12,NITRAZEPAM,NITRAZEPAM,White,Tablet,Oral,Relaxed,Nitrazepam,,56.087095,-3.539235,2026-03,True
+W074701,2026-03-10,AL71,VALIUM,ZEPAM 10MG,Blue,Tablet,Oral,"Euphoria, Increased Confidence, Relaxed",Diazepam,,51.7969,-0.1871,2026-03,True
+W074713,2026-03-10,N1,XANAX,KSALOL 7MG,White,Tablet,Oral,Relaxed,Bromazolam,,51.53669,-0.0944,2026-03,True
+W074668,2026-03-10,CW9,DIAZEPAM,BENSEDIN,White,Tablet,Not Stated,Not Stated,Diazepam,,53.264406666666666,-2.5003200000000003,2026-03,True
+W074684,2026-03-10,B240,CLONAZEPAM ENURAXPHARM 2MG,CLONAZEPAM NEURAXPHARM 2MG,White,Tablet,Oral,"Relaxed, Nausea, Memory Loss, Suicidal Ideation",Clonazepam,,52.52635,-1.809,2026-03,True
+000234140,2026-03-10,NP23,DIAZEPAM,Not Stated,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.7771,-3.2079,2026-03,True
+000234149,2026-03-10,NP20,Not Stated,DIAZEPAM (M.D.),,,Not Stated,Not Stated,Diazepam,,51.5877,-2.9984,2026-03,True
+W074662,2026-03-10,HP13,DIAZEPAM,DIAZEPAM,White,Tablet,Not Stated,Not Stated,Diazepam,,51.6374,-0.7626,2026-03,True
+W074651,2026-03-10,SA16DR,DIAZEPAM,YES,Blue,Tablet,Oral,"Relaxed, Irregular Heartbeat, Panic Attack",Ethylbromazolam,,51.63398,-3.94848,2026-03,True
+W074678,2026-03-10,NG10,XANAX,XANAX,White,Tablet,Not Stated,Not Stated,Ethylbromazolam,,52.901475,-1.287175,2026-03,True
+000235587,2026-03-10,NP12,DIAZEPAM,DIAZEPAM,Yellow,Tablet,Oral,Not Stated,Diazepam,,51.6678,-3.2075,2026-03,True
+W074661,2026-03-10,HP13,DIAZEPAM,DIAZEPAM,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.6374,-0.7626,2026-03,True
+W074658,2026-03-10,L8,DIAZEPAM,ACCORD DIAZEPAM 5MG,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,53.4106,-2.9779,2026-03,True
+W074567,2026-03-10,CF14,ksaloalprazolam 1mg,galenika ksalon 1mg,Blue,Tablet,Oral,"Increased Confidence, Empathy, Relaxed, Memory Loss, Confusion",Alprazolam,,51.5199,-3.204,2026-03,True
+W074628,2026-03-09,BS05,Diazepam,Diazepam,White,Tablet,Not Stated,Not Stated,Diazepam,,51.4646,-2.5636,2026-03,True
+W074633,2026-03-09,BH8,Alprazolam RLAM 1mg,Alprazolam Rlam 1mg,White,Tablet,Not Stated,Not Stated,Tramadol,,50.7568,-1.8194,2026-03,True
+W074617,2026-03-09,GL51,Diazepam,Digital vision dizpam-10 (diazepam),White,Tablet,Oral,Relaxed,Diazepam,,51.90277692307692,-2.1239538461538463,2026-03,True
+W074622,2026-03-09,CV6,Diazepam,Not Stated,White,Tablet,Oral,Not Stated,Diazepam,,52.4414,-1.4998714285714283,2026-03,True
+W074632,2026-03-09,SW1,Diazepam,Martin dow valium,Purple,Tablet,Not Stated,Not Stated,Diazepam,,51.495583333333336,-0.1417916666666666,2026-03,True
+W074594,2026-03-09,CA1,diazepam,Not Stated,White,Tablet,Not Stated,Not Stated,Medetomidine,,54.89065,-2.92565,2026-03,True
+W074551,2026-03-09,OX1,Diazepam,Bensedin diazepam 10mg,White,Tablet,Oral,Relaxed,Ethylbromazolam,,51.72478,-1.275,2026-03,True
+W074593,2026-03-09,LS16,Diazepam,Diazepam,White,Tablet,Oral,Not Stated,Diazepam,,53.868475,-1.5981,2026-03,True
+W074615,2026-03-09,G7,alprazolam,Ksalol,Blue,Tablet,Not Stated,Not Stated,Alprazolam,,,,2026-03,True
+W074572,2026-03-09,BN6,Xanax,Kaslol 1mg alprazolam,Blue,Tablet,Not Stated,Not Stated,Alprazolam,,50.92262,-0.14494,2026-03,True
+W074624,2026-03-09,BT67,Diazepam 10mg,Diazepam 10,Blue,Tablet,Not Stated,Not Stated,Diazepam,,54.48503333333334,-6.287166666666667,2026-03,True
+W074589,2026-03-09,YO8,Diazepam,Diazepam,White,Tablet,Not Stated,Not Stated,Diazepam,,53.77469393939394,-1.0269030303030302,2026-03,True
+000235586,2026-03-09,NP12,Xanax,Xanax,Blue,Tablet,Oral,"Relaxed, Memory Loss, Confusion",Bromazolam,,51.6678,-3.2075,2026-03,True
+W074598,2026-03-09,G403,Xanax,Alprazolam 1mg,Orange,Tablet,Not Stated,Not Stated,Alprazolam,,55.8485,-4.2235,2026-03,True
+W074623,2026-03-09,L19,Not Stated,Diazepam,Blue,Tablet,Oral,No Effect,Bromazolam,,53.3333,-2.9,2026-03,True
+000239690,2026-03-09,CF10,Unknown,Not Stated,White,Tablet,Not Stated,Not Stated,Diazepam,,51.48,-3.18,2026-03,True
+W074414,2026-03-09,SG7,Diazepam 5mg,Accord 5mg diazepam,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,52.01185555555555,-0.1739111111111111,2026-03,True
+W074413,2026-03-09,SG7,Xanax 0.5mg,Viatris Xanax 500 microgram,Pink,Tablet,Not Stated,Not Stated,Alprazolam,,52.01185555555555,-0.1739111111111111,2026-03,True
+000239671,2026-03-09,NP4,Diazepam,Diazepam,White,Tablet,Not Stated,Not Stated,Diazepam,,51.718515789473685,-3.030521052631579,2026-03,True
+000239672,2026-03-09,NP4,Diazepam/Valium,diazepam,White,Tablet,Not Stated,Not Stated,Diazepam,,51.718515789473685,-3.030521052631579,2026-03,True
+000238661,2026-03-09,NP22,Diazepam,Diazepam,Pink,Tablet,Oral,"Increased Confidence, Relaxed, Chest Pains, Memory Loss",Diazepam,,51.7725,-3.2468,2026-03,True
+W074495,2026-03-09,KT24,Galenika ksalol 1mg alprazolam,Not Stated,"White, Blue",Tablet,Not Stated,Not Stated,Alprazolam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W074492,2026-03-09,KT2,5MG TEVA DIAZEPAM,Not Stated,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,51.4186,-0.2904,2026-03,True
+W074409,2026-03-09,TS01,Alprazolam,Alpzar 1,White,Tablet,Not Stated,Not Stated,"Chlorpheniramine, Paracetamol",,,,2026-03,True
+W074530,2026-03-09,PA26,diazepam,valium (diazepam),Blue,Tablet,Not Stated,Not Stated,Diazepam,,56.25834285714286,-4.9370714285714286,2026-03,True
+000236992,2026-03-09,CF45,Valium,Not Stated,Blue,,Oral,"Euphoria, Relaxed",Diazepam,,51.66452,-3.3537,2026-03,True
+W074457,2026-03-09,EH54,valium,Not Stated,White,Powder,Oral,"Euphoria, Relaxed, Loss of consciousness",Etizolam,,55.9029,-3.5226,2026-03,True
+000233253,2026-03-09,CF10,Valium,Not Stated,Yellow,Tablet,Not Stated,Not Stated,"Cocaine, Methylclonazepam",,51.48,-3.18,2026-03,True
+W074518,2026-03-09,ML3,Diazepam,sedil 5mg Diazepam,Yellow,Tablet,Oral,"Increased Confidence, Relaxed, Memory Loss",Diazepam,,55.76254285714286,-4.045457142857143,2026-03,True
+W074326,2026-03-09,CF10,MSJ,Not Stated,Yellow,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.48,-3.18,2026-03,True
+W074462,2026-03-09,EH10,Alprazolam - alprx1,Alprazolam alprx1,White,Tablet,Oral,No Effect,Alprazolam,,55.91466666666667,-3.2046333333333337,2026-03,True
+000234837,2026-03-09,SA69,Xanax,Alprax xr2 opsonin,Yellow,Tablet,Oral,"Increased Energy, Increased Confidence, Relaxed, Memory Loss, Depression",Alprazolam,,51.7106,-4.7014,2026-03,True
+W074531,2026-03-09,SA15,Tapentadol ,tapentadol 100mg,Orange,Tablet,Oral,"Euphoria, Relaxed, Pain Relief","Tapentadol, Diazepam",,51.74003,-4.187250000000001,2026-03,True
+W074491,2026-03-09,KT24,Roche/martin diaz/valium,10mg,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W074465,2026-03-09,HA3,Xanax ,Xanax Ksalol Galenika,White,Tablet,Not Stated,Not Stated,Alprazolam,,51.59936666666667,-0.3307333333333333,2026-03,True
+000037722,2026-03-09,CF63,Diazepam,Diazepam,Blue,Tablet,Oral,Relaxed,Ethylbromazolam,,51.4172,-3.2614,2026-03,True
+W074496,2026-03-09,KT24,Roche/ martin dow 10mg diaz/valium,Not Stated,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+000235836,2026-03-09,CF10,MSJ,MSJ,Yellow,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.48,-3.18,2026-03,True
+000235835,2026-03-09,CF10,MSJ,MSJ,Yellow,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.48,-3.18,2026-03,True
+000235893,2026-03-09,CF10,MSJ,MSJ,Yellow,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.48,-3.18,2026-03,True
+000235891,2026-03-09,CF10,Valium,Not Stated,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,51.48,-3.18,2026-03,True
+W075041,2026-03-20,HD4,daizepam,Diazpam accord 10mg,Blue,Tablet,Not Stated,Not Stated,Diazepam,,53.6239,-1.7485,2026-03,True
+W075113,2026-03-20,EH10,diazepam - 10mg,diazepam - 10mg,,Tablet,Not Stated,Not Stated,Diazepam,,55.91466666666667,-3.2046333333333337,2026-03,True
+W075112,2026-03-20,EH10,alprazolam - 1mg,alprazolam - 1mg,Colourless,Tablet,Not Stated,Not Stated,Alprazolam,,55.91466666666667,-3.2046333333333337,2026-03,True
+W075077,2026-03-20,SW17,valium (diazepam) ,valium (diazepam) martin dow limited,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.4307,-0.1647,2026-03,True
+000237895,2026-03-20,CF72,diazepam,valium,Blue,Tablet,Oral,"Relaxed, Paranoia, Agitation",Diazepam,,51.53014615384616,-3.408415384615384,2026-03,True
+W075064,2026-03-20,KT9,DIAZEPAM,BENSEDIN,White,Tablet,Oral,Relaxed,Diazepam,,51.3652,-0.3054,2026-03,True
+W075054,2026-03-18,SR20,diazepam,martin dow roche,Blue,Tablet,Not Stated,Not Stated,Diazepam,,54.8792,-1.37365,2026-03,True
+W075063,2026-03-18,SK13,DIAZEPAM,ACCORD 10MG DIAZEPAM ,Blue,Tablet,Not Stated,Not Stated,Diazepam,,53.4433,-1.949,2026-03,True
+W075059,2026-03-18,W55J,DIAZEPAM,Not Stated,White,,Not Stated,Not Stated,Paracetamol,,,,2026-03,True
+W075025,2026-03-18,BS2,DIAZEPAM,BENSIDIN,White,Tablet,Oral,"Increased Confidence, Relaxed",Ethylbromazolam,,51.4552,-2.5966,2026-03,True
+W075026,2026-03-18,BS2,DIAZEPAM,BENSIDIN,White,Tablet,Oral,"Increased Confidence, Relaxed",Ethylbromazolam,,51.4552,-2.5966,2026-03,True
+W074957,2026-03-17,LS14,xanax,Not Stated,White,Tablet,Oral,"Increased Confidence, Enhanced Senses, Relaxed, Violence/Aggression",Bromazolam,,53.8486,-1.4444333333333332,2026-03,True
+W073796,2026-03-17,BS13,valium,martin dow,Blue,Tablet,Oral,"Euphoria, Empathy, Relaxed, Confusion",Diazepam,,51.4121,-2.612,2026-03,True
+000236542,2026-03-17,CF37,benzodiazepine: clonazepam,clonazepam,Yellow,Tablet,Oral,Not Stated,Clonazepam,,51.613815384615386,-3.3598076923076925,2026-03,True
+W075010,2026-03-17,OX13,diazepam,valium (diazepam) 10mg martin dow,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.673544444444445,-1.3561166666666666,2026-03,True
+W075027,2026-03-17,EH7,xanax,xanax,White,Tablet,Oral,No Effect,Ethylbromazolam,,55.9521,-3.1965,2026-03,True
+W074857,2026-03-17,DT4,DIAZEPAM,DIAZEPAM,Blue,Tablet,Not Stated,Not Stated,Diazepam,,50.60802,-2.46138,2026-03,True
+W074951,2026-03-17,N66D,DIAZEPAM 10MG,NO MARKING ON TABLET,White,Tablet,Oral,"No Effect, Relaxed",Ethylbromazolam,,,,2026-03,True
+W074871,2026-03-17,BT1,CLONAZEPAM 2MG,PSICOFARMA CLONAZEPAM 2MG,White,Tablet,Not Stated,Not Stated,Clonazepam,,54.5833,-5.9333,2026-03,True
+W074965,2026-03-17,KA14,NITRAZAPAM,NITRAZAPAM (ACCORD),White,Tablet,Not Stated,Not Stated,Nitrazepam,,55.7393,-4.6776,2026-03,True
+W074945,2026-03-17,FK7,DIAZEPAM,DIAZEPAM,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,56.0861125,-3.9108875,2026-03,True
+W074926,2026-03-17,KY12,DIAZEPAM,Not Stated,White,Tablet,Oral,"Increased Confidence, Relaxed, Paranoia, Memory Loss, Confusion",Diazepam,,56.087095,-3.539235,2026-03,True
+W074931,2026-03-17,BS37 5EV,XANAX + KETAMINE,2 CLEAN ,"White, Grey",Crystalline,Snort / Sniff,"Euphoria, Empathy, Auditory Hallucinations, Visual Hallucinations, Chest Pains, Irregular Heartbeat, Nosebleeds, Nausea, Paranoia, Memory Loss, Confusion, Panic Attack, Agitation, Depression, Insomnia, Suicidal Ideation",Ketamine,,51.53419375,-2.4391125,2026-03,True
+W074923,2026-03-17,PA67,DIAZEPAM ,DIAZEPAM 5MG,Yellow,Tablet,Not Stated,Relaxed,Diazepam,,56.3143,-6.232785714285714,2026-03,True
+W074870,2026-03-17,BT1,CLONAZEPAM 2MG,PSICOFARMA CLONAZEPAM 2MG,White,Tablet,Not Stated,Not Stated,Clonazepam,,54.5833,-5.9333,2026-03,True
+W074918,2026-03-17,CF48,xanax 2mg,Not Stated,White,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.73028000000001,-3.37198,2026-03,True
+W074968,2026-03-17,DE1,diazepam 10mg,accord diazepam 10mg,Blue,Tablet,Oral,Relaxed,Bromazolam,,52.9228,-1.4766,2026-03,True
+W074970,2026-03-17,DE1,diazepam 10mg,Not Stated,Blue,Tablet,Oral,Relaxed,Diazepam,,52.9228,-1.4766,2026-03,True
+W074868,2026-03-17,EH15 2RG,LORAZEPAM 2MG,LORAZEPAM 2MG,Pink,Tablet,Oral,Relaxed,Lorazepam,,55.948033333333335,-3.1120666666666668,2026-03,True
+W074902,2026-03-17,SK22,DIAZEPAM,BLUE MARTIN DOWE,Blue,,Not Stated,Not Stated,Diazepam,,53.3733,-1.9875,2026-03,True
+W074886,2026-03-17,P197,MARTIN DOW DIAZEPAM 10MG,MARTIN DOW DIAZEPAM 10MG,Blue,,Oral,"Euphoria, Empathy, Relaxed, Memory Loss",Diazepam,,,,2026-03,True
+W074884,2026-03-17,KT12,DIAZEPAM,DIAZPAM-10 (DIGITAL VISION),White,Tablet,Not Stated,Not Stated,Diazepam,,51.3765,-0.4111,2026-03,True
+W074916,2026-03-17,BS2,benzodiazepine,loose,Blue,Tablet,Not Stated,Not Stated,Bromazolam,,51.4552,-2.5966,2026-03,True
+W072613,2026-03-17,FK4,valium,valium,Blue,Tablet,Oral,Not Stated,"Bromazolam, N-ethylpentedrone",,55.99558,-3.9131,2026-03,True
+W074913,2026-03-17,SA1,DIAZEPAM,NO LABEL,Blue,Tablet,Oral,"Relaxed, Memory Loss, Confusion, Loss of consciousness",Ethylbromazolam,,51.63398,-3.94848,2026-03,True
+W074757,2026-03-13,GL50,diazepam,diazpam 10 oigital vision diazepam,White,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed",Diazepam,,51.9,-2.0833,2026-03,True
+W074821,2026-03-13,B56,DIAZEPAM 10MG,GALENIKA BENSEDIN,White,Tablet,Oral,Relaxed,Ethylbromazolam,,,,2026-03,True
+W074826,2026-03-13,B56,DIAZEPAM 10MG,VALIUM (MARTIN DOW / ROCHE),Blue,Tablet,Not Stated,Not Stated,Diazepam,,,,2026-03,True
+W074850,2026-03-13,BN1,DIAZEPAM ,"'DIAZEPAM 10MG""",Blue,Tablet,Not Stated,Not Stated,Clobromazolam,,50.8614,-0.1204166666666666,2026-03,True
+W074859,2026-03-13,WF2,DIAZEPAM ,ACCORD DIAZEPAM 10MG,"Blue, Pink",Tablet,Oral,"Relaxed, Nausea, Agitation",Ethylbromazolam,,53.66534,-1.51568,2026-03,True
+W074849,2026-03-13,BN1,XANAX,"""XANAX 2MG""",White,Tablet,Not Stated,Not Stated,Methylclonazepam,,50.8614,-0.1204166666666666,2026-03,True
+W074697,2026-03-13,G12,DIAZEPAM 10MG,BENSEDIN - 69364,White,Powder,Not Stated,Not Stated,Diazepam,,55.8804,-4.3007,2026-03,True
+W074851,2026-03-13,BN1,CLONAZEPAM,MSJ,White,,Not Stated,Not Stated,Bromazolam,,50.8614,-0.1204166666666666,2026-03,True
+000239670,2026-03-13,NP4GB,VALIUM,VALIUM (DIAZEPAM),Blue,Tablet,Oral,"Increased Confidence, Increased Stamina, Relaxed, Chest Pains, Paranoia, Confusion, Agitation, Violence/Aggression",Diazepam,,51.718515789473685,-3.030521052631579,2026-03,True
+W074811,2026-03-13,W2,DIAZEPAM,GALENIKA BENSEDIN,White,Tablet,Not Stated,Not Stated,Diazepam,,51.51413636363636,-0.1886454545454545,2026-03,True
+W074808,2026-03-13,SLO,DIAZEPAM,DIAZEPAM / VALIUM,Blue,Tablet,Not Stated,Not Stated,Diazepam,,,,2026-03,True
+W074809,2026-03-13,CO15,DIAZEPAM,VALLIUM,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.8002,1.168175,2026-03,True
+W074812,2026-03-13,W2,ALPRAZOLAM ,GALENIKA KSALOL,Blue,Tablet,Not Stated,Not Stated,Alprazolam,,51.51413636363636,-0.1886454545454545,2026-03,True
+000237524,2026-03-13,CF48,VALIUM / DIAZEPAM,VALIUM / DIAZEPAM,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.73028000000001,-3.37198,2026-03,True
+W074768,2026-03-10,S427,ALPRAZOLAM 2MG,ALXAN-2 ALPRAZOLAM 2MG,White,Tablet,Not Stated,Not Stated,Zopiclone,,53.21066,-1.4471733333333332,2026-03,True
+W073391,2026-03-10,BT67,DIAZEPAM 10MG,DIAZEPAM 10MG,Blue,Tablet,Not Stated,Not Stated,Diazepam,,54.48503333333334,-6.287166666666667,2026-03,True
+W074672,2026-03-10,RG14,XANAX 1MG,TEHRAN DAROU 1MG XANAX,Blue,Tablet,Oral,"Euphoria, Relaxed",Alprazolam,,51.407383333333335,-1.3243833333333337,2026-03,True
+W074609,2026-03-10,TF42,DIAZEPAM 10MG ACCORD,DIAZEPAM TABLETS 10MG ACCORD,Blue,Tablet,Not Stated,Not Stated,Diazepam,,52.66903333333334,-2.4797666666666665,2026-03,True
+W074610,2026-03-10,TF42,DIAZEPAM 10MG,DIAZEPAM 10MG ACCORD ,Blue,Tablet,Oral,No Effect,Diazepam,,52.66903333333334,-2.4797666666666665,2026-03,True
+W074686,2026-03-10,YO22,diazepam,Not Stated,Yellow,Tablet,Oral,Relaxed,Diazepam,,54.44505294117647,-0.6422294117647058,2026-03,True
+W074705,2026-03-10,TR2,alprazolam 1mg,replek alprazolam 1mg,Blue,Tablet,Not Stated,Not Stated,Alprazolam,,50.22666071428572,-4.961603571428571,2026-03,True
+W074775,2026-03-10,S40,diazepam,diazepam 5mg (accord),Yellow,Tablet,Not Stated,Not Stated,Diazepam,,53.234,-1.4462,2026-03,True
+W074676,2026-03-10,BN1,ALPRAZOLAM,ALPRASFE 1MG,White,Tablet,Oral,"Relaxed, Nausea",Alprazolam,,50.8614,-0.1204166666666666,2026-03,True
+000233255,2026-03-10,CF10,VALIUM,Not Stated,Yellow,Tablet,Not Stated,Not Stated,Methylclonazepam,,51.48,-3.18,2026-03,True
+W074716,2026-03-10,SR3,DIAZEPAM ,ACCORD DIAZEPAM 5MG,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,54.874233333333336,-1.4153666666666669,2026-03,True
+W074719,2026-03-10,SR4,DIAZEPAM,SEDIL DIAZEPAM 5MG,Orange,Tablet,Not Stated,Not Stated,Diazepam,,54.9004,-1.4255,2026-03,True
+W074747,2026-03-10,NE13,MARTIN DOW DIAZEPAM ,MARTIN DOW DIAZEPAM,Blue,Tablet,Oral,"Euphoria, Increased Confidence, Relaxed, Memory Loss",Diazepam,,55.0523,-1.6473666666666666,2026-03,True
+W074776,2026-03-10,S40,DIAZEPAM ,DIAZEPAM 5MG (ACCORD),Yellow,Tablet,Not Stated,Not Stated,Diazepam,,53.234,-1.4462,2026-03,True
+W074777,2026-03-10,S40,diazepam,diazepam 5mg (accord),Yellow,Tablet,Not Stated,Not Stated,Diazepam,,53.234,-1.4462,2026-03,True
+W074612,2026-03-10,TF42,diazepam 10mg,valium 10mg NOT BOXED STRIPS FOREIGN WRITING ,Blue,Tablet,Oral,"Relaxed, Memory Loss",Diazepam,,52.66903333333334,-2.4797666666666665,2026-03,True
+W074718,2026-03-10,SR4,diazepam,accord diazepam 5mg,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,54.9004,-1.4255,2026-03,True
+W074611,2026-03-10,TF42,DIAZEPAM 5MG,DIAZEPAM 5MG ACCORD ,Yellow,Tablet,Oral,No Effect,Diazepam,,52.66903333333334,-2.4797666666666665,2026-03,True
+W074660,2026-03-10,E27N,DIAZEPAM 10MG,DIAZEPAM 10MG,Blue,Tablet,Oral,"Relaxed, Loss of consciousness",Diazepam,,,,2026-03,True
+W074680,2026-03-10,FK10,VALIUM,Not Stated,White,Tablet,Not Stated,Not Stated,Tapentadol,,56.10687777777778,-3.7534,2026-03,True
+W074382,2026-03-10,FK10,VALIUM,Not Stated,Blue,Tablet,Oral,"Relaxed, Vomiting",Bromazolam,,56.10687777777778,-3.7534,2026-03,True
+W074613,2026-03-10,CF23,DIAZEPAM,ACCORD DIAZEPAM TABLETS 10MG,Blue,Tablet,Oral,"No Effect, Relaxed",Ethylbromazolam,,51.5144,-3.1545,2026-03,True
+000235585,2026-03-10,NP12,clonazepam,clonazepam,White,Tablet,Oral,"Relaxed, Memory Loss, Confusion",Clonazepam,,51.6678,-3.2075,2026-03,True
+W074630,2026-03-09,SW1,Lorazepam,genus Lorazepam 1mg,Purple,Tablet,Not Stated,Not Stated,Lorazepam,,51.495583333333336,-0.1417916666666666,2026-03,True
+000236493,2026-03-09,NP4,Valium,Not Stated,Blue,Tablet,Not Stated,Not Stated,Zopiclone,,51.718515789473685,-3.030521052631579,2026-03,True
+W075455,2026-03-31,NP7,Xanax 500 micro,Xanax 500 mico viatris,Purple,Tablet,Not Stated,Not Stated,Alprazolam,,51.85129210526316,-3.0386236842105263,2026-03,True
+000237709,2026-03-31,CF45,Valium,Valium 10mg,Blue,,Oral,Not Stated,Diazepam,,51.66452,-3.3537,2026-03,True
+W075376,2026-03-31,SR3,Diazepam,Sedil diazepam 5mg,Orange,Tablet,Not Stated,Not Stated,Diazepam,,54.874233333333336,-1.4153666666666669,2026-03,True
+W075389,2026-03-31,CV32,Diazepam,Diazepam,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,52.303333333333335,-1.5231666666666666,2026-03,True
+W075330,2026-03-31,PL15,Alprazolam,Alprazolam,"White, Green",Tablet,Oral,Not Stated,Alprazolam,,50.636073333333336,-4.411035,2026-03,True
+W075228,2026-03-26,CV2,galenika ksalol 1mg,galenika kslol 1mg,Black,Tablet,Not Stated,"Euphoria, Increased Energy, Increased Confidence, Increased Strength, Relaxed",Alprazolam,,52.424525,-1.459175,2026-03,True
+W075325,2026-03-27,OX49,valium,valium,Blue,Tablet,Not Stated,Not Stated,Ethylbromazolam,,51.6433,-1.0045,2026-03,True
+W075296,2026-03-27,W36,Xanax (alpazolam),Xanax (aplazolam),Grey,Tablet,Oral,Not Stated,Alprazolam,,,,2026-03,True
+W075254,2026-03-25,GU14,diazepam,valium 10mg,Blue,Tablet,Not Stated,"Euphoria, Relaxed",Diazepam,,51.2955,-0.7908,2026-03,True
+W075253,2026-03-25,GU14,alprazolam ,alprazolam 2mg,White,Tablet,Oral,Not Stated,Lorazepam,,51.2955,-0.7908,2026-03,True
+W075201,2026-03-25,MK18,Diazepam,Diazepam,Yellow,Tablet,Not Stated,Not Stated,Diazepam,,51.96865151515152,-0.965221212121212,2026-03,True
+W075299,2026-03-25,NW5,temazepam,temazepam,White,Tablet,Oral,Not Stated,Ethylbromazolam,,51.5517,-0.1413,2026-03,True
+W075129,2026-03-25,LA1,Clonazepam,clonazepam,White,Tablet,Not Stated,Not Stated,Clonazepam,,54.0316,-2.7915,2026-03,True
+W075230,2026-03-25,CV1,galenika rivotril 2mg,Not Stated,White,Tablet,Oral,"Euphoria, Increased Confidence",Clonazepam,,52.4066,-1.5122,2026-03,True
+W075229,2026-03-25,CV2,Clonazepam 2mg,Not Stated,White,Tablet,Oral,"Euphoria, Relaxed",Clonazepam,,52.424525,-1.459175,2026-03,True
+W075225,2026-03-25,PA23,valium,Martin dow 10mg,Blue,Tablet,Oral,"Relaxed, Chest Pains",Diazepam,,55.98899714285714,-4.98592,2026-03,True
+W075316,2026-03-25,B30,Alprazolam,Replek,Blue,Tablet,Not Stated,Not Stated,Alprazolam,,52.4167,-1.9167,2026-03,True
+W075317,2026-03-25,B30,Valium (diazepam),Martin dow,Blue,Tablet,Not Stated,Not Stated,Diazepam,,52.4167,-1.9167,2026-03,True
+W075247,2026-03-25,CV2,bensedin diazepam 10mg,Not Stated,White,Tablet,Oral,"Euphoria, Increased Confidence, Enhanced Senses, Increased Energy",Diazepam,,52.424525,-1.459175,2026-03,True
+W075239,2026-03-25,CV2,galenika ksalol 1mg,Not Stated,Blue,Tablet,Oral,"Euphoria, Increased Confidence, Increased Energy",Alprazolam,,52.424525,-1.459175,2026-03,True
+W075103,2026-03-24,PR3,Klonapin,Rivotril 2mg,White,Tablet,Not Stated,Not Stated,Clonazepam,,53.90388285714285,-2.707102857142857,2026-03,True
+W075235,2026-03-24,CF14,Lorazepam ,nerodelm-z lorazepam,Yellow,Tablet,Not Stated,Not Stated,Lorazepam,,51.5199,-3.204,2026-03,True
+W075238,2026-03-24,KT24,10mg diazepam,roche/martin dow,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075189,2026-03-24,YO11,Diazepam 5mg,diazepam 5mg,Yellow,Tablet,Oral,Relaxed,Diazepam,,54.23711428571429,-0.3853571428571428,2026-03,True
+W075260,2026-03-24,CW9,lorazepam 2.5mg,hemofarm,Blue,,Not Stated,Not Stated,Lorazepam,,53.264406666666666,-2.5003200000000003,2026-03,True
+W075258,2026-03-24,CW9,valium,martin dow -a,Blue,,Not Stated,Not Stated,Diazepam,,53.264406666666666,-2.5003200000000003,2026-03,True
+W075259,2026-03-24,CW9,Valium,Martin dow -b,Blue,,Not Stated,Not Stated,Diazepam,,53.264406666666666,-2.5003200000000003,2026-03,True
+W075227,2026-03-24,KT24,1mg alprazolam,Galenika ksalol,"White, Blue",Tablet,Not Stated,Not Stated,Alprazolam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075233,2026-03-24,KT24,1mg alprazolam,Galenika ksalol,"White, Blue",Tablet,Not Stated,Not Stated,Alprazolam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075226,2026-03-24,KT24,10mg diazepam,galenika bensedin,White,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075214,2026-03-24,L8,Diazepam,Diazepam accord 5mg,Yellow,Tablet,Oral,"Relaxed, Dizziness",Diazepam,,53.4106,-2.9779,2026-03,True
+W075240,2026-03-24,KT24,10mg valium,roche/marin dow,Blue,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075223,2026-03-24,CB10,Alprazolam 1mg,LCm xanax 1mg,Blue,Tablet,Oral,Relaxed,Alprazolam,,52.03342941176471,0.2682294117647059,2026-03,True
+W075231,2026-03-24,KT24,10mg diazepam,Galenika bensedin,White,Tablet,Not Stated,Not Stated,Diazepam,,51.26846666666667,-0.4284666666666667,2026-03,True
+W075188,2026-03-24,LU6,Xanax 500 Microgram,Xanax Alprazolam viatris 500 microgram,Pink,Tablet,Not Stated,Not Stated,Alprazolam,,51.8686,-0.5463600000000001,2026-03,True
+W075159,2026-03-24,SA12,Diazepam 10mg MSJ,MSj,Blue,Tablet,Oral,Relaxed,Ethylbromazolam,,51.61181666666667,-3.7703,2026-03,True
+W075161,2026-03-24,SA12,Daizepam 10mg MSJ,Diazepam 10mg MSJ,Blue,Tablet,Oral,"Relaxed, Nausea, Memory Loss, Confusion",Ethylbromazolam,,51.61181666666667,-3.7703,2026-03,True
+W075032,2026-03-24,F31E,Diazepam,Not Stated,Blue,Tablet,Not Stated,Not Stated,Diazepam,,,,2026-03,True
+W075049,2026-03-24,PR76,Diazepam,Diazepam,Blue,Tablet,Not Stated,Not Stated,Ethylbromazolam,,53.64461428571428,-2.6670142857142856,2026-03,True
+W075175,2026-03-24,SO51,diazepam,Pingu valium,Blue,Tablet,Not Stated,Not Stated,Ethylbromazolam,,51.01539047619048,-1.494095238095238,2026-03,True
+W075033,2026-03-24,F31E,Alprazolam,Not Stated,Blue,,Not Stated,Not Stated,Alprazolam,,,,2026-03,True
+W075142,2026-03-24,HU55,MSJ diazepam,Msj,Blue,Tablet,Oral,Not Stated,Ethylbromazolam,,53.7603,-0.3758,2026-03,True
+W075109,2026-03-24,N128,Alprazolam,Alprazolam,White,Tablet,Not Stated,"Relaxed, Memory Loss, Agitation",Tramadol,,51.6077,-0.166,2026-03,True
+W075076,2026-03-20,SW1,Diazepam,Not Stated,White,Tablet,Not Stated,Not Stated,Zopiclone,,51.495583333333336,-0.1417916666666666,2026-03,True
+W075150,2026-03-24,BS2,Clonazepam,Clonazepam,Yellow,Tablet,Not Stated,Not Stated,Clonazepam,,51.4552,-2.5966,2026-03,True
+000236135,2026-03-24,CF62,Daizepam,Diazepam tablets,Blue,Tablet,Oral,Not Stated,Ethylbromazolam,,51.4027,-3.37145,2026-03,True
+W075157,2026-03-20,SA13,diazepam 10mg,diazepam 10mg,Blue,Tablet,Oral,Relaxed,Diazepam,,51.63321111111111,-3.670888888888888,2026-03,True
+W075081,2026-03-20,PR76,Diazepam,diazepam,White,Tablet,Not Stated,Not Stated,Diazepam,,53.64461428571428,-2.6670142857142856,2026-03,True
+W074911,2026-03-20,NE63,Diazepam 10mg martin dow,diazepam 10mg martin dow,Blue,Tablet,Oral,Relaxed,Diazepam,,55.16816666666667,-1.5594,2026-03,True
+W075120,2026-03-20,BT47,bensedin diazepam,bensedin diazepam,White,Tablet,Oral,"Relaxed, Memory Loss, Confusion, Loss of consciousness",Diazepam,,54.94983333333333,-7.084177777777778,2026-03,True
+W074788,2026-03-20,TS12,Diazepam,Bensedin diazepam 10mg,White,Tablet,Not Stated,Not Stated,Diazepam,,54.5516,-0.963011111111111,2026-03,True
+W075062,2026-03-20,SA12,Valium,Not Stated,Blue,Tablet,Oral,Not Stated,Diazepam,,51.61181666666667,-3.7703,2026-03,True
+W075125,2026-03-20,NN11,Diazepam, Actavis 10mg,Blue,Tablet,Oral,"Relaxed, Memory Loss, Confusion",MDMA,Paracetamol,52.21614,-1.179288,2026-03,True
+W075105,2026-03-20,LL11,Diazepam,bensedin,White,Tablet,Oral,"Increased Confidence, Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Agitation",Diazepam,,53.064506666666674,-3.052973333333333,2026-03,True
+W075052,2026-03-20,LE2,Xanax,Xanax,Yellow,Tablet,Oral,No Effect,Chlorpheniramine,,52.60181666666667,-1.1167166666666668,2026-03,True
+W075078,2026-03-20,NW10,Diazepam,Diazepam,"White, Blue",Tablet,Oral,No Effect,Ethylbromazolam,,51.53758571428572,-0.2431214285714285,2026-03,True
+W075016,2026-03-18,LS6,ALPRAZOLAM,ALPRAZ XR2,Yellow,Tablet,Oral,"Increased Confidence, Relaxed",No Active Component Identified,,53.8201,-1.5704,2026-03,True
+W074956,2026-03-17,S21,alprax xr2 alprazolam 2mg,alprax xr2 alprazolam BP 2mg ,Yellow,Tablet,Oral,Not Stated,Alprazolam,,53.3123,-1.3394,2026-03,True
+W074922,2026-03-17,GU16,alprazolam,galenika ksaslol 1mg,Blue,Tablet,Not Stated,Not Stated,No Active Component Identified,,51.298275,-0.71955,2026-03,True
+W074969,2026-03-17,DE1,DIAZEPAM 10MG,DIAZEPAM TERPIA 10MG COMPRIMATE,White,Tablet,Oral,Relaxed,No Active Component Identified,,52.9228,-1.4766,2026-03,True

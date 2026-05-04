@@ -5,12 +5,17 @@ from datetime import datetime
 
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(__file__)
+
+# Data locations
 DATA_DIR = os.path.join(BASE_DIR, "..", "data")
-
 PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
-OUTPUT_FOLDER = os.path.join(DATA_DIR, "in_house_bi", "outputs", "summaries")
 
+# Output location
+SUMMARY_FOLDER = os.path.join(BASE_DIR, "..", "outputs", "summaries")
+
+# Ensure output folder exists
+os.makedirs(SUMMARY_FOLDER, exist_ok=True)
 
 
 def load_latest_processed():
