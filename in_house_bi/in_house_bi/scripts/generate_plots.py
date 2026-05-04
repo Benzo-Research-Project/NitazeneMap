@@ -17,15 +17,13 @@ os.makedirs(PLOTS_FOLDER, exist_ok=True)
 
 
 def load_latest_processed():
-    """Load the most recently cleaned monthly dataset."""
     files = [f for f in os.listdir(PROCESSED_FOLDER)
              if f.startswith("processed_") and f.endswith(".csv")]
 
     if not files:
         print("❌ No processed CSV files found.")
-        return None, None
+        return None
 
-    # ✅ pick most recently modified file
     latest = max(
         files,
         key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
@@ -36,12 +34,11 @@ def load_latest_processed():
     print(f"📄 Loading processed CSV: {latest}")
     df = pd.read_csv(path)
 
-   # extract original file name from processed file
-processed_filename = latest.replace("processed_", "").replace(".csv", "")
-year_month = processed_filename.replace("wedinos_benzos_", "")
+    # ✅ extract filename-based label
+    processed_filename = latest.replace("processed_", "").replace(".csv", "")
+    year_month = processed_filename.replace("wedinos_benzos_", "")
 
-
-    return df
+    return df, year_month
 
 
 def create_horizontal_bar_chart(substance_counts, year_month):
