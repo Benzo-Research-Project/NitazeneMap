@@ -19,7 +19,7 @@ os.makedirs(SUMMARY_FOLDER, exist_ok=True)
 
 
 def load_latest_processed():
-  files = [f for f in os.listdir(PROCESSED_FOLDER)
+    files = [f for f in os.listdir(PROCESSED_FOLDER)
              if f.startswith("processed_") and f.endswith(".csv")]
 
     if not files:
@@ -37,7 +37,6 @@ def load_latest_processed():
     df = pd.read_csv(path)
 
     return df
-
 
 
 
@@ -111,9 +110,11 @@ Notes:
 def main():
     print("🚀 Generating summary text...")
 
-    df, year_month = load_latest_processed()
+    df = load_latest_processed()
     if df is None:
         return
+
+    year_month = df["year_month"].iloc[0]
 
     text = generate_summary(df, year_month)
     write_summary(text, year_month)
