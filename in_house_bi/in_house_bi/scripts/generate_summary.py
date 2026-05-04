@@ -19,23 +19,23 @@ os.makedirs(SUMMARY_FOLDER, exist_ok=True)
 
 
 def load_latest_processed():
-    """Load the newest cleaned CSV from processed folder."""
-    files = [f for f in os.listdir(PROCESSED_FOLDER) if f.startswith("processed_")]
+   files = [f for f in os.listdir(PROCESSED_FOLDER)
+         if f.startswith("processed_") and f.endswith(".csv")]
 
-    if not files:
-        print("❌ No processed CSV files found.")
-        return None, None
-        
+if not files:
+    print("❌ No processed CSV files found.")
+    return
+
 latest = max(
     files,
     key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
 )
 
-    df = pd.read_csv(path)
-    year_month = df["year_month"].iloc[0]
+path = os.path.join(PROCESSED_FOLDER, latest)
 
-    print(f"📄 Loaded processed dataset: {latest}")
-    return df, year_month
+print(f"📄 Loaded processed dataset: {latest}")
+df = pd.read_csv(path)
+
 
 
 def write_summary(text, year_month):
