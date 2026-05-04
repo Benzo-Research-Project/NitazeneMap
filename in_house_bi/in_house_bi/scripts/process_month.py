@@ -121,7 +121,7 @@ def main():
     print("\n📊 Top detected substances this month:")
     print(substance_counts.head(10))
 
-    print("\n🎉 Step 4 complete — data cleaned and substance frequencies generated.")
+    print("\n🎉 Data cleaned and substance frequencies generated.")
 
 
 if __name__ == "__main__":
