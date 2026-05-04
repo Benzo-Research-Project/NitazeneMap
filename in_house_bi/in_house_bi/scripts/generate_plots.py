@@ -18,26 +18,24 @@ os.makedirs(PLOTS_FOLDER, exist_ok=True)
 
 def load_latest_processed():
     """Load the most recently cleaned monthly dataset."""
-    files = [f for f in os.listdir(PROCESSED_FOLDER) if f.startswith("processed_") and f.endswith(".csv")]
+    files = [f for f in os.listdir(PROCESSED_FOLDER)
+             if f.startswith("processed_") and f.endswith(".csv")]
 
     if not files:
         print("❌ No processed CSV files found.")
         return None, None
 
+    # ✅ pick most recently modified file
+    latest = max(
+        files,
+        key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
+    )
 
-# pick the most recently modified file
-latest = max(
-    files,
-    key=lambda x: os.path.getmtime(os.path.join(PROCESSED_FOLDER, x))
-)
-
-path = os.path.join(PROCESSED_FOLDER, latest)
-
+    path = os.path.join(PROCESSED_FOLDER, latest)
 
     print(f"📄 Loading processed CSV: {latest}")
     df = pd.read_csv(path)
 
-    # Extract month name for file naming
     year_month = df["year_month"].iloc[0]
 
     return df, year_month
