@@ -19,14 +19,8 @@ def main():
 
     # STEP 1
     print("▶️ Step 1 — Processing data")
-    
-result = subprocess.run(
-    ["python", os.path.join(SCRIPTS_FOLDER, "process_month.py")],
-    text=True,
-    capture_output=True
-)
+    run_script("process_month.py")
 
-print(result.stdout)
 
 # Extract filename used
 for line in result.stdout.splitlines():
