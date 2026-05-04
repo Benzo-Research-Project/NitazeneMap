@@ -11,9 +11,8 @@ DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 
 RAW_DATA_FOLDER = os.path.join(DATA_DIR, "raw")
 PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
-
-def load_csv(filename=None):
-    """Load specified CSV or fallback to latest."""
+def select_csv():
+    """Let user choose a CSV from the raw folder."""
 
     files = [f for f in os.listdir(RAW_DATA_FOLDER) if f.lower().endswith(".csv")]
 
@@ -21,21 +20,26 @@ def load_csv(filename=None):
         print("❌ No CSV files in raw folder.")
         return None, None
 
-    # If user provides a file → use it
-    if filename:
-        if filename not in files:
-            print(f"❌ File not found: {filename}")
-            return None, None
-        chosen = filename
-    else:
-        chosen = sorted(files)[-1]  # fallback to latest
+    print("\n📂 Available files:")
+    for i, file in enumerate(files):
+        print(f"{i + 1}. {file}")
 
-    path = os.path.join(RAW_DATA_FOLDER, chosen)
+    choice = input("\nEnter the number of the file to use: ")
 
-    print(f"📄 Loading CSV: {chosen}")
+    try:
+        index = int(choice) - 1
+        selected = files[index]
+    except:
+        print("❌ Invalid selection.")
+        return None, None
+
+    path = os.path.join(RAW_DATA_FOLDER, selected)
+
+    print(f"\n📄 Loading CSV: {selected}")
     df = pd.read_csv(path)
 
-    return df, chosen
+    return df, selected
+
 
 def clean_dataframe(df):
     """Clean Wedinos dataframe and standardise column names."""
@@ -109,7 +113,7 @@ def main():
 
 file_arg = sys.argv[1] if len(sys.argv) > 1 else None
 
-df, filename = load_csv(file_arg)
+df, filename = select_csv()
     if df is None:
         return
 
