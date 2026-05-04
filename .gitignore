@@ -1,7 +1,3 @@
 .DS_store
 data/preprocessed
-# Ignore generated data
-in_house_bi/in_house_bi/data/processed/
 
-# Ignore outputs
-in_house_bi/in_house_bi/outputs/
