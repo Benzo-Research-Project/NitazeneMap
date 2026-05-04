@@ -12,23 +12,30 @@ DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 RAW_DATA_FOLDER = os.path.join(DATA_DIR, "raw")
 PROCESSED_FOLDER = os.path.join(DATA_DIR, "processed")
 
+def load_csv(filename=None):
+    """Load specified CSV or fallback to latest."""
 
-def load_latest_csv():
-    """Load the most recent CSV file from raw folder."""
     files = [f for f in os.listdir(RAW_DATA_FOLDER) if f.lower().endswith(".csv")]
 
     if not files:
         print("❌ No CSV files in raw folder.")
         return None, None
 
-    latest = sorted(files)[-1]   # choose most recent alphabetically (date-based filenames recommended)
-    path = os.path.join(RAW_DATA_FOLDER, latest)
+    # If user provides a file → use it
+    if filename:
+        if filename not in files:
+            print(f"❌ File not found: {filename}")
+            return None, None
+        chosen = filename
+    else:
+        chosen = sorted(files)[-1]  # fallback to latest
 
-    print(f"📄 Loading CSV: {latest}")
+    path = os.path.join(RAW_DATA_FOLDER, chosen)
+
+    print(f"📄 Loading CSV: {chosen}")
     df = pd.read_csv(path)
 
-    return df, latest
-
+    return df, chosen
 
 def clean_dataframe(df):
     """Clean Wedinos dataframe and standardise column names."""
@@ -98,7 +105,11 @@ def save_processed(df, filename):
 def main():
     print("🚀 Running monthly processing...")
 
-    df, filename = load_latest_csv()
+   import sys
+
+file_arg = sys.argv[1] if len(sys.argv) > 1 else None
+
+df, filename = load_csv(file_arg)
     if df is None:
         return
 
