@@ -22,13 +22,16 @@ def run_script(script_name):
 def main():
     print("\n🚀 REFRESH STARTED — Updating all outputs...\n")
 
-    # 1. Process the newest CSV
+    # STEP 1
+    print("▶️ Step 1 — Processing data")
     run_script("process_month.py")
 
-    # 2. Generate all plots
+    # STEP 2
+    print("\n▶️ Step 2 — Generating plots")
     run_script("generate_plots.py")
 
-    # 3. Generate monthly summary text
+    # STEP 3
+    print("\n▶️ Step 3 — Generating summary")
     run_script("generate_summary.py")
 
     print("\n🎉 REFRESH COMPLETE!")
