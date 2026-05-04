@@ -96,7 +96,7 @@ New or unusual substances detected:
 - {", ".join(new_substances) if new_substances else "None identified this month"}
 
 Notes:
-- This summary provides an overview of substances found in samples tested by our team.
+- This summary provides an overview of substances found in samples from wedinos.
 - Results reflect only the samples submitted and may not represent the full drug supply.
     """
 
