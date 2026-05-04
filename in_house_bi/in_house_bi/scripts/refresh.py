@@ -9,7 +9,8 @@ SCRIPTS_FOLDER = os.path.join(BASE_DIR)
 def run_script(script_name):
     """Helper to run another script and show output."""
     path = os.path.join(SCRIPTS_FOLDER, script_name)
-    print(f"\n▶️ Running {script_name} ...")
+    print(f"(Running {script_name})")
+
     
     result = subprocess.run(["python", path], capture_output=True, text=True)
 
