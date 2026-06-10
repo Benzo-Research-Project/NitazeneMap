@@ -37,13 +37,14 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
     current_page = 0
     max_pages = num_pages #367 was number of pages for 1 Jan to 4 Dec 2024, 250+21+28+8 for Jan-Aug and Sept 2025
     all_pages = []
+    time.sleep(3)
 
     while current_page < max_pages:
         try:
             # After loading all items, scrape the data
             all_pages.append(driver.page_source)
                 
-            load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/ul/li[@class='nhsuk-pagination-item--next nhsuk-pagination__link nhsuk-pagination__link--next']") # By.XPATH, "//a[text()='Next']"
+            load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']") # By.XPATH, "//a[text()='Next']"
             load_more_button.click()
             time.sleep(3)  # Give time for content to load
             current_page += 1
