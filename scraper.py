@@ -127,14 +127,14 @@ def main():
     Scrape and parse data from WEDINOS.
     Args:
     -n = number of pages to scrape
-    -d = dates scanned in DDMMYYYY-DDMMYYYY format
+    -d = dates scanned in DDMMYY-DDMMYY format
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
     '''
     parser = ArgumentParser()
     parser.add_argument("-n", "--num", type=int,
                         help="number of pages to scrape", metavar="NUM")
     parser.add_argument("-d", "--daterange", type=str, metavar="DATERANGE",
-                        help="dates scanned in DDMMYYYY-DDMMYYYY format") # could probably automate this in future
+                        help="dates scanned in DDMMYY-DDMMYY format") # could probably automate this in future
     parser.add_argument("-f", "--alertsfile", type=str, metavar="ALERTSFILE",
                         help="alerts file to reparse")
 
