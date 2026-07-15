@@ -17,17 +17,43 @@ import pandas as pd
 import pgeocode
 nomi = pgeocode.Nominatim('gb')
 import numpy as np
+from join import convertDates
+from datetime import datetime as dt
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
-benzo_substring_list = config['benzo_substring_list']
-diazepam_substring_list = config['diazepam_substring_list']
-alprazolam_substring_list = config['alprazolam_substring_list']
-clonazepam_substring_list = config['clonazepam_substring_list']
-nitazene_substring_list = config['nitazene_substring_list']
-save_data = config['saveData']
+substring_dict = {
+    'opioids': config['opioid_substring_list'],
+    'benzos': config['benzo_substring_list'],
+    'diazepams': config['diazepam_substring_list'],
+    'alprazolams': config['alprazolam_substring_list'],
+    'clonazepams': config['clonazepam_substring_list'],
+    'nitazenes': config['nitazene_substring_list'],
+    'orphines': config['orphine_substring_list'],
+    'adrenergics': config['adrenergic_list'],
+    'miscbenzos': config['othernovelbenzos_list'],
+    'heroin': config['heroin_substring_list'],
+    'vapes': config['vapes_substring_list']
+}
 
+# To rule out any overlapping substrings (e.g. benzo – benzocaine)
+not_substring_dict = {
+    'opioids': config['not_opioid_substring_list'],
+    'benzos': config['not_benzo_substring_list'],
+    'diazepams': config['not_benzo_substring_list'],
+    'alprazolams': config['not_benzo_substring_list'],
+    'clonazepams': config['not_benzo_substring_list'],
+    'nitazenes': ['placeholder'],
+    'orphines': ['placeholder'],
+    'adrenergics': ['placeholder'],
+    'miscbenzos': config['not_benzo_substring_list'],
+    'heroin': ['placeholder'],
+    'vapes': ['placeholder']
+}
+
+save_data = config['saveData']
+not_benzo_substring_list = config['not_benzo_substring_list']
 col=["date_received","postcode","intent","label","colour","form","consumption_method","effects","major","minor","latitude","longitude"]
 
 def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedinos.org/sample-results
@@ -56,6 +82,7 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
 
 def parse(all_pages, daterange, save_data=save_data):
     all_alerts = []
+    dates = []
     for page in all_pages:
         soup = BeautifulSoup(page, "html.parser")
         alerts = soup.find_all("article", class_="sample-results__result")
@@ -76,6 +103,7 @@ def parse(all_pages, daterange, save_data=save_data):
                 major = list(filter(None, tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (major)</th>',1)[1].split('</ul>',1)[0]).split('\n'))) # needs splitting by <li class="nhsuk-u-font-size-16"><a class="substanceLink" href="
                 minor = list(filter(None, tag_re.sub('', str(alert).split('<th class="nhsuk-u-font-size-16 nhsuk-u-padding-top-2 nhsuk-u-padding-bottom-2">Sample upon analysis (minor)</th>',1)[1].split('</td>',1)[0]).split('\n'))) # needs splitting by 
                 minor_processed = ", ".join(str(x) for x in minor)
+                
                 myAlertData = {
                     "date_received": date_received,
                     "postcode": ' '.join(postcode.split()),
@@ -90,19 +118,35 @@ def parse(all_pages, daterange, save_data=save_data):
                 }
                 print(f"{myAlertData['postcode']}: Sold as {myAlertData['intent']} ({myAlertData['label']}), was actually {myAlertData['major']}.")
                 all_alerts.append({code: myAlertData})
+                
+                try:
+                    date = dt.strptime(date_received, '%d/%m/%Y')
+                except:
+                    date = dt.strptime(date_received, '%d %b %Y')
+
+                dates.append(date)
             except Exception as e:
                 print(f"Error processing alert: {e}")
                 pass
     if save_data:
-        with open('data/wedinos_alerts_'+daterange+'.json', 'w', encoding='utf-8') as f:
+        daterange = f'{min(dates).strftime('%d%m%y')}-{max(dates).strftime('%d%m%y')}'
+        with open(f'{config['dataPath']}/wedinos_alerts_{daterange}.json', 'w', encoding='utf-8') as f:
             json.dump(all_alerts, f, ensure_ascii=False, indent=4)
     return all_alerts
 
-def getFilteredDataframe(all_alerts, daterange, substring_list=benzo_substring_list, save_data=save_data):
+def getFilteredDataframe(all_alerts, daterange, substring_list, not_substring_list=['placeholder'], intent_only=False, save_data=save_data):
     df = pd.DataFrame(columns=col)
     for alert in all_alerts:
         for i in alert:
-            if any(substring in (str.lower(alert[i]['intent'].lower()) or str.lower(alert[i]['major'].lower()) or str.lower(alert[i]['minor'].lower())) for substring in substring_list):
+            # Removing conflicting substrings before filtering
+            intentcontentString = str.lower(alert[i]['intent'].lower())+' '+str.lower(alert[i]['major'].lower())+' '+str.lower(alert[i]['minor'].lower())
+            intentString = str.lower(alert[i]['intent'].lower())
+            for conflictString in not_substring_list:
+                intentcontentString = intentcontentString.replace(conflictString,'')
+                intentString = intentString.replace(conflictString,'')
+                
+            # Filtering by substrings
+            if (intent_only==False and any(substring in intentcontentString for substring in substring_list)) or (intent_only==True and any(substring in intentString for substring in substring_list)):
                 try:
                     if str(nomi.query_postal_code(alert[i]['postcode'])['latitude']) != 'nan':
                         lat, long = float(nomi.query_postal_code(alert[i]['postcode'])['latitude']), float(nomi.query_postal_code(alert[i]['postcode'])['longitude'])
@@ -112,14 +156,24 @@ def getFilteredDataframe(all_alerts, daterange, substring_list=benzo_substring_l
                 except:
                     print(f"Error with postcode {alert[i]['postcode']}, using default coordinates.")
                     lat, long = 0, 0 # Alternative if this messes up the map: Default to London coordinates if postcode lookup fails 51.509865, -0.118092
-
+                
+                alert[i]['minor'] = alert[i]['minor'] if str.lower(alert[i]['minor'])!='not stated' else ''
                 alert[i]['latitude'] = lat
                 alert[i]['longitude'] = long
                 df.loc[i] = pd.Series(alert[i])
                 print(i,alert[i]['date_received'], alert[i]['postcode'],'– Sold as', alert[i]['intent'], ', tested as',alert[i]['major'], 'with' if(len(alert[i]['minor'])>=1) else '', alert[i]['minor'])
     print(df.head(5))
+
+    df = convertDates(df)
+    daterange = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
+
+    if intent_only:
+        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_intent_{daterange}.csv'
+    else:
+        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_all_{daterange}.csv'
     if save_data:
-        df.to_csv('data/wedinos_'+substring_list[0]+'s_'+daterange+'.csv', sep=',', encoding='utf-8')
+        df.to_csv(filename, sep=',', encoding='utf-8')
+        print(f'Saved {len(df)} sample results as {filename}.')
     return df
 
 def main():
@@ -137,17 +191,24 @@ def main():
                         help="dates scanned in DDMMYY-DDMMYY format") # could probably automate this in future
     parser.add_argument("-f", "--alertsfile", type=str, metavar="ALERTSFILE",
                         help="alerts file to reparse")
+    parser.add_argument("-t", "--type", type=str, metavar="TYPE",
+                        help="type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)")
+    parser.add_argument("-i", "--intent", type=str, metavar="INTENT",
+                        help="filter by intent only? y/n")
 
     args = parser.parse_args()
     if args.num:
         all_pages = scrape(args.num)
         all_alerts = parse(all_pages, args.daterange)
     elif args.alertsfile:
-        with open('data/'+args.alertsfile+'.json', 'r', encoding='utf-8') as f:
+        with open(f'{config['dataPath']}/{args.alertsfile}.json', 'r', encoding='utf-8') as f:
             all_alerts = json.load(f)
     
-    df_benzo = getFilteredDataframe(all_alerts, args.daterange, substring_list=benzo_substring_list)
-    df_nit = getFilteredDataframe(all_alerts, args.daterange, substring_list=nitazene_substring_list)
+    if args.intent == 'y':
+        intent_only=True
+    else:
+        intent_only=False
 
+    getFilteredDataframe(all_alerts, args.daterange, substring_dict[args.type], not_substring_list=not_substring_dict[args.type], intent_only=intent_only)
 if __name__ == "__main__":
     main()
