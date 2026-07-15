@@ -140,11 +140,11 @@ def getCategories(type_arg):
             'Medetomidine': ['medetomidine'],
             'Tramadol': ['tramadol'],
             'Methamphetamine': ['methamphetamine'],
+            'Promethazine': ['promethazine'],
             'Ethylbromazolam': ['ethylbromazolam'],
             'Other novel benzos': othernovelbenzos_list,
             'Bromazolam': ['bromazolam'],
-            'Etizolam': ['etizolam'],
-            'Promethazine': ['promethazine']
+            'Etizolam': ['etizolam']
         }
     else:
         categories = {
