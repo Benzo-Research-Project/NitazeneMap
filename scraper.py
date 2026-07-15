@@ -19,6 +19,7 @@ nomi = pgeocode.Nominatim('gb')
 import numpy as np
 from join import convertDates
 from datetime import datetime as dt
+from map import dateFilter
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
@@ -80,7 +81,7 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
     driver.quit()
     return all_pages
 
-def parse(all_pages, daterange, save_data=save_data):
+def parse(all_pages, save_data=save_data):
     all_alerts = []
     dates = []
     for page in all_pages:
@@ -134,7 +135,7 @@ def parse(all_pages, daterange, save_data=save_data):
             json.dump(all_alerts, f, ensure_ascii=False, indent=4)
     return all_alerts
 
-def getFilteredDataframe(all_alerts, daterange, substring_list, not_substring_list=['placeholder'], intent_only=False, save_data=save_data):
+def getFilteredDataframe(all_alerts, substring_list, daterange='', not_substring_list=['placeholder'], intent_only=False, save_data=save_data):
     df = pd.DataFrame(columns=col)
     for alert in all_alerts:
         for i in alert:
@@ -165,12 +166,17 @@ def getFilteredDataframe(all_alerts, daterange, substring_list, not_substring_li
     print(df.head(5))
 
     df = convertDates(df)
-    daterange = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
+    if daterange!='':
+        datelist = []
+        for i in daterange.split('-'):
+            datelist.append(dt.strftime(dt.strptime(i,'%d%m%y'),'%Y-%m-%d'))
+        df = dateFilter(df,datelist[0],datelist[1])
+    dates = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
 
     if intent_only:
-        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_intent_{daterange}.csv'
+        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_intent_{dates}.csv'
     else:
-        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_all_{daterange}.csv'
+        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_all_{dates}.csv'
     if save_data:
         df.to_csv(filename, sep=',', encoding='utf-8')
         print(f'Saved {len(df)} sample results as {filename}.')
@@ -181,7 +187,7 @@ def main():
     Scrape and parse data from WEDINOS.
     Args:
     -n = number of pages to scrape
-    -d = dates scanned in DDMMYY-DDMMYY format
+    -d = filter by dates in DDMMYY-DDMMYY format
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
     '''
     parser = ArgumentParser()
@@ -199,7 +205,7 @@ def main():
     args = parser.parse_args()
     if args.num:
         all_pages = scrape(args.num)
-        all_alerts = parse(all_pages, args.daterange)
+        all_alerts = parse(all_pages)
     elif args.alertsfile:
         with open(f'{config['dataPath']}/{args.alertsfile}.json', 'r', encoding='utf-8') as f:
             all_alerts = json.load(f)
@@ -208,7 +214,7 @@ def main():
         intent_only=True
     else:
         intent_only=False
-
-    getFilteredDataframe(all_alerts, args.daterange, substring_dict[args.type], not_substring_list=not_substring_dict[args.type], intent_only=intent_only)
+    daterange = args.daterange if args.daterange else ''
+    getFilteredDataframe(all_alerts, substring_dict[args.type], daterange=daterange, not_substring_list=not_substring_dict[args.type], intent_only=intent_only)
 if __name__ == "__main__":
     main()
