@@ -10,15 +10,15 @@ import pgeocode
 nomi = pgeocode.Nominatim('gb')
 
 # Read in the data
-df = pd.read_csv('data/wedinos_alerts_2024.csv', sep='\t', encoding='utf-8')
+df = pd.read_csv('data/wedinos_benzos_intent_010126-240626.csv', sep=',', encoding='utf-8', index_col=0)
 df['intent'] = df['intent'].apply(str.lower)
 datelist = []
 for idx, row in df.iterrows():
     df.loc[idx,'date_received'] = pd.Timestamp(row['date_received'])
 df['major'] = df['major'].apply(str.lower)
-df2 = df.dropna(subset=['longitude', 'latitude']).reset_index(drop=True)
-df.set_index(df.columns[0], inplace=True)
-df2.set_index(df2.columns[0], inplace=True)
+df2 = df.dropna(subset=['longitude', 'latitude']) #.reset_index(drop=True)
+#df.set_index(df.columns[0], inplace=True)
+#df2.set_index(df2.columns[0], inplace=True)
 #transform every unique date to a number
 numdate = [x for x in range(len(df2['date_received'].unique()))]
 dates = df2['date_received'].unique()
