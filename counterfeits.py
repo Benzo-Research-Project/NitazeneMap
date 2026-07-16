@@ -3,6 +3,7 @@ import pandas as pd
 from argparse import ArgumentParser
 from datetime import datetime as dt
 from map import dateFilter
+from matplotlib.pyplot import subplots
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
@@ -167,6 +168,23 @@ def getUniqueContents(contents, intent, dates, counterfeits=True, save=config['s
         uniqueCounts.to_csv(f'{outpath}/{filename}', sep=',', encoding='utf-8')
     return uniqueCounts
 
+def plotContents(df_counterfeits, intent, dates, counterfeits=True, save=config['saveData'], plotpath = config['plotsPath']):
+    all_or_counterfeit = 'counterfeit' if counterfeits else 'all'
+    fig, ax = subplots(figsize=(9, 6))
+    ax.title.set_text(f'Contents of counterfeit benzos, {dates}')
+    ax.title.set_fontsize(14)
+    df_counterfeits.head(20).sort_values().plot(kind='barh', ax=ax)
+    ax.set_xlabel('Samples')
+    ax.set_ylabel('Contents')
+    ax.grid(axis='x',alpha=0.3)
+    text = fig.text(0.50, 0.01, 
+                'WEDINOS data, collated by Benzo Research Project (2026)', 
+                horizontalalignment='center', wrap=True, fontsize=8)
+    fig.tight_layout()
+    if save:
+        fig.savefig(f'{plotpath}/wedinos_{all_or_counterfeit}{intent}_{dates}.png', dpi=300)
+    return fig
+
 def main():
     '''
     Join two datasets together and remove duplicates.
@@ -193,10 +211,12 @@ def main():
 
     if args.counterfeits == 'both' or 'counterfeits':
         contents = getContents(df_status, args.intent, args.daterange, counterfeits=True)
+        plotContents(contents, args.intent, args.daterange, counterfeits=True)
         getUniqueContents(contents, args.intent, args.daterange, counterfeits=True)
     
     if args.counterfeits == 'both' or 'all':
         contents = getContents(df_status, args.intent, args.daterange, counterfeits=False)
+        plotContents(contents, args.intent, args.daterange, counterfeits=False)
         getUniqueContents(contents, args.intent, args.daterange, counterfeits=False)
 
 if __name__ == "__main__":
