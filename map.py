@@ -122,7 +122,7 @@ def getCategories(type_arg):
             'Nitazenes': nitazene_substring_list,
             'Orphines': orphine_substring_list,
             'α2-adrenergic agonists': adrenergic_list,
-            'Benzos': benzo_substring_list,
+            'Benzos': benzo_substring_list[1:], #removing 'benzo'
             'Ketamine': ['ketamine'],
             'Promethazine': ['promethazine']
         }
@@ -131,7 +131,7 @@ def getCategories(type_arg):
             'SCRAs': SCRA_substring_list,
             'Cannabinoids': cannabinoids_substring_list,
             'Psychedelics': psychedelics_substring_list,
-            'Opioids': opioid_substring_list,
+            'Opioids': opioid_substring_list[1:],
             'Ketamine': ['ketamine'],
         }
     elif type and 'benzo' in type: 
@@ -151,7 +151,7 @@ def getCategories(type_arg):
             'Orphines': orphine_substring_list,
             'Nitazenes': nitazene_substring_list,
             'α2-adrenergic agonists': adrenergic_list,
-            'Benzos': benzo_substring_list,
+            'Benzos': benzo_substring_list[1:],
             'SCRAs': SCRA_substring_list,
             'Cannabinoids': cannabinoids_substring_list,
             'Psychedelics': psychedelics_substring_list

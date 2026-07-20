@@ -171,7 +171,7 @@ def getUniqueContents(contents, intent, dates, counterfeits=True, save=config['s
 def plotContents(df_counterfeits, intent, dates, counterfeits=True, save=config['saveData'], plotpath = config['plotsPath']):
     all_or_counterfeit = 'counterfeit' if counterfeits else 'all'
     fig, ax = subplots(figsize=(9, 6))
-    ax.title.set_text(f'Contents of counterfeit benzos, {dates}')
+    ax.title.set_text(f'Contents of {all_or_counterfeit} benzos, {dates}')
     ax.title.set_fontsize(14)
     df_counterfeits.head(20).sort_values().plot(kind='barh', ax=ax)
     ax.set_xlabel('Samples')

@@ -14,8 +14,8 @@ benzo_substring_list: ['benzo','benzos', 'zepine', 'zolam', 'zepoxide', 'zepam',
                         #prodrugs
                         'zafone']
 not_benzo_substring_list: ['benzoylecgonine','benzocaine']
-opioid_substring_list: ['opioid','opiate','codone','adol','adone','morph','ophine','orphine','orphan','ezitramide',
-                        'thebacon','papaverine','6-MAM','6 Monoacetyl','oxycontin','oxydolor', 'oxy', #note: 'oxy' will cross-react with other non-opioid drugs, must use not_opioid_substring_list!
+opioid_substring_list: ['oxy','opioid','opiate','codone','adol','adone','morph','ophine','orphine','orphan','ezitramide',
+                        'thebacon','papaverine','6-MAM','6 Monoacetyl','oxycontin','oxydolor', #note: 'oxy' will cross-react with other non-opioid drugs, must use not_opioid_substring_list!
                         'fentanil','fentanyl','heroin','codeine',
                         'nitazene','nitazepyne','nitazepipne',
                         #rogue ones
