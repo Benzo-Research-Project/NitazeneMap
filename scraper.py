@@ -202,6 +202,9 @@ def main():
     -n = number of pages to scrape
     -d = filter by dates in DDMMYY-DDMMYY format
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
+    -t = type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)
+    -i = filter by intent only? y/n
+    -j = join scraped data to master file? y/n (seems to be broken, check samples haven't gone missing)
     '''
     parser = ArgumentParser()
     parser.add_argument("-n", "--num", type=int,
@@ -233,7 +236,7 @@ def main():
     daterange = args.daterange if args.daterange else ''
     if args.type:
         type = args.type if args.type[-1]!='s' else args.type[:-1]
-        getFilteredDataframe(all_alerts, substring_dict[type], daterange=daterange, not_substring_list=not_substring_dict[type], intent_only=intent_only)
+        getFilteredDataframe(all_alerts, substring_dict[type], daterange=daterange, not_substring_list=not_substring_dict['not_'+type], intent_only=intent_only)
 
 if __name__ == "__main__":
     main()

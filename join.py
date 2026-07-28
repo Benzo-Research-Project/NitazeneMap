@@ -92,7 +92,7 @@ def main():
     parser.add_argument("-f2", "--file2", type=str, metavar="FILE2",
                         help="file name for scraped wedinos data – must be inside data folder")
     parser.add_argument("-d", "--dateconvert", type=str, metavar="DATECONVERT",
-                        help="(optional) standardise date format and sort by date (y/n; default = y)")
+                        help="(optional) standardise date format and sort by date – only works for .csv (y/n; default = y)")
     parser.add_argument("-y", "--year", type=str, metavar="YEAR",
                         help="(optional) year to restrict joining jsons to, e.g. 2025")
 
