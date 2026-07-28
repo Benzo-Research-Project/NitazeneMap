@@ -14,14 +14,16 @@ data_path = config['dataPath']
 def joinData(args, data_path):
     df_all = pd.read_csv(f'{data_path}/{args.file1}', index_col=0)
     df = pd.read_csv(f'{data_path}/{args.file2}', index_col=0)
-    for idx, row in df.iterrows():
-        if idx in df_all.index:
-            print(f"Duplicate index found: {idx}, skipping.")
-        else:
-            df_all.loc[idx] = row
+    #for idx, row in df.iterrows():
+    #    if idx in df_all.index:
+    #        print(f"Duplicate index found: {idx}, skipping.")
+    #    else:
+    #        df_all.loc[idx] = row
+    # NEW BETTER DF JOIN METHOD
+    pd.concat([df_all, df]).drop_duplicates(keep='first')
     return df_all
 
-def joinJSON(args, data_path, year_restrict, save_data=save_data):
+def joinJSON(args, data_path, year_restrict=None, save_data=save_data):
     try:
         files = [args.file1, args.file2]
     except:
@@ -90,18 +92,18 @@ def main():
     parser.add_argument("-f2", "--file2", type=str, metavar="FILE2",
                         help="file name for scraped wedinos data – must be inside data folder")
     parser.add_argument("-d", "--dateconvert", type=str, metavar="DATECONVERT",
-                        help="(optional) standardise date format and sort by date (y/n)")
+                        help="(optional) standardise date format and sort by date (y/n; default = y)")
     parser.add_argument("-y", "--year", type=str, metavar="YEAR",
                         help="(optional) year to restrict joining jsons to, e.g. 2025")
 
     args = parser.parse_args()
 
     if args.file1.split('.')[1] == 'json':
-        joinJSON(args, data_path, args.year)
+        joinJSON(args, data_path, year_restrict=args.year)
     
     elif args.file1.split('.')[1] == 'csv':
         df_joined = joinData(args)
-        if args.dateconvert=='y':
+        if args.dateconvert!='n':
             convertDates(df_joined)
 
         if save_data:
