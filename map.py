@@ -7,6 +7,7 @@ nomi = pgeocode.Nominatim('gb')
 import numpy as np
 from matplotlib.pyplot import subplots
 import yaml
+import json
 import re
 from argparse import ArgumentParser
 from matplotlib import colormaps as cm
@@ -15,21 +16,31 @@ from datetime import datetime as dt
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
+
 save_data = config['saveData']
 data_path = config['dataPath']
 plots_path = config['plotsPath']
-opioid_substring_list = config['opioid_substring_list']
-benzo_substring_list = config['benzo_substring_list']
-diazepam_substring_list = config['diazepam_substring_list']
-alprazolam_substring_list = config['alprazolam_substring_list']
-clonazepam_substring_list = config['clonazepam_substring_list']
-nitazene_substring_list = config['nitazene_substring_list']
-orphine_substring_list = config['orphine_substring_list']
-adrenergic_list = config['adrenergic_list']
-othernovelbenzos_list = config['othernovelbenzos_list']
-SCRA_substring_list = config['SCRA_substring_list']
-cannabinoids_substring_list = config['cannabinoids_substring_list']
-psychedelics_substring_list= config['psychedelics_substring_list']
+
+with open(config['substringsPath'], 'r', encoding='utf-8') as f:
+    substrings_dict = json.load(f)
+substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' not in str(k)}
+not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(k)} # To rule out any overlapping substrings (e.g. benzo – benzocaine)
+
+#opioid_substring_list = config['opioid_substring_list']
+#benzo_substring_list = config['benzo_substring_list']
+#cocaine_substring_list = config['cocaine_substring_list']
+#cathinones_substring_list = config['cathinones_substring_list']
+#diazepam_substring_list = config['diazepam_substring_list']
+#alprazolam_substring_list = config['alprazolam_substring_list']
+#clonazepam_substring_list = config['clonazepam_substring_list']
+#nitazene_substring_list = config['nitazene_substring_list']
+#orphine_substring_list = config['orphine_substring_list']
+#adrenergic_list = config['adrenergic_list']
+#othernovelbenzos_list = config['othernovelbenzos_list']
+#SCRA_substring_list = config['SCRA_substring_list']
+#cannabinoids_substring_list = config['cannabinoids_substring_list']
+#psychedelics_substring_list = config['psychedelics_substring_list']
+#cuttingagents_substring_list = config['cuttingagents_substring_list']
 
 #df_benzo_month = df_benzo.loc[df_benzo['date_received'].dt.month == 5]
 
@@ -119,42 +130,53 @@ def getCategories(type_arg):
     type = str.lower(type_arg)
     if type and 'opioid' in type:
         categories = {
-            'Nitazenes': nitazene_substring_list,
-            'Orphines': orphine_substring_list,
-            'α2-adrenergic agonists': adrenergic_list,
-            'Benzos': benzo_substring_list[1:], #removing 'benzo'
+            'Nitazenes': substring_dict['nitazene'],
+            'Orphines': substring_dict['orphine'],
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
             'Ketamine': ['ketamine'],
             'Promethazine': ['promethazine']
         }
     elif type and 'vape' in type:
         categories = {
-            'SCRAs': SCRA_substring_list,
-            'Cannabinoids': cannabinoids_substring_list,
-            'Psychedelics': psychedelics_substring_list,
-            'Opioids': opioid_substring_list[1:],
-            'Ketamine': ['ketamine'],
+            'SCRAs': substring_dict['SCRA'],
+            'Cannabinoids': substring_dict['cannabinoid'],
+            'Psychedelics': substring_dict['psychedelic'],
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'Ketamine': ['ketamine']
         }
     elif type and 'benzo' in type: 
         categories = {
-            'Nitazenes': nitazene_substring_list,
+            'Nitazenes': substring_dict['nitazene'],
             'Medetomidine': ['medetomidine'],
             'Tramadol': ['tramadol'],
             'Methamphetamine': ['methamphetamine'],
             'Promethazine': ['promethazine'],
             'Ethylbromazolam': ['ethylbromazolam'],
-            'Other novel benzos': othernovelbenzos_list,
+            'Other novel benzos': substring_dict['othernovelbenzo'],
             'Bromazolam': ['bromazolam'],
             'Etizolam': ['etizolam']
         }
+    elif type and 'cocaine' in type:
+        categories = {
+            'Nitazenes': substring_dict['nitazene'],
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Amphetamines': ['amphetamine'],
+            'Cathinones': substring_dict['cathinone'],
+            'Ketamine': ['ketamine'],
+            'Cutting agents': substring_dict['cuttingagent'],
+            'Impurities': substring_dict['cocaineimpurities']
+        }
     else:
         categories = {
-            'Orphines': orphine_substring_list,
-            'Nitazenes': nitazene_substring_list,
-            'α2-adrenergic agonists': adrenergic_list,
-            'Benzos': benzo_substring_list[1:],
-            'SCRAs': SCRA_substring_list,
-            'Cannabinoids': cannabinoids_substring_list,
-            'Psychedelics': psychedelics_substring_list
+            'Orphines': substring_dict['orphine'],
+            'Nitazenes': substring_dict['nitazene'],
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos': substring_dict['benzo'][1:],
+            'SCRAs': substring_dict['SCRA'],
+            'Cannabinoids': substring_dict['cannabinoid'],
+            'Psychedelics': substring_dict['psychedelic']
         }
     return categories
 
@@ -250,7 +272,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
             num_points+=1
             #if sort_by_form:
                 #marker.add_to(featureGroups.get(form_str))
-        elif include_all:
+        elif include_all==True:
             marker=folium.CircleMarker(
                 location=[row['latitude'], row['longitude']],
                 radius=10,
@@ -268,8 +290,8 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                 #marker.add_to(featureGroups.get(form_str))
         
     legend_html = f'''
-         <div style="position: fixed; 
-                     bottom: 10px; left: 10px; width: 240px; max-height: 300px; 
+         <div id='big-legend-wrap' style="position: fixed; 
+                     bottom: 10px; left: 10px; width: 240px; max-height: 320px; 
                      overflow-y: auto; border:2px solid grey; z-index:9999; font-size:12px;
                      background-color:white; opacity: 0.90; padding: 10px;
                      border-radius: 10px; font-family: sans-serif;">
@@ -281,7 +303,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
     for cat, col in category_colors.items():
         legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> {cat} ({cluster_count[cat]})</p>'
     if include_all:
-        legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{fallback_color}"></i> Other Compounds</p>'
+        legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{fallback_color}; margin-right: 4px;"></i> Other ({num_points-sum(cluster_count.values())})</p>'
     
     if filename!='':
         dates = []
@@ -305,7 +327,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         dateString = dates.min().strftime("%d %b %Y")+' — '+dates.max().strftime("%d %b %Y")
     legend_html += f'''
             <p style="border-top: 1px solid #eee; padding-top: 4px; margin: 4px 0 0 0; font-size: 10px;">Colour = highest-priority compound at location.
-            <br/>{num_points} samples tested by <a href="https://wedinos.wales" target="_blank">WEDINOS</a>:<br/>{dateString}</p>
+            <br/>Mapped {num_points} samples tested by <a href="https://wedinos.wales" target="_blank">WEDINOS</a>:<br/>{dateString}</p>
             </div>
         </div>'''
     legend_html +='''
@@ -326,6 +348,11 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         input:checked ~ .menu-content {
             max-height: 100%;
         }
+        @media (max-width: 600px) {
+            #big-legend-wrap {
+                display: none;
+            }
+        }
         '''
     
     for i, cat_name in enumerate(category_colors.keys()): 
@@ -341,7 +368,11 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                     .leaflet-retina .leaflet-control-layers-toggle {
                         background-image: url(assets/filtericon.jpg);
                         background-size: 26px 26px !important;
-                    }'''
+                    }
+                    .leaflet-touch .leaflet-bar a {
+                        text-decoration: none;
+                    }
+                    '''
 
     legend_html += '</style>'
     m.get_root().html.add_child(folium.Element(legend_html))

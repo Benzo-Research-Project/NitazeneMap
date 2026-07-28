@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 # Single page scraper for WEDINOS Data
-import requests
 from bs4 import BeautifulSoup
 import json
 import re
@@ -17,45 +16,56 @@ import pandas as pd
 import pgeocode
 nomi = pgeocode.Nominatim('gb')
 import numpy as np
-from join import convertDates
+from join import joinJSON, convertDates
+from glob import glob
+import os
 from datetime import datetime as dt
 from map import dateFilter
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
-substring_dict = {
-    'opioids': config['opioid_substring_list'],
-    'benzos': config['benzo_substring_list'],
-    'diazepams': config['diazepam_substring_list'],
-    'alprazolams': config['alprazolam_substring_list'],
-    'clonazepams': config['clonazepam_substring_list'],
-    'nitazenes': config['nitazene_substring_list'],
-    'orphines': config['orphine_substring_list'],
-    'adrenergics': config['adrenergic_list'],
-    'miscbenzos': config['othernovelbenzos_list'],
-    'heroin': config['heroin_substring_list'],
-    'vapes': config['vapes_substring_list']
-}
+with open(config['substringsPath'], 'r', encoding='utf-8') as f:
+    substrings_dict = json.load(f)
+substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' not in str(k)}
+not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(k)} # To rule out any overlapping substrings (e.g. benzo – benzocaine)
+#substring_dict = {
+#    'opioids': config['opioid_substring_list'],
+#    'benzos': config['benzo_substring_list'],
+#    'cocaine': config['cocaine_substring_list'],
+#    'cathinones': config['cathinones_substring_list'],
+#    'diazepams': config['diazepam_substring_list'],
+#    'alprazolams': config['alprazolam_substring_list'],
+#    'clonazepams': config['clonazepam_substring_list'],
+#    'nitazenes': config['nitazene_substring_list'],
+#    'orphines': config['orphine_substring_list'],
+#    'adrenergics': config['adrenergic_list'],
+#    'miscbenzos': config['othernovelbenzos_list'],
+#    'heroin': config['heroin_substring_list'],
+#    'vapes': config['vapes_substring_list']
+#}
 
-# To rule out any overlapping substrings (e.g. benzo – benzocaine)
-not_substring_dict = {
-    'opioids': config['not_opioid_substring_list'],
-    'benzos': config['not_benzo_substring_list'],
-    'diazepams': config['not_benzo_substring_list'],
-    'alprazolams': config['not_benzo_substring_list'],
-    'clonazepams': config['not_benzo_substring_list'],
-    'nitazenes': ['placeholder'],
-    'orphines': ['placeholder'],
-    'adrenergics': ['placeholder'],
-    'miscbenzos': config['not_benzo_substring_list'],
-    'heroin': ['placeholder'],
-    'vapes': ['placeholder']
-}
+
+#not_substring_dict = {
+#    'opioids': config['not_opioid_substring_list'],
+#    'benzos': config['not_benzo_substring_list'],
+#    'cocaine': ['placeholder'],
+#    'cathinones': ['placeholder'],
+#    'diazepams': config['not_benzo_substring_list'],
+#    'alprazolams': config['not_benzo_substring_list'],
+#    'clonazepams': config['not_benzo_substring_list'],
+#    'nitazenes': ['placeholder'],
+#    'orphines': ['placeholder'],
+#    'adrenergics': ['placeholder'],
+#    'miscbenzos': config['not_benzo_substring_list'],
+#    'heroin': ['placeholder'],
+#    'vapes': ['placeholder']
+#}
 
 save_data = config['saveData']
 not_benzo_substring_list = config['not_benzo_substring_list']
 col=["date_received","postcode","intent","label","colour","form","consumption_method","effects","major","minor","latitude","longitude"]
+allJSON = max(glob(f'{config['dataPath']}/wedinos_alerts_ALL*'), key=os.path.getctime).split('/')[-1]
 
 def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedinos.org/sample-results
     driver = webdriver.Chrome()
@@ -81,7 +91,7 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
     driver.quit()
     return all_pages
 
-def parse(all_pages, save_data=save_data):
+def parse(all_pages, join, save_data=save_data):
     all_alerts = []
     dates = []
     for page in all_pages:
@@ -133,6 +143,9 @@ def parse(all_pages, save_data=save_data):
         daterange = f'{min(dates).strftime('%d%m%y')}-{max(dates).strftime('%d%m%y')}'
         with open(f'{config['dataPath']}/wedinos_alerts_{daterange}.json', 'w', encoding='utf-8') as f:
             json.dump(all_alerts, f, ensure_ascii=False, indent=4)
+        if join=='y': # indented inside if save as it has to call the scraped file from path
+            print(f'Joining scraped data to {allJSON}...')
+            joinJSON([allJSON,f'wedinos_alerts_{daterange}.json'], config['dataPath'], save_data=save_data)
     return all_alerts
 
 def getFilteredDataframe(all_alerts, substring_list, daterange='', not_substring_list=['placeholder'], intent_only=False, save_data=save_data):
@@ -201,20 +214,26 @@ def main():
                         help="type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)")
     parser.add_argument("-i", "--intent", type=str, metavar="INTENT",
                         help="filter by intent only? y/n")
+    parser.add_argument("-j", "--join", type=str, metavar="JOIN",
+                        help="join scraped data to master file? y/n")
 
     args = parser.parse_args()
     if args.num:
         all_pages = scrape(args.num)
-        all_alerts = parse(all_pages)
+        all_alerts = parse(all_pages, args.join)
     elif args.alertsfile:
-        with open(f'{config['dataPath']}/{args.alertsfile}.json', 'r', encoding='utf-8') as f:
+        suffix = '' if '.json' in args.alertsfile else '.json'
+        with open(f'{config['dataPath']}/{args.alertsfile}{suffix}', 'r', encoding='utf-8') as f:
             all_alerts = json.load(f)
-    
+
     if args.intent == 'y':
         intent_only=True
     else:
         intent_only=False
     daterange = args.daterange if args.daterange else ''
-    getFilteredDataframe(all_alerts, substring_dict[args.type], daterange=daterange, not_substring_list=not_substring_dict[args.type], intent_only=intent_only)
+    if args.type:
+        type = args.type if args.type[-1]!='s' else args.type[:-1]
+        getFilteredDataframe(all_alerts, substring_dict[type], daterange=daterange, not_substring_list=not_substring_dict[type], intent_only=intent_only)
+
 if __name__ == "__main__":
     main()
