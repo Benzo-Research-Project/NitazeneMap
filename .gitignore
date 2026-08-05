@@ -1,6 +1,5 @@
 .DS_store
 data/preprocessed
 __pycache__
-drugmapuk/*
 assets/*
 _tests/*
