@@ -1,18 +1,17 @@
-import time
+# last update: 27/07/2026 – AJ
 import pandas as pd
 import folium
 from folium import plugins
 import pgeocode
 nomi = pgeocode.Nominatim('gb')
-import numpy as np
 from matplotlib.pyplot import subplots
 import yaml
 import json
-import re
 from argparse import ArgumentParser
 from matplotlib import colormaps as cm
 import matplotlib.colors as colors
 from datetime import datetime as dt
+from branca.element import Element, MacroElement, Template
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
@@ -25,24 +24,6 @@ with open(config['substringsPath'], 'r', encoding='utf-8') as f:
     substrings_dict = json.load(f)
 substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' not in str(k)}
 not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(k)} # To rule out any overlapping substrings (e.g. benzo – benzocaine)
-
-#opioid_substring_list = config['opioid_substring_list']
-#benzo_substring_list = config['benzo_substring_list']
-#cocaine_substring_list = config['cocaine_substring_list']
-#cathinones_substring_list = config['cathinones_substring_list']
-#diazepam_substring_list = config['diazepam_substring_list']
-#alprazolam_substring_list = config['alprazolam_substring_list']
-#clonazepam_substring_list = config['clonazepam_substring_list']
-#nitazene_substring_list = config['nitazene_substring_list']
-#orphine_substring_list = config['orphine_substring_list']
-#adrenergic_list = config['adrenergic_list']
-#othernovelbenzos_list = config['othernovelbenzos_list']
-#SCRA_substring_list = config['SCRA_substring_list']
-#cannabinoids_substring_list = config['cannabinoids_substring_list']
-#psychedelics_substring_list = config['psychedelics_substring_list']
-#cuttingagents_substring_list = config['cuttingagents_substring_list']
-
-#df_benzo_month = df_benzo.loc[df_benzo['date_received'].dt.month == 5]
 
 def counterfeit_map(df, filename, intent_list, result_list, include_all=False, save=False, plots_path=plots_path):
     # Initialize map
@@ -119,7 +100,7 @@ def counterfeit_map(df, filename, intent_list, result_list, include_all=False, s
 def dateFilter(df, from_date, to_date):
     'from_date and to_date must be in YYYY-MM-DD format'
     if len(from_date) == len(to_date) == 10:
-        print(f'{len(df[(df['date_received'] >= from_date) & (df['date_received'] <= to_date)])} results included between {from_date} and {to_date}.')
+        #print(f"{len(df[(df['date_received'] >= from_date) & (df['date_received'] <= to_date)])} results included between {from_date} and {to_date}.")
         return df[(df['date_received'] >= from_date) & (df['date_received'] <= to_date)]
     else:
         print('ERROR: Date filtering failed. Input dates are not in YYYY-MM-DD format.')
@@ -188,6 +169,13 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         tiles='cartodb positron'  # background style
     )
 
+    m.get_root().header.add_child(Element("""
+    <style>
+        html, body { margin: 0 !important; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+        .folium-map-container { width: 100% !important; height: 100% !important; padding-bottom: 0 !important; }
+    </style>
+    """))
+
     num_categories = len(categories.keys())
     colormap = cm['rainbow_r'].resampled(num_categories)
     category_colors = {}
@@ -221,27 +209,14 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         major_str = str(row['major']).lower() if pd.notna(row['major']) else ""
         form_str = str(row['form']) if pd.notna(row['form']) else ""
         intent_str = str(row['intent']).lower() if pd.notna(row['intent']) else ""
-        
-        #if not minor_str:
-            #popup = f"{row['postcode']} – Sold as {row['intent']}, tested as {row['major']}"
-        #    popup = f"""
-        #        <h1>{idx}</h1>
-        #        <p>
-        #        Postcode: <b>{row['postcode']}</b><br/>
-        #        Date: <b>{row['date_received']}</b><br/>
-        #        Form: <b>{row['colour']} {row['form']}</b><br/>
-        #        Sold as: <b>{row['intent']}</b><br/>
-        #        Tested as: <b>{row['major']}</b><br/>
-        #        </p>
-        #        """
-        #else:
-            #popup = f"{row['postcode']} – Sold as {row['intent']}, tested as {row['major']} with {row['minor']}"
+
+        # Change h1 in popup to <a href="https://wedinos.wales/sample/?q={idx}"target="_blank"><h1>{idx}</h1></a> once legacy data is ported
         popup = f"""
                 <h1>{idx}</h1>
                 <p>
                 Postcode: <b>{row['postcode']}</b><br/>
                 Date: <b>{row['date_received']}</b><br/>
-                Form: <b>{row['colour'] if pd.notna(row['colour']) else ''}{''+row['form'] if pd.notna(row['form']) else ''}</b><br/>
+                Form: <b>{row['colour']+' ' if pd.notna(row['colour']) else ''}{row['form'] if pd.notna(row['form']) else ''}</b><br/>
                 Sold as: <b>{row['intent']}</b><br/>
                 Tested as: <b>{row['major'] if not minor_str else row['major']+'</b> with <b>'+row['minor']}</b><br/>
                 </p>
@@ -265,6 +240,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                 fill_color=marker_color,
                 fill_opacity=0.7,
                 weight=1,
+                title=idx,
                 popup=popup,
                 lazy=True
             )
@@ -281,6 +257,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                 fill_color=marker_color,
                 fill_opacity=0.7,
                 weight=1,
+                title=idx,
                 popup=popup,
                 lazy=True
             )
@@ -289,7 +266,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
             #if sort_by_form:
                 #marker.add_to(featureGroups.get(form_str))
         
-    legend_html = f'''
+    legend_html = '''{% macro html(this, kwargs) %}
          <div id='big-legend-wrap' style="position: fixed; 
                      bottom: 10px; left: 10px; width: 240px; max-height: 320px; 
                      overflow-y: auto; border:2px solid grey; z-index:9999; font-size:12px;
@@ -356,7 +333,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         '''
     
     for i, cat_name in enumerate(category_colors.keys()): 
-        print(i, cat_name)
+        #print(i, cat_name)
         legend_html += f'.leaflet-control-layers-overlays > label:nth-child({i+1}) input'+'{accent-color: '+category_colors[cat_name]+'''; } 
         '''
     
@@ -374,8 +351,15 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                     }
                     '''
 
-    legend_html += '</style>'
-    m.get_root().html.add_child(folium.Element(legend_html))
+    legend_html += '''</style>
+                    {% endmacro %}'''
+
+    class CustomLegend(MacroElement):
+        def __init__(self):
+            super(CustomLegend, self).__init__()
+            self._template = Template(legend_html)
+    m.add_child(CustomLegend())
+    #m.get_root().html.add_child(folium.Element(legend_html))
 
     #if sort_by_form:
         #for fg in featureGroups.values():
@@ -408,13 +392,14 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
     # Add the element to the map root
     m.get_root().html.add_child(folium.Element(watermark_html))
 
+    #plugins.Search(cluster_dict, search_label="title").add_to(m)
+
     if save:
         m.save(f'{plots_path}/{filename}_map.html')
     
-
-    print(f'Mapped {num_points} samples including:')
-    for cat, num in cluster_count.items():
-        print(f'{cat}: {num}')
+    #print(f'Mapped {num_points} samples including:')
+    #for cat, num in cluster_count.items():
+        #print(f'{cat}: {num}')
         
     return m
 

@@ -5,7 +5,7 @@
 
 # ---- CONFIGUATION OPTIONS ----
 #versionNo: 0.0.1
-dateRange: 010124-160726                 # Date range for the most recent scraped WEDINOS data
+dateRange: 010124-200726                 # Date range for the most recent scraped WEDINOS data
 saveData: True 
                      
 # ---- SETTINGS ----

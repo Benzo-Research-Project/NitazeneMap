@@ -32,7 +32,6 @@
                         "o-585","o-689","cumyl-bica","cumyl-cbmica","org 28312", "org 28611","a-796,260", "a-834,735"],
     "cannabinoid": ["cannabinol", "thc", "cannabigerol","nabilone","dronabinol","weed"],
     "psychedelic": ["dmt","nboh","nbome","psilocybin","psilocin","lsd","lysergic acid","shroom"],
-    "phenacetin": ["phenacetin","phenacetine"],
     "not_opioid": ["hydroxybutyr","oxyphenethylamine","oxyamphetamine","oxyqualone","oxyapatite","oxycillin","oxymethoxetamine"],
     "not_benzo": ["benzoylecgonine","benzocaine"],
     "not_cocaine": ["placeholder"],
@@ -49,6 +48,5 @@
     "not_vape": ["placeholder"],
     "not_SCRA": ["placeholder"],
     "not_cannabinoid": ["placeholder"],
-    "not_psychedelic": ["placeholder"],
-    "not_phenacetin": ["placeholder"]
+    "not_psychedelic": ["placeholder"]
 }

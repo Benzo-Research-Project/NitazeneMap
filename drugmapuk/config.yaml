@@ -1,0 +1,21 @@
+# ========================
+# DRUGMAPUK CONFIG
+# ========================
+# This file controls how the pipeline runs. Update paths and parameters as needed.
+
+# ---- CONFIGUATION OPTIONS ----
+versionNo: 0.1.3                           
+dateRange: 010124-200726                 # Date range for the most recent scraped WEDINOS data
+saveData: False                          
+
+# ---- FILE PATHS ----
+assetsPath: assets                       # Directory for image files etc
+dataPath: data                           # Directory for stored data
+substringsPath: data/substrings.json     # Directory for substring dictionary
+outPath: data                            # Directory for outputs
+plotsPath: data                          # Directory for plots
+gitDataRepo: https://raw.githubusercontent.com/Benzo-Research-Project/NitazeneMap/refs/heads/main/data/drugmapdata
+
+# ---- PLOT OPTIONS ----
+saveFigures: False                       # Save figures as a png image in the outPath (True/False)
+dpi: 300              
