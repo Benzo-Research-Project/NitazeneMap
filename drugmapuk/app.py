@@ -22,15 +22,24 @@ fileDirectory = {
     'Vapes': 'wedinos_vapes_intent.csv',
     'Cocaine': 'wedinos_cocaines_intent.csv'
 }
+dfDirectory = {}
+for k, v in fileDirectory.items():
+    try:
+        dfDirectory[k] = df = pd.read_csv(f"{config['gitDataRepo']}/{v}", sep=',', encoding='utf-8', index_col=0)
+    except:
+        print('***Could not get data from Github, using backup...')
+        df = pd.read_csv(f"{config['dataPath']}/{v.replace('.csv','')}_010124-160726.csv", sep=',', encoding='utf-8', index_col=0) # default to benzos
+        
 defaultCategory = list(fileDirectory.keys())[0]
 
 #fileurl = f"{config['dataPath']}/wedinos_benzos_intent_{strDaterange}.csv"
-fileurl = f"{config['gitDataRepo']}/{fileDirectory[defaultCategory]}"
-try:
-    df = pd.read_csv(fileurl, sep=',', encoding='utf-8', index_col=0) # default to benzos
-except:
-    print('***Could not get data from Github, using backup...')
-    df = pd.read_csv(f"{config['dataPath']}/{fileDirectory[defaultCategory].replace('.csv','')}_{strDaterange}.csv", sep=',', encoding='utf-8', index_col=0) # default to benzos
+#fileurl = f"{config['gitDataRepo']}/{fileDirectory[defaultCategory]}"
+#try:
+#    df = pd.read_csv(fileurl, sep=',', encoding='utf-8', index_col=0) # default to benzos
+#except:
+#    print('***Could not get data from Github, using backup...')
+#    df = pd.read_csv(f"{config['dataPath']}/{fileDirectory[defaultCategory].replace('.csv','')}_{strDaterange}.csv", sep=',', encoding='utf-8', index_col=0) # default to benzos
+df = dfDirectory[defaultCategory].copy()
 dates = df['date_received'].copy()
 minDate = date(2024, 1, 1)
 maxDate = pd.to_datetime(dates).max().date()
@@ -224,13 +233,13 @@ app.layout = [html.Div(className='wsite-section-wrap', children=[
 def update_dash(col_chosen, start_date, end_date, checklist_value):
     categories = getCategories(col_chosen)
     #fileurl = f'data/{fileDirectory[col_chosen]}'
-    fileurl = f"{config['gitDataRepo']}/{fileDirectory[col_chosen]}"
-    try:
-        df = pd.read_csv(fileurl, sep=',', encoding='utf-8', index_col=0)
-    except:
-        print('***Could not get data from Github, using backup...')
-        df = pd.read_csv(f"{config['dataPath']}/{fileDirectory[col_chosen].replace('.csv','')}_{strDaterange}.csv", sep=',', encoding='utf-8', index_col=0) # default to benzos
-
+    #fileurl = f"{config['gitDataRepo']}/{fileDirectory[col_chosen]}"
+    #try:
+    #    df = pd.read_csv(fileurl, sep=',', encoding='utf-8', index_col=0)
+    #except:
+    #    print('***Could not get data from Github, using backup...')
+    #    df = pd.read_csv(f"{config['dataPath']}/{fileDirectory[col_chosen].replace('.csv','')}_{strDaterange}.csv", sep=',', encoding='utf-8', index_col=0) # default to benzos
+    df = dfDirectory[col_chosen].copy()
     intent = col_chosen if col_chosen[-1]!='s' else col_chosen[:-1]
     if start_date:
         df = dateFilter(df, start_date, end_date) # filtering dates
@@ -258,16 +267,23 @@ def update_dash(col_chosen, start_date, end_date, checklist_value):
 @callback(
     Output("download-dataframe-xlsx", "data"),
     Input("btn_xlsx", "n_clicks"),
+    Input(component_id='dropdown-selection', component_property='value'),
+    Input(component_id='date-picker-range', component_property='start_date'),
+    Input(component_id='date-picker-range', component_property='end_date'),
     prevent_initial_call=True,
 )
-def func(n_clicks):
-    daterange = [df['date_received'].min(),df['date_received'].max()]
-    datelist = []
-    for i in daterange:
-        datelist.append(datetime.strftime(datetime.strptime(i,'%Y-%m-%d'),'%d%m%y'))
-    filename=str.lower(f'wedinos_{datelist[0]}_{datelist[1]}.xlsx')
-    return dcc.send_data_frame(df[df.columns.intersection(keepColumns)].to_excel, filename, sheet_name="Results")
+def func(n_clicks,col_chosen,start_date,end_date):
+    if n_clicks:
+        df = dfDirectory[col_chosen].copy()
+        if start_date:
+            df = dateFilter(df, start_date, end_date) # filtering dates
+        daterange = [df['date_received'].min(),df['date_received'].max()]
+        datelist = []
+        for i in daterange:
+            datelist.append(datetime.strftime(datetime.strptime(i,'%Y-%m-%d'),'%d%m%y'))
+        filename=str.lower(f'wedinos_{col_chosen}_{datelist[0]}-{datelist[1]}.xlsx')
+        return dcc.send_data_frame(df[df.columns.intersection(keepColumns)].to_excel, filename, sheet_name="Results")
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=9000)

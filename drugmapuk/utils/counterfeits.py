@@ -73,18 +73,22 @@ def checkStatus(df, intent, dates=''):
                         status='not counterfeit'
                     else:
                         status='counterfeit'
-                elif intent == 'vape' and (str.lower(row['major'])=='nicotine') and (str.lower(row['minor'])==''):
-                    status='not counterfeit'
+                elif intent == 'vape' and (str.lower(row['major'])=='nicotine') and (str.lower(row['minor'])=='') and all(substring not in str.lower(row['intent']+' '+str.lower(row['label'])) for substring in substring_dict['cannabinoid']):
+                    status='not counterfeit' 
                 elif intent == 'vape' and any(substring in str.lower(row['intent']+' '+str.lower(row['label'])) for substring in substring_dict['cannabinoid']):
                     if any(substring in str.lower(row['major']) for substring in ['thc','tetrahydrocannabinol']) and (row['minor']==''):
                         status='not counterfeit'
+                    else:
+                        status='counterfeit'
                 else:
                     status='counterfeit'
                     #print(row['intent'],': ',row['major'],'with',row['minor'])
             except:
                 status='inconclusive'
         else:
+            not_class='1'
             sold_as='0'
+            status='n/a'
 
         # TO UPDATE: Pandas doesn't like this, even though it works
         df.loc[idx,'sold_as'] = sold_as

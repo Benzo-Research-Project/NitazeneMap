@@ -5,3 +5,4 @@ pandas==3.0.5
 pgeocode==0.5.0
 plotly==6.9.0
 PyYAML==6.0.3
+openpyxl==3.1.5
