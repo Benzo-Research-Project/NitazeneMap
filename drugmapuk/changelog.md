@@ -1,6 +1,10 @@
 #### Version 0.1.3
 * Added pop-out navigation menu.
 * Standardised fonts and `border-radius` on Dates: and Sample intent: options.
+* Fixed bug in `counterfeits.py` where counterfeit cannabinoid-containing vapes would not be assigned a status.
+* Fixed error where downloading Excel table ignores date filtering options.
+* Media query dark mode added.
+* Minor style changes.
 
 #### Version 0.1.2
 * Organised map, graphs, and table into tabs for cleaner viewing.

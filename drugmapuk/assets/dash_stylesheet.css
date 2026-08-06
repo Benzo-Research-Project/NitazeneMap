@@ -7,14 +7,14 @@
     --border-text-colour: #0d0b05;
     --main-wrap-colour: #ffffff;
     --main-wrap-text-colour: #0d0b05;
+    --bg-color: #f6fafe;
 }
-
+html,
+.wsite-section-wrap {
+    background: var(--bg-color);
+}
 .wsite-section-wrap {
     min-height: 100vh;
-}
-.wsite-section-wrap,
-.wsite-footer {
-    background: var(--border-colour);
 }
 .wsite-footer p,
 .wsite-footer h1,
@@ -25,6 +25,7 @@
 }
 .main-wrap {
     background: var(--main-wrap-colour);
+    box-shadow: 0 1px 6px 0 #20212447;
 }
 .main-wrap p,
 .main-wrap h1,
@@ -99,6 +100,10 @@ a:hover {
 }
 #nav:target {
   transform: translateY(0);
+}
+
+#nav:target ~html {
+    overflow-y: hidden;
 }
 
 .datepickerwrapper,
@@ -544,5 +549,19 @@ p.notice {
     }
     #nav .sticky-bottom>* {
         font-size: 10px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html,
+    img,
+    svg,
+    video,
+    canvas,
+    iframe {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    body {
+        overflow-x: hidden;
     }
 }
