@@ -133,7 +133,7 @@ def getCategories(type_arg):
             'Nitazenes': substring_dict['nitazene'],
             'Medetomidine': ['medetomidine'],
             'Tramadol': ['tramadol'],
-            'Methamphetamine': ['methamphetamine'],
+            'Amphetamines': substring_dict['amphetamine'],
             'Promethazine': ['promethazine'],
             'Ethylbromazolam': ['ethylbromazolam'],
             'Other novel benzos': substring_dict['othernovelbenzo'],
@@ -145,31 +145,33 @@ def getCategories(type_arg):
             'Nitazenes': substring_dict['nitazene'],
             'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
             'α2-adrenergic agonists': substring_dict['adrenergic'],
-            'Amphetamines': ['amphetamine'],
+            'Amphetamines': substring_dict['amphetamine'],
             'Cathinones': substring_dict['cathinone'],
-            'Ketamine': ['ketamine'],
+            'Ketamine': substring_dict['ketamine'],
             'Cutting agents': substring_dict['cuttingagent'],
             'Impurities': substring_dict['cocaineimpurities']
         }
     elif type and 'ketamine' in type:
         categories = {
-            'Opioids': substring_dict['opioids'][1:], #removing 'oxy'
-            'Pyros': substring_dict['pyro'],
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
+            'Pyrovalerones': substring_dict['pyro'],
             'Cathinones': substring_dict['cathinone'],
             'Cocaine': substring_dict['cocaine'],
             'Amphetamines': substring_dict['amphetamine'],
-            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
             'Arylcyclohexamines': substring_dict['arylcyclohexamine']
         }
     elif type and 'mdma' in type:
         categories = {
-            'Opioids': substring_dict['opioids'][1:], #removing 'oxy'
-            'Pyros': substring_dict['pyro'],
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
+            'Pyrovalerones': substring_dict['pyro'],
             'Cathinones': substring_dict['cathinone'],
             'Cocaine': substring_dict['cocaine'],
             'Amphetamines': substring_dict['amphetamine'],
-            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
-            'Ketamine': ['ketamine']
+            'Ketamine': substring_dict['ketamine']
         }
     elif type and 'opioid' in type:
         categories = {
@@ -177,7 +179,7 @@ def getCategories(type_arg):
             'Orphines': substring_dict['orphine'],
             'α2-adrenergic agonists': substring_dict['adrenergic'],
             'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
-            'Ketamine': ['ketamine'],
+            'Ketamine': substring_dict['ketamine'],
             'Promethazine': ['promethazine']
         }
     elif type and 'vape' in type:
@@ -186,7 +188,7 @@ def getCategories(type_arg):
             'Cannabinoids': substring_dict['cannabinoid'],
             'Psychedelics': substring_dict['psychedelic'],
             'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
-            'Ketamine': ['ketamine']
+            'Ketamine': substring_dict['ketamine']
         }
     else:
         categories = {
