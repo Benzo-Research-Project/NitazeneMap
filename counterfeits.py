@@ -1,5 +1,6 @@
 import yaml
 import json
+import re
 import pandas as pd
 from argparse import ArgumentParser
 from datetime import datetime as dt
@@ -93,6 +94,12 @@ def checkStatus(df, intent, dates=''):
                 elif intent == 'vape' and any(substring in str.lower(row['intent']+' '+str.lower(row['label'])) for substring in substring_dict['cannabinoid']):
                     if any(substring in str.lower(row['major']) for substring in ['thc','tetrahydrocannabinol']) and (row['minor']==''):
                         status='not counterfeit'
+                    else:
+                        status='counterfeit'
+                elif intent == 'ketamine' and (str.lower(row['major'])=='ketamine') and (str.lower(row['minor'])=='') and all(substring not in str.lower(row['intent']+' '+str.lower(row['label'])) for substring in substring_dict['arylcyclohexamine']):
+                    status='not counterfeit'
+                elif intent == 'mdma' and (str.lower(row['major'])=='mdma') and (str.lower(row['minor'])==''):
+                    status='not counterfeit'    
                 else:
                     status='counterfeit'
                     #print(row['intent'],': ',row['major'],'with',row['minor'])
@@ -147,6 +154,7 @@ def getContents(df, intent, dates='', counterfeits=True, save=config['saveData']
     
     #df['complete contents'] = contentsColumn
     #Contents = df['complete contents'].value_counts()
+    contentsColumn = [re.sub(r' \(.*?\)', '', file) for file in contentsColumn]
     dfC = pd.DataFrame({'complete contents':contentsColumn})
     Contents = dfC['complete contents'].value_counts()
     if save:
