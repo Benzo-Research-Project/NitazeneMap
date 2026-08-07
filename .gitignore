@@ -3,3 +3,5 @@ data/preprocessed
 __pycache__
 assets/*
 _tests/*
+drugmapuk/*
+*.ipynb
