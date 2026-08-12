@@ -4,7 +4,8 @@
                         "alprazolam", "xanax", "xanac", "alpraz", "xanx", "alpprazolam", "rlam", "r-lam",
                         "clonazepam", "clonazapam", "cloonazepam", "klonopin", "klonapin", "ksalol", "ksol", "rivotril",
                         "zafone"],
-    "opioid": ["oxy","opioid","opiate","codone","adol","adone","morph","ophine","orphine","orphan","ezitramide",
+    "opioid": ["oxy","opioid","opiate","opiod","tramadol","tramol","tapendatol","tapenatadol","tapemtadol","tepentadol","tamolx","tamol-x","etadol",
+                            "codone","adol","adone","morph","ophine","orphine","orphan","ezitramide","dilaudid",
                             "thebacon","papaverine","6-mam","6 Monoacetyl","oxycontin","oxydolor",
                             "fentanil","fentanyl","heroin","codeine",
                             "nitazene","nitazepyne","nitazepipne",
@@ -18,7 +19,7 @@
                                 "mdpv","mdphp","md-pihp", "α-pvp", "alpha-pvp", "apvp", "flakka",
                                 "naphyrone","pentedrone","pentylone","prolintane",
                                 "meow","miaow"],
-    "heroin": ["heroin","herion","heorin","diamorphine","diacetylmorphine"],
+    "heroin": ["heroin","herion","heorin","diamorphine","diacetylmorphine","black tar", "heroil"],
     "diazepam": ["diazepam", "diaze", "msj", "daizepam", "diaepam", "diazapam", "diaezpam", "bensedin", "valium", "valum", "martin dcw", "martin dow"],
     "alprazolam": ["alprazolam", "xanax", "xanac", "alpraz", "xanx", "alpprazolam", "rlam", "r-lam"],
     "clonazepam": ["clonazepam", "clonazapam", "cloonazepam", "klonopin", "klonapin", "ksalol", "ksol", "rivotril"],
@@ -40,7 +41,9 @@
     "2c-b": ["2c-b","2cb", "2-cb","4-bromo-2,5-dimethoxyphenethylamine"],
     "pyro": ["pyrro","pyro","pyrovalerone","pyrrolidinohexiophenone","pyrrolidinopentiophenone","pyrrolidinopentiothiophenone",
                                 "mdpv","mdphp","md-pihp", "α-pvp", "alpha-pvp", "apvp", "flakka"],
-    "not_opioid": ["hydroxybutyr","oxyphenethylamine","oxyamphetamine","oxyqualone","oxyapatite","oxycillin","oxymethoxetamine"],
+    "gabapentinoid": ["gabapentin","pregabalin","pregablin","pregab","mirogabalin","phenibut","lyrica","neurontin"],
+    "zdrug": ["zolpidem","zopiclone","zaleplon"],
+    "not_opioid": ["hydroxybutyr","oxyphenethylamine","oxyamphetamine","oxyqualone","oxyapatite","oxycillin","oxymethoxetamine","paracetamol"],
     "not_benzo": ["benzoylecgonine","benzocaine"],
     "not_cocaine": ["placeholder"],
     "not_cuttingagent": ["placeholder"],
@@ -63,5 +66,7 @@
     "not_ketamine": ["norket", "chloroket"],
     "not_arylcyclohexamine": ["placeholder"],
     "not_2c-b": ["2cb-fly","2c-b-fly","2-cb-fly"],
-    "not_pyro": ["placeholder"]
+    "not_pyro": ["placeholder"],
+    "not_gabapentinoid": ["placeholder"],
+    "not_zdrug": ["placeholder"]
 }
