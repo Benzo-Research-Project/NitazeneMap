@@ -135,6 +135,7 @@ def getCategories(type_arg):
             'Tramadol': ['tramadol'],
             'Amphetamines': substring_dict['amphetamine'],
             'Promethazine': ['promethazine'],
+            'Z-drugs': substring_dict['zdrug'],
             'Ethylbromazolam': ['ethylbromazolam'],
             'Other novel benzos': substring_dict['othernovelbenzo'],
             'Bromazolam': ['bromazolam'],
@@ -179,6 +180,7 @@ def getCategories(type_arg):
             'Orphines': substring_dict['orphine'],
             'α2-adrenergic agonists': substring_dict['adrenergic'],
             'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
+            'Gabapentinoids': substring_dict['gabapentinoid'],
             'Ketamine': substring_dict['ketamine'],
             'Promethazine': ['promethazine']
         }
@@ -197,6 +199,7 @@ def getCategories(type_arg):
             'α2-adrenergic agonists': substring_dict['adrenergic'],
             'Benzos': substring_dict['benzo'][1:],
             'SCRAs': substring_dict['SCRA'],
+            'Gabapentinoids': substring_dict['gabapentinoid'],
             'Cannabinoids': substring_dict['cannabinoid'],
             'Psychedelics': substring_dict['psychedelic']
         }
