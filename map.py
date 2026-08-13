@@ -174,7 +174,7 @@ def getCategories(type_arg):
             'Amphetamines': substring_dict['amphetamine'],
             'Ketamine': substring_dict['ketamine']
         }
-    elif type and 'opioid' in type:
+    elif type and any(substring in type for substring in ['opioid','heroin','oxy','tramadol','tapentadol']):
         categories = {
             'Nitazenes': substring_dict['nitazene'],
             'Orphines': substring_dict['orphine'],
