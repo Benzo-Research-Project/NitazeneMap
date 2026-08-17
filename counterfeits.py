@@ -244,12 +244,12 @@ def main():
     intent = args.intent if args.intent[-1]!='s' else args.intent[:-1]
     df_status, array = checkStatus(df, intent, args.daterange)
 
-    if args.counterfeits == 'both' or 'counterfeits':
+    if (args.counterfeits == 'both') or (args.counterfeits == 'counterfeits'):
         contents = getContents(df_status, intent, args.daterange, counterfeits=True)
         plotContents(contents, intent, args.daterange, counterfeits=True)
         getUniqueContents(contents, intent, args.daterange, counterfeits=True)
     
-    if args.counterfeits == 'both' or 'all':
+    if (args.counterfeits == 'both') or (args.counterfeits == 'all'):
         contents = getContents(df_status, intent, args.daterange, counterfeits=False)
         plotContents(contents, intent, args.daterange, counterfeits=False)
         getUniqueContents(contents, intent, args.daterange, counterfeits=False)
