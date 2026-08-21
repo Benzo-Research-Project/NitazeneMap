@@ -94,8 +94,8 @@ W050394,2024-04-15,EH41,Heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,"Coc
 000039735,2024-04-15,LL34,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Heroin, Noscapine, 6-MAM","6-Acetylcodeine, Paracetamol, Papaverine",53.26669999999999,-3.933300000000001
 W050393,2024-04-15,EH41,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"xylazine, Paracetamol, Caffeine, Noscapine, 6-MAM","Heroin, Papaverine, 6-Acetylcodeine",55.92442,-2.74208
 W050173,2024-04-18,HA4,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, 6-MAM","6-Acetylcodeine, Papaverine",51.5734,-0.4234
-W050685,2024-04-22,EH89,Heroin,Not Stated,"Black, Brown",Powder,Intravenous,"Breathlesness, Chest Pains, Irregular Heartbeat, Vomiting, Memory Loss","Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM",Papaverine,55.9489,-3.1632
 W050661,2024-04-22,CF10,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.48,-3.18
+W050685,2024-04-22,EH89,Heroin,Not Stated,"Black, Brown",Powder,Intravenous,"Breathlesness, Chest Pains, Irregular Heartbeat, Vomiting, Memory Loss","Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM",Papaverine,55.9489,-3.1632
 W050697,2024-04-23,EH41,Heroin,Heroin,Brown,Powder,Intravenous,"Empathy, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, Papaverine, 6-MAM",55.92442,-2.74208
 W051081,2024-04-23,Array,Heroin,Not Stated,Brown,Powder,Not Stated,"Relaxed, Memory Loss, Panic Attack, Depression, Suicidal Ideation","Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM, Papaverine, 6-Acetylcodeine",,,
 W051286,2024-04-30,EH39,Heroin,Not Stated,Brown,Solid,Intravenous,"Memory Loss, Loss of consciousness","Heroin, xylazine, Noscapine, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",56.0277,-2.7334
@@ -323,59 +323,59 @@ W062860,2025-03-11,CF44,Heroin,Not Stated,Brown,Solid,Intravenous,"Increased Ene
 W062858,2025-03-11,SE17,Heroin,Not Stated,White,Granules,Not Stated,Not Stated,Unable to identify,,51.48563333333333,-0.1028333333333333
 000234051,2025-03-11,NP20,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed",Cocaine,Phenacetin,51.5877,-2.9984
 000234050,2025-03-11,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,6-MAM,51.5877,-2.9984
-000234048,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,"6-MAM, Paracetamol",51.5877,-2.9984
 000234049,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,,51.5877,-2.9984
+000234048,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,"6-MAM, Paracetamol",51.5877,-2.9984
 000234047,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,"Euphoria, Relaxed",Noscapine,"6-MAM, Heroin, Paracetamol",51.5877,-2.9984
 W062789,2025-03-12,TS18,Heroin,Not Stated,"Brown, Brown",Powder,Smoked,"Relaxed, Breathlesness","Paracetamol, Noscapine, Heroin",6-MAM,54.5613,-1.3243
 W062647,2025-03-18,OX11,Heroin,Not Stated,Brown,Solid,Intravenous,"Enhanced Senses, Memory Loss, Confusion, Loss of consciousness, Agitation, Depression",No Active Component Identified,,51.58721666666667,-1.2355166666666666
 W062648,2025-03-18,OX1,Heroin,Not Stated,Brown,Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine",51.72478,-1.275
 W062643,2025-03-18,FK10,Heroin,Not Stated,Brown,Powder,Intravenous,"Relaxed, Memory Loss","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",56.10687777777778,-3.7534
+000234029,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,"Heroin, Papaverine",51.5877,-2.9984
 W063215,2025-03-20,SO14,Heroin,Mo's Dark,Brown,Powder,Smoked,No Effect,"Noscapine, Heroin, Paracetamol","6-MAM, 6-Acetylcodeine, Caffeine, Papaverine",50.911,-1.392
+W063268,2025-03-20,SG1,Heroin,Not Stated,Brown,Powder,Smoked,No Effect,No Active Component Identified,,51.9022,-0.2026
 000234038,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,No Active Component Identified,,51.5877,-2.9984
 W063051,2025-03-20,DY4,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Auditory Hallucinations, Visual Hallucinations, Breathlesness, Vomiting, Paranoia, Memory Loss, Loss of consciousness","Heroin, 6-MAM, 6-Acetylcodeine, Noscapine",Papaverine,52.529599999999995,-2.0677
 000233054,2025-03-20,G72,heroin,Not Stated,Brown,Powder,Smoked,"Increased Confidence, Visual Hallucinations, Relaxed, Confusion",No Active Component Identified,,55.80098,-4.12986
-W063268,2025-03-20,SG1,Heroin,Not Stated,Brown,Powder,Smoked,No Effect,No Active Component Identified,,51.9022,-0.2026
+W061976,2025-03-20,EH22,Heroin,Sample A,Grey,Powder,Intravenous,Not Stated,No Active Component Identified,,55.90278333333333,-3.078175
 000233925,2025-03-20,CF83,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Irregular Heartbeat, Nausea, Agitation","Noscapine, Heroin, Paracetamol, Papaverine, Caffeine","6-MAM, 6-Acetylcodeine",51.59288333333333,-3.2333833333333337
 W052806,2025-03-20,AB16,Heroin,Not Stated,Brown,Powder,Smoked,"Increased Strength, Breathlesness, Irregular Heartbeat","Paracetamol, Noscapine, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine, Etonitazene, Phenacetin",57.16,-2.1567
 W062265,2025-03-20,PL25,Heroin,Heroin Trillogy,"Orange, White",Powder,Smoked,"Euphoria, Increased Confidence, Increased Energy, Increased Strength, Relaxed","Heroin, Noscapine, 6-MAM","Papaverine, Caffeine",50.3372,-4.75845
-W061976,2025-03-20,EH22,Heroin,Sample A,Grey,Powder,Intravenous,Not Stated,No Active Component Identified,,55.90278333333333,-3.078175
-000234029,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,"Heroin, Papaverine",51.5877,-2.9984
 W063285,2025-03-27,B18,Heroin,Not Stated,"White, Brown",Powder,Smoked,"Euphoria, Relaxed, Nausea","Noscapine, Heroin","6-Acetylcodeine, 6-MAM, Papaverine, Paracetamol, Caffeine",52.4814,-1.8998
 000232543,2025-03-27,G42,Heroin,Not Stated,Brown,Powder,Not Stated,"Increased Energy, Increased Confidence, Increased Stamina, Increased Strength, Paranoia, Confusion, Violence/Aggression, Suicidal Ideation","Heroin, Noscapine, Paracetamol, Caffeine","6-MAM, Papaverine",55.8322,-4.2576
 W049240,2025-03-27,KY20,Heroin,Not Stated,Brown,Powder,Smoked,Not Stated,"Paracetamol, Noscapine, Caffeine, 6-MAM","Etonitazene, Heroin, 6-Acetylcodeine, Papaverine",56.116666666666674,-3.2097
 W063231,2025-03-27,TR25,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Papaverine, Paracetamol, Caffeine",49.9642,-6.2933
+W063480,2025-04-03,FK10,heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Caffeine, Heroin, Paracetamol, 6-MAM, Papaverine, 6-Acetylcodeine",,56.10687777777778,-3.7534
+000235554,2025-04-03,NP12,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin","Papaverine, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine, Dextromethorphan",51.6678,-3.2075
 W063002,2025-04-03,HR81,Heroin,Not Stated,"Grey, Brown",Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Stamina, Relaxed, Insomnia","Noscapine, Heroin, 6-MAM, Diazepam, 6-Acetylcodeine","Paracetamol, Papaverine",52.04964642857143,-2.4549714285714286
 W063517,2025-04-03,CT10,Heroin,Heroin-sir-ray,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Caffeine, Papaverine, Bromazolam",51.3687,1.435466666666667
-000235554,2025-04-03,NP12,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin","Papaverine, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine, Dextromethorphan",51.6678,-3.2075
-W063480,2025-04-03,FK10,heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Caffeine, Heroin, Paracetamol, 6-MAM, Papaverine, 6-Acetylcodeine",,56.10687777777778,-3.7534
-000235555,2025-04-07,NP12,Heroin,Not Stated,"White, Brown",Powder,Intravenous,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.6678,-3.2075
 W063294,2025-04-07,WR14,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed","Noscapine, Heroin, 6-Acetylcodeine, 6-MAM, Diazepam","Papaverine, Caffeine, Paracetamol",52.095075,-2.327225
-W063513,2025-04-07,G82,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Caffeine, Paracetamol, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Etonitazene, N-desethyletonitazene",55.954800000000006,-4.5815222222222225
+000235555,2025-04-07,NP12,Heroin,Not Stated,"White, Brown",Powder,Intravenous,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.6678,-3.2075
 W063424,2025-04-07,WR1,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Paracetamol, Papaverine",52.1894,-2.22
 W063306,2025-04-07,G82,Heroin,Not Stated,Brown,Powder,Smoked,"Nausea, Vomiting, Irregular Heartbeat","Paracetamol, Noscapine, Heroin, 6-Acetylcodeine",Papaverine,55.954800000000006,-4.5815222222222225
+W063513,2025-04-07,G82,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Caffeine, Paracetamol, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Etonitazene, N-desethyletonitazene",55.954800000000006,-4.5815222222222225
 W063286,2025-04-08,HR82,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Diazepam, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol",52.04964642857143,-2.4549714285714286
 W063498,2025-04-08,,heroin,heroin,,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine","6-Acetylcodeine, Papaverine",0,0
 W063445,2025-04-08,CH65,heroin,heroin,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",53.2787,-2.9013
 W062695,2025-04-15,EH14,Heroin,Not Stated,Brown,Powder,Intravenous,"Relaxed, Euphoria","Noscapine, Paracetamol, Heroin","Caffeine, 6-MAM, Papaverine, 6-Acetylcodeine",55.894733333333335,-3.3110166666666667
 W053082,2025-04-15,KY11,heroin,Not Stated,,,Not Stated,Not Stated,"Noscapine, Paracetamol, 6-MAM","Caffeine, Heroin, Papaverine",56.037644444444446,-3.422588888888889
-W064301,2025-04-24,FK8,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Nausea, Memory Loss","Noscapine, Heroin, Caffeine, Paracetamol, 6-Acetylcodeine","Etonitazene, Papaverine",56.12892702702703,-4.228913513513514
-W063668,2025-04-24,AB24,heroin,heroin,"Grey, Black",Solid,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Papaverine","6-Acetylcodeine, 6-MAM, Caffeine",57.1437,-2.0981
-W063152,2025-04-24,TS8,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Increased Energy, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine, 6-MAM","6-Acetylcodeine, Dextromethorphan",54.51546,-1.24278
-W063830,2025-04-24,TD1,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Phenacetin, Papaverine",55.66659333333334,-2.8606933333333333
 W063874,2025-04-24,YO8,Heroin,Not Stated,"White, Brown",Powder,"Smoked, Intravenous",No Effect,"Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine",Papaverine,53.77469393939394,-1.0269030303030302
-W063954,2025-04-29,PL1,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","Papaverine, 6-Acetylcodeine",50.37435000000001,-4.1642
+W063830,2025-04-24,TD1,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Phenacetin, Papaverine",55.66659333333334,-2.8606933333333333
+W063668,2025-04-24,AB24,heroin,heroin,"Grey, Black",Solid,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Papaverine","6-Acetylcodeine, 6-MAM, Caffeine",57.1437,-2.0981
+W064301,2025-04-24,FK8,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Nausea, Memory Loss","Noscapine, Heroin, Caffeine, Paracetamol, 6-Acetylcodeine","Etonitazene, Papaverine",56.12892702702703,-4.228913513513514
+W063152,2025-04-24,TS8,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Increased Energy, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine, 6-MAM","6-Acetylcodeine, Dextromethorphan",54.51546,-1.24278
 000233955,2025-04-29,CF83,Heroin,Not Stated,Brown,Powder,Not Stated,"Relaxed, Agitation","Paracetamol, 6-MAM","Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
+W063954,2025-04-29,PL1,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","Papaverine, 6-Acetylcodeine",50.37435000000001,-4.1642
+W064232,2025-04-30,AB24,Heroin,Not Stated,"White, Brown",Powder,Not Stated,No Effect,"Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,57.1437,-2.0981
 000233818,2025-04-30,NP4,Heroin,Not Stated,,Solid,Smoked,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, Caffeine, 6-MAM, Paracetamol",,51.718515789473685,-3.030521052631579
 W063998,2025-04-30,AB41,Heroin,Afghan Sand,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",57.35964615384615,-2.199930769230769
-W064232,2025-04-30,AB24,Heroin,Not Stated,"White, Brown",Powder,Not Stated,No Effect,"Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,57.1437,-2.0981
+W064325,2025-05-07,EH39,heroin,Not Stated,"Red, Brown",Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, 6-MAM, Caffeine, 6-Acetylcodeine","Metonitazene, Papaverine",56.0277,-2.7334
+W064324,2025-05-07,EH48,heroin,Not Stated,,Powder,Intravenous,No Effect,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
 W064023,2025-05-07,EH3,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Chest Pains, Nasal Burning, Memory Loss, Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,55.9521,-3.1965
 000234714,2025-05-07,CF31,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Papaverine, 6-Acetylcodeine",51.507666666666665,-3.577733333333333
-W064325,2025-05-07,EH39,heroin,Not Stated,"Red, Brown",Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, 6-MAM, Caffeine, 6-Acetylcodeine","Metonitazene, Papaverine",56.0277,-2.7334
+W064322,2025-05-07,WR2,heroin,Not Stated,,Powder,Intravenous,"Increased Energy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",52.19407857142857,-2.2507214285714285
 W064451,2025-05-07,LL11,heroin,L+D heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine","6-Acetylcodeine, Papaverine",53.064506666666674,-3.052973333333333
 000233804,2025-05-07,NP20,heroin,heroin,White,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",,51.5877,-2.9984
 W064070,2025-05-07,SR2,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Paracetamol",54.8792,-1.37365
-W064322,2025-05-07,WR2,heroin,Not Stated,,Powder,Intravenous,"Increased Energy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",52.19407857142857,-2.2507214285714285
-W064324,2025-05-07,EH48,heroin,Not Stated,,Powder,Intravenous,No Effect,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
 000234271,2025-05-08,NP4,Heroin,Not Stated,Brown,,Intravenous,Not Stated,Cocaine,Caffeine,51.718515789473685,-3.030521052631579
 000234272,2025-05-08,NP4,heroin,Not Stated,Brown,,Intravenous,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
 W064489,2025-05-08,KY3,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Etonitazene",56.05788,-3.2186399999999997
@@ -385,12 +385,12 @@ W064877,2025-05-13,OX4,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed"
 000234276,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
 W064862,2025-05-13,AB43,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Nausea","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",57.65489545454545,-2.046884090909091
 000234278,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
-W064685,2025-05-13,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation","Paracetamol, Caffeine, Noscapine, Cocaine, Heroin, 6-MAM","Ethylbromazolam, 6-Acetylcodeine, Papaverine, Phenacetin",51.648575,-1.2559833333333332
+000234279,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Buprenorphine,,51.718515789473685,-3.030521052631579
 W064638,2025-05-13,E8,heroin,heroin,Grey,Powder,Not Stated,Not Stated,"Diazepam, Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol","Caffeine, Papaverine",51.548,-0.0629
 W064652,2025-05-13,LL13,heroin,Not Stated,Black,Solid,Intravenous,Not Stated,"Noscapine, Heroin, Papaverine, 6-Acetylcodeine, 6-MAM","Paracetamol, Caffeine",52.9917619047619,-2.9116809523809524
 W064663,2025-05-13,CF24,heroin,heroin,Grey,Powder,Smoked,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine","Paracetamol, 6-MAM, Papaverine",51.48,-3.18
 000233989,2025-05-13,NP4,heroin,Not Stated,"Colourless, White",,Not Stated,Not Stated,Caffeine,Amphetamine,51.718515789473685,-3.030521052631579
-000234279,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Buprenorphine,,51.718515789473685,-3.030521052631579
+W064685,2025-05-13,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation","Paracetamol, Caffeine, Noscapine, Cocaine, Heroin, 6-MAM","Ethylbromazolam, 6-Acetylcodeine, Papaverine, Phenacetin",51.648575,-1.2559833333333332
 000233991,2025-05-13,NP4,Heroin,Not Stated,White,,Not Stated,Not Stated,Caffeine,Amphetamine,51.718515789473685,-3.030521052631579
 000234000,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Caffeine,,51.718515789473685,-3.030521052631579
 W064635,2025-05-13,WR13,Heroin,Not Stated,Brown,Powder,Smoked,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Papaverine",52.09508421052632,-2.3295421052631577
@@ -407,37 +407,37 @@ W062378,2025-05-16,EH6,heroin,Not Stated,Brown,Powder,Snort / Sniff,Euphoria,"No
 W065021,2025-05-16,E18,heroin TCCH,Heroin TCCH,"Yellow, Brown",Powder,Not Stated,Not Stated,"Heroin, 6-MAM, Noscapine, 6-Acetylcodeine",Papaverine,51.5923,0.0225
 W065022,2025-05-16,E18,heroin TPK,TRi-heroin TPK,"Yellow, Brown",Powder,Not Stated,Not Stated,"Noscapine, Heroin, Papaverine","Caffeine, Paracetamol, 6-Acetylcodeine, 6-MAM",51.5923,0.0225
 W065020,2025-05-16,E18,heroin,heroin,Yellow,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.5923,0.0225
-000235412,2025-05-16,LD2,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"Caffeine, Amphetamine",,52.104838461538456,-3.3634192307692308
-W065045,2025-05-16,TS1,heroin,Heroin,Brown,Powder,"Smoked, Intramuscular","Increased Energy, Increased Confidence, Increased Stamina, Relaxed, Enhanced Senses","6-MAM, Noscapine, Paracetamol, Caffeine, Heroin, Papaverine",,54.5762,-1.2348
 W064963,2025-05-16,LA14,Heroin,Not Stated,Grey,,Intravenous,"Euphoria, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",54.11596666666667,-3.23425
+W065045,2025-05-16,TS1,heroin,Heroin,Brown,Powder,"Smoked, Intramuscular","Increased Energy, Increased Confidence, Increased Stamina, Relaxed, Enhanced Senses","6-MAM, Noscapine, Paracetamol, Caffeine, Heroin, Papaverine",,54.5762,-1.2348
+000235412,2025-05-16,LD2,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"Caffeine, Amphetamine",,52.104838461538456,-3.3634192307692308
 W065024,2025-05-16,E18,heroin,GHUK Heroin s1,"Yellow, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM",Papaverine,51.5923,0.0225
-000235705,2025-05-22,CF31,heroin,Not Stated,Brown,Plant Matter,Smoked,Loss of consciousness,"Paracetamol, Codeine",,51.507666666666665,-3.577733333333333
 W053114,2025-05-22,KY11,heroin,Not Stated,Brown,,Intravenous,Not Stated,"Noscapine, 6-MAM, Paracetamol, Caffeine, Heroin, Papaverine",6-Acetylcodeine,56.037644444444446,-3.422588888888889
+000235705,2025-05-22,CF31,heroin,Not Stated,Brown,Plant Matter,Smoked,Loss of consciousness,"Paracetamol, Codeine",,51.507666666666665,-3.577733333333333
 000232896,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"Relaxed, Nausea, Vomiting","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
-000232897,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"No Effect, Relaxed",No Active Component Identified,,51.59288333333333,-3.2333833333333337
 000232894,2025-05-28,CF83,Heroin,Not Stated,Grey,,Smoked,Not Stated,No Active Component Identified,,51.59288333333333,-3.2333833333333337
 W065257,2025-05-28,EH47,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Paranoia, Memory Loss, Panic Attack","Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM",,55.85647142857143,-3.669085714285714
-W064761,2025-05-30,EH26,HEROIN,Not Stated,"White, Brown",Powder,"Smoked, Intravenous",Not Stated,"6-MAM, Paracetamol, Caffeine, Noscapine","Papaverine, 6-Acetylcodeine, Heroin",55.82387142857142,-3.241371428571429
+000232897,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"No Effect, Relaxed",No Active Component Identified,,51.59288333333333,-3.2333833333333337
 W064762,2025-05-30,EH26,HEROIN,Not Stated,Black,Powder,Intravenous,Not Stated,No Active Component Identified,,55.82387142857142,-3.241371428571429
+W064761,2025-05-30,EH26,HEROIN,Not Stated,"White, Brown",Powder,"Smoked, Intravenous",Not Stated,"6-MAM, Paracetamol, Caffeine, Noscapine","Papaverine, 6-Acetylcodeine, Heroin",55.82387142857142,-3.241371428571429
 000234248,2025-06-06,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin, Paracetamol, 6-Acetylcodeine","Papaverine, 6-MAM, Etonitazene",51.5877,-2.9984
 000232899,2025-06-06,CF83,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Irregular Heartbeat","Noscapine, Phenacetin, Heroin","Paracetamol, 6-Acetylcodeine, Caffeine, Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
 000235571,2025-06-13,DP11,heroin,Not Stated,"White, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, 6-MAM, Caffeine, Heroin","6-Acetylcodeine, Papaverine",,
 000233058,2025-06-13,G72,heroin,Not Stated,"White, Brown",Plant Matter,Smoked,"Relaxed, Chest Pains, Memory Loss, Confusion, Loss of consciousness","Noscapine, Caffeine, Paracetamol, Heroin","6-Acetylcodeine, 6-MAM, Papaverine, Etonitazene",55.80098,-4.12986
 000233490,2025-06-13,LL41,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Nausea, Agitation, Depression","Noscapine, Heroin, Paracetamol, 6-MAM","Caffeine, 6-Acetylcodeine, Papaverine",52.95797,-3.94751
-W065689,2025-06-16,TS1,Heroin,Not Stated,Brown,Solid,"Smoked, Intravenous","Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Strength, Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Insomnia, Depression","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",54.5762,-1.2348
 000233966,2025-06-16,NP4,Heroin,Not Stated,Brown,Granules,Intravenous,"Irregular Heartbeat, Loss of consciousness","Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine","Papaverine, Etonitazene, Metonitazene",51.718515789473685,-3.030521052631579
-W064763,2025-06-17,EH3,Heroin,Not Stated,Brown,Powder,Smoked,"Auditory Hallucinations, Psychosis, Visual Hallucinations, Confusion","Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.9521,-3.1965
+W065689,2025-06-16,TS1,Heroin,Not Stated,Brown,Solid,"Smoked, Intravenous","Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Strength, Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Insomnia, Depression","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",54.5762,-1.2348
 000233489,2025-06-17,LL41,Heroin,Not Stated,Brown,Powder,Smoked,No Effect,"Heroin, Noscapine, 6-Acetylcodeine","Papaverine, 6-MAM, Paracetamol, Caffeine",52.95797,-3.94751
+W064763,2025-06-17,EH3,Heroin,Not Stated,Brown,Powder,Smoked,"Auditory Hallucinations, Psychosis, Visual Hallucinations, Confusion","Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.9521,-3.1965
 W065729,2025-06-20,HR26,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol",51.98334078947369,-2.796544736842105
 W065848,2025-06-20,FK1,iranian Heroin,Not Stated,Brown,Granules,Intravenous,"Relaxed, Confusion","Noscapine, Heroin, Papaverine, 6-MAM, 6-Acetylcodeine","Paracetamol, Caffeine",55.96849090909091,-3.796481818181818
 W065847,2025-06-20,FK1,Iranian heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin","6-Acetylcodeine, Papaverine, 6-MAM",55.96849090909091,-3.796481818181818
 W065866,2025-06-24,SY1,Heroin,Rw DC,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Papaverine",52.71675,-2.7468
 000235419,2025-06-24,SN,Heroin,Not Stated,Brown,Powder,Intravenous,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",,
 000236295,2025-06-25,CF83,heroin,Not Stated,Brown,Powder,Smoked,No Effect,"Noscapine, Heroin, 6-Acetylcodeine","Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
-000236419,2025-07-01,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, Diazepam","Etonitazene, 6-Acetylcodeine, 6-MAM, Papaverine, Metonitazene",51.5877,-2.9984
+000232281,2025-07-01,CF83,heroin,Not Stated,Brown,Powder,Not Stated,Relaxed,"Phenacetin, Noscapine, Heroin","Cocaine, Paracetamol, Caffeine, 6-MAM, Papaverine",51.59288333333333,-3.2333833333333337
 000231870,2025-07-01,LL65,heroin,Not Stated,Brown,,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion, Panic Attack","Heroin, Noscapine, 6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",Metonitazene,53.289686206896555,-4.534455172413793
 000233971,2025-07-01,NP4,heroin,Not Stated,Brown,,Intravenous,Not Stated,"6-MAM, Noscapine, Heroin, Paracetamol",6-Acetylcodeine,51.718515789473685,-3.030521052631579
-000232281,2025-07-01,CF83,heroin,Not Stated,Brown,Powder,Not Stated,Relaxed,"Phenacetin, Noscapine, Heroin","Cocaine, Paracetamol, Caffeine, 6-MAM, Papaverine",51.59288333333333,-3.2333833333333337
+000236419,2025-07-01,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, Diazepam","Etonitazene, 6-Acetylcodeine, 6-MAM, Papaverine, Metonitazene",51.5877,-2.9984
 W066188,2025-07-01,AB24,heroin,Not Stated,Brown,Granules,Smoked,Relaxed,"Noscapine, Etonitazene, Heroin, 6-MAM",Papaverine,57.1437,-2.0981
 W066187,2025-07-01,AB42,heroin,Not Stated,Brown,Powder,Intravenous,Relaxed,"Paracetamol, Noscapine, 6-MAM, Caffeine, Heroin",Papaverine,57.48231142857143,-1.924825714285714
 W066152,2025-07-01,SA1,heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Relaxed, Chest Pains","Phenacetin, Paracetamol",Caffeine,51.633979999999994,-3.94848
@@ -445,26 +445,26 @@ W064497,2025-07-02,EH22,heroin,Not Stated,"White, Brown",Solid,Smoked,"Confusion
 W066261,2025-07-02,EH22,Heroin,Not Stated,Brown,Solid,Smoked,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","Papaverine, 6-Acetylcodeine",55.90278333333333,-3.078175
 W066390,2025-07-03,EH47,heroin,Not Stated,"White, Grey",Powder,Intramuscular,"Euphoria, Increased Energy, Increased Confidence, Relaxed","Paracetamol, Codeine, Noscapine, Etonitazene",Heroin,55.85647142857143,-3.669085714285714
 W066391,2025-07-03,EH7,heroin,Heroin,"Brown, Brown",Powder,Smoked,Nausea,"Noscapine, Heroin, Paracetamol, Caffeine","6-MAM, Papaverine",55.9521,-3.1965
-W066488,2025-07-08,AB43,heroin,Not Stated,"Orange, Brown",Liquid,Intravenous,"Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Agitation, Insomnia, Loss of consciousness","6-MAM, Noscapine, Heroin, Papaverine, Caffeine, Paracetamol, 6-Acetylcodeine, Etonitazene, Morphine","Metonitazene, Dextromethorphan",57.65489545454545,-2.046884090909091
 000236421,2025-07-08,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Cocaine",Phenacetin,51.5877,-2.9984
-W066869,2025-07-17,AB42,heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed, Breathlesness, Nausea, Vomiting, Memory Loss, Loss of consciousness","Noscapine, Heroin, 6-MAM, Paracetamol, Metonitazene, 6-Acetylcodeine","Caffeine, Papaverine",57.48231142857143,-1.924825714285714
+W066488,2025-07-08,AB43,heroin,Not Stated,"Orange, Brown",Liquid,Intravenous,"Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Agitation, Insomnia, Loss of consciousness","6-MAM, Noscapine, Heroin, Papaverine, Caffeine, Paracetamol, 6-Acetylcodeine, Etonitazene, Morphine","Metonitazene, Dextromethorphan",57.65489545454545,-2.046884090909091
 W066813,2025-07-17,G20,Heroin,Not Stated,Green,,Snort / Sniff,"Auditory Hallucinations, Breathlesness, Chest Pains, Memory Loss, Confusion, Panic Attack, Insomnia, Depression","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, 6-Acetylcodeine, Papaverine",Etonitazene,55.8906,-4.2904
+W066869,2025-07-17,AB42,heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed, Breathlesness, Nausea, Vomiting, Memory Loss, Loss of consciousness","Noscapine, Heroin, 6-MAM, Paracetamol, Metonitazene, 6-Acetylcodeine","Caffeine, Papaverine",57.48231142857143,-1.924825714285714
 W066545,2025-07-21,L13,Heroin,RW Afghan dream cream ,"Brown, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, MDMA","Diazepam, Caffeine, Papaverine",53.4179,-2.9206
 W067059,2025-07-24,PA19,heroin,Not Stated,Brown,Powder,Smoked,"Increased Energy, Breathlesness, Confusion, Agitation, Depression, Suicidal Ideation","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine","6-MAM, 6-Acetylcodeine",55.9616,-4.8179
-W067138,2025-07-25,SR3,Heroin,Bugs Bunny,,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Caffeine, Thebacon, Papaverine",Paracetamol,54.874233333333336,-1.4153666666666669
 W066364,2025-07-25,SR3,Heroin,Vanilla,"Yellow, Brown",Powder,Not Stated,Not Stated,"Noscapine, Heroin, Thebacon","6-MAM, Papaverine",54.874233333333336,-1.4153666666666669
+W067138,2025-07-25,SR3,Heroin,Bugs Bunny,,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Caffeine, Thebacon, Papaverine",Paracetamol,54.874233333333336,-1.4153666666666669
 W067406,2025-08-01,FK2,Heroin,Heroin,Black,Powder,Intravenous,"Relaxed, Breathlesness","Paracetamol, Noscapine, Heroin",Papaverine,56.01717272727273,-3.755472727272727
-000237203,2025-08-05,CF47,Heroin,Not Stated,"Orange, Yellow",Powder,Intravenous,Enhanced Senses,"Noscapine, Heroin, 6-MAM, Paracetamol","Papaverine, 6-Acetylcodeine",51.7479,-3.3778
-W067528,2025-08-05,FK10,Heroin,Not Stated,Brown,,Smoked,Not Stated,No Active Component Identified,,56.10687777777778,-3.7534
-W067443,2025-08-05,CH54,Heroin,Not Stated,Grey,Powder,Intravenous,"Relaxed, Breathlesness, Irregular Heartbeat, Panic Attack, Loss of consciousness, Agitation","Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine, 6-Acetylcodeine","Papaverine, Etonitazene, Metonitazene, Dextromethorphan",53.19930000000001,-3.03614
-W059366,2025-08-05,EH17,Heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Auditory Hallucinations, Visual Hallucinations, Relaxed, Paranoia, Confusion, Agitation","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.9084,-3.128
-W066237,2025-08-05,EH3,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine","6-MAM, Papaverine",55.9521,-3.1965
-000235573,2025-08-05,NP24,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM","Clozapine, Papaverine",51.7205,-3.2413
-W067014,2025-08-05,AB42,Heroin,Not Stated,Brown,,Smoked,Relaxed,"Noscapine, Paracetamol, Heroin, Caffeine","6-Acetylcodeine, 6-MAM",57.48231142857143,-1.924825714285714
 000236496,2025-08-05,NP20,Heroin,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Caffeine",,51.5877,-2.9984
-W067452,2025-08-05,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Relaxed, Breathlesness, Memory Loss, Loss of consciousness","Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",55.9358,-3.4882625
+W067014,2025-08-05,AB42,Heroin,Not Stated,Brown,,Smoked,Relaxed,"Noscapine, Paracetamol, Heroin, Caffeine","6-Acetylcodeine, 6-MAM",57.48231142857143,-1.924825714285714
 W067453,2025-08-05,EH47,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM",,55.85647142857143,-3.669085714285714
+W067452,2025-08-05,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Relaxed, Breathlesness, Memory Loss, Loss of consciousness","Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",55.9358,-3.4882625
+000235573,2025-08-05,NP24,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM","Clozapine, Papaverine",51.7205,-3.2413
 W067590,2025-08-05,EH48,heroin,Not Stated,Brown,Powder,"Oral, Smoked","Euphoria, Empathy, Relaxed, Chest Pains, Irregular Heartbeat, Confusion, Depression, Headache","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
+W059366,2025-08-05,EH17,Heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Auditory Hallucinations, Visual Hallucinations, Relaxed, Paranoia, Confusion, Agitation","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.9084,-3.128
+W067443,2025-08-05,CH54,Heroin,Not Stated,Grey,Powder,Intravenous,"Relaxed, Breathlesness, Irregular Heartbeat, Panic Attack, Loss of consciousness, Agitation","Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine, 6-Acetylcodeine","Papaverine, Etonitazene, Metonitazene, Dextromethorphan",53.19930000000001,-3.03614
+W067528,2025-08-05,FK10,Heroin,Not Stated,Brown,,Smoked,Not Stated,No Active Component Identified,,56.10687777777778,-3.7534
+000237203,2025-08-05,CF47,Heroin,Not Stated,"Orange, Yellow",Powder,Intravenous,Enhanced Senses,"Noscapine, Heroin, 6-MAM, Paracetamol","Papaverine, 6-Acetylcodeine",51.7479,-3.3778
+W066237,2025-08-05,EH3,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine","6-MAM, Papaverine",55.9521,-3.1965
 W067515,2025-08-07,SA15,Heroin,Not Stated,Brown,Liquid,Intravenous,No Effect,"Paracetamol, Caffeine",,51.74003,-4.187250000000001
 W063988,2025-08-07,AB41,heroin,Afgan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,57.35964615384615,-2.199930769230769
 W063990,2025-08-07,AB41,heroin,Turkish Heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",Caffeine,57.35964615384615,-2.199930769230769
@@ -498,8 +498,9 @@ W069243,2025-09-25,WR65,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,No 
 W069238,2025-09-25,EH22,HEROIN,Not Stated,Brown,Powder,Smoked,Loss of consciousness,No Active Component Identified,,55.90278333333333,-3.078175
 W064026,2025-09-25,EH12,HEROIN,HEROIN,Brown,,Smoked,Relaxed,"Caffeine, Paracetamol","6-MAM, Papaverine, 6-Acetylcodeine, Morphine",55.9429,-3.285
 000237012,2025-09-25,CF10,HEROIN,Not Stated,Brown,Powder,Intravenous,Not Stated,"Caffeine, Paracetamol, Heroin, Noscapine, 6-MAM","6-Acetylcodeine, Papaverine, Etonitazene",51.48,-3.18
-W069237,2025-09-25,EH22,HEROIN,Not Stated,Brown,Powder,Smoked,Relaxed,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM, Medetomidine","6-Acetylcodeine, Papaverine",55.90278333333333,-3.078175
 000237814,2025-09-25,CF31,HEROIN,Not Stated,Brown,Powder,Intravenous,"Relaxed, Memory Loss, Depression",No Active Component Identified,,51.507666666666665,-3.577733333333333
+W069237,2025-09-25,EH22,HEROIN,Not Stated,Brown,Powder,Smoked,Relaxed,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM, Medetomidine","6-Acetylcodeine, Papaverine",55.90278333333333,-3.078175
+W069302,2025-09-26,LL13,heroin,Not Stated,Grey,Solid,Intravenous,"Euphoria, Relaxed, Irregular Heartbeat, Insomnia","Noscapine, Paracetamol, 6-MAM, Medetomidine, Caffeine, Heroin","Papaverine, 6-Acetylcodeine",52.9917619047619,-2.9116809523809524
 000236424,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Intravenous,"Increased Confidence, Relaxed",Noscapine,"Heroin, 6-MAM, Papaverine, Paracetamol, Caffeine, 6-Acetylcodeine",51.5877,-2.9984
 000236423,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,Papaverine,51.5877,-2.9984
 000236422,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,No Active Component Identified,,51.5877,-2.9984
@@ -508,16 +509,15 @@ W066234,2025-09-26,EH26,Heroin,Not Stated,"Grey, Brown",Powder,Intravenous,Relax
 W069290,2025-09-26,AB11,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,"Anxiety, Agitation","Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine, Papaverine, Caffeine",,57.1437,-2.0981
 W053125,2025-09-26,KY6,Heroin,Not Stated,"Green, Brown",,Intravenous,Not Stated,"Paracetamol, Caffeine, Noscapine, 6-MAM","Heroin, 6-Acetylcodeine, Metonitazene, Papaverine, Morphine",56.2,-3.2167000000000003
 W069274,2025-09-26,DY82,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Heroin, 6-MAM, Noscapine, 6-Acetylcodeine, Papaverine","Caffeine, Paracetamol, Diazepam",52.46216666666667,-2.15605
-W069302,2025-09-26,LL13,heroin,Not Stated,Grey,Solid,Intravenous,"Euphoria, Relaxed, Irregular Heartbeat, Insomnia","Noscapine, Paracetamol, 6-MAM, Medetomidine, Caffeine, Heroin","Papaverine, 6-Acetylcodeine",52.9917619047619,-2.9116809523809524
 W069395,2025-10-02,NR12,Heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,No Active Component Identified,,52.7447075,1.4507275
 W069434,2025-10-02,SW11,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,Heroin,"Noscapine, 6-MAM, 6-Acetylcodeine, Papaverine",51.469166666666666,-0.1619333333333333
 W069551,2025-10-02,E1,HEROIN (PD=PAK 1 POWDER),Not Stated,Brown,Solid,Intravenous,Not Stated,"Noscapine, Heroin, 6-MAM, 6-Acetylcodeine",Papaverine,51.51302727272727,-0.0617727272727272
 W069376,2025-10-03,EH21,HEROIN,HEROIN,Brown,Powder,Smoked,Loss of consciousness,"Paracetamol, Caffeine, Etonitazene","Noscapine, 6-MAM, Heroin",55.94169999999999,-3.0499
-W069636,2025-10-07,HG15,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed",No Active Component Identified,,53.99700000000001,-1.5357666666666667
 W069413,2025-10-07,DY14,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Heroin, Noscapine, 6-MAM, Diazepam, 6-Acetylcodeine","Papaverine, Paracetamol, Caffeine",52.37273478260869,-2.401586956521739
 W069609,2025-10-07,SW9,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"5,6-dichloro desmethylchlorphine",Medetomidine,51.474,-0.1168
 W069607,2025-10-07,SW9,HEROIN,Not Stated,White,Powder,Smoked,Euphoria,N-propionitrile chlorphine,,51.474,-0.1168
 000236431,2025-10-07,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",51.5877,-2.9984
+W069636,2025-10-07,HG15,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed",No Active Component Identified,,53.99700000000001,-1.5357666666666667
 000234335,2025-10-07,CF11,HEROIN,Not Stated,Brown,Powder,Intravenous,No Effect,"Noscapine, Heroin, Paracetamol, 6-MAM",,51.48,-3.18
 000236139,2025-10-15,CF62,Heroin,Not Stated,White,Solid,Smoked,"Euphoria, Relaxed, Confusion, Loss of consciousness, Agitation","Paracetamol, 6-MAM, Noscapine, Caffeine","Papaverine, 6-Acetylcodeine, Medetomidine",51.4027,-3.37145
 000236262,2025-10-15,CF83,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Chest Pains, Irregular Heartbeat","Noscapine, Heroin, 6-Acetylcodeine, Paracetamol","Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
@@ -527,16 +527,16 @@ W069971,2025-10-21,L15B,HEROIN,ILLICIT,Brown,,Smoked,"No Effect, Euphoria, Incre
 000231102,2025-10-21,LL65,Heroin,Not Stated,Brown,Solid,Not Stated,"Breathlesness, Chest Pains, Irregular Heartbeat, Panic Attack","Noscapine, Heroin, 6-MAM, Paracetamol","Caffeine, Papaverine, 6-Acetylcodeine",53.289686206896555,-4.534455172413793
 W069908,2025-10-21,SO21,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Loss of consciousness",Tetrahydrocannabinol,,51.08811935483871,-1.300141935483871
 W070275,2025-10-28,SO23,HEROIN,SOLD AS HEROIN,"Brown, Black",Granules,Intravenous,"Relaxed, Loss of consciousness","Noscapine, Heroin","6-Acetylcodeine, 6-MAM",51.07606666666667,-1.3140666666666665
-W069869,2025-10-28,AB42,Heroin,Not Stated,"Black, Brown",Solid,Smoked,Loss of consciousness,"Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM",Papaverine,57.48231142857143,-1.924825714285714
 W069495,2025-10-28,B169,HEROIN,Not Stated,"Black, Brown",Solid,Not Stated,Not Stated,"Heroin, Noscapine","6-MAM, 6-Acetylcodeine, Papaverine",52.4768,-1.9341
 W070188,2025-10-28,RG5,HEROIN,NO,Brown,Solid,Smoked,"Panic Attack, Depression, Suicidal Ideation","Heroin, Noscapine","6-Acetylcodeine, 6-MAM, Papaverine",51.45,-0.8833
-W070227,2025-10-28,TR25,heroin,H/A,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Papaverine, Paracetamol",49.9642,-6.2933
 W070226,2025-10-28,TR25,HEROIN,H/A,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Thebacon","6-MAM, Papaverine, Caffeine, Paracetamol",49.9642,-6.2933
-W070399,2025-11-05,KY11,HEROIN,NO LABEL,Brown,Powder,Smoked,"No Effect, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",56.037644444444446,-3.422588888888889
+W069869,2025-10-28,AB42,Heroin,Not Stated,"Black, Brown",Solid,Smoked,Loss of consciousness,"Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM",Papaverine,57.48231142857143,-1.924825714285714
+W070227,2025-10-28,TR25,heroin,H/A,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Papaverine, Paracetamol",49.9642,-6.2933
 W070599,2025-11-05,E18,HEROIN,Not Stated,Brown,Powder,"Smoked, Snort / Sniff","Euphoria, Relaxed, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Papaverine, 6-MAM, Paracetamol","6-Acetylcodeine, Medetomidine, Lidocaine",51.5923,0.0225
+W070531,2025-11-05,EH48,HEROIN,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
 000233350,2025-11-05,LD3,HEROIN,Not Stated,White,Powder,Not Stated,Euphoria,Cocaine,,51.99435362318841,-3.411075362318841
 W070600,2025-11-05,E18,HEROIN,Not Stated,"Grey, Brown",Powder,Smoked,"Auditory Hallucinations, Visual Hallucinations, Paranoia, Memory Loss, Confusion, Panic Attack, Agitation, Violence/Aggression, Suicidal Ideation","Noscapine, Heroin, 6-MAM, Paracetamol, MDMB-4en-PINACA, Caffeine, 6-Acetylcodeine, Papaverine",Morphine,51.5923,0.0225
-W070531,2025-11-05,EH48,HEROIN,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
+W070399,2025-11-05,KY11,HEROIN,NO LABEL,Brown,Powder,Smoked,"No Effect, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",56.037644444444446,-3.422588888888889
 W070518,2025-11-12,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Paracetamol, N-propionitrile chlorphine, Medetomidine",,51.648575,-1.2559833333333332
 W070666,2025-11-12,AB43,Heroin,Not Stated,Brown,Crystalline,Smoked,"Loss of consciousness, Overdose","6-MAM, Noscapine, Paracetamol, Heroin, Caffeine","Papaverine, Etonitazene",57.65489545454545,-2.046884090909091
 000236467,2025-11-12,NP4,Heroin,Heroin,Grey,Powder,Intravenous,Increased Energy,"Noscapine, 6-MAM","Paracetamol, Heroin, Caffeine, 6-Acetylcodeine, Papaverine",51.718515789473685,-3.030521052631579
@@ -562,8 +562,8 @@ W069991,2025-12-16,EH7,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Paracetamo
 W071332,2025-12-19,KA18,Heroin,Not Stated,Brown,Powder,Smoked,Overdose,"Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.459129999999995,-4.2176599999999995
 000238655,2025-12-19,NP22,Heroin,Not Stated,"Grey, Brown",,Smoked,"Euphoria, Breathlesness, Chest Pains, Vomiting","Noscapine, Heroin, Paracetamol, Papaverine, Caffeine","6-MAM, 6-Acetylcodeine",51.7725,-3.2468
 W072089,2025-12-19,SA11,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.70800714285714,-3.6944071428571426
-W072008,2025-12-22,SR3,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Caffeine, Paracetamol",54.874233333333336,-1.4153666666666669
 W072124,2025-12-22,NW7,Heroin,Iranian Black Glass,"Black, Brown",Solid,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed","Noscapine, Heroin","6-Acetylcodeine, Papaverine, 6-MAM",51.6094,-0.2273
+W072008,2025-12-22,SR3,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Caffeine, Paracetamol",54.874233333333336,-1.4153666666666669
 W072105,2025-12-23,NW7,Heroin,Trilogy Cream #3,"Grey, Brown",Powder,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed, Nausea, Loss of consciousness","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine, Paracetamol",51.6094,-0.2273
 W072157,2025-12-23,HR27,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Increased Energy, Increased Confidence, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM",Papaverine,51.98334078947369,-2.796544736842105
 000236273,2025-12-31,CF83,Heroin,Not Stated,White,,Smoked,No Effect,"Heroin, Noscapine, Paracetamol, 6-Acetylcodeine, 6-MAM","Caffeine, Papaverine, Diazepam, Phenacetin",51.59288333333333,-3.2333833333333337
@@ -571,40 +571,40 @@ W072427,2026-01-05,G63,HEROIN,T3-TRILOGY #3 CREAM,"Brown, Brown",Powder,Not Stat
 W072353,2026-01-05,NW7,HEROIN,PD CREAM HEROIN,Brown,Powder,"Smoked, Snort / Sniff","Euphoria, Relaxed, Nausea","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.6094,-0.2273
 W072560,2026-01-13,E83,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin","6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine, Caffeine",,
 W069992,2026-01-13,EH76LD,heroin,heroin,"Grey, Brown",Powder,Intravenous,"Increased Confidence, Increased Stamina, Relaxed","Paracetamol, Noscapine, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine, Metonitazene, Etonitazene",55.9521,-3.1965
-W063076,2026-01-15,ML1,Heroin,Not Stated,"Orange, Pink",Powder,Smoked,"Breathlesness, Loss of consciousness, Overdose","Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine, Etonitazene",55.80563333333333,-3.95475
 W072769,2026-01-15,M30,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Empathy, Relaxed, Nystagmus","Noscapine, Heroin","Paracetamol, 6-Acetylcodeine, Papaverine, 6-MAM",53.4833,-2.3333
+W063076,2026-01-15,ML1,Heroin,Not Stated,"Orange, Pink",Powder,Smoked,"Breathlesness, Loss of consciousness, Overdose","Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine, Etonitazene",55.80563333333333,-3.95475
 W072678,2026-01-19,S11,Heroin,Heroin,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Noscapine, Paracetamol, Heroin, Caffeine","6-MAM, 6-Acetylcodeine, Papaverine",53.3608,-1.5084
+W072676,2026-01-19,S11,Heroin,heroin,Brown,Powder,Smoked,"Euphoria, Increased Confidence, Empathy, Auditory Hallucinations, Relaxed, Loss of consciousness","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Diazepam, Papaverine, Paracetamol, Phenacetin, Caffeine",53.3608,-1.5084
+W072675,2026-01-19,S11,heroin,heroin,Brown,Powder,Smoked,"Euphoria, Empathy, Auditory Hallucinations, Relaxed, Chest Pains, Nausea, Confusion, Panic Attack, Agitation, Insomnia","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Diazepam",53.3608,-1.5084
+W072692,2026-01-19,EH3,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Heroin, 6-MAM","Caffeine, Papaverine, Etonitazene, 6-Acetylcodeine",55.9521,-3.1965
 W072964,2026-01-19,NN12,heroin,Not Stated,White,Powder,Smoked,Not Stated,"N-propionitrile chlorphine, Medetomidine",,52.12114285714286,-1.03124
 W072905,2026-01-19,NW7,heroin,the dream cream afghan,Brown,Powder,"Oral, Smoked, Snort / Sniff, Intramuscular","Euphoria, Increased Confidence, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol, Caffeine",51.6094,-0.2273
-W072692,2026-01-19,EH3,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Heroin, 6-MAM","Caffeine, Papaverine, Etonitazene, 6-Acetylcodeine",55.9521,-3.1965
-W072675,2026-01-19,S11,heroin,heroin,Brown,Powder,Smoked,"Euphoria, Empathy, Auditory Hallucinations, Relaxed, Chest Pains, Nausea, Confusion, Panic Attack, Agitation, Insomnia","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Diazepam",53.3608,-1.5084
-W072676,2026-01-19,S11,Heroin,heroin,Brown,Powder,Smoked,"Euphoria, Increased Confidence, Empathy, Auditory Hallucinations, Relaxed, Loss of consciousness","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Diazepam, Papaverine, Paracetamol, Phenacetin, Caffeine",53.3608,-1.5084
-W073055,2026-01-23,L8,Heroin,Afghan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Phenacetin, 6-Acetylcodeine, Papaverine, 6-MAM, Paracetamol, Caffeine",Medetomidine,53.4106,-2.9779
-W072907,2026-01-23,WR1,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion, Loss of consciousness","Paracetamol, Caffeine, Medetomidine, Clozapine, 6-MAM, Noscapine","6-Acetylcodeine, Heroin, Papaverine",52.1894,-2.22
-W069523,2026-01-23,AB42,Heroin,Black glass,"Brown, Black",Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",57.48231142857143,-1.924825714285714
 W072962,2026-01-23,NN12,heroin,Not Stated,Orange,Powder,Smoked,Not Stated,N-pyrrolidino protonitazene,,52.12114285714286,-1.03124
+W069523,2026-01-23,AB42,Heroin,Black glass,"Brown, Black",Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",57.48231142857143,-1.924825714285714
+W072907,2026-01-23,WR1,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion, Loss of consciousness","Paracetamol, Caffeine, Medetomidine, Clozapine, 6-MAM, Noscapine","6-Acetylcodeine, Heroin, Papaverine",52.1894,-2.22
+W073055,2026-01-23,L8,Heroin,Afghan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Phenacetin, 6-Acetylcodeine, Papaverine, 6-MAM, Paracetamol, Caffeine",Medetomidine,53.4106,-2.9779
 W073110,2026-01-26,NW7,heroin,harrods pakistani deluxe heroin,Brown,Powder,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed, Breathlesness, Vomiting, Loss of consciousness","Heroin, Noscapine, Paracetamol, 6-Acetylcodeine","Caffeine, 6-MAM, Papaverine",51.6094,-0.2273
 W073075,2026-01-26,EH48,Heroin,Not Stated,Brown,Powder,Snort / Sniff,Overdose,"Noscapine, Paracetamol, Diazepam, Caffeine, Etonitazene, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
-W073291,2026-01-28,G31,heroin,heroin,Green,Liquid,Intravenous,"Memory Loss, Confusion, Panic Attack, Loss of consciousness, Insomnia, Irregular Heartbeat","Paracetamol, Caffeine, 6-MAM, Noscapine, Heroin","6-Acetylcodeine, Papaverine, Morphine",55.857,-4.209
-W069103,2026-01-28,EH6,heroin,Heroin,"Grey, Brown",Plant Matter,Smoked,"No Effect, Increased Energy, Increased Confidence, Relaxed","Paracetamol, Noscapine, Caffeine, Heroin","Metonitazene, 6-Acetylcodeine, Papaverine, 6-MAM",55.9617,-3.1844
-W073170,2026-01-28,WR5,heroin,Not Stated,Brown,,Intravenous,Relaxed,"Cocaine, Noscapine, Paracetamol, 6-MAM, Medetomidine, Clozapine","Caffeine, Heroin, Papaverine, 6-Acetylcodeine, Norcocaine",52.1651,-2.1974428571428573
 000234134,2026-01-28,NP20,Heroin,Not Stated,Brown,Liquid,Not Stated,Not Stated,"xylazine, Metonitazene, Phenacetin, Caffeine, Paracetamol","Protonitazene, 6-MAM, Noscapine, Cocaine, Heroin, 6-Acetylcodeine, Papaverine",51.5877,-2.9984
-W073469,2026-02-03,NN12,Heroin,Not Stated,White,Powder,Not Stated,Not Stated,Lidocaine,,52.12114285714286,-1.03124
+W073170,2026-01-28,WR5,heroin,Not Stated,Brown,,Intravenous,Relaxed,"Cocaine, Noscapine, Paracetamol, 6-MAM, Medetomidine, Clozapine","Caffeine, Heroin, Papaverine, 6-Acetylcodeine, Norcocaine",52.1651,-2.1974428571428573
+W069103,2026-01-28,EH6,heroin,Heroin,"Grey, Brown",Plant Matter,Smoked,"No Effect, Increased Energy, Increased Confidence, Relaxed","Paracetamol, Noscapine, Caffeine, Heroin","Metonitazene, 6-Acetylcodeine, Papaverine, 6-MAM",55.9617,-3.1844
+W073291,2026-01-28,G31,heroin,heroin,Green,Liquid,Intravenous,"Memory Loss, Confusion, Panic Attack, Loss of consciousness, Insomnia, Irregular Heartbeat","Paracetamol, Caffeine, 6-MAM, Noscapine, Heroin","6-Acetylcodeine, Papaverine, Morphine",55.857,-4.209
 W073435,2026-02-03,G73,Heroin,heroin,Brown,Powder,Smoked,"Enhanced Senses, Nausea, Paranoia, Confusion, Panic Attack, Agitation","Noscapine, Paracetamol, Heroin","6-Acetylcodeine, 6-MAM, Papaverine",55.8289,-4.2138
-W073509,2026-02-06,NW10,heroin,Not Stated,Grey,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Nausea, Vomiting, Confusion, Depression","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Papaverine, Diazepam",51.53758571428572,-0.2431214285714285
-W073502,2026-02-06,E83H,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol, Papaverine","Caffeine, Morphine",,
+W073469,2026-02-03,NN12,Heroin,Not Stated,White,Powder,Not Stated,Not Stated,Lidocaine,,52.12114285714286,-1.03124
 W073552,2026-02-06,WF2,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"N-pyrrolidino protonitazene, Paracetamol, N-propionitrile chlorphine, Heroin, Medetomidine, Caffeine, Noscapine","N-desethylprotonitazene, Etodezitramide, 6-MAM, Papaverine",53.66534,-1.51568
 W073554,2026-02-06,WF2,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Diazepam","Papaverine, Paracetamol, Phenacetin, Caffeine",53.66534,-1.51568
-000238822,2026-02-10,CF83,Heroin,heroive,Brown,,Smoked,Relaxed,No Active Component Identified,,51.59288333333333,-3.2333833333333337
-000239195,2026-02-10,DT4,Heroin,heroin,Brown,Solid,Smoked,"Relaxed, Chest Pains, Nausea, Memory Loss, Confusion, Agitation, Depression","Noscapine, Heroin","6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",50.60802,-2.4613799999999997
+W073502,2026-02-06,E83H,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol, Papaverine","Caffeine, Morphine",,
+W073509,2026-02-06,NW10,heroin,Not Stated,Grey,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Nausea, Vomiting, Confusion, Depression","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Papaverine, Diazepam",51.53758571428572,-0.2431214285714285
 000238826,2026-02-10,CF83,Heroin,Not Stated,Brown,,Smoked,Relaxed,"Noscapine, Heroin","Paracetamol, Papaverine",51.59288333333333,-3.2333833333333337
+000238822,2026-02-10,CF83,Heroin,heroive,Brown,,Smoked,Relaxed,No Active Component Identified,,51.59288333333333,-3.2333833333333337
 W073692,2026-02-10,PL26,Heroin,Turkish delight,Brown,Solid,Smoked,"Euphoria, Increased Energy, Enhanced Senses, Empathy, Relaxed","Heroin, Noscapine","6-MAM, Thebacon, Papaverine",50.34738918918919,-4.827086486486486
 W073673,2026-02-10,L8,heroin,PK Heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine","6-Acetylcodeine, 6-MAM, Papaverine",53.4106,-2.9779
+000239195,2026-02-10,DT4,Heroin,heroin,Brown,Solid,Smoked,"Relaxed, Chest Pains, Nausea, Memory Loss, Confusion, Agitation, Depression","Noscapine, Heroin","6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",50.60802,-2.4613799999999997
 W073725,2026-02-10,TS30,heroin,heroin,Brown,Powder,Smoked,"Increased Energy, Increased Confidence","Noscapine, Paracetamol, Heroin","6-Acetylcodeine, Papaverine",54.562099999999994,-1.1877666666666666
 W073845,2026-02-13,G83,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, Etonitazene","6-MAM, Papaverine",56.03989166666666,-4.6006583333333335
+W073988,2026-02-17,CF24,heroin,no label,Brown,Solid,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol",6-MAM,51.48,-3.18
 W073981,2026-02-17,E83H,HEROIN,HEROIN,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine, Caffeine",,
 000233528,2026-02-17,NP20,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,xylazine,"Phenacetin, Metonitazene, Paracetamol, Caffeine, Protonitazene, nitrazolam, Bromazolam, Noscapine, 6-MAM",51.5877,-2.9984
-W073988,2026-02-17,CF24,heroin,no label,Brown,Solid,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol",6-MAM,51.48,-3.18
 W074083,2026-02-18,WF2,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, Diazepam, 6-Acetylcodeine","Papaverine, Caffeine, Paracetamol, Morphine",53.66534,-1.51568
 W074417,2026-02-27,HP26,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,No Active Component Identified,,51.7639,-0.4531
 W074384,2026-02-27,HR4,Heroin,Not Stated,"White, Brown",Powder,Snort / Sniff,Not Stated,"Heroin, 6-MAM, Phenacetin, 6-Acetylcodeine, Noscapine","Diazepam, Papaverine, Paracetamol, Caffeine",52.10106744186046,-2.8000232558139535
@@ -614,10 +614,10 @@ W074528,2026-03-09,EH32,Heroin,Not Stated,Brown,Powder,Not Stated,Relaxed,"Parac
 W074406,2026-03-09,EH54,heroin,Not Stated,"White, Brown",Powder,Not Stated,"Relaxed, Memory Loss, Confusion, Panic Attack, Loss of consciousness","6-MAM, Paracetamol, Caffeine, Papaverine, 6-Acetylcodeine",,55.9029,-3.5226
 000234135,2026-03-10,NP10,HEROIN,Not Stated,,,Smoked,Relaxed,"6-MAM, Papaverine, Paracetamol",,51.5877,-2.9984
 W074381,2026-03-10,FK70,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM, 6-Acetylcodeine, Metonitazene","Diazepam, Papaverine, Etonitazene, Dextromethorphan, Nicotine",56.0861125,-3.9108875
-W074455,2026-03-10,EH47,HEROIN,Not Stated,Brown,Powder,Smoked,"Increased Confidence, Increased Stamina, Increased Libido, Relaxed, Nausea, Memory Loss, Loss of consciousness","Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin","Papaverine, Medetomidine",55.85647142857143,-3.669085714285714
 W069097,2026-03-10,EH15,HEROIN,Not Stated,Brown,Powder,Smoked,"Nausea, Vomiting, Memory Loss","Paracetamol, Caffeine, Noscapine, Etonitazene, Heroin","6-MAM, Papaverine",55.948033333333335,-3.1120666666666668
-W074673,2026-03-10,RG14,HEROIN,Not Stated,"White, Brown",Powder,Smoked,No Effect,"Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine, Caffeine",Papaverine,51.407383333333335,-1.3243833333333337
 W069096,2026-03-10,EH3,HEROIN,Not Stated,Brown,Powder,Intravenous,"Memory Loss, Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM","6-Acetylcodeine, Metonitazene, Papaverine",55.9521,-3.1965
+W074455,2026-03-10,EH47,HEROIN,Not Stated,Brown,Powder,Smoked,"Increased Confidence, Increased Stamina, Increased Libido, Relaxed, Nausea, Memory Loss, Loss of consciousness","Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin","Papaverine, Medetomidine",55.85647142857143,-3.669085714285714
+W074673,2026-03-10,RG14,HEROIN,Not Stated,"White, Brown",Powder,Smoked,No Effect,"Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine, Caffeine",Papaverine,51.407383333333335,-1.3243833333333337
 W069098,2026-03-13,EH26,heroin,Not Stated,Green,Liquid,Intravenous,"Vomiting, Loss of consciousness","Paracetamol, Caffeine, Noscapine","6-MAM, Etonitazene, Heroin, Papaverine",55.82387142857142,-3.241371428571429
 W069100,2026-03-13,EH26,HEROIN,Not Stated,"Brown, Brown",Powder,Intravenous,"Relaxed, Memory Loss","Noscapine, Paracetamol, Heroin, Caffeine, Metonitazene","6-MAM, 6-Acetylcodeine, Papaverine",55.82387142857142,-3.241371428571429
 W069099,2026-03-13,EH26,HEROIN,Not Stated,Green,Liquid,Intravenous,"Enhanced Senses, Relaxed, Vomiting, Memory Loss",No Active Component Identified,,55.82387142857142,-3.241371428571429
@@ -628,35 +628,35 @@ W075028,2026-03-18,FK12,HEROIN,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine
 W074983,2026-03-20,NW7,HEROIN,TRIOLOGY CHOC - CHIP 3,Brown,Solid,"Smoked, Snort / Sniff","Euphoria, Relaxed, Nausea, Memory Loss, Confusion, Loss of consciousness","Noscapine, 6-MAM","Heroin, 6-Acetylcodeine, Papaverine, Paracetamol",51.6094,-0.2273
 W075321,2026-03-26,DY10,heroin,Not Stated,Brown,Powder,Intravenous,"Relaxed, Irregular Heartbeat, Loss of consciousness","Heroin, 6-MAM, 6-Acetylcodeine",,52.3848,-2.212788888888889
 W075503,2026-04-07,WR1,heroin,Not Stated,Grey,Powder,Intravenous,Insomnia,"Heroin, Noscapine, Diazepam, 6-Acetylcodeine, 6-MAM, Papaverine, Paracetamol",Caffeine,52.1894,-2.22
-W074285,2026-04-08,ZE10,HEROIN,Not Stated,Brown,Powder,Intravenous,"Auditory Hallucinations, Visual Hallucinations, Irregular Heartbeat, Nausea, Vomiting, Paranoia, Memory Loss, Panic Attack, Agitation, Violence/Aggression",No Active Component Identified,,60.14640000000001,-1.2131857142857143
 W075546,2026-04-08,DY10,heroin,Not Stated,Brown,Powder,Intravenous,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Paracetamol, Papaverine",52.3848,-2.212788888888889
+W074285,2026-04-08,ZE10,HEROIN,Not Stated,Brown,Powder,Intravenous,"Auditory Hallucinations, Visual Hallucinations, Irregular Heartbeat, Nausea, Vomiting, Paranoia, Memory Loss, Panic Attack, Agitation, Violence/Aggression",No Active Component Identified,,60.14640000000001,-1.2131857142857143
 W075523,2026-04-09,AL1,Turkish heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, 6-MAM, 6-Acetylcodeine","Caffeine, Papaverine",51.75,-0.3333
 W075561,2026-04-09,EH47,heroin,Heroin,Red,Powder,Smoked,"Euphoria, Relaxed, Breathlesness, Irregular Heartbeat, Agitation","Paracetamol, Caffeine, Noscapine, 6-MAM, Medetomidine","Heroin, Dimethocaine, Papaverine",55.85647142857143,-3.669085714285714
-000233439,2026-04-13,LL41,heroin,Not Stated,Grey,Powder,Not Stated,"Relaxed, Breathlesness, Agitation","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",52.95797,-3.94751
 W075674,2026-04-13,G741,heroin,Not Stated,Brown,Powder,Smoked,Breathlesness,"6-MAM, Paracetamol, Metonitazene","6-Acetylcodeine, Papaverine",55.76583333333334,-4.1700333333333335
+000233439,2026-04-13,LL41,heroin,Not Stated,Grey,Powder,Not Stated,"Relaxed, Breathlesness, Agitation","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",52.95797,-3.94751
 000235789,2026-04-14,CF31,heroin,Not Stated,Brown,Solid,Not Stated,"Visual Hallucinations, Breathlesness, Confusion, Panic Attack, Suicidal Ideation","Noscapine, Heroin","Papaverine, 6-MAM, 6-Acetylcodeine",51.507666666666665,-3.577733333333333
 000234162,2026-04-17,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"6-MAM, Noscapine, Heroin, 6-Acetylcodeine","Paracetamol, Papaverine",51.5877,-2.9984
 000234164,2026-04-17,NP20,Heroin,Not Stated,Not stated Sample form Not stated Consumption method Smoked Self-reported effects No Effect,Not stated,Smoked,No Effect,"6-MAM, Heroin, Noscapine, Papaverine","Paracetamol, Morphine, 6-Acetylcodeine, Diazepam",51.5877,-2.9984
 000234158,2026-04-17,NP20,Heroin,Not Stated,Brown,Granules,Intravenous,Relaxed,Noscapine,"Papaverine, Heroin, 6-MAM, Paracetamol",51.5877,-2.9984
 000234169,2026-04-17,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Cocaine, Noscapine, Heroin, Paracetamol","Caffeine, 6-Acetylcodeine, Papaverine, 6-MAM",51.5877,-2.9984
-W075372,2026-04-30,SO40,heroin,heroin,Brown,Granules,Smoked,"Auditory hallucinations, Visual hallucinations, Chest pains, Irregular heartbeat, Paranoia, Confusion, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,50.91249375,-1.51341875
 W100188,2026-04-30,PE32,HEROIN,HEROIN,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine, Paracetamol",52.7279794117647,0.6538411764705883
+W075372,2026-04-30,SO40,heroin,heroin,Brown,Granules,Smoked,"Auditory hallucinations, Visual hallucinations, Chest pains, Irregular heartbeat, Paranoia, Confusion, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,50.91249375,-1.51341875
 W075373,2026-04-30,SO40,Heroin,Heroin,Brown,Granules,Smoked,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol","Caffeine, Phenacetin",50.91249375,-1.51341875
-000239693,2026-05-01,Not stated,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, 6 Monoacetyl","Acetylcodeine, Morphine, Noscapine, Papaverine",,
 000239662,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Diazepam, Heroin, Morphine, Morphine, 6 Monoacetyl, Papaverine","Codeine, Noscapine, Oxymorphone, Phenacetine",51.718515789473685,-3.030521052631579
+000239693,2026-05-01,Not stated,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, 6 Monoacetyl","Acetylcodeine, Morphine, Noscapine, Papaverine",,
 W100040,2026-05-01,M1,heroin,,Grey,Powder,Snort / Sniff,"Auditory hallucinations, Visual hallucinations, Relaxed","Heroin, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Papaverine",53.4809,-2.2374
 000239651,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Acetylcodeine, Caffeine, Noscapine, Papaverine, Phenacetin",51.718515789473685,-3.030521052631579
 000239694,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Morphine, 6 Monoacetyl","Acetylcodeine, Caffeine, Heroin, Morphine, Noscapine, Papaverine, Paracetamol",51.718515789473685,-3.030521052631579
 W100262,2026-05-01,RG14,Heroin,Not stated,White,Powder,Smoked,"Euphoria, Increased confidence, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,51.407383333333335,-1.3243833333333337
 000239652,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,Relaxed,"Morphine, Morphine, 6 Monoacetyl, Papaverine",Acetylcodeine,51.718515789473685,-3.030521052631579
-000239700,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Caffeine, Codeine, Noscapine, Papaverine",51.718515789473685,-3.030521052631579
 000236453,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,"Not stated,  ",No active compound identified,,51.718515789473685,-3.030521052631579
-W100254,2026-05-06,EH12,Heroin,Not stated,Brown,Powder,Smoked,"Paranoia, Agitation, Loss of consciousness","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine, Phenacetin",55.9429,-3.285
+000239700,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Caffeine, Codeine, Noscapine, Papaverine",51.718515789473685,-3.030521052631579
 W100397,2026-05-06,LI5B,Heroin,Not stated,Green,Powder,Smoked,"Euphoria, Increased strength, Chest pains, Vomiting, Agitation, Depression, Panic attack, Breathlessness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
-W100466,2026-05-07,E8,Heroin cookie dough,heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl, Paracetamol",51.548,-0.0629
+W100254,2026-05-06,EH12,Heroin,Not stated,Brown,Powder,Smoked,"Paranoia, Agitation, Loss of consciousness","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine, Phenacetin",55.9429,-3.285
+W076231,2026-05-07,BL49,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine, Paracetamol",53.54165,-2.3916500000000003
 W100393,2026-05-07,BL49,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",,53.54165,-2.3916500000000003
 000235224,2026-05-07,CF31,heroin,Not stated,Brown,Solid,Smoked,"Paranoia, Confusion, Agitation, Insomnia, Depression, Panic attack","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",,51.507666666666665,-3.577733333333333
-W076231,2026-05-07,BL49,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine, Paracetamol",53.54165,-2.3916500000000003
+W100466,2026-05-07,E8,Heroin cookie dough,heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl, Paracetamol",51.548,-0.0629
 W100544,2026-05-11,DY4,Heroin,Not stated,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",52.529599999999995,-2.0677
 W100577,2026-05-11,EH32,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased confidence, Relaxed, Memory loss, Confusion",Buprenorphine,,55.97811428571429,-2.9193571428571423
 W100593,2026-05-13,TD9,Heroin,H 0.2,Brown,Granules,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",55.39354782608696,-2.707571739130435
@@ -668,29 +668,29 @@ W100959,2026-05-19,LI58,Heroin,Not stated,Brown,Granules,Smoked,"Vomiting, Loss 
 W073584,2026-05-19,FK3,HEROIN,HEROIN,White,Powder,Smoked,Relaxed,Caffeine,Amphetamine,56.0114,-3.7218
 W100960,2026-05-19,LI58,Heroin,Not stated,Brown,Granules,Smoked,"Euphoria, Increased strength, Confusion, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
 W076295,2026-05-19,HR27,heroin,Not stated,Yellow,Powder,Intravenous,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",51.98334078947369,-2.796544736842105
-W100823,2026-05-19,SA11,heroin,heroin,Grey,Solid,Smoked,"Chest pains, Irregular heartbeat, No effect, Loss of consciousness","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.70800714285714,-3.6944071428571426
 W100869,2026-05-19,SA1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Ketamine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Papaverine",51.633979999999994,-3.94848
 W100709,2026-05-19,EH6,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, No effect","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Caffeine","Acetylcodeine, Etonitazene, Metonitazene, Papaverine",55.9617,-3.1844
 000235793,2026-05-19,Not stated,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased stamina, Relaxed, Breathlessness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
+W100823,2026-05-19,SA11,heroin,heroin,Grey,Solid,Smoked,"Chest pains, Irregular heartbeat, No effect, Loss of consciousness","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.70800714285714,-3.6944071428571426
 W100980,2026-05-26,SO21,heroin,Not stated,Black,Granules,Smoked,"Increased senses, Agitation","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",Morphine,51.08811935483871,-1.300141935483871
 000239023,2026-05-26,B9,heroin,Not stated,Brown,Powder,Intravenous,"Paranoia, Loss of consciousness, Itching","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,52.4783,-1.8506
-W101033,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.91305714285714,-3.6746285714285714
-W101009,2026-05-29,L10,HEROIN,Not stated,Brown,Powder,Intravenous,"Euphoria, Increased energy, Relaxed, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,53.4754,-2.952
 W101031,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, Confusion","Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Dimethocaine, Heroin, Papaverine",55.91305714285714,-3.6746285714285714
 W101032,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, Confusion, Loss of consciousness","Caffeine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Dimethocaine, Medetomidine, Morphine, Papaverine",55.91305714285714,-3.6746285714285714
+W101033,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.91305714285714,-3.6746285714285714
+W101009,2026-05-29,L10,HEROIN,Not stated,Brown,Powder,Intravenous,"Euphoria, Increased energy, Relaxed, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,53.4754,-2.952
 W069113,2026-06-05,EH15,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Noscapine, Paracetamol","Heroin, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.948033333333335,-3.1120666666666668
 W101410,2026-06-05,PH1,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Dimethocaine, Heroin, Papaverine",56.43174736842105,-3.4980552631578945
 W101291,2026-06-05,PH1,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
 W101371,2026-06-05,L2,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",53.4106,-2.9779
 W100279,2026-06-06,EH54,heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Memory loss, Depression, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Etonitazene, Medetomidine, Metonitazene, Tetracaine",55.9029,-3.5226
-W101340,2026-06-09,W3,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Increased confidence, Empathy, Relaxed","Heroin, Noscapine, Papaverine","Morphine, 6 Monoacetyl, Paracetamol",51.51048333333333,-0.2657166666666666
 000237711,2026-06-09,CF42,Heroin,Not stated,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.66798333333333,-3.5247833333333336
+W101340,2026-06-09,W3,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Increased confidence, Empathy, Relaxed","Heroin, Noscapine, Papaverine","Morphine, 6 Monoacetyl, Paracetamol",51.51048333333333,-0.2657166666666666
+000234184,2026-06-10,NP20,HEROIN,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Benzoylecgonine, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Acetylcodeine, Caffeine, Ecgonine methyl ester, Heroin, Paracetamol",51.5877,-2.9984
 W101614,2026-06-10,M4,heroin,China white,Yellow,Powder,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine",53.4809,-2.2374
 000234185,2026-06-10,NP20,HEROIN,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl, Papaverine, Paracetamol",51.5877,-2.9984
-000234184,2026-06-10,NP20,HEROIN,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Benzoylecgonine, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Acetylcodeine, Caffeine, Ecgonine methyl ester, Heroin, Paracetamol",51.5877,-2.9984
-W101644,2026-06-15,EH6,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl",55.9617,-3.1844
 000239408,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Papaverine",51.5877,-2.9984
 000239409,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol","Diazepam, Morphine",51.5877,-2.9984
+W101644,2026-06-15,EH6,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl",55.9617,-3.1844
 000239411,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Diazepam, Heroin, Noscapine, Paracetamol","Medetomidine, Morphine, 6 Monoacetyl, Papaverine, Phenacetine",51.5877,-2.9984
 W101796,2026-06-16,PA20,PK Heroin,PK heroin,White,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Heroin, Noscapine, Paracetamol",,55.82871538461538,-5.053757692307692
 W069114,2026-06-16,EH15,Heroin,Heroin,Brown,Powder,Intravenous,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",55.948033333333335,-3.1120666666666668
@@ -708,39 +708,41 @@ W101987,2026-06-19,HR97,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Nausea"
 W102020,2026-06-19,PH1,Heroin,Not stated,Grey,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Caffeine, Dimethocaine, Medetomidine, Paracetamol","6-Acetylcodeine, Morphine, 6 Monoacetyl, N-desethyl Protonitazene, Noscapine, Papaverine",56.43174736842105,-3.4980552631578945
 W102085,2026-06-19,TS13,heroin,Turkish delight Heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Thebacon",Papaverine,54.53400555555556,-0.8374833333333334
 W102008,2026-06-22,GL20,heroin,Not stated,Brown,Powder,Intramuscular,"Euphoria, Relaxed, Loss of consciousness","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Thebacon",,52.01829655172414,-2.094306896551724
-W102159,2026-06-24,SM2,Heroin,Not stated,Brown,Granules,Smoked,"Memory loss, Confusion, Loss of consciousness, Overdose","Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Heroin, Medetomidine, Papaverine, Phenacetine",51.351,-0.1994
-W101785,2026-06-24,CF47,Heroin,Not stated,Brown,Powder,Smoked,"Increased confidence, Relaxed","6-Acetylcodeine, Heroin, Noscapine, Paracetamol, Phenacetine","Morphine, 6 Monoacetyl",51.7479,-3.3778
-000238642,2026-06-24,NP23,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,51.7771,-3.2079
-W102135,2026-06-24,TS11,Heroin,Pk Heroin,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Paracetamol, Tapentadol","Noscapine, Papaverine",54.57873333333333,-1.028166666666667
 W074875,2026-06-24,EH6,Heroin,Not stated,Brown,Powder,Intravenous,Relaxed,"Caffeine, Paracetamol",,55.9617,-3.1844
 W102136,2026-06-24,TS22,Heroin,pk Heroin,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Heroin, Paracetamol",Papaverine,54.6331,-1.291675
+W102135,2026-06-24,TS11,Heroin,Pk Heroin,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Paracetamol, Tapentadol","Noscapine, Papaverine",54.57873333333333,-1.028166666666667
 W102156,2026-06-24,TR8,Heroin,Not stated,Brown,Powder,Smoked,"Auditory hallucinations, Irregular heartbeat, Nausea, Paranoia, Confusion, Agitation, Depression, Panic attack, Breathlessness","Caffeine, Heroin, Paracetamol","6-Acetylcodeine, Diazepam, Morphine, 6 Monoacetyl, Noscapine, Phenacetin",50.384992,-5.042204000000001
+W101785,2026-06-24,CF47,Heroin,Not stated,Brown,Powder,Smoked,"Increased confidence, Relaxed","6-Acetylcodeine, Heroin, Noscapine, Paracetamol, Phenacetine","Morphine, 6 Monoacetyl",51.7479,-3.3778
+000238642,2026-06-24,NP23,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,51.7771,-3.2079
+W102159,2026-06-24,SM2,Heroin,Not stated,Brown,Granules,Smoked,"Memory loss, Confusion, Loss of consciousness, Overdose","Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Heroin, Medetomidine, Papaverine, Phenacetine",51.351,-0.1994
 W102160,2026-06-25,AB42,Heroin,Heroin,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,57.48231142857143,-1.924825714285714
-W102352,2026-06-26,B43,heroin,Not stated,Brown,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Acetylcodeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine, Paracetamol",52.5472,-1.9319
 W076338,2026-06-26,EX8,Pk heroin,Not stated,Brown,Powder,Smoked,Paranoia,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Caffeine, Diazepam, Papaverine, Phenacetine",50.631025,-3.409475
 W076337,2026-06-26,CR0,China white heroin,Not stated,White,Powder,Smoked,"Paranoia, Memory loss, Confusion, Panic attack, Loss of consciousness","Medetomidine, Paracetamol",,51.3703,-0.060975
+W102352,2026-06-26,B43,heroin,Not stated,Brown,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Acetylcodeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine, Paracetamol",52.5472,-1.9319
 000239420,2026-06-29,NP20,heroin,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",,51.5877,-2.9984
 000239417,2026-06-29,NP20,heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",,51.5877,-2.9984
-W102330,2026-06-29,EH48,heroin,Not stated,Brown,Powder,Intravenous,Loss of consciousness,"Caffeine, Paracetamol","Morphine, 6 Monoacetyl, Noscapine",55.91305714285714,-3.6746285714285714
-000239415,2026-06-29,NP20,Heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",Medetomidine,51.5877,-2.9984
 000239416,2026-06-29,NP20,heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Medetomidine, Papaverine",51.5877,-2.9984
+000239415,2026-06-29,NP20,Heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",Medetomidine,51.5877,-2.9984
+W102330,2026-06-29,EH48,heroin,Not stated,Brown,Powder,Intravenous,Loss of consciousness,"Caffeine, Paracetamol","Morphine, 6 Monoacetyl, Noscapine",55.91305714285714,-3.6746285714285714
 W102507,2026-07-03,CF44,Heroin pure advertised,Not stated,Brown,Powder,Smoked,"Loss of consciousness, Breathlessness","Heroin, Ketamine","Acetylcodeine, Morphine, 6 Monoacetyl, Noscapine, Papaverine",51.7327125,-3.48293125
 W102539,2026-07-06,EH54,heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Memory loss, Confusion, Loss of consciousness","Caffeine, Paracetamol","Heroin, Medetomidine, Noscapine, Thebacon",55.9029,-3.5226
-W102570,2026-07-14,Not stated,heroin,Not stated,Brown,Powder,Smoked,"Chest pains, Irregular heartbeat, Confusion, Agitation, Panic attack, Breathlessness","Caffeine, Heroin, Paracetamol","Diazepam, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Thebacon",,
 000236806,2026-07-14,CF63,heroin,Not stated,Brown,Powder,Intravenous,"Not stated,  ","Caffeine, Heroin, Paracetamol","Morphine, 6 Monoacetyl, Papaverine, Thebacon",51.4172,-3.2614
+W102570,2026-07-14,Not stated,heroin,Not stated,Brown,Powder,Smoked,"Chest pains, Irregular heartbeat, Confusion, Agitation, Panic attack, Breathlessness","Caffeine, Heroin, Paracetamol","Diazepam, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Thebacon",,
+W102461,2026-07-16,TS4,Heroin,Heroin,Brown,Powder,Not stated,"Increased energy, Increased strength, Auditory hallucinations, Relaxed, Irregular heartbeat, Confusion, Agitation, Depression","Heroin, Noscapine, Paracetamol","Morphine, 6 Monoacetyl, Papaverine",54.5762,-1.2348
 W102807,2026-07-16,SO40,heroin,Not stated,Brown,Liquid,Smoked,"Confusion, Fatigue, Tiredness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",50.91249375,-1.51341875
 W102889,2026-07-16,EC1V,heroin,heroin,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased stamina, Relaxed","Heroin, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Papaverine",51.5265,-0.0986
 W102863,2026-07-16,G82,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Paracetamol","Cocaine, Heroin, Metonitazene, Morphine, Morphine, 6 Monoacetyl, Noscapine",55.954800000000006,-4.5815222222222225
-W102461,2026-07-16,TS4,Heroin,Heroin,Brown,Powder,Not stated,"Increased energy, Increased strength, Auditory hallucinations, Relaxed, Irregular heartbeat, Confusion, Agitation, Depression","Heroin, Noscapine, Paracetamol","Morphine, 6 Monoacetyl, Papaverine",54.5762,-1.2348
 W102870,2026-07-16,AB42,heroin,Not stated,Brown,Liquid,Intravenous,"Relaxed, Irregular heartbeat, Paranoia, Memory loss, Loss of consciousness","Cocaine, Benzoylecgonine, Ecgonine methyl ester, Noscapine","Heroin, Morphine, 6 Monoacetyl, Paracetamol",57.48231142857143,-1.924825714285714
-W102976,2026-07-20,PH1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
 000238585,2026-07-20,NP4,Heroin,heroin,Brown,Powder,Intravenous,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
+W102976,2026-07-20,PH1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
 000238582,2026-07-20,NP4,Heroin,Not stated,Brown,Granules,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
 W102753,2026-07-22,IP12,heroin,Not stated,Black,Granules,Smoked,"Increased confidence, Relaxed","Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl",52.0811,1.3992074074074072
 W102023,2026-07-27,WR14,Heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Nausea, Breathlessness","Heroin, Noscapine, Thebacon","Morphine, 6 Monoacetyl",52.095075,-2.327225
-W101277,2026-07-29,SW17,heroin,Not stated,Grey,Crystalline,Snort / Sniff,No effect,"Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",51.4307,-0.1647
 W103299,2026-07-29,EH7,Heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Empathy, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",55.9521,-3.1965
 W103523,2026-07-29,TS12,Heroin,Afghan heroin (mid),White,Powder,Not stated,"Not stated,  ","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon",,54.5516,-0.963011111111111
 W103521,2026-07-29,TS28,Heroin,China white #4 heroin,White,Powder,Not stated,"Not stated,  ",Heroin,"Morphine, 6 Monoacetyl, Thebacon",54.72895,-1.37705
 W103522,2026-07-29,TS20,Heroin,Adghan cream heroin kll,White,Powder,Not stated,"Not stated,  ","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon",Papaverine,54.5868,-1.3138
+W101277,2026-07-29,SW17,heroin,Not stated,Grey,Crystalline,Snort / Sniff,No effect,"Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",51.4307,-0.1647
 W103474,2026-07-29,EH7,Heroin,Heroin,Brown,Powder,Intravenous,"Paranoia, Memory loss, Confusion, Loss of consciousness","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Lidocaine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Papaverine",55.9521,-3.1965
+W103913,2026-08-11,KA11,heroin (nitazine),heroin (nitazine),Brown,Powder,Not stated,"Euphoria, Increased energy, Increased confidence, Relaxed","Caffeine, Paracetamol, Phenacetin, Heroin","Noscapine, N-Desethyl Isotonitazene, Morphine, 6 Monoacetyl, 6-Acetylcodeine",55.613125,-4.617725
+W103695,2026-08-11,EH7,heroin,heroin,Brown,Powder,Intravenous,"Nausea, Paranoia, Memory loss, Confusion","Caffeine, Heroin, Paracetamol","Morphine, 6 Monoacetyl, Noscapine, Papaverine, Acetylcodeine",55.9521,-3.1965
