@@ -74,7 +74,7 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
     current_page = 0
     max_pages = num_pages #367 was number of pages for 1 Jan to 4 Dec 2024, 250+21+28+8 for Jan-Aug and Sept 2025
     all_pages = []
-    time.sleep(3)
+    time.sleep(5)
 
     while current_page < max_pages:
         try:
@@ -204,8 +204,7 @@ def main():
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
     -t = type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)
     -i = filter by intent only? y/n
-    -j = join scraped data to master file? y/n (seems to be broken, check samples haven't gone missing)
-    '''
+    '''#-j = join scraped data to master file? y/n (seems to be broken, check samples haven't gone missing)
     parser = ArgumentParser()
     parser.add_argument("-n", "--num", type=int,
                         help="number of pages to scrape", metavar="NUM")

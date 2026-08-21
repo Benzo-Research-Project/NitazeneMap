@@ -39,6 +39,7 @@ def checkStatus(df, intent, dates=''):
     df['major'] = df['major'].fillna('')
     df['label'] = df['label'].fillna('')
     if dates!='':
+        print('Filtering by dates:',dates)
         datelist = []
         for i in dates.split('-'):
             datelist.append(dt.strftime(dt.strptime(i,'%d%m%y'),'%Y-%m-%d'))
