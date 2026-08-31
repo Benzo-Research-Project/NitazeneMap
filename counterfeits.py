@@ -32,13 +32,128 @@ data_path = config['dataPath']
 #}
 ### New – checking if benzos were counterfeit or not
 # 27.06.26 added  and (row['minor']=='') to not counterfeit condition
+def checkRowStatus(row, intent):
+    #initialise
+    intent_label = f"{str(row.get('intent', ''))} {str(row.get('label', ''))}".lower()
+    major_str = str(row.get('major', '')).lower()
+    minor_str = str(row.get('minor', '')).lower()
+    major_minor = f"{major_str} {minor_str}"
+
+    intent_substrings = substring_dict.get(intent,[])
+    if any(substring in intent_label for substring in intent_substrings):
+        sold_as='1'
+        not_class = '1' if all(substring not in major_minor for substring in intent_substrings) else '0'
+
+        try: # try-except to avoid errors with missing testing data
+            # checking if sample contents match intent/label and there are no other minor components
+            if ((major_str in intent_label) or (str.lower(row['intent']) in major_str) or (str.lower(row['label']) in major_str)) and ((minor_str=='') or ((major_str==minor_str) and major_str!='')):
+                status='not counterfeit'
+            elif ('unable to identify' in major_str):
+                status='inconclusive'
+                # checking diazepam spellings
+            elif intent == 'benzo' and any(substring in intent_label for substring in substring_dict.get('diazepam',[])):
+                if ('diazepam' in str.lower(row['major'])) and row['minor']=='':
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'
+            # checking xanax spellings
+            elif intent == 'benzo' and any(substring in intent_label for substring in substring_dict.get('alprazolam',[])):
+                if ('alprazolam' in major_str) and (minor_str==''):
+                    status='not counterfeit'    
+                else:
+                    status='counterfeit'
+            # checking clonazepam spellings
+            elif intent == 'benzo' and any(substring in intent_label for substring in substring_dict.get('clonazepam',[])):
+                if ('clonazepam' in major_str) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'
+            elif intent == 'benzo' and ('benzo' in intent_label):
+                if any(substring in intent_label for substring in substring_dict.get('diazepam',[])):
+                    if ('diazepam' in major_str) and (minor_str==''):
+                        status='not counterfeit'
+                    else:
+                        status='counterfeit'
+                elif any(substring in major_str for substring in intent_substrings) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'
+            elif intent == 'vape' and (major_str=='nicotine') and (minor_str==''):
+                status='not counterfeit'
+            elif intent == 'vape' and any(substring in intent_label for substring in substring_dict.get('cannabinoid',[])):
+                if any(substring in major_str for substring in ['thc','tetrahydrocannabinol']) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'
+            elif intent == 'ketamine' and (major_str=='ketamine') and (minor_str=='') and all(substring not in intent_label for substring in substring_dict.get('arylcyclohexamine',[])):
+                status='not counterfeit'
+            elif intent == 'mdma' and (major_str=='mdma') and (minor_str==''):
+                status='not counterfeit'    
+            else:
+                status='counterfeit'
+                #print(row['intent'],': ',row['major'],'with',row['minor'])
+        except:
+            status='inconclusive'
+    else:
+        sold_as='0'
+        not_class='1'
+        status='n/a'
+
+    return pd.Series({'sold_as': sold_as, 'status': status, 'class-mismatch': not_class})
+
+def checkStatusPerRow(df, intent, dates=''):
+    '''Adds columns to a dataframe indicating if benzos were sold as benzos and if they were counterfeit or not.
+    This function is slightly quicker (0:00:00.877416 vs 0:00:01.538990 for checkStatus)'''
+    df['minor'] = df['minor'].fillna('')
+    df['major'] = df['major'].fillna('')
+    df['label'] = df['label'].fillna('')
+
+    if dates!='' and dates:
+        print('Filtering by dates:',dates)
+        datelist = []
+        for i in dates.split('-'):
+            datelist.append(dt.strftime(dt.strptime(i,'%d%m%y'),'%Y-%m-%d'))
+        df = dateFilter(df,datelist[0],datelist[1])
+    else:
+        print('NB: No date provided to checkStatus function. Please double-check that you filtered by dates prior if needed.')
+    
+    df[['sold_as', 'status', 'class-mismatch']] = df.apply(
+        lambda row: checkRowStatus(row, intent), axis=1
+    )
+    total = len(df)
+    #print(df)
+    total_benzo_intent = len(df[df['sold_as'] == '1'])
+    total_not_classs = len(df[df['sold_as'] == '0'])
+    total_counterfeit_benzos = len(df[(df['sold_as'] == '1') & (df['status'] == 'counterfeit')])
+    total_correct_benzos = len(df[(df['sold_as'] == '1') & (df['status'] == 'not counterfeit')])
+    unknown_benzos = len(df[(df['sold_as'] == '1') & (df['status'] == 'inconclusive')])
+    total_not_classs = len(df[df['sold_as'] == '0'])
+    non_benzos = len(df[df['class-mismatch'] == '1'])
+    print(f'Between {dates},',total_benzo_intent,'out of',total,f'samples mentioning {intent} were sold as {intent} ({(100*total_benzo_intent/total):.1f}%), of which:')
+    print('-',total_correct_benzos,f'{intent} contained what they were sold as ({(100*total_correct_benzos/total_benzo_intent):.1f}%)')
+    print('-',total_counterfeit_benzos,f'{intent} were counterfeit ({(100*total_counterfeit_benzos/total_benzo_intent):.1f}%)')
+    print('-',unknown_benzos,f'samples sold as {intent} were inconclusive ({(100*unknown_benzos/total_benzo_intent):.1f}%)')
+    print('-',total_not_classs,f'samples containing {intent} were not sold as {intent} ({(100*total_not_classs/total):.1f}%)')
+    print('-',non_benzos,f'samples sold as {intent} did not contain any {intent} ({(100*non_benzos/total):.1f}%)')
+        
+    dictMetrics = {
+        'Total': total_benzo_intent,
+        'As sold': total_correct_benzos,
+        'Mis-sold': total_counterfeit_benzos,
+        'Contains but not sold as': total_not_classs,
+        'Withdrawal risk': non_benzos,
+        'Inconclusive': unknown_benzos,
+        'Total including not sold as': total
+    }
+    return df, dictMetrics
+
 def checkStatus(df, intent, dates=''):
     "Adds columns to a dataframe indicating if benzos were sold as benzos and if they were counterfeit or not"
 
     df['minor'] = df['minor'].fillna('')
     df['major'] = df['major'].fillna('')
     df['label'] = df['label'].fillna('')
-    if dates!='':
+    if dates!='' and dates:
         print('Filtering by dates:',dates)
         datelist = []
         for i in dates.split('-'):
@@ -128,7 +243,7 @@ def checkStatus(df, intent, dates=''):
     print('-',unknown_benzos,f'samples sold as {intent} were inconclusive ({(100*unknown_benzos/total_benzo_intent):.1f}%)')
     print('-',total_not_classs,f'samples containing {intent} were not sold as {intent} ({(100*total_not_classs/total):.1f}%)')
     print('-',non_benzos,f'samples sold as {intent} did not contain any {intent} ({(100*non_benzos/total):.1f}%)')
-    array = [total, total_benzo_intent, total_not_classs, total_counterfeit_benzos, total_correct_benzos, unknown_benzos, non_benzos]
+    #array = [total, total_benzo_intent, total_not_classs, total_counterfeit_benzos, total_correct_benzos, unknown_benzos, non_benzos]
     dictMetrics = {
         'Total': total_benzo_intent,
         'As sold': total_correct_benzos,
@@ -237,13 +352,14 @@ def main():
                         help="which drug type are you investigating? e.g. benzo/opioid/diazepam")
     parser.add_argument("-c", "--counterfeits", type=str, metavar="COUNTERFEITS",
                         help="all/counterfeits/both")
-
+    start_time = dt.now()
     args = parser.parse_args()
 
     df = pd.read_csv(f'{data_path}/{args.file}', index_col=0)
 
     intent = args.intent if args.intent[-1]!='s' else args.intent[:-1]
-    df_status, array = checkStatus(df, intent, args.daterange)
+    print(args.daterange)
+    df_status, array = checkStatusPerRow(df, intent, args.daterange)
 
     if (args.counterfeits == 'both') or (args.counterfeits == 'counterfeits'):
         contents = getContents(df_status, intent, args.daterange, counterfeits=True)
@@ -255,5 +371,8 @@ def main():
         plotContents(contents, intent, args.daterange, counterfeits=False)
         getUniqueContents(contents, intent, args.daterange, counterfeits=False)
 
+    # do your work here
+    end_time = dt.now()
+    print('Duration: {}'.format(end_time - start_time))
 if __name__ == "__main__":
     main()

@@ -84,7 +84,7 @@ def main():
     Args:
     -f1 = file path for scraped data (e.g. wedinos_benzos_010126-030526.csv)
     -f2 = file path for scraped data to join to f1 (e.g. wedinos_benzos_290426-300626.csv)
-    -d = (optional) standardise date format and sort by date (yes/no)
+    -d = (optional) standardise date format and sort by date (y/n; default = y)
     -y = (optional) year to restrict joining jsons to, e.g. 2025'''
     parser = ArgumentParser()
     parser.add_argument("-f1", "--file1", type=str, metavar="FILE1",

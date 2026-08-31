@@ -168,19 +168,19 @@ W050182,2024-04-10,NG5,M30 Oxycodone,M30 Oxycodone,Blue,Tablet,Snort / Sniff,"Eu
 W050346,2024-04-12,DH97,Dihydocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,54.786,-1.5566
 W050393,2024-04-15,EH41,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"xylazine, Paracetamol, Caffeine, Noscapine, 6-MAM","Heroin, Papaverine, 6-Acetylcodeine",55.92442,-2.74208
 W050359,2024-04-15,WA11,Tramadol,Tramadol,Red,Tablet,Not Stated,Not Stated,"Tramadol, Tapentadol",,53.487,-2.73925
+W050394,2024-04-15,EH41,Heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,"Cocaine, Noscapine, Paracetamol, 6-MAM, Papaverine",,55.92442,-2.74208
 W050390,2024-04-15,EH41,Heroin,Heroin,Brown,Solid,Intravenous,"Empathy, Relaxed","xylazine, Noscapine, Paracetamol, Caffeine, 6-MAM","Heroin, Papaverine, 6-Acetylcodeine",55.92442,-2.74208
 000039735,2024-04-15,LL34,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Heroin, Noscapine, 6-MAM","6-Acetylcodeine, Paracetamol, Papaverine",53.26669999999999,-3.933300000000001
-W050394,2024-04-15,EH41,Heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,"Cocaine, Noscapine, Paracetamol, 6-MAM, Papaverine",,55.92442,-2.74208
 W050608,2024-04-18,N14,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,Metonitazene,,51.63298,-0.13062
 W050173,2024-04-18,HA4,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, 6-MAM","6-Acetylcodeine, Papaverine",51.5734,-0.4234
 W050490,2024-04-18,LL11,Dihydrocodeine,Not Stated,White,Tablet,Oral,Relaxed,Dihydrocodeine,,53.064506666666674,-3.052973333333333
 W050679,2024-04-22,TS11,Tapentadol ,Not Stated,White,Tablet,Not Stated,Not Stated,Tapentadol,,54.57873333333333,-1.028166666666667
-W050575,2024-04-22,YO11,Methadone,Not Stated,Blue,Liquid,Oral,No Effect,Methadone,,54.23711428571429,-0.3853571428571428
 W050685,2024-04-22,EH89,Heroin,Not Stated,"Black, Brown",Powder,Intravenous,"Breathlesness, Chest Pains, Irregular Heartbeat, Vomiting, Memory Loss","Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM",Papaverine,55.9489,-3.1632
 W050661,2024-04-22,CF10,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.48,-3.18
 W050660,2024-04-22,PO39,Oxycodone,Not Stated,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,50.6847,-1.5369
-W050688,2024-04-22,TS11,Tramadol,Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,54.57873333333333,-1.028166666666667
 W050680,2024-04-22,TS11,Tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,54.57873333333333,-1.028166666666667
+W050688,2024-04-22,TS11,Tramadol,Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,54.57873333333333,-1.028166666666667
+W050575,2024-04-22,YO11,Methadone,Not Stated,Blue,Liquid,Oral,No Effect,Methadone,,54.23711428571429,-0.3853571428571428
 W051081,2024-04-23,Array,Heroin,Not Stated,Brown,Powder,Not Stated,"Relaxed, Memory Loss, Panic Attack, Depression, Suicidal Ideation","Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM, Papaverine, 6-Acetylcodeine",,,
 W050697,2024-04-23,EH41,Heroin,Heroin,Brown,Powder,Intravenous,"Empathy, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, Papaverine, 6-MAM",55.92442,-2.74208
 W051253,2024-04-25,CR8,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,Unable to identify,,51.331599999999995,-0.10655
@@ -573,49 +573,49 @@ W062537,2025-02-25,LS27,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,No
 W062421,2025-02-25,CH36,Tapentadol,Tapentadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,53.154448571428574,-2.80734
 W062444,2025-02-25,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,Euphoria,No Active Component Identified,,55.9358,-3.4882625
 W062420,2025-02-25,CH36,Tramadol,Tramadol Hydrochloride,Yellow,Capsule,Not Stated,Not Stated,Tramadol,,53.154448571428574,-2.80734
-W062173,2025-02-25,L10,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Breathlesness, Vomiting","Noscapine, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine",53.4754,-2.952
-000233928,2025-02-25,CF83,Heroin,Not Stated,"White, Brown",Solid,Smoked,"Relaxed, Loss of consciousness",6-MAM,"Heroin, Thebacon, Paracetamol, Caffeine, Papaverine, Morphine, Noscapine",51.59288333333333,-3.2333833333333337
-W062427,2025-02-25,SN5,Dihydocodeine,Dihydrocodeine -accord,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.57998,-1.85634
-W062429,2025-02-25,SN5,Tapentadol,Royal 225 apple Tepentadol and Carisoprodol,Red,Tablet,Not Stated,Not Stated,Tapentadol,Carisoprodol,51.57998,-1.85634
 W062430,2025-02-25,SN5,Dihydrocodeine,Workhard UK Dihydrocodeine,,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.57998,-1.85634
+000233928,2025-02-25,CF83,Heroin,Not Stated,"White, Brown",Solid,Smoked,"Relaxed, Loss of consciousness",6-MAM,"Heroin, Thebacon, Paracetamol, Caffeine, Papaverine, Morphine, Noscapine",51.59288333333333,-3.2333833333333337
+W062309,2025-02-25,KA27,Tapentadol,Etol 100 tapentadol ,Orange,Tablet,Not Stated,"Euphoria, Increased Confidence, Relaxed, Nausea, Memory Loss, Confusion, Agitation",Tapentadol,,55.560207894736834,-5.2153447368421055
+W062173,2025-02-25,L10,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Breathlesness, Vomiting","Noscapine, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine",53.4754,-2.952
+W062268,2025-02-25,CF5,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Nausea","Noscapine, Heroin, Paracetamol, Caffeine","Papaverine, 6-Acetylcodeine, 6-MAM",51.471875,-3.275816666666667
 W062358,2025-02-25,,Heroin,Afgan dream cream,White,Powder,Intravenous,Not Stated,"Heroin, 6-MAM, Noscapine, 6-Acetylcodeine",Papaverine,0,0
 W062207,2025-02-25,PL4,Dihdrocodeine 90mg,Prolong rebase 90mg,White,Tablet,Oral,"Increased Energy, Relaxed, Vomiting",Dihydrocodeine,,50.3715,-4.143
-W062268,2025-02-25,CF5,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Nausea","Noscapine, Heroin, Paracetamol, Caffeine","Papaverine, 6-Acetylcodeine, 6-MAM",51.471875,-3.275816666666667
-W062309,2025-02-25,KA27,Tapentadol,Etol 100 tapentadol ,Orange,Tablet,Not Stated,"Euphoria, Increased Confidence, Relaxed, Nausea, Memory Loss, Confusion, Agitation",Tapentadol,,55.560207894736834,-5.2153447368421055
-W062578,2025-02-28,PH1,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Nausea, Vomiting, Confusion","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, n-desethyl etonitazene, Etonitazene, Papaverine",56.43174736842105,-3.4980552631578945
+W062429,2025-02-25,SN5,Tapentadol,Royal 225 apple Tepentadol and Carisoprodol,Red,Tablet,Not Stated,Not Stated,Tapentadol,Carisoprodol,51.57998,-1.85634
+W062427,2025-02-25,SN5,Dihydocodeine,Dihydrocodeine -accord,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.57998,-1.85634
 000233826,2025-02-28,NP4,Morphine,Not Stated,"White, Purple",Capsule,Not Stated,Not Stated,Morphine,,51.718515789473685,-3.030521052631579
+W062578,2025-02-28,PH1,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Nausea, Vomiting, Confusion","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, n-desethyl etonitazene, Etonitazene, Papaverine",56.43174736842105,-3.4980552631578945
 W062671,2025-03-03,SK14,Codeine,Codeine phosphate,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 W062672,2025-03-03,SK14,Codeine,Codeine phosphate,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 000231567,2025-03-04,NP20,oxycontin,Not Stated,"Colourless, White",Liquid,Oral,"Increased Confidence, Relaxed, Irregular Heartbeat, Pain Relief",Oxycodone,,51.5877,-2.9984
+W062874,2025-03-11,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM","Thebacon, Etonitazene, Papaverine, Morphine",55.9358,-3.4882625
 000234050,2025-03-11,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,6-MAM,51.5877,-2.9984
 000234051,2025-03-11,NP20,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed",Cocaine,Phenacetin,51.5877,-2.9984
-000233672,2025-03-11,CF10,Heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,No Active Component Identified,,51.48,-3.18
-W062874,2025-03-11,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM","Thebacon, Etonitazene, Papaverine, Morphine",55.9358,-3.4882625
 W062858,2025-03-11,SE17,Heroin,Not Stated,White,Granules,Not Stated,Not Stated,Unable to identify,,51.48563333333333,-0.1028333333333333
+W062860,2025-03-11,CF44,Heroin,Not Stated,Brown,Solid,Intravenous,"Increased Energy, Increased Confidence, Relaxed, Loss of consciousness","Noscapine, Heroin, Paracetamol","Caffeine, 6-MAM, Papaverine, Thebacon",51.7327125,-3.48293125
 W062735,2025-03-11,YO10,Tapentadol,Tapentadol Aspadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,53.9576,-1.0827
 W062814,2025-03-11,YO10,Oxycodone,Oxycontin Mundipharma,"Green, White",Tablet,Snort / Sniff,No Effect,"N,N-dimethyletonitazene",,53.9576,-1.0827
-W062860,2025-03-11,CF44,Heroin,Not Stated,Brown,Solid,Intravenous,"Increased Energy, Increased Confidence, Relaxed, Loss of consciousness","Noscapine, Heroin, Paracetamol","Caffeine, 6-MAM, Papaverine, Thebacon",51.7327125,-3.48293125
-000234048,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,"6-MAM, Paracetamol",51.5877,-2.9984
-W062813,2025-03-12,TR25,Buprehorphine,Not Stated,White,Powder,Not Stated,Not Stated,Buprenorphine,,49.9642,-6.2933
+000233672,2025-03-11,CF10,Heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,No Active Component Identified,,51.48,-3.18
 000234049,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,,51.5877,-2.9984
-W062789,2025-03-12,TS18,Heroin,Not Stated,"Brown, Brown",Powder,Smoked,"Relaxed, Breathlesness","Paracetamol, Noscapine, Heroin",6-MAM,54.5613,-1.3243
 000234047,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,"Euphoria, Relaxed",Noscapine,"6-MAM, Heroin, Paracetamol",51.5877,-2.9984
+W062789,2025-03-12,TS18,Heroin,Not Stated,"Brown, Brown",Powder,Smoked,"Relaxed, Breathlesness","Paracetamol, Noscapine, Heroin",6-MAM,54.5613,-1.3243
 W062810,2025-03-12,TR25,Oxycodone,Not Stated,White,Powder,Not Stated,Not Stated,Oxycodone,,49.9642,-6.2933
+W062813,2025-03-12,TR25,Buprehorphine,Not Stated,White,Powder,Not Stated,Not Stated,Buprenorphine,,49.9642,-6.2933
+000234048,2025-03-12,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed",Noscapine,"6-MAM, Paracetamol",51.5877,-2.9984
 W062647,2025-03-18,OX11,Heroin,Not Stated,Brown,Solid,Intravenous,"Enhanced Senses, Memory Loss, Confusion, Loss of consciousness, Agitation, Depression",No Active Component Identified,,51.58721666666667,-1.2355166666666666
 W062648,2025-03-18,OX1,Heroin,Not Stated,Brown,Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine",51.72478,-1.275
 W062643,2025-03-18,FK10,Heroin,Not Stated,Brown,Powder,Intravenous,"Relaxed, Memory Loss","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",56.10687777777778,-3.7534
+000234029,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,"Heroin, Papaverine",51.5877,-2.9984
 W063129,2025-03-20,YO13,Morphine tablets,Numorf-30 Morphine IP,White,Tablet,Not Stated,Not Stated,Pregabalin,,54.288025000000005,-0.5161100000000001
+000234038,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,No Active Component Identified,,51.5877,-2.9984
 W063215,2025-03-20,SO14,Heroin,Mo's Dark,Brown,Powder,Smoked,No Effect,"Noscapine, Heroin, Paracetamol","6-MAM, 6-Acetylcodeine, Caffeine, Papaverine",50.911,-1.392
 W063268,2025-03-20,SG1,Heroin,Not Stated,Brown,Powder,Smoked,No Effect,No Active Component Identified,,51.9022,-0.2026
-000234029,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,"Heroin, Papaverine",51.5877,-2.9984
-000234038,2025-03-20,NP20,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,No Active Component Identified,,51.5877,-2.9984
 W063051,2025-03-20,DY4,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Auditory Hallucinations, Visual Hallucinations, Breathlesness, Vomiting, Paranoia, Memory Loss, Loss of consciousness","Heroin, 6-MAM, 6-Acetylcodeine, Noscapine",Papaverine,52.529599999999995,-2.0677
-000233054,2025-03-20,G72,heroin,Not Stated,Brown,Powder,Smoked,"Increased Confidence, Visual Hallucinations, Relaxed, Confusion",No Active Component Identified,,55.80098,-4.12986
-W063128,2025-03-20,DL78,Tramadol 50mg,Tramadol Hydrochloride capsule 50mg,"Green, Yellow",Tablet,Oral,"Increased Energy, Increased Confidence, Increased Stamina, Paranoia, Memory Loss, Confusion",Tramadol,,54.331325,-1.4880166666666668
 000233925,2025-03-20,CF83,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Irregular Heartbeat, Nausea, Agitation","Noscapine, Heroin, Paracetamol, Papaverine, Caffeine","6-MAM, 6-Acetylcodeine",51.59288333333333,-3.2333833333333337
+W061976,2025-03-20,EH22,Heroin,Sample A,Grey,Powder,Intravenous,Not Stated,No Active Component Identified,,55.90278333333333,-3.078175
+W063128,2025-03-20,DL78,Tramadol 50mg,Tramadol Hydrochloride capsule 50mg,"Green, Yellow",Tablet,Oral,"Increased Energy, Increased Confidence, Increased Stamina, Paranoia, Memory Loss, Confusion",Tramadol,,54.331325,-1.4880166666666668
 W052806,2025-03-20,AB16,Heroin,Not Stated,Brown,Powder,Smoked,"Increased Strength, Breathlesness, Irregular Heartbeat","Paracetamol, Noscapine, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine, Etonitazene, Phenacetin",57.16,-2.1567
 W062265,2025-03-20,PL25,Heroin,Heroin Trillogy,"Orange, White",Powder,Smoked,"Euphoria, Increased Confidence, Increased Energy, Increased Strength, Relaxed","Heroin, Noscapine, 6-MAM","Papaverine, Caffeine",50.3372,-4.75845
-W061976,2025-03-20,EH22,Heroin,Sample A,Grey,Powder,Intravenous,Not Stated,No Active Component Identified,,55.90278333333333,-3.078175
+000233054,2025-03-20,G72,heroin,Not Stated,Brown,Powder,Smoked,"Increased Confidence, Visual Hallucinations, Relaxed, Confusion",No Active Component Identified,,55.80098,-4.12986
 W062909,2025-03-27,M50,Oxycontin,Not Stated,,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,53.4767,-2.2932
 W063285,2025-03-27,B18,Heroin,Not Stated,"White, Brown",Powder,Smoked,"Euphoria, Relaxed, Nausea","Noscapine, Heroin","6-Acetylcodeine, 6-MAM, Papaverine, Paracetamol, Caffeine",52.4814,-1.8998
 000232978,2025-03-27,CF82,Morphine,Morphine sulphate,Green,Tablet,Oral,"Pain Relief, Relaxed, Suicidal Ideation",Morphine,,51.648316666666666,-3.2390666666666665
@@ -625,152 +625,152 @@ W063231,2025-03-27,TR25,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"He
 W063111,2025-04-01,G74,Dihydrocodeine,Bristol Labs dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,55.76583333333334,-4.1700333333333335
 W063452,2025-04-03,DD23,Tramadol,Tramado 200mg Tramhub,"White, Red",Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Empathy, Relaxed, Nausea",Tramadol,,56.47777692307693,-3.0589461538461538
 W063480,2025-04-03,FK10,heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Caffeine, Heroin, Paracetamol, 6-MAM, Papaverine, 6-Acetylcodeine",,56.10687777777778,-3.7534
-000235554,2025-04-03,NP12,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin","Papaverine, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine, Dextromethorphan",51.6678,-3.2075
 W063495,2025-04-03,S21,Dihydrocodeine,Dihydrocodeine ,White,Tablet,Oral,Not Stated,Dihydrocodeine,,53.3123,-1.3394
+W063491,2025-04-03,S21,Codeine phosphate,Codeine Phosphate ,White,Tablet,Oral,Relaxed,Codeine,,53.3123,-1.3394
 W063517,2025-04-03,CT10,Heroin,Heroin-sir-ray,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Caffeine, Papaverine, Bromazolam",51.3687,1.435466666666667
 W063002,2025-04-03,HR81,Heroin,Not Stated,"Grey, Brown",Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Stamina, Relaxed, Insomnia","Noscapine, Heroin, 6-MAM, Diazepam, 6-Acetylcodeine","Paracetamol, Papaverine",52.04964642857143,-2.4549714285714286
-W063491,2025-04-03,S21,Codeine phosphate,Codeine Phosphate ,White,Tablet,Oral,Relaxed,Codeine,,53.3123,-1.3394
+000235554,2025-04-03,NP12,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin","Papaverine, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine, Dextromethorphan",51.6678,-3.2075
 W063424,2025-04-07,WR1,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Paracetamol, Papaverine",52.1894,-2.22
 W063306,2025-04-07,G82,Heroin,Not Stated,Brown,Powder,Smoked,"Nausea, Vomiting, Irregular Heartbeat","Paracetamol, Noscapine, Heroin, 6-Acetylcodeine",Papaverine,55.954800000000006,-4.5815222222222225
 W063513,2025-04-07,G82,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Caffeine, Paracetamol, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Etonitazene, N-desethyletonitazene",55.954800000000006,-4.5815222222222225
 000235555,2025-04-07,NP12,Heroin,Not Stated,"White, Brown",Powder,Intravenous,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.6678,-3.2075
 W063294,2025-04-07,WR14,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed","Noscapine, Heroin, 6-Acetylcodeine, 6-MAM, Diazepam","Papaverine, Caffeine, Paracetamol",52.095075,-2.327225
-W063447,2025-04-08,CF65,Morphine,Morphine,"White, Black",Tablet,Not Stated,Not Stated,Morphine,,,
 W063446,2025-04-08,CH65,Oxycodone,Oxy,White,Tablet,Not Stated,Not Stated,Oxycodone,,53.2787,-2.9013
-W063445,2025-04-08,CH65,heroin,heroin,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",53.2787,-2.9013
 W063286,2025-04-08,HR82,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Diazepam, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol",52.04964642857143,-2.4549714285714286
 W063651,2025-04-08,YO10,Oxycodone,Oxycontin 80fm Mundipharma,"White, Green",Tablet,Snort / Sniff,No Effect,"N,N-dimethyletonitazene",,53.9576,-1.0827
+W063445,2025-04-08,CH65,heroin,heroin,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",53.2787,-2.9013
+W063447,2025-04-08,CF65,Morphine,Morphine,"White, Black",Tablet,Not Stated,Not Stated,Morphine,,,
 W063498,2025-04-08,,heroin,heroin,,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine","6-Acetylcodeine, Papaverine",0,0
 W063319,2025-04-15,SW63,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.4803,-0.1993
 W063604,2025-04-15,LL11,Tramadol,Tramadol,"Green, White",Capsule,Oral,Not Stated,"Caffeine, Amphetamine",,53.064506666666674,-3.052973333333333
+W063413,2025-04-15,PO21,Tramadol ,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,50.776525,-0.712225
 W062695,2025-04-15,EH14,Heroin,Not Stated,Brown,Powder,Intravenous,"Relaxed, Euphoria","Noscapine, Paracetamol, Heroin","Caffeine, 6-MAM, Papaverine, 6-Acetylcodeine",55.894733333333335,-3.3110166666666667
 W053082,2025-04-15,KY11,heroin,Not Stated,,,Not Stated,Not Stated,"Noscapine, Paracetamol, 6-MAM","Caffeine, Heroin, Papaverine",56.037644444444446,-3.422588888888889
-W063413,2025-04-15,PO21,Tramadol ,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,50.776525,-0.712225
-W064301,2025-04-24,FK8,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Nausea, Memory Loss","Noscapine, Heroin, Caffeine, Paracetamol, 6-Acetylcodeine","Etonitazene, Papaverine",56.12892702702703,-4.228913513513514
 W063874,2025-04-24,YO8,Heroin,Not Stated,"White, Brown",Powder,"Smoked, Intravenous",No Effect,"Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine",Papaverine,53.77469393939394,-1.0269030303030302
 W063853,2025-04-24,NG32,Tapentadol,Tepentadol,White,Tablet,Not Stated,"Auditory Hallucinations, Visual Hallucinations, Relaxed, Confusion, Insomnia, Depression",Tapentadol,,52.945411111111106,-0.6390138888888889
-W063830,2025-04-24,TD1,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Phenacetin, Papaverine",55.66659333333334,-2.8606933333333333
-W063668,2025-04-24,AB24,heroin,heroin,"Grey, Black",Solid,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Papaverine","6-Acetylcodeine, 6-MAM, Caffeine",57.1437,-2.0981
-W063841,2025-04-24,E15,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,"No Effect, Euphoria, Increased Confidence, Relaxed, Memory Loss","2-methyl-4-(methylthio)-2-morpholinopropiophenone, Pregabalin",,51.5333,0.0
-W064092,2025-04-24,GL7,Oxycontin,Oxycontin,"Green, Green",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,51.716703389830506,-1.8806542372881356
-W063807,2025-04-24,BA11,DIHYDROCODEINE,DIHYDROCODEINE (ACCORD BRAND),White,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Irregular Heartbeat, Nausea, Insomnia",Dihydrocodeine,,51.216945,-2.351325
 W063152,2025-04-24,TS8,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Increased Energy, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine, 6-MAM","6-Acetylcodeine, Dextromethorphan",54.51546,-1.24278
+W063841,2025-04-24,E15,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,"No Effect, Euphoria, Increased Confidence, Relaxed, Memory Loss","2-methyl-4-(methylthio)-2-morpholinopropiophenone, Pregabalin",,51.5333,0.0
+W063830,2025-04-24,TD1,Heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Phenacetin, Papaverine",55.66659333333334,-2.8606933333333333
+W063807,2025-04-24,BA11,DIHYDROCODEINE,DIHYDROCODEINE (ACCORD BRAND),White,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Irregular Heartbeat, Nausea, Insomnia",Dihydrocodeine,,51.216945,-2.351325
+W063668,2025-04-24,AB24,heroin,heroin,"Grey, Black",Solid,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Papaverine","6-Acetylcodeine, 6-MAM, Caffeine",57.1437,-2.0981
+W064301,2025-04-24,FK8,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Nausea, Memory Loss","Noscapine, Heroin, Caffeine, Paracetamol, 6-Acetylcodeine","Etonitazene, Papaverine",56.12892702702703,-4.228913513513514
+W064092,2025-04-24,GL7,Oxycontin,Oxycontin,"Green, Green",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,51.716703389830506,-1.8806542372881356
+000233955,2025-04-29,CF83,Heroin,Not Stated,Brown,Powder,Not Stated,"Relaxed, Agitation","Paracetamol, 6-MAM","Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
 W063954,2025-04-29,PL1,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","Papaverine, 6-Acetylcodeine",50.37435000000001,-4.1642
 W064075,2025-04-29,LS16,Dihydrocodeine,Not Stated,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,53.868475,-1.5981
 W064045,2025-04-29,BT47,Tramadol,Tramadol HCl,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,54.94983333333333,-7.084177777777778
-000233955,2025-04-29,CF83,Heroin,Not Stated,Brown,Powder,Not Stated,"Relaxed, Agitation","Paracetamol, 6-MAM","Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
-W064239,2025-04-30,TR14,Tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.19814,-5.30309
+W063998,2025-04-30,AB41,Heroin,Afghan Sand,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",57.35964615384615,-2.199930769230769
 000230720,2025-04-30,NP23,Oxycodone,Not Stated,White,Tablet,Oral,Pain Relief,Oxycodone,,51.7771,-3.2079
 000233818,2025-04-30,NP4,Heroin,Not Stated,,Solid,Smoked,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, Caffeine, 6-MAM, Paracetamol",,51.718515789473685,-3.030521052631579
-W063998,2025-04-30,AB41,Heroin,Afghan Sand,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",57.35964615384615,-2.199930769230769
-W064232,2025-04-30,AB24,Heroin,Not Stated,"White, Brown",Powder,Not Stated,No Effect,"Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,57.1437,-2.0981
 000233819,2025-04-30,NP7,Tramadol,Not Stated,"White, Colourless",Capsule,Not Stated,Not Stated,Tramadol,,51.851292105263155,-3.0386236842105263
+W064232,2025-04-30,AB24,Heroin,Not Stated,"White, Brown",Powder,Not Stated,No Effect,"Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,57.1437,-2.0981
+W064239,2025-04-30,TR14,Tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.19814,-5.30309
 W064324,2025-05-07,EH48,heroin,Not Stated,,Powder,Intravenous,No Effect,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
 W064322,2025-05-07,WR2,heroin,Not Stated,,Powder,Intravenous,"Increased Energy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",52.19407857142857,-2.2507214285714285
-W064451,2025-05-07,LL11,heroin,L+D heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine","6-Acetylcodeine, Papaverine",53.064506666666674,-3.052973333333333
 W064423,2025-05-07,SK14,Codeine phosphate teva 30mg,codeine teva 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 W064424,2025-05-07,SK14,Codeine Phosphate teva 30mg,Codeine teva 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 W064388,2025-05-07,BA69,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,No Effect,No Active Component Identified,,51.140458333333335,-2.708916666666666
-W064325,2025-05-07,EH39,heroin,Not Stated,"Red, Brown",Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, 6-MAM, Caffeine, 6-Acetylcodeine","Metonitazene, Papaverine",56.0277,-2.7334
-W064070,2025-05-07,SR2,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Paracetamol",54.8792,-1.37365
+000233804,2025-05-07,NP20,heroin,heroin,White,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",,51.5877,-2.9984
+W064451,2025-05-07,LL11,heroin,L+D heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine","6-Acetylcodeine, Papaverine",53.064506666666674,-3.052973333333333
+W064271,2025-05-07,PO13,Tapendadol 225mg,Red apple tepentadol 225mg,Red,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed, Memory Loss",Tapentadol,,50.8144,-1.1886666666666663
 W064023,2025-05-07,EH3,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Chest Pains, Nasal Burning, Memory Loss, Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM",Papaverine,55.9521,-3.1965
 000234714,2025-05-07,CF31,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Paracetamol, 6-MAM, Heroin, Caffeine","Papaverine, 6-Acetylcodeine",51.507666666666665,-3.577733333333333
-W064271,2025-05-07,PO13,Tapendadol 225mg,Red apple tepentadol 225mg,Red,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed, Memory Loss",Tapentadol,,50.8144,-1.1886666666666663
-000233804,2025-05-07,NP20,heroin,heroin,White,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",,51.5877,-2.9984
+W064325,2025-05-07,EH39,heroin,Not Stated,"Red, Brown",Powder,Intravenous,"Confusion, Loss of consciousness","Noscapine, Paracetamol, Heroin, 6-MAM, Caffeine, 6-Acetylcodeine","Metonitazene, Papaverine",56.0277,-2.7334
+W064070,2025-05-07,SR2,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Paracetamol",54.8792,-1.37365
+000234271,2025-05-08,NP4,Heroin,Not Stated,Brown,,Intravenous,Not Stated,Cocaine,Caffeine,51.718515789473685,-3.030521052631579
 000234272,2025-05-08,NP4,heroin,Not Stated,Brown,,Intravenous,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
 W064489,2025-05-08,KY3,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Etonitazene",56.05788,-3.2186399999999997
-000234271,2025-05-08,NP4,Heroin,Not Stated,Brown,,Intravenous,Not Stated,Cocaine,Caffeine,51.718515789473685,-3.030521052631579
+W064638,2025-05-13,E8,heroin,heroin,Grey,Powder,Not Stated,Not Stated,"Diazepam, Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol","Caffeine, Papaverine",51.548,-0.0629
+W064824,2025-05-13,SG52,Dihydrocodeine,Not Stated,White,Tablet,Oral,"No Effect, Relaxed, Depression","Paracetamol, Dihydrocodeine",,51.9701923076923,-0.3279538461538461
+000234279,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Buprenorphine,,51.718515789473685,-3.030521052631579
+W064671,2025-05-13,AB10,Oxycodone 80mg,Not Stated,White,Tablet,Oral,"No Effect, Relaxed",No Active Component Identified,,57.1437,-2.0981
+W064685,2025-05-13,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation","Paracetamol, Caffeine, Noscapine, Cocaine, Heroin, 6-MAM","Ethylbromazolam, 6-Acetylcodeine, Papaverine, Phenacetin",51.648575,-1.2559833333333332
+W064834,2025-05-13,PO4,Tramadol,Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,50.78925,-1.06255
+W064835,2025-05-13,PO4,Trapentadol,tprexadol-100,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.78925,-1.06255
+000234278,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
+000234276,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
+W064806,2025-05-13,M5,Morphine,Morphine,White,Tablet,Oral,"Euphoria, Empathy, Relaxed",Morphine,,53.4792,-2.2859
+W064567,2025-05-13,TW14,Oxycodone,Oxycodene 30mg (pressed),Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.4528,-0.4215
+000232889,2025-05-13,CF83,heroin,Heroin,Brown,Powder,Smoked,Relaxed,"6-MAM, Heroin, Noscapine",,51.59288333333333,-3.2333833333333337
+W064531,2025-05-13,EX39,Tramadol 50mg Hydrochloride,Tramadol 50mg,Yellow,Tablet,Oral,"Euphoria, Relaxed, Loss of consciousness",Tramadol,,50.99405869565218,-4.261958695652174
 W064877,2025-05-13,OX4,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Noscapine, Heroin, Papaverine","6-Acetylcodeine, 6-MAM, Paracetamol",51.723725,-1.224375
 000234277,2025-05-13,NP4,heroin,Not Stated,White,,Not Stated,Not Stated,Caffeine,Amphetamine,51.718515789473685,-3.030521052631579
-000234276,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
 W064862,2025-05-13,AB43,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Nausea","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",57.65489545454545,-2.046884090909091
-000234278,2025-05-13,NP4,heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
-W064685,2025-05-13,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation","Paracetamol, Caffeine, Noscapine, Cocaine, Heroin, 6-MAM","Ethylbromazolam, 6-Acetylcodeine, Papaverine, Phenacetin",51.648575,-1.2559833333333332
-W064671,2025-05-13,AB10,Oxycodone 80mg,Not Stated,White,Tablet,Oral,"No Effect, Relaxed",No Active Component Identified,,57.1437,-2.0981
-000234279,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Buprenorphine,,51.718515789473685,-3.030521052631579
-000231592,2025-05-13,CF10,Heroin,Not Stated,Brown,Powder,Smoked,"Irregular Heartbeat, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation, Insomnia","Paracetamol, Caffeine, 6-MAM, Clozapine, Noscapine, 6-Acetylcodeine",Papaverine,51.48,-3.18
-W064638,2025-05-13,E8,heroin,heroin,Grey,Powder,Not Stated,Not Stated,"Diazepam, Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol","Caffeine, Papaverine",51.548,-0.0629
-000232889,2025-05-13,CF83,heroin,Heroin,Brown,Powder,Smoked,Relaxed,"6-MAM, Heroin, Noscapine",,51.59288333333333,-3.2333833333333337
-W064567,2025-05-13,TW14,Oxycodone,Oxycodene 30mg (pressed),Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.4528,-0.4215
-W064806,2025-05-13,M5,Morphine,Morphine,White,Tablet,Oral,"Euphoria, Empathy, Relaxed",Morphine,,53.4792,-2.2859
-W064805,2025-05-13,M50,Morphine,Morphine,White,Tablet,Oral,"Euphoria, Empathy, Relaxed","Tramadol, Paracetamol",,53.4767,-2.2932
-W064824,2025-05-13,SG52,Dihydrocodeine,Not Stated,White,Tablet,Oral,"No Effect, Relaxed, Depression","Paracetamol, Dihydrocodeine",,51.9701923076923,-0.3279538461538461
-W064835,2025-05-13,PO4,Trapentadol,tprexadol-100,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.78925,-1.06255
-W064834,2025-05-13,PO4,Tramadol,Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,50.78925,-1.06255
-W064531,2025-05-13,EX39,Tramadol 50mg Hydrochloride,Tramadol 50mg,Yellow,Tablet,Oral,"Euphoria, Relaxed, Loss of consciousness",Tramadol,,50.99405869565218,-4.261958695652174
 W064652,2025-05-13,LL13,heroin,Not Stated,Black,Solid,Intravenous,Not Stated,"Noscapine, Heroin, Papaverine, 6-Acetylcodeine, 6-MAM","Paracetamol, Caffeine",52.9917619047619,-2.9116809523809524
-W064642,2025-05-13,AB25,Opiates,Lapentaldol hyrochloride,White,Tablet,Oral,"Increased Energy, Relaxed",Tapentadol,,57.1437,-2.0981
+W064805,2025-05-13,M50,Morphine,Morphine,White,Tablet,Oral,"Euphoria, Empathy, Relaxed","Tramadol, Paracetamol",,53.4767,-2.2932
+W064663,2025-05-13,CF24,heroin,heroin,Grey,Powder,Smoked,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine","Paracetamol, 6-MAM, Papaverine",51.48,-3.18
+W063900,2025-05-13,CA2,Tramadol-100,Treken-100,White,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Increased Strength, Relaxed",Tramadol,,54.869499999999995,-2.9516000000000004
+000233990,2025-05-13,NP4,Heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
+W064560,2025-05-13,N5,Oxycodone 'Oxylan' 80mg,GL Pharma oxylan 80mg,Colourless,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed",Oxycodone,,51.55,-0.1
 000233989,2025-05-13,NP4,heroin,Not Stated,"Colourless, White",,Not Stated,Not Stated,Caffeine,Amphetamine,51.718515789473685,-3.030521052631579
-W063784,2025-05-13,YO24,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM, 6-Acetylcodeine",Papaverine,53.946,-1.1169
+000233842,2025-05-13,NP20,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"6-MAM, Paracetamol","6-Acetylcodeine, Morphine, Caffeine, Papaverine, Heroin",51.5877,-2.9984
+W063996,2025-05-13,AB42,Heroin,Pk1 heroin,"White, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,57.48231142857143,-1.924825714285714
+000231592,2025-05-13,CF10,Heroin,Not Stated,Brown,Powder,Smoked,"Irregular Heartbeat, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation, Insomnia","Paracetamol, Caffeine, 6-MAM, Clozapine, Noscapine, 6-Acetylcodeine",Papaverine,51.48,-3.18
+W064405,2025-05-13,SO14,codeine ,F0452 CODEINE PHOSPHATE TABLETS BP 30MG PRODUCT LICENCE HOLDER CRESENT PHARMER Ltd,White,Tablet,Oral,Relaxed,Codeine,,50.911,-1.392
+000231704,2025-05-13,CF10,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Cocaine, Phenacetin",,51.48,-3.18
+W063786,2025-05-13,YO61,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,No Active Component Identified,,54.118941666666665,-1.2040666666666666
+W053103,2025-05-13,KY63,heroin,Not Stated,Green,Liquid,Not Stated,Not Stated,"Paracetamol, Caffeine, 6-MAM, Noscapine",Papaverine,56.2,-3.2167000000000003
 W063785,2025-05-13,YO30,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine, Papaverine",,54.01795,-1.180125
 W064391,2025-05-13,CT5,vicodin (hydrocodone),vicodin (hydrocodone),White,Tablet,Not Stated,Not Stated,Paracetamol,,51.3565,1.0400142857142858
 W064303,2025-05-13,SA15,TRAMADOL,TRAMADOL,Red,Capsule,Oral,"Relaxed, Nausea",Tramadol,,51.74003,-4.187250000000001
-000233842,2025-05-13,NP20,heroin,Heroin,Brown,Powder,Not Stated,Not Stated,"6-MAM, Paracetamol","6-Acetylcodeine, Morphine, Caffeine, Papaverine, Heroin",51.5877,-2.9984
-W064663,2025-05-13,CF24,heroin,heroin,Grey,Powder,Smoked,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine","Paracetamol, 6-MAM, Papaverine",51.48,-3.18
-W064405,2025-05-13,SO14,codeine ,F0452 CODEINE PHOSPHATE TABLETS BP 30MG PRODUCT LICENCE HOLDER CRESENT PHARMER Ltd,White,Tablet,Oral,Relaxed,Codeine,,50.911,-1.392
-W063786,2025-05-13,YO61,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,No Active Component Identified,,54.118941666666665,-1.2040666666666666
-W053103,2025-05-13,KY63,heroin,Not Stated,Green,Liquid,Not Stated,Not Stated,"Paracetamol, Caffeine, 6-MAM, Noscapine",Papaverine,56.2,-3.2167000000000003
-W063996,2025-05-13,AB42,Heroin,Pk1 heroin,"White, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,57.48231142857143,-1.924825714285714
-W063900,2025-05-13,CA2,Tramadol-100,Treken-100,White,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Increased Strength, Relaxed",Tramadol,,54.869499999999995,-2.9516000000000004
-W064635,2025-05-13,WR13,Heroin,Not Stated,Brown,Powder,Smoked,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Papaverine",52.09508421052632,-2.3295421052631577
+W064642,2025-05-13,AB25,Opiates,Lapentaldol hyrochloride,White,Tablet,Oral,"Increased Energy, Relaxed",Tapentadol,,57.1437,-2.0981
 000234000,2025-05-13,NP4,Heroin,Not Stated,Colourless,,Not Stated,Not Stated,Caffeine,,51.718515789473685,-3.030521052631579
 000233991,2025-05-13,NP4,Heroin,Not Stated,White,,Not Stated,Not Stated,Caffeine,Amphetamine,51.718515789473685,-3.030521052631579
-000233990,2025-05-13,NP4,Heroin,Not Stated,"White, Brown",,Not Stated,Not Stated,"Caffeine, Amphetamine",,51.718515789473685,-3.030521052631579
-W064560,2025-05-13,N5,Oxycodone 'Oxylan' 80mg,GL Pharma oxylan 80mg,Colourless,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed",Oxycodone,,51.55,-0.1
-000231704,2025-05-13,CF10,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Cocaine, Phenacetin",,51.48,-3.18
-W065020,2025-05-16,E18,heroin,heroin,Yellow,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.5923,0.0225
-W065022,2025-05-16,E18,heroin TPK,TRi-heroin TPK,"Yellow, Brown",Powder,Not Stated,Not Stated,"Noscapine, Heroin, Papaverine","Caffeine, Paracetamol, 6-Acetylcodeine, 6-MAM",51.5923,0.0225
+W064635,2025-05-13,WR13,Heroin,Not Stated,Brown,Powder,Smoked,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Papaverine",52.09508421052632,-2.3295421052631577
+W063784,2025-05-13,YO24,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM, 6-Acetylcodeine",Papaverine,53.946,-1.1169
+000235412,2025-05-16,LD2,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"Caffeine, Amphetamine",,52.104838461538456,-3.3634192307692308
 W062378,2025-05-16,EH6,heroin,Not Stated,Brown,Powder,Snort / Sniff,Euphoria,"Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, Papaverine","6-Acetylcodeine, Etonitazene",55.9617,-3.1844
 W065021,2025-05-16,E18,heroin TCCH,Heroin TCCH,"Yellow, Brown",Powder,Not Stated,Not Stated,"Heroin, 6-MAM, Noscapine, 6-Acetylcodeine",Papaverine,51.5923,0.0225
+W065022,2025-05-16,E18,heroin TPK,TRi-heroin TPK,"Yellow, Brown",Powder,Not Stated,Not Stated,"Noscapine, Heroin, Papaverine","Caffeine, Paracetamol, 6-Acetylcodeine, 6-MAM",51.5923,0.0225
+W065020,2025-05-16,E18,heroin,heroin,Yellow,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.5923,0.0225
 W065024,2025-05-16,E18,heroin,GHUK Heroin s1,"Yellow, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM",Papaverine,51.5923,0.0225
+W065005,2025-05-16,G74,Morphine,Oramorph,Colourless,Liquid,Not Stated,Not Stated,Morphine,,55.76583333333334,-4.1700333333333335
 W064996,2025-05-16,SW1V,Oxycodone,Oxycodone hydrochloride 80mg,White,Tablet,Oral,"Euphoria, Relaxed",Tramadol,,51.5085,-0.1257
-W065045,2025-05-16,TS1,heroin,Heroin,Brown,Powder,"Smoked, Intramuscular","Increased Energy, Increased Confidence, Increased Stamina, Relaxed, Enhanced Senses","6-MAM, Noscapine, Paracetamol, Caffeine, Heroin, Papaverine",,54.5762,-1.2348
 W064916,2025-05-16,BR87,100mg Tramadol,Traken,White,Tablet,Oral,"Euphoria, Increased Energy, Increased Stamina, Relaxed, Nausea, Memory Loss, Confusion, Loss of appetite",Tramadol,,51.3972,0.1732
 W064963,2025-05-16,LA14,Heroin,Not Stated,Grey,,Intravenous,"Euphoria, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",54.11596666666667,-3.23425
-000235412,2025-05-16,LD2,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"Caffeine, Amphetamine",,52.104838461538456,-3.3634192307692308
-W065005,2025-05-16,G74,Morphine,Oramorph,Colourless,Liquid,Not Stated,Not Stated,Morphine,,55.76583333333334,-4.1700333333333335
+W065045,2025-05-16,TS1,heroin,Heroin,Brown,Powder,"Smoked, Intramuscular","Increased Energy, Increased Confidence, Increased Stamina, Relaxed, Enhanced Senses","6-MAM, Noscapine, Paracetamol, Caffeine, Heroin, Papaverine",,54.5762,-1.2348
 W053114,2025-05-22,KY11,heroin,Not Stated,Brown,,Intravenous,Not Stated,"Noscapine, 6-MAM, Paracetamol, Caffeine, Heroin, Papaverine",6-Acetylcodeine,56.037644444444446,-3.422588888888889
 W065091,2025-05-22,L17,Tramadol,50mg Tramadol,"Yellow, Blue",Capsule,Oral,Not Stated,Tramadol,,53.3653,-2.9178
 000235705,2025-05-22,CF31,heroin,Not Stated,Brown,Plant Matter,Smoked,Loss of consciousness,"Paracetamol, Codeine",,51.507666666666665,-3.577733333333333
 W065154,2025-05-22,CW9,Tramadol,Treken-100,White,Tablet,Oral,"Paranoia, Confusion, Agitation, Depression",Tramadol,,53.264406666666666,-2.5003200000000003
-W065415,2025-05-28,TS01,tamolx,225- tamolx,White,Tablet,Not Stated,Not Stated,Tapentadol,Carisoprodol,,
-W065416,2025-05-28,TS01,tapentadol,Tapentadol,"Orange, Red",Tablet,Not Stated,Not Stated,Tapentadol,,,
-W065407,2025-05-28,BT47,Tramadol,Tramadol hydrochloride 50mgs,"Green, Yellow",Capsule,Not Stated,"Euphoria, Increased Confidence, Enhanced Senses, Increased Stamina, Relaxed",Tramadol,,54.94983333333333,-7.084177777777778
-000232894,2025-05-28,CF83,Heroin,Not Stated,Grey,,Smoked,Not Stated,No Active Component Identified,,51.59288333333333,-3.2333833333333337
-W065257,2025-05-28,EH47,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Paranoia, Memory Loss, Panic Attack","Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM",,55.85647142857143,-3.669085714285714
-W065234,2025-05-28,G74,Tapentadol,tapentadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,55.76583333333334,-4.1700333333333335
-W064908,2025-05-28,YO31,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
-000232896,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"Relaxed, Nausea, Vomiting","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
 000232897,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"No Effect, Relaxed",No Active Component Identified,,51.59288333333333,-3.2333833333333337
+W065407,2025-05-28,BT47,Tramadol,Tramadol hydrochloride 50mgs,"Green, Yellow",Capsule,Not Stated,"Euphoria, Increased Confidence, Enhanced Senses, Increased Stamina, Relaxed",Tramadol,,54.94983333333333,-7.084177777777778
+W065416,2025-05-28,TS01,tapentadol,Tapentadol,"Orange, Red",Tablet,Not Stated,Not Stated,Tapentadol,,,
+W065415,2025-05-28,TS01,tamolx,225- tamolx,White,Tablet,Not Stated,Not Stated,Tapentadol,Carisoprodol,,
+W064908,2025-05-28,YO31,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
+W065234,2025-05-28,G74,Tapentadol,tapentadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,55.76583333333334,-4.1700333333333335
+000232896,2025-05-28,CF83,heroin,Not Stated,Grey,Powder,Smoked,"Relaxed, Nausea, Vomiting","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Caffeine, Papaverine",51.59288333333333,-3.2333833333333337
+W065257,2025-05-28,EH47,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Paranoia, Memory Loss, Panic Attack","Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM",,55.85647142857143,-3.669085714285714
+000232894,2025-05-28,CF83,Heroin,Not Stated,Grey,,Smoked,Not Stated,No Active Component Identified,,51.59288333333333,-3.2333833333333337
 W064761,2025-05-30,EH26,HEROIN,Not Stated,"White, Brown",Powder,"Smoked, Intravenous",Not Stated,"6-MAM, Paracetamol, Caffeine, Noscapine","Papaverine, 6-Acetylcodeine, Heroin",55.82387142857142,-3.241371428571429
 W064762,2025-05-30,EH26,HEROIN,Not Stated,Black,Powder,Intravenous,Not Stated,No Active Component Identified,,55.82387142857142,-3.241371428571429
-000232899,2025-06-06,CF83,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Irregular Heartbeat","Noscapine, Phenacetin, Heroin","Paracetamol, 6-Acetylcodeine, Caffeine, Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
-000234965,2025-06-06,CF37,Solpadeine- codeine,Solpadeine - codeine,Red,Capsule,Oral,Relaxed,"Paracetamol, Codeine",,51.613815384615386,-3.3598076923076925
 000234248,2025-06-06,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,Not Stated,"Noscapine, Heroin, Paracetamol, 6-Acetylcodeine","Papaverine, 6-MAM, Etonitazene",51.5877,-2.9984
-000235571,2025-06-13,DP11,heroin,Not Stated,"White, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, 6-MAM, Caffeine, Heroin","6-Acetylcodeine, Papaverine",,
-W065238,2025-06-13,GL53,Tapentadol,Asmanol 100mg ,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.8192,-2.05427
-000235329,2025-06-13,NP22,Oxycontin 80mg,Oxycontin 80mg,White,Tablet,Oral,"Increased Confidence, Relaxed, Depression",Oxycodone,,51.7725,-3.2468
-000233058,2025-06-13,G72,heroin,Not Stated,"White, Brown",Plant Matter,Smoked,"Relaxed, Chest Pains, Memory Loss, Confusion, Loss of consciousness","Noscapine, Caffeine, Paracetamol, Heroin","6-Acetylcodeine, 6-MAM, Papaverine, Etonitazene",55.80098,-4.12986
-W065445,2025-06-13,EN89,Oxycodone HCL,Mundipharma Oxycontin 40mg,Yellow,Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
+000234965,2025-06-06,CF37,Solpadeine- codeine,Solpadeine - codeine,Red,Capsule,Oral,Relaxed,"Paracetamol, Codeine",,51.613815384615386,-3.3598076923076925
+000232899,2025-06-06,CF83,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Irregular Heartbeat","Noscapine, Phenacetin, Heroin","Paracetamol, 6-Acetylcodeine, Caffeine, Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
 000233490,2025-06-13,LL41,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Nausea, Agitation, Depression","Noscapine, Heroin, Paracetamol, 6-MAM","Caffeine, 6-Acetylcodeine, Papaverine",52.95797,-3.94751
+W065445,2025-06-13,EN89,Oxycodone HCL,Mundipharma Oxycontin 40mg,Yellow,Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
+000233058,2025-06-13,G72,heroin,Not Stated,"White, Brown",Plant Matter,Smoked,"Relaxed, Chest Pains, Memory Loss, Confusion, Loss of consciousness","Noscapine, Caffeine, Paracetamol, Heroin","6-Acetylcodeine, 6-MAM, Papaverine, Etonitazene",55.80098,-4.12986
+W065238,2025-06-13,GL53,Tapentadol,Asmanol 100mg ,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.8192,-2.05427
+000235571,2025-06-13,DP11,heroin,Not Stated,"White, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, 6-MAM, Caffeine, Heroin","6-Acetylcodeine, Papaverine",,
+000235329,2025-06-13,NP22,Oxycontin 80mg,Oxycontin 80mg,White,Tablet,Oral,"Increased Confidence, Relaxed, Depression",Oxycodone,,51.7725,-3.2468
 W064842,2025-06-16,NE29,Oxycontin Oxycodone Mundi Pharma,Not Stated,Green,Tablet,Not Stated,Not Stated,Gabapentin,,55.0165,-1.4493
 000233966,2025-06-16,NP4,Heroin,Not Stated,Brown,Granules,Intravenous,"Irregular Heartbeat, Loss of consciousness","Noscapine, Heroin, Paracetamol, 6-MAM, Caffeine, 6-Acetylcodeine","Papaverine, Etonitazene, Metonitazene",51.718515789473685,-3.030521052631579
 W065689,2025-06-16,TS1,Heroin,Not Stated,Brown,Solid,"Smoked, Intravenous","Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Strength, Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Insomnia, Depression","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",54.5762,-1.2348
-W065780,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrotrust,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
 W065781,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrax,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
+W065559,2025-06-17,SR3,Protonitazene,Not Stated,White,Blotter paper,Smoked,"Euphoria, Enhanced Senses, Relaxed, Breathlesness, Memory Loss, Agitation",Protonitazene,,54.874233333333336,-1.4153666666666669
+W065780,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrotrust,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
 W064763,2025-06-17,EH3,Heroin,Not Stated,Brown,Powder,Smoked,"Auditory Hallucinations, Psychosis, Visual Hallucinations, Confusion","Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.9521,-3.1965
 000233489,2025-06-17,LL41,Heroin,Not Stated,Brown,Powder,Smoked,No Effect,"Heroin, Noscapine, 6-Acetylcodeine","Papaverine, 6-MAM, Paracetamol, Caffeine",52.95797,-3.94751
-W065559,2025-06-17,SR3,Protonitazene,Not Stated,White,Blotter paper,Smoked,"Euphoria, Enhanced Senses, Relaxed, Breathlesness, Memory Loss, Agitation",Protonitazene,,54.874233333333336,-1.4153666666666669
 W065779,2025-06-20,BT36,Tapentadol,Tapdoll,"Orange, White",Tablet,Not Stated,Not Stated,Tapentadol,,54.675533333333334,-5.9483
 W065729,2025-06-20,HR26,Heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol",51.98334078947369,-2.796544736842105
 W065848,2025-06-20,FK1,iranian Heroin,Not Stated,Brown,Granules,Intravenous,"Relaxed, Confusion","Noscapine, Heroin, Papaverine, 6-MAM, 6-Acetylcodeine","Paracetamol, Caffeine",55.96849090909091,-3.796481818181818
 W065847,2025-06-20,FK1,Iranian heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin","6-Acetylcodeine, Papaverine, 6-MAM",55.96849090909091,-3.796481818181818
 000232134,2025-06-20,NP4,Morphine,MST continus,White,Tablet,Not Stated,Not Stated,Morphine,,51.718515789473685,-3.030521052631579
-W065971,2025-06-24,CV1,Tapentadol,Not Stated,Orange,,Not Stated,Not Stated,Tapentadol,,52.4066,-1.5122
 W065709,2025-06-24,G63,Dihydrocodeine,DHC continus 60mg,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,56.03654399999999,-4.3500119999999995
 000235419,2025-06-24,SN,Heroin,Not Stated,Brown,Powder,Intravenous,Relaxed,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",,
-W065751,2025-06-24,YO10,Oxycodone,Not Stated,"Green, White",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
+W065971,2025-06-24,CV1,Tapentadol,Not Stated,Orange,,Not Stated,Not Stated,Tapentadol,,52.4066,-1.5122
 W065866,2025-06-24,SY1,Heroin,Rw DC,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Caffeine, Papaverine",52.71675,-2.7468
+W065751,2025-06-24,YO10,Oxycodone,Not Stated,"Green, White",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
 000236869,2025-06-24,CF63,tapentadol,tepentadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.4172,-3.2614
 W066001,2025-06-25,SG14,Tramadol,Tramadol 50mg,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.811775,-0.11705
 W065991,2025-06-25,SG14,Morphine,Morfine sulfaat aurobindo retard,White,Tablet,Not Stated,Not Stated,Morphine,,51.811775,-0.11705
@@ -781,64 +781,64 @@ W066144,2025-06-25,SW2,Tramadol,Not Stated,White,Tablet,Oral,"Relaxed, Insomnia"
 000231870,2025-07-01,LL65,heroin,Not Stated,Brown,,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion, Panic Attack","Heroin, Noscapine, 6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",Metonitazene,53.289686206896555,-4.534455172413793
 000232281,2025-07-01,CF83,heroin,Not Stated,Brown,Powder,Not Stated,Relaxed,"Phenacetin, Noscapine, Heroin","Cocaine, Paracetamol, Caffeine, 6-MAM, Papaverine",51.59288333333333,-3.2333833333333337
 000236419,2025-07-01,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, Diazepam","Etonitazene, 6-Acetylcodeine, 6-MAM, Papaverine, Metonitazene",51.5877,-2.9984
+000233971,2025-07-01,NP4,heroin,Not Stated,Brown,,Intravenous,Not Stated,"6-MAM, Noscapine, Heroin, Paracetamol",6-Acetylcodeine,51.718515789473685,-3.030521052631579
 W066258,2025-07-01,YO10,Oxycodone,Faroxy 40mg,Orange,Tablet,Oral,No Effect,Oxycodone,,53.9576,-1.0827
-W066188,2025-07-01,AB24,heroin,Not Stated,Brown,Granules,Smoked,Relaxed,"Noscapine, Etonitazene, Heroin, 6-MAM",Papaverine,57.1437,-2.0981
-W066152,2025-07-01,SA1,heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Relaxed, Chest Pains","Phenacetin, Paracetamol",Caffeine,51.633979999999994,-3.94848
 W066136,2025-07-01,TW9,Nitazene,oxycodeone (nitazene substance) ,Green,Tablet,Not Stated,Not Stated,Promethazine,,51.47153333333333,-0.2963666666666666
 W066187,2025-07-01,AB42,heroin,Not Stated,Brown,Powder,Intravenous,Relaxed,"Paracetamol, Noscapine, 6-MAM, Caffeine, Heroin",Papaverine,57.48231142857143,-1.924825714285714
-000233971,2025-07-01,NP4,heroin,Not Stated,Brown,,Intravenous,Not Stated,"6-MAM, Noscapine, Heroin, Paracetamol",6-Acetylcodeine,51.718515789473685,-3.030521052631579
-W066415,2025-07-02,DE23,Tramadol 50mg,tramadol hydrochloride,"Yellow, Yellow",Capsule,Oral,"Euphoria, Increased Confidence, Increased Energy, Increased Stamina, Empathy, Relaxed, Confusion, Violence/Aggression, Depression",Tramadol,,52.8945,-1.49505
+W066152,2025-07-01,SA1,heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Relaxed, Chest Pains","Phenacetin, Paracetamol",Caffeine,51.633979999999994,-3.94848
+W066188,2025-07-01,AB24,heroin,Not Stated,Brown,Granules,Smoked,Relaxed,"Noscapine, Etonitazene, Heroin, 6-MAM",Papaverine,57.1437,-2.0981
+W064497,2025-07-02,EH22,heroin,Not Stated,"White, Brown",Solid,Smoked,"Confusion, Loss of consciousness","Paracetamol, Heroin, 6-MAM, Noscapine",,55.90278333333333,-3.078175
+W066261,2025-07-02,EH22,Heroin,Not Stated,Brown,Solid,Smoked,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","Papaverine, 6-Acetylcodeine",55.90278333333333,-3.078175
 W066427,2025-07-02,CF64,Tramadol,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.42878,-3.21045
 W066426,2025-07-02,CF64,Tramadol,tramadol,"Green, Yellow",Capsule,Oral,Auditory Hallucinations,Tramadol,,51.42878,-3.21045
-W066261,2025-07-02,EH22,Heroin,Not Stated,Brown,Solid,Smoked,Not Stated,"Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM","Papaverine, 6-Acetylcodeine",55.90278333333333,-3.078175
-W064497,2025-07-02,EH22,heroin,Not Stated,"White, Brown",Solid,Smoked,"Confusion, Loss of consciousness","Paracetamol, Heroin, 6-MAM, Noscapine",,55.90278333333333,-3.078175
+W066415,2025-07-02,DE23,Tramadol 50mg,tramadol hydrochloride,"Yellow, Yellow",Capsule,Oral,"Euphoria, Increased Confidence, Increased Energy, Increased Stamina, Empathy, Relaxed, Confusion, Violence/Aggression, Depression",Tramadol,,52.8945,-1.49505
+W066393,2025-07-03,TA1,Oxycodone ER tablet,Oxycontin 40mg,"White, Orange",Solid,Oral,"Euphoria, Increased Energy, Increased Confidence, Empathy, Relaxed, Nausea",Oxycodone,,51.009225,-3.1091
+W066353,2025-07-03,SK15,Tramadol,50mg Tramadol accord,White,Tablet,Oral,"Relaxed, Chest Pains",Tramadol,,53.4841,-2.0591
 W066390,2025-07-03,EH47,heroin,Not Stated,"White, Grey",Powder,Intramuscular,"Euphoria, Increased Energy, Increased Confidence, Relaxed","Paracetamol, Codeine, Noscapine, Etonitazene",Heroin,55.85647142857143,-3.669085714285714
 W066391,2025-07-03,EH7,heroin,Heroin,"Brown, Brown",Powder,Smoked,Nausea,"Noscapine, Heroin, Paracetamol, Caffeine","6-MAM, Papaverine",55.9521,-3.1965
-W066353,2025-07-03,SK15,Tramadol,50mg Tramadol accord,White,Tablet,Oral,"Relaxed, Chest Pains",Tramadol,,53.4841,-2.0591
-W066393,2025-07-03,TA1,Oxycodone ER tablet,Oxycontin 40mg,"White, Orange",Solid,Oral,"Euphoria, Increased Energy, Increased Confidence, Empathy, Relaxed, Nausea",Oxycodone,,51.009225,-3.1091
-000236421,2025-07-08,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Cocaine",Phenacetin,51.5877,-2.9984
+W066491,2025-07-08,BT47,tramadol,Tramadol Hcl,,Capsule,Not Stated,Not Stated,Tramadol,,54.94983333333333,-7.084177777777778
+W066224,2025-07-08,NE29,Oxycontin Oxycodone,Munipharama,Green,Tablet,Not Stated,Not Stated,Gabapentin,,55.0165,-1.4493
+W066488,2025-07-08,AB43,heroin,Not Stated,"Orange, Brown",Liquid,Intravenous,"Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Agitation, Insomnia, Loss of consciousness","6-MAM, Noscapine, Heroin, Papaverine, Caffeine, Paracetamol, 6-Acetylcodeine, Etonitazene, Morphine","Metonitazene, Dextromethorphan",57.65489545454545,-2.046884090909091
 W066411,2025-07-08,PH33,Oxycodone HCl,Oxypro,Blue,Tablet,Not Stated,Not Stated,Oxycodone,,56.785318181818184,-5.167452272727273
 W064889,2025-07-08,LU15,Lean (codeine/Promethazine),Not Stated,"Pink, Red",Liquid,Oral,"Euphoria, Relaxed, Nausea, Vomiting, Confusion","Promethazine, Oxycodone",,51.8693,-0.42528
-W066224,2025-07-08,NE29,Oxycontin Oxycodone,Munipharama,Green,Tablet,Not Stated,Not Stated,Gabapentin,,55.0165,-1.4493
-W066491,2025-07-08,BT47,tramadol,Tramadol Hcl,,Capsule,Not Stated,Not Stated,Tramadol,,54.94983333333333,-7.084177777777778
-W066488,2025-07-08,AB43,heroin,Not Stated,"Orange, Brown",Liquid,Intravenous,"Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Agitation, Insomnia, Loss of consciousness","6-MAM, Noscapine, Heroin, Papaverine, Caffeine, Paracetamol, 6-Acetylcodeine, Etonitazene, Morphine","Metonitazene, Dextromethorphan",57.65489545454545,-2.046884090909091
+000236421,2025-07-08,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Cocaine",Phenacetin,51.5877,-2.9984
 W066595,2025-07-09,CA14,Buprenorphine 8mg,Buprenorphine 8mg,White,Tablet,Oral,Not Stated,Buprenorphine,,54.630025,-3.50065
 W066729,2025-07-15,BA69,Tramadol,Tapentadol,White,Tablet,Oral,No Effect,Tapentadol,,51.140458333333335,-2.708916666666666
-W066747,2025-07-17,RG14,Codeine paracetamol,Zapain,White,Tablet,Not Stated,Not Stated,"Paracetamol, Codeine",,51.407383333333335,-1.3243833333333337
-W066646,2025-07-17,BN12,Oxycodone,Not Stated,White,Tablet,Not Stated,Not Stated,Oxycodone,,50.80785,-0.43005
-W066725,2025-07-17,SE24,Codeine and promethazine,Not Stated,"Purple, Pink",Liquid,Oral,"Euphoria, Relaxed, Confusion","Promethazine, Codeine",,51.4542,-0.0983
 W066869,2025-07-17,AB42,heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed, Breathlesness, Nausea, Vomiting, Memory Loss, Loss of consciousness","Noscapine, Heroin, 6-MAM, Paracetamol, Metonitazene, 6-Acetylcodeine","Caffeine, Papaverine",57.48231142857143,-1.924825714285714
 W066813,2025-07-17,G20,Heroin,Not Stated,Green,,Snort / Sniff,"Auditory Hallucinations, Breathlesness, Chest Pains, Memory Loss, Confusion, Panic Attack, Insomnia, Depression","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, 6-Acetylcodeine, Papaverine",Etonitazene,55.8906,-4.2904
-W066967,2025-07-21,G12,Tramadol,Tramhub Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,55.8804,-4.3007
+W066646,2025-07-17,BN12,Oxycodone,Not Stated,White,Tablet,Not Stated,Not Stated,Oxycodone,,50.80785,-0.43005
+W066747,2025-07-17,RG14,Codeine paracetamol,Zapain,White,Tablet,Not Stated,Not Stated,"Paracetamol, Codeine",,51.407383333333335,-1.3243833333333337
+W066725,2025-07-17,SE24,Codeine and promethazine,Not Stated,"Purple, Pink",Liquid,Oral,"Euphoria, Relaxed, Confusion","Promethazine, Codeine",,51.4542,-0.0983
 W066545,2025-07-21,L13,Heroin,RW Afghan dream cream ,"Brown, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, MDMA","Diazepam, Caffeine, Papaverine",53.4179,-2.9206
-000237998,2025-07-24,CF37,Tapentadol,Aspadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.613815384615386,-3.3598076923076925
-W067059,2025-07-24,PA19,heroin,Not Stated,Brown,Powder,Smoked,"Increased Energy, Breathlesness, Confusion, Agitation, Depression, Suicidal Ideation","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine","6-MAM, 6-Acetylcodeine",55.9616,-4.8179
+W066967,2025-07-21,G12,Tramadol,Tramhub Tramadol,White,Tablet,Not Stated,Not Stated,Tramadol,,55.8804,-4.3007
 W066936,2025-07-24,CV2,Codeine phosphate,Not Stated,White,Tablet,Not Stated,Not Stated,Codeine,,52.424525,-1.459175
 W066991,2025-07-24,S21,Tapentadol,Super Royal Tapentadol,Red,Capsule,Oral,"Auditory Hallucinations, Visual Hallucinations, Relaxed, Irregular Heartbeat, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation, Seizure, Overdose",Tapentadol,,53.3123,-1.3394
-W066920,2025-07-25,CV6,Oxylan,Not Stated,White,Tablet,Not Stated,Not Stated,Oxycodone,,52.4414,-1.4998714285714283
+W067059,2025-07-24,PA19,heroin,Not Stated,Brown,Powder,Smoked,"Increased Energy, Breathlesness, Confusion, Agitation, Depression, Suicidal Ideation","Noscapine, Heroin, Paracetamol, Caffeine, Papaverine","6-MAM, 6-Acetylcodeine",55.9616,-4.8179
+000237998,2025-07-24,CF37,Tapentadol,Aspadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.613815384615386,-3.3598076923076925
 W066364,2025-07-25,SR3,Heroin,Vanilla,"Yellow, Brown",Powder,Not Stated,Not Stated,"Noscapine, Heroin, Thebacon","6-MAM, Papaverine",54.874233333333336,-1.4153666666666669
 W067138,2025-07-25,SR3,Heroin,Bugs Bunny,,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Caffeine, Thebacon, Papaverine",Paracetamol,54.874233333333336,-1.4153666666666669
+W066920,2025-07-25,CV6,Oxylan,Not Stated,White,Tablet,Not Stated,Not Stated,Oxycodone,,52.4414,-1.4998714285714283
 W067356,2025-08-01,BA6,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,No Effect,2-methyl-4-(methylthio)-2-morpholinopropiophenone,,51.140458333333335,-2.708916666666666
 W067357,2025-08-01,BA6,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,No Effect,2-methyl-4-(methylthio)-2-morpholinopropiophenone,,51.140458333333335,-2.708916666666666
 W067194,2025-08-01,CA7,Tramadol/diazepam,Tramadol,"Green, Yellow",Capsule,Not Stated,"Increased Energy, Increased Confidence, Enhanced Senses, Increased Strength, Relaxed, Chest Pains, Irregular Heartbeat, Panic Attack, Insomnia, Depression, Suicidal Ideation",Tramadol,,54.80357826086957,-3.161617391304348
 W067406,2025-08-01,FK2,Heroin,Heroin,Black,Powder,Intravenous,"Relaxed, Breathlesness","Paracetamol, Noscapine, Heroin",Papaverine,56.01717272727273,-3.755472727272727
-000235573,2025-08-05,NP24,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM","Clozapine, Papaverine",51.7205,-3.2413
+000236496,2025-08-05,NP20,Heroin,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Caffeine",,51.5877,-2.9984
+W067590,2025-08-05,EH48,heroin,Not Stated,Brown,Powder,"Oral, Smoked","Euphoria, Empathy, Relaxed, Chest Pains, Irregular Heartbeat, Confusion, Depression, Headache","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
+W067554,2025-08-05,SW10,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Nausea,Dihydrocodeine,,51.4876,-0.1694
 W067453,2025-08-05,EH47,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Paracetamol, Noscapine, Heroin, Caffeine, 6-MAM",,55.85647142857143,-3.669085714285714
 W067452,2025-08-05,EH52,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Strength, Relaxed, Breathlesness, Memory Loss, Loss of consciousness","Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM","6-Acetylcodeine, Papaverine",55.9358,-3.4882625
-000236496,2025-08-05,NP20,Heroin,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Caffeine",,51.5877,-2.9984
+000235573,2025-08-05,NP24,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, 6-MAM","Clozapine, Papaverine",51.7205,-3.2413
 W067014,2025-08-05,AB42,Heroin,Not Stated,Brown,,Smoked,Relaxed,"Noscapine, Paracetamol, Heroin, Caffeine","6-Acetylcodeine, 6-MAM",57.48231142857143,-1.924825714285714
+W059366,2025-08-05,EH17,Heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Auditory Hallucinations, Visual Hallucinations, Relaxed, Paranoia, Confusion, Agitation","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.9084,-3.128
 W066237,2025-08-05,EH3,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine","6-MAM, Papaverine",55.9521,-3.1965
-W067590,2025-08-05,EH48,heroin,Not Stated,Brown,Powder,"Oral, Smoked","Euphoria, Empathy, Relaxed, Chest Pains, Irregular Heartbeat, Confusion, Depression, Headache","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.91305714285714,-3.6746285714285714
+W067133,2025-08-05,CH63,Oxycodone,Oxylan,Colourless,Tablet,Oral,"Enhanced Senses, Relaxed, Breathlesness, Loss of consciousness",Oxycodone,,53.3444,-3.0124
+W067486,2025-08-05,G12,Tramadol 150mg,tramadol t150,White,Tablet,Not Stated,Not Stated,Tramadol,,55.8804,-4.3007
+000237203,2025-08-05,CF47,Heroin,Not Stated,"Orange, Yellow",Powder,Intravenous,Enhanced Senses,"Noscapine, Heroin, 6-MAM, Paracetamol","Papaverine, 6-Acetylcodeine",51.7479,-3.3778
 W067443,2025-08-05,CH54,Heroin,Not Stated,Grey,Powder,Intravenous,"Relaxed, Breathlesness, Irregular Heartbeat, Panic Attack, Loss of consciousness, Agitation","Noscapine, Heroin, 6-MAM, Paracetamol, Caffeine, 6-Acetylcodeine","Papaverine, Etonitazene, Metonitazene, Dextromethorphan",53.19930000000001,-3.03614
 W067528,2025-08-05,FK10,Heroin,Not Stated,Brown,,Smoked,Not Stated,No Active Component Identified,,56.10687777777778,-3.7534
-W067486,2025-08-05,G12,Tramadol 150mg,tramadol t150,White,Tablet,Not Stated,Not Stated,Tramadol,,55.8804,-4.3007
-W067133,2025-08-05,CH63,Oxycodone,Oxylan,Colourless,Tablet,Oral,"Enhanced Senses, Relaxed, Breathlesness, Loss of consciousness",Oxycodone,,53.3444,-3.0124
-000237203,2025-08-05,CF47,Heroin,Not Stated,"Orange, Yellow",Powder,Intravenous,Enhanced Senses,"Noscapine, Heroin, 6-MAM, Paracetamol","Papaverine, 6-Acetylcodeine",51.7479,-3.3778
-W059366,2025-08-05,EH17,Heroin,Not Stated,"Grey, Brown",Powder,"Smoked, Intravenous","Auditory Hallucinations, Visual Hallucinations, Relaxed, Paranoia, Confusion, Agitation","Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine",55.9084,-3.128
-W067554,2025-08-05,SW10,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Nausea,Dihydrocodeine,,51.4876,-0.1694
-W067515,2025-08-07,SA15,Heroin,Not Stated,Brown,Liquid,Intravenous,No Effect,"Paracetamol, Caffeine",,51.74003,-4.187250000000001
 W063988,2025-08-07,AB41,heroin,Afgan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,57.35964615384615,-2.199930769230769
 W063990,2025-08-07,AB41,heroin,Turkish Heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",Caffeine,57.35964615384615,-2.199930769230769
+W067515,2025-08-07,SA15,Heroin,Not Stated,Brown,Liquid,Intravenous,No Effect,"Paracetamol, Caffeine",,51.74003,-4.187250000000001
 W058679,2025-08-12,TD5,Tramadol,Tramol x -22,White,Tablet,"Oral, Smoked","Euphoria, Enhanced Senses, Visual Hallucinations, Chest Pains, Irregular Heartbeat, Nosebleeds, Nausea, Paranoia, Memory Loss, Agitation, Insomnia, Depression, Confusion",Tapentadol,Paracetamol,55.58069090909091,-2.412687878787879
 W067845,2025-08-14,TS1,heroin,heroin,Brown,,Smoked,"Relaxed, Agitation",No Active Component Identified,,54.5762,-1.2348
 W067865,2025-08-14,CV4,Kratom,Kratom,Green,Plant Matter,Not Stated,Not Stated,Mitragynine,,52.3833,-1.5833000000000002
@@ -846,59 +846,59 @@ W067864,2025-08-14,CV10,Kratom,Kratom,Green,Powder,Not Stated,Not Stated,Mitragy
 W067717,2025-08-14,SO16,Oxycodone,Oxycodone,"White, Green",Tablet,Intramuscular,Not Stated,Metonitazene,,50.942125,-1.431825
 W067893,2025-08-14,BT47,Tramadol,Tramadol capsules 50mg ,White,Capsule,Oral,Euphoria,Tramadol,,54.94983333333333,-7.084177777777778
 W067653,2025-08-14,N1,Codeine,Codeine,"Pink, Red",Liquid,Oral,"Euphoria, Relaxed",Codeine,,51.53669,-0.0944
-W067695,2025-08-19,YO31,Tramadol,Not Stated,Pink,Tablet,Oral,No Effect,Oxycodone,,53.9576,-1.0827
+000236103,2025-08-19,CF62,Dihydrocodeine,Dihydrocodeine ,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.4027,-3.37145
+W067971,2025-08-19,FK10,heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,Paracetamol,"Caffeine, 6-MAM, 6-Acetylcodeine, Heroin, Papaverine",56.10687777777778,-3.7534
 W067914,2025-08-19,G31,tamol-1 Soma/ tapentadol,Not Stated,Grey,Tablet,Not Stated,Not Stated,Ibuprofen,,55.857,-4.209
 000233493,2025-08-19,LL55,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,Heroin,"Noscapine, Thebacon, 6-MAM, Papaverine",53.12915357142857,-4.195053571428572
-W067971,2025-08-19,FK10,heroin,Not Stated,Brown,Solid,Not Stated,Not Stated,Paracetamol,"Caffeine, 6-MAM, 6-Acetylcodeine, Heroin, Papaverine",56.10687777777778,-3.7534
-000236103,2025-08-19,CF62,Dihydrocodeine,Dihydrocodeine ,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.4027,-3.37145
+W067695,2025-08-19,YO31,Tramadol,Not Stated,Pink,Tablet,Oral,No Effect,Oxycodone,,53.9576,-1.0827
+W068040,2025-08-20,BH11,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Caffeine","6-Acetylcodeine, Paracetamol, Papaverine",50.7655,-1.9096
 W067927,2025-08-20,SW19,Tapemtadol 700mg,Tydel tapentadol 100mg,Orange,Tablet,Oral,"Euphoria, Increased Confidence, Enhanced Senses, Auditory Hallucinations, Visual Hallucinations, Relaxed, Irregular Heartbeat, Paranoia, Memory Loss",Tapentadol,,51.42343333333333,-0.1973333333333333
 W068099,2025-08-20,TR1,Kratom,Not Stated,Green,Powder,Oral,"Increased Energy, Increased Confidence, Enhanced Senses, Auditory Hallucinations, Agitation, Insomnia, Depression",Mitragynine,,50.2637,-5.06268
-W068040,2025-08-20,BH11,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Caffeine","6-Acetylcodeine, Paracetamol, Papaverine",50.7655,-1.9096
 W067970,2025-08-21,AB41,Heroin,Trilogy cream,"Grey, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine","Thebacon, 6-MAM, Papaverine",57.35964615384615,-2.199930769230769
 W068031,2025-08-21,RG14,Codeine,Accord,White,Tablet,Oral,Not Stated,Codeine,,51.407383333333335,-1.3243833333333337
+W068169,2025-08-26,HX39,Codeine phophate 30mg,codeine phosphate 30mg (wockhardy),White,Tablet,Not Stated,Not Stated,Codeine,,53.72608333333333,-1.8416
 W068155,2025-08-26,LA4,Tramadol 50mg,Tramadol 50mg,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,54.06833333333333,-2.8470333333333335
 W068151,2025-08-26,LA4,Tramadol 50mg,tramadol 50mg,"Green, Yellow",Capsule,Oral,Not Stated,Tramadol,,54.06833333333333,-2.8470333333333335
 W068150,2025-08-26,LA4,Tramadol 100mg,Tramadol 100mg,White,Tablet,Not Stated,Not Stated,Tramadol,,54.06833333333333,-2.8470333333333335
-W068169,2025-08-26,HX39,Codeine phophate 30mg,codeine phosphate 30mg (wockhardy),White,Tablet,Not Stated,Not Stated,Codeine,,53.72608333333333,-1.8416
-W067150,2025-08-28,EH6,heroin/opiates,Not Stated,Brown,Powder,Intravenous,"Loss of consciousness, Relaxed","Heroin, Paracetamol, Caffeine, Noscapine","6-Acetylcodeine, 6-MAM",55.9617,-3.1844
-000233497,2025-08-28,LL55,heroin,Not Stated,Orange,Powder,Intravenous,"Loss of consciousness, Breathlesness","Noscapine, 6-MAM, Heroin, 6-Acetylcodeine",Papaverine,53.12915357142857,-4.195053571428572
-W062424,2025-08-28,CF35,Tramadol,Tramadol,"Green, Yellow",Capsule,Oral,"Euphoria, Increased Confidence, Relaxed",Tramadol,,51.518684615384615,-3.5275461538461537
-W068345,2025-08-28,BT47,Tramadol,Tramadol 50mg carssules,White,Capsule,Oral,"Increased Confidence, Relaxed",Tramadol,,54.94983333333333,-7.084177777777778
-W068304,2025-08-28,S60,heroin,Not Stated,"Grey, Brown",Powder,Smoked,"Euphoria, Relaxed","Noscapine, Heroin, 6-MAM, Paracetamol, 6-Acetylcodeine",Papaverine,53.40436,-1.34648
 W068289,2025-08-28,DA11,Doxycycline,Doxycycline,"Orange, Black",Tablet,Not Stated,Not Stated,No Active Component Identified,,51.4349,0.3513
+W068304,2025-08-28,S60,heroin,Not Stated,"Grey, Brown",Powder,Smoked,"Euphoria, Relaxed","Noscapine, Heroin, 6-MAM, Paracetamol, 6-Acetylcodeine",Papaverine,53.40436,-1.34648
+W068345,2025-08-28,BT47,Tramadol,Tramadol 50mg carssules,White,Capsule,Oral,"Increased Confidence, Relaxed",Tramadol,,54.94983333333333,-7.084177777777778
 W068286,2025-08-28,BS16,tramadol,Not Stated,,Tablet,Oral,"Euphoria, Enhanced Senses, Relaxed",Tramadol,,51.49088571428571,-2.5036
+000233497,2025-08-28,LL55,heroin,Not Stated,Orange,Powder,Intravenous,"Loss of consciousness, Breathlesness","Noscapine, 6-MAM, Heroin, 6-Acetylcodeine",Papaverine,53.12915357142857,-4.195053571428572
 W067151,2025-08-28,EH6,Heroin,Not Stated,Brown,Powder,Intravenous,"Chest Pains, Irregular Heartbeat, Loss of consciousness","Heroin, Paracetamol, Noscapine, Caffeine",6-Acetylcodeine,55.9617,-3.1844
+W067150,2025-08-28,EH6,heroin/opiates,Not Stated,Brown,Powder,Intravenous,"Loss of consciousness, Relaxed","Heroin, Paracetamol, Caffeine, Noscapine","6-Acetylcodeine, 6-MAM",55.9617,-3.1844
+W062424,2025-08-28,CF35,Tramadol,Tramadol,"Green, Yellow",Capsule,Oral,"Euphoria, Increased Confidence, Relaxed",Tramadol,,51.518684615384615,-3.5275461538461537
 W068313,2025-09-01,AB42,heroin/Fentanyl,Not Stated,Yellow,Powder,Smoked,Loss of consciousness,"Noscapine, Etonitazene, Heroin, Paracetamol, Caffeine","Papaverine, 6-Acetylcodeine, 6-MAM",57.48231142857143,-1.924825714285714
-W068712,2025-09-09,BN59,Dihydrocodeine,Not Stated,White,Tablet,Oral,"Relaxed, Memory Loss",Dihydrocodeine,,50.9140875,-0.25985
-W068753,2025-09-09,B14,Codeine phosphate tablets,Crescent Pharma Codeine Phosphate,White,Tablet,Not Stated,Not Stated,Codeine,,52.4174,-1.8898
-W068754,2025-09-09,B14,Dihydrocodeine continus,Dihydrocodeine Prolonged Release Tbalets,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,52.4174,-1.8898
-000234325,2025-09-09,CF10,Heroin,Not Stated,Brown,Solid,Intravenous,"Euphoria, Nosebleeds, Agitation, Insomnia","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.48,-3.18
-W068559,2025-09-09,EH32,heroin,Not Stated,"Red, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",55.97811428571429,-2.9193571428571423
-000236457,2025-09-09,NP4,heroin,Not Stated,"White, Yellow",Powder,Smoked,Not Stated,"Diazepam, Heroin, Noscapine, 6-MAM, Paracetamol","6-Acetylcodeine, Caffeine, Papaverine",51.718515789473685,-3.030521052631579
-000236717,2025-09-09,SA1,heroin,Not Stated,Black,Powder,Smoked,Not Stated,"6-MAM, Noscapine, Heroin, Phenacetin, 6-Acetylcodeine","Paracetamol, Papaverine, Caffeine",51.633979999999994,-3.94848
-000234976,2025-09-09,CF41,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol","6-MAM, Papaverine",51.6543,-3.4913
 W068684,2025-09-09,BP80,Oxycodone 80mg Prolong release gearheadz,Oxydolor 80mg prolonged release,White,,Oral,Nausea,Oxycodone,,,
-W068591,2025-09-09,EN89,Oxycodone HCL,GL Pharma Oxydolor 80mg,"White, Green",Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
-000237404,2025-09-09,NP20,Codeine,Not Stated,White,Tablet,Not Stated,Not Stated,"Paracetamol, Codeine",,51.5877,-2.9984
 W068539,2025-09-09,G20,Heroin,heroin,Brown,Powder,Intravenous,Relaxed,"Noscapine, Heroin, Paracetamol, 6-Acetylcodeine, 6-MAM, Metonitazene",Papaverine,55.8906,-4.2904
+000237404,2025-09-09,NP20,Codeine,Not Stated,White,Tablet,Not Stated,Not Stated,"Paracetamol, Codeine",,51.5877,-2.9984
+W068591,2025-09-09,EN89,Oxycodone HCL,GL Pharma Oxydolor 80mg,"White, Green",Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
+000234976,2025-09-09,CF41,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol","6-MAM, Papaverine",51.6543,-3.4913
+000236457,2025-09-09,NP4,heroin,Not Stated,"White, Yellow",Powder,Smoked,Not Stated,"Diazepam, Heroin, Noscapine, 6-MAM, Paracetamol","6-Acetylcodeine, Caffeine, Papaverine",51.718515789473685,-3.030521052631579
+W068559,2025-09-09,EH32,heroin,Not Stated,"Red, Brown",Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Papaverine",55.97811428571429,-2.9193571428571423
+000234325,2025-09-09,CF10,Heroin,Not Stated,Brown,Solid,Intravenous,"Euphoria, Nosebleeds, Agitation, Insomnia","Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.48,-3.18
 000234324,2025-09-09,CF10,Heroin ,Not Stated,Brown,Solid,Intravenous,No Effect,"Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",51.48,-3.18
+W068754,2025-09-09,B14,Dihydrocodeine continus,Dihydrocodeine Prolonged Release Tbalets,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,52.4174,-1.8898
+W068753,2025-09-09,B14,Codeine phosphate tablets,Crescent Pharma Codeine Phosphate,White,Tablet,Not Stated,Not Stated,Codeine,,52.4174,-1.8898
+W068712,2025-09-09,BN59,Dihydrocodeine,Not Stated,White,Tablet,Oral,"Relaxed, Memory Loss",Dihydrocodeine,,50.9140875,-0.25985
+000236717,2025-09-09,SA1,heroin,Not Stated,Black,Powder,Smoked,Not Stated,"6-MAM, Noscapine, Heroin, Phenacetin, 6-Acetylcodeine","Paracetamol, Papaverine, Caffeine",51.633979999999994,-3.94848
 W068778,2025-09-11,AB42,Heroin/fentanyl,Not Stated,"Brown, Black",Powder,Smoked,Not Stated,Cocaine,,57.48231142857143,-1.924825714285714
+W068634,2025-09-11,EH22,Heroin,Not Stated,Brown,Solid,"Smoked, Snort / Sniff, Intravenous","Breathlesness, Loss of consciousness","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Metonitazene, Etonitazene, Papaverine",55.90278333333333,-3.078175
 W068630,2025-09-11,EH22,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Paracetamol, Caffeine, 6-MAM, Heroin","Papaverine, 6-Acetylcodeine",55.90278333333333,-3.078175
 W068560,2025-09-11,PH1,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Caffeine, Paracetamol, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Metonitazene, Ethylbromazolam",56.43174736842105,-3.4980552631578945
-W068634,2025-09-11,EH22,Heroin,Not Stated,Brown,Solid,"Smoked, Snort / Sniff, Intravenous","Breathlesness, Loss of consciousness","Noscapine, Heroin, Paracetamol, Caffeine, 6-MAM","6-Acetylcodeine, Metonitazene, Etonitazene, Papaverine",55.90278333333333,-3.078175
-W068936,2025-09-15,WN5,Codeine Phospahte 15mg,teva codeine phosphate 15mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.497899999999994,-2.7081
-W068968,2025-09-15,BS3,tapendatol,tapentadol,Orange,Tablet,Oral,"Euphoria, Relaxed",Tapentadol,,51.4552,-2.5966
-W068818,2025-09-15,G74,tapentadol,tapentadol,"Orange, White",Tablet,Not Stated,Not Stated,Tapentadol,,55.76583333333334,-4.1700333333333335
-W068915,2025-09-15,NG7,Tramadol ,Tramadol hycloride,"Orange, Green",Tablet,Not Stated,Not Stated,Tramadol,,52.9536,-1.1505
-W068851,2025-09-15,EH47,Heroin,Not Stated,Brown,Powder,Smoked,"Empathy, Relaxed","MDMA, Paracetamol, Noscapine, Heroin","Caffeine, 6-MAM, Papaverine",55.85647142857143,-3.669085714285714
 000237968,2025-09-15,CF38,Oxymethonal- anabolic steroid,Oxymethanol 50mg,Green,Tablet,Not Stated,Not Stated,Oxymetholone,,51.5543,-3.34528
 000237967,2025-09-15,CF38,Oxymethonal - steroid,Oxymethonal 50mg,White,Tablet,Not Stated,Not Stated,No Active Component Identified,,51.5543,-3.34528
+W068851,2025-09-15,EH47,Heroin,Not Stated,Brown,Powder,Smoked,"Empathy, Relaxed","MDMA, Paracetamol, Noscapine, Heroin","Caffeine, 6-MAM, Papaverine",55.85647142857143,-3.669085714285714
+W068818,2025-09-15,G74,tapentadol,tapentadol,"Orange, White",Tablet,Not Stated,Not Stated,Tapentadol,,55.76583333333334,-4.1700333333333335
+W068968,2025-09-15,BS3,tapendatol,tapentadol,Orange,Tablet,Oral,"Euphoria, Relaxed",Tapentadol,,51.4552,-2.5966
+W068936,2025-09-15,WN5,Codeine Phospahte 15mg,teva codeine phosphate 15mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.497899999999994,-2.7081
+W068915,2025-09-15,NG7,Tramadol ,Tramadol hycloride,"Orange, Green",Tablet,Not Stated,Not Stated,Tramadol,,52.9536,-1.1505
 W069054,2025-09-18,FK8,Heroin,Not Stated,Brown,Powder,Smoked,"Breathlesness, Loss of consciousness","Noscapine, Caffeine, Paracetamol, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Ethylbromazolam",56.12892702702703,-4.228913513513514
 W067148,2025-09-18,EH6,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Agitation","Paracetamol, Noscapine, Heroin, Caffeine","6-MAM, Papaverine, 6-Acetylcodeine, Etonitazene",55.9617,-3.1844
-000233536,2025-09-22,NP16,HEROIN,Not Stated,,,Intravenous,Agitation,Cocaine,,51.6409,-2.6768
+W069181,2025-09-22,WR1,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Increased Energy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",52.1894,-2.22
 W069130,2025-09-22,DH11,A Benzimidazole Opioid-(Nitazene),"""Artificial heroin"" (NOT #3 or 4)","Yellow, Brown",Powder,Intravenous,"Euphoria, Empathy, Relaxed, Loss of consciousness","N-propionitrile chlorphine, Noscapine, Heroin, Paracetamol, Medetomidine, Caffeine","6-MAM, 6-Acetylcodeine, Papaverine",54.77482,-1.56714
 W069131,2025-09-22,DH11,(A) NITAZENE (UNSURE WHICH),ARTIFICIAL HEROIN (NITAZENE,"Yellow, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine, Medetomidine, Diazepam, 6-MAM, Caffeine, Heroin, N-desethylprotonitazene","6-Acetylcodeine, Papaverine",54.77482,-1.56714
-W069181,2025-09-22,WR1,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Increased Energy, Relaxed","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine",52.1894,-2.22
+000233536,2025-09-22,NP16,HEROIN,Not Stated,,,Intravenous,Agitation,Cocaine,,51.6409,-2.6768
 W069124,2025-09-22,BS21,oxycodone,Not Stated,Green,Tablet,Not Stated,No Effect,"Tramadol, Caffeine",,51.43066,-2.8366800000000003
 W069154,2025-09-22,FK10,Dihydrocodeine,dihydrocodeine ,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,56.10687777777778,-3.7534
 W069063,2025-09-22,DY51,PROMETHAZINE AND DHYHDROCODEINE ORAL SOLUTION,PROMETHAZINE AND DHYDROCODEINE ORAL SOLUTION,Purple,Liquid,Oral,"Relaxed, Memory Loss, Confusion","Promethazine, Dihydrocodeine",,52.490875,-2.119025
@@ -908,30 +908,30 @@ W069237,2025-09-25,EH22,HEROIN,Not Stated,Brown,Powder,Smoked,Relaxed,"Paracetam
 W069238,2025-09-25,EH22,HEROIN,Not Stated,Brown,Powder,Smoked,Loss of consciousness,No Active Component Identified,,55.90278333333333,-3.078175
 W064026,2025-09-25,EH12,HEROIN,HEROIN,Brown,,Smoked,Relaxed,"Caffeine, Paracetamol","6-MAM, Papaverine, 6-Acetylcodeine, Morphine",55.9429,-3.285
 W069243,2025-09-25,WR65,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,No Active Component Identified,,52.2284340909091,-2.390259090909091
-W069290,2025-09-26,AB11,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,"Anxiety, Agitation","Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine, Papaverine, Caffeine",,57.1437,-2.0981
 W069274,2025-09-26,DY82,heroin,Not Stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Heroin, 6-MAM, Noscapine, 6-Acetylcodeine, Papaverine","Caffeine, Paracetamol, Diazepam",52.46216666666667,-2.15605
-W053125,2025-09-26,KY6,Heroin,Not Stated,"Green, Brown",,Intravenous,Not Stated,"Paracetamol, Caffeine, Noscapine, 6-MAM","Heroin, 6-Acetylcodeine, Metonitazene, Papaverine, Morphine",56.2,-3.2167000000000003
+W069290,2025-09-26,AB11,Heroin,Not Stated,"Grey, Brown",Powder,Smoked,"Anxiety, Agitation","Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine, Papaverine, Caffeine",,57.1437,-2.0981
 W066234,2025-09-26,EH26,Heroin,Not Stated,"Grey, Brown",Powder,Intravenous,Relaxed,"Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin","Papaverine, 6-Acetylcodeine, Phenacetin, Etonitazene",55.82387142857142,-3.241371428571429
-W069302,2025-09-26,LL13,heroin,Not Stated,Grey,Solid,Intravenous,"Euphoria, Relaxed, Irregular Heartbeat, Insomnia","Noscapine, Paracetamol, 6-MAM, Medetomidine, Caffeine, Heroin","Papaverine, 6-Acetylcodeine",52.9917619047619,-2.9116809523809524
+W053125,2025-09-26,KY6,Heroin,Not Stated,"Green, Brown",,Intravenous,Not Stated,"Paracetamol, Caffeine, Noscapine, 6-MAM","Heroin, 6-Acetylcodeine, Metonitazene, Papaverine, Morphine",56.2,-3.2167000000000003
 000236422,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,No Active Component Identified,,51.5877,-2.9984
 000236423,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,6-MAM,Papaverine,51.5877,-2.9984
 000236424,2025-09-26,NP20,heroin,Not Stated,Brown,Powder,Intravenous,"Increased Confidence, Relaxed",Noscapine,"Heroin, 6-MAM, Papaverine, Paracetamol, Caffeine, 6-Acetylcodeine",51.5877,-2.9984
+W069302,2025-09-26,LL13,heroin,Not Stated,Grey,Solid,Intravenous,"Euphoria, Relaxed, Irregular Heartbeat, Insomnia","Noscapine, Paracetamol, 6-MAM, Medetomidine, Caffeine, Heroin","Papaverine, 6-Acetylcodeine",52.9917619047619,-2.9116809523809524
 000236425,2025-09-26,NP20,Heroin,Not Stated,Brown,Powder,Intravenous,"Increased Confidence, Enhanced Senses, Relaxed",Noscapine,"Papaverine, 6-MAM, Heroin, Paracetamol, 6-Acetylcodeine",51.5877,-2.9984
 W069395,2025-10-02,NR12,Heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,No Active Component Identified,,52.7447075,1.4507275
 W069434,2025-10-02,SW11,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,Heroin,"Noscapine, 6-MAM, 6-Acetylcodeine, Papaverine",51.469166666666666,-0.1619333333333333
 W069440,2025-10-02,CF23,Taoaday tapentadol 100mg,Tapaday tapentadol 100mg ,White,Tablet,Oral,Not Stated,Tapentadol,,51.5144,-3.1545
 W069551,2025-10-02,E1,HEROIN (PD=PAK 1 POWDER),Not Stated,Brown,Solid,Intravenous,Not Stated,"Noscapine, Heroin, 6-MAM, 6-Acetylcodeine",Papaverine,51.51302727272727,-0.0617727272727272
 W069376,2025-10-03,EH21,HEROIN,HEROIN,Brown,Powder,Smoked,Loss of consciousness,"Paracetamol, Caffeine, Etonitazene","Noscapine, 6-MAM, Heroin",55.94169999999999,-3.0499
-W069636,2025-10-07,HG15,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed",No Active Component Identified,,53.99700000000001,-1.5357666666666667
-W069413,2025-10-07,DY14,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Heroin, Noscapine, 6-MAM, Diazepam, 6-Acetylcodeine","Papaverine, Paracetamol, Caffeine",52.37273478260869,-2.401586956521739
-W069609,2025-10-07,SW9,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"5,6-dichloro desmethylchlorphine",Medetomidine,51.474,-0.1168
-W069607,2025-10-07,SW9,HEROIN,Not Stated,White,Powder,Smoked,Euphoria,N-propionitrile chlorphine,,51.474,-0.1168
-000236431,2025-10-07,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",51.5877,-2.9984
 W069577,2025-10-07,TN37,OXYCODONE,OXYDOLOR,White,Tablet,Oral,"Euphoria, Increased Confidence, Increased Energy, Relaxed",Oxycodone,,50.87460000000001,0.5477
-W069576,2025-10-07,TN37,HYDROCODONE,HYDROCODONE,Green,Tablet,Oral,"Euphoria, Increased Libido, Relaxed, Nausea",N-desethylisotonitazene,,50.87460000000001,0.5477
+000236431,2025-10-07,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",51.5877,-2.9984
+W069607,2025-10-07,SW9,HEROIN,Not Stated,White,Powder,Smoked,Euphoria,N-propionitrile chlorphine,,51.474,-0.1168
 000234335,2025-10-07,CF11,HEROIN,Not Stated,Brown,Powder,Intravenous,No Effect,"Noscapine, Heroin, Paracetamol, 6-MAM",,51.48,-3.18
-W069676,2025-10-08,SA12,Tapentadol,Royal Apples,Orange,Tablet,Oral,No Effect,Tapentadol,,51.61181666666667,-3.7703
+W069413,2025-10-07,DY14,Heroin,Not Stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Heroin, Noscapine, 6-MAM, Diazepam, 6-Acetylcodeine","Papaverine, Paracetamol, Caffeine",52.37273478260869,-2.401586956521739
+W069636,2025-10-07,HG15,Heroin,Not Stated,Brown,Solid,Smoked,"Euphoria, Relaxed",No Active Component Identified,,53.99700000000001,-1.5357666666666667
+W069576,2025-10-07,TN37,HYDROCODONE,HYDROCODONE,Green,Tablet,Oral,"Euphoria, Increased Libido, Relaxed, Nausea",N-desethylisotonitazene,,50.87460000000001,0.5477
+W069609,2025-10-07,SW9,heroin,Not Stated,White,Powder,Not Stated,Not Stated,"5,6-dichloro desmethylchlorphine",Medetomidine,51.474,-0.1168
 W069677,2025-10-08,HX39,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,53.72608333333333,-1.8416
+W069676,2025-10-08,SA12,Tapentadol,Royal Apples,Orange,Tablet,Oral,No Effect,Tapentadol,,51.61181666666667,-3.7703
 W069606,2025-10-15,SA15,tramadol,Tramadol hydrochloride,Pink,Tablet,Oral,No Effect,Tramadol,,51.74003,-4.187250000000001
 000231819,2025-10-15,CH7,Heroin,Not Stated,Brown,Powder,Smoked,"Nausea, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Papaverine, 6-Acetylcodeine, 6-MAM","Paracetamol, Caffeine",53.17209696969697,-3.163118181818182
 W069419,2025-10-15,BS10,Tramadol,Tramdaol,Colourless,Tablet,Not Stated,Not Stated,Tramadol,,51.509866666666674,-2.635366666666666
@@ -939,15 +939,15 @@ W069419,2025-10-15,BS10,Tramadol,Tramdaol,Colourless,Tablet,Not Stated,Not State
 000236262,2025-10-15,CF83,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Chest Pains, Irregular Heartbeat","Noscapine, Heroin, 6-Acetylcodeine, Paracetamol","Papaverine, 6-MAM",51.59288333333333,-3.2333833333333337
 000236139,2025-10-15,CF62,Heroin,Not Stated,White,Solid,Smoked,"Euphoria, Relaxed, Confusion, Loss of consciousness, Agitation","Paracetamol, 6-MAM, Noscapine, Caffeine","Papaverine, 6-Acetylcodeine, Medetomidine",51.4027,-3.37145
 W068874,2025-10-17,EH67,Buprenorphine,Buprenorphine,"Orange, Pink",Tablet,Not Stated,Not Stated,Buprenorphine,,55.9617,-3.1844
-W069900,2025-10-21,B10,Tramadol,Tramadol Capsules Relonchem,White,Capsule,Not Stated,Not Stated,Tramadol,,52.4698,-1.8523
-W069971,2025-10-21,L15B,HEROIN,ILLICIT,Brown,,Smoked,"No Effect, Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Libido, Increased Strength, Empathy, Auditory Hallucinations, Visual Hallucinations, Relaxed, Chest Pains, Irregular Heartbeat, Nosebleeds, Nausea, Vomiting, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation, Violence/Aggression, Insomnia, Depression","Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine, Medetomidine",53.3975,-2.9206
 000231102,2025-10-21,LL65,Heroin,Not Stated,Brown,Solid,Not Stated,"Breathlesness, Chest Pains, Irregular Heartbeat, Panic Attack","Noscapine, Heroin, 6-MAM, Paracetamol","Caffeine, Papaverine, 6-Acetylcodeine",53.289686206896555,-4.534455172413793
 000236483,2025-10-21,NP4,SUSPECTED HEROIN,SUSPECTED HEROIN,"White, Brown",Powder,Smoked,Euphoria,No Active Component Identified,,51.718515789473685,-3.030521052631579
+W069971,2025-10-21,L15B,HEROIN,ILLICIT,Brown,,Smoked,"No Effect, Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Libido, Increased Strength, Empathy, Auditory Hallucinations, Visual Hallucinations, Relaxed, Chest Pains, Irregular Heartbeat, Nosebleeds, Nausea, Vomiting, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation, Violence/Aggression, Insomnia, Depression","Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine, Medetomidine",53.3975,-2.9206
+W069900,2025-10-21,B10,Tramadol,Tramadol Capsules Relonchem,White,Capsule,Not Stated,Not Stated,Tramadol,,52.4698,-1.8523
 W069908,2025-10-21,SO21,Heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Memory Loss, Loss of consciousness",Tetrahydrocannabinol,,51.08811935483871,-1.300141935483871
 W070061,2025-10-28,BH11,Doxycycline,Not Stated,Green,Capsule,Not Stated,Not Stated,No Active Component Identified,,50.7655,-1.9096
 W069869,2025-10-28,AB42,Heroin,Not Stated,"Black, Brown",Solid,Smoked,Loss of consciousness,"Noscapine, Paracetamol, Caffeine, Heroin, 6-MAM",Papaverine,57.48231142857143,-1.924825714285714
-W069495,2025-10-28,B169,HEROIN,Not Stated,"Black, Brown",Solid,Not Stated,Not Stated,"Heroin, Noscapine","6-MAM, 6-Acetylcodeine, Papaverine",52.4768,-1.9341
 W070136,2025-10-28,WV10,Oxycontin,Oxycantin,Blue,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Strength, Irregular Heartbeat, Confusion, Violence/Aggression",No Active Component Identified,,52.651114285714286,-2.101428571428571
+W069495,2025-10-28,B169,HEROIN,Not Stated,"Black, Brown",Solid,Not Stated,Not Stated,"Heroin, Noscapine","6-MAM, 6-Acetylcodeine, Papaverine",52.4768,-1.9341
 W070218,2025-10-28,LA4,TAPENTADOL 100MG,"TAPENTADOL 100MG ""TAPFINE 100"" METAMED LABORATORIES ",Orange,Tablet,Not Stated,Not Stated,Tapentadol,,54.06833333333333,-2.8470333333333335
 W070226,2025-10-28,TR25,HEROIN,H/A,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Thebacon","6-MAM, Papaverine, Caffeine, Paracetamol",49.9642,-6.2933
 W070275,2025-10-28,SO23,HEROIN,SOLD AS HEROIN,"Brown, Black",Granules,Intravenous,"Relaxed, Loss of consciousness","Noscapine, Heroin","6-Acetylcodeine, 6-MAM",51.07606666666667,-1.3140666666666665
@@ -958,55 +958,55 @@ W070288,2025-10-30,LE35,KRATOM,Not Stated,Green,Plant Matter,Not Stated,Not Stat
 W070290,2025-10-30,LE35,KRATOM + CBD,Not Stated,Green,Plant Matter,Not Stated,Not Stated,Mitragynine,,52.6325,-1.1869666666666667
 W070343,2025-10-30,CM23,Nitazene &amp; protonitazene,Not Stated,"Orange, Brown",Powder,Snort / Sniff,Not Stated,N-pyrrolidino protonitazene,,51.89539,0.15618
 W070316,2025-10-30,DH11,"Etodezitramide, orphine opiods, r4837 Jenson haraceuticals 1960s",Etodezitramide hcl,"Colourless, Yellow",Capsule,Not Stated,Not Stated,Etodezitramide,,54.77482,-1.56714
-W070600,2025-11-05,E18,HEROIN,Not Stated,"Grey, Brown",Powder,Smoked,"Auditory Hallucinations, Visual Hallucinations, Paranoia, Memory Loss, Confusion, Panic Attack, Agitation, Violence/Aggression, Suicidal Ideation","Noscapine, Heroin, 6-MAM, Paracetamol, MDMB-4en-PINACA, Caffeine, 6-Acetylcodeine, Papaverine",Morphine,51.5923,0.0225
+W070575,2025-11-05,LL30,Dihydrcodeine,Not Stated,White,Tablet,Oral,"Increased Energy, Increased Confidence, Increased Stamina, Increased Strength, Relaxed, Pain Relief",Dihydrocodeine,,53.325,-3.8315
+W070399,2025-11-05,KY11,HEROIN,NO LABEL,Brown,Powder,Smoked,"No Effect, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",56.037644444444446,-3.422588888888889
 W070534,2025-11-05,E18,OXYCODONE 30MG,M - ON ONE SIDE + 30 ON THE OTHER,Blue,Tablet,Not Stated,Not Stated,Tramadol,,51.5923,0.0225
 W070520,2025-11-05,E18,oxycodone 80mg,OC - on one side of pill + 10 on other ,Green,Tablet,Not Stated,Not Stated,Tramadol,,51.5923,0.0225
 W070571,2025-11-05,CH41,tramadol,TAMOL-X,"Green, Yellow",Tablet,Oral,Relaxed,Pregabalin,,53.4015,-3.0163
 W070531,2025-11-05,EH48,HEROIN,Not Stated,,Powder,Intravenous,Not Stated,"Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
 W070494,2025-11-05,DG71,TRAMADOL,TRAMAKING MEGA 225,Pink,Tablet,Oral,Relaxed,Tramadol,,54.98142207792208,-3.974324675324675
 W070599,2025-11-05,E18,HEROIN,Not Stated,Brown,Powder,"Smoked, Snort / Sniff","Euphoria, Relaxed, Memory Loss, Confusion, Loss of consciousness","Noscapine, Heroin, Papaverine, 6-MAM, Paracetamol","6-Acetylcodeine, Medetomidine, Lidocaine",51.5923,0.0225
+W070600,2025-11-05,E18,HEROIN,Not Stated,"Grey, Brown",Powder,Smoked,"Auditory Hallucinations, Visual Hallucinations, Paranoia, Memory Loss, Confusion, Panic Attack, Agitation, Violence/Aggression, Suicidal Ideation","Noscapine, Heroin, 6-MAM, Paracetamol, MDMB-4en-PINACA, Caffeine, 6-Acetylcodeine, Papaverine",Morphine,51.5923,0.0225
 000233350,2025-11-05,LD3,HEROIN,Not Stated,White,Powder,Not Stated,Euphoria,Cocaine,,51.99435362318841,-3.411075362318841
-W070399,2025-11-05,KY11,HEROIN,NO LABEL,Brown,Powder,Smoked,"No Effect, Relaxed","Noscapine, Heroin, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",56.037644444444446,-3.422588888888889
-W070575,2025-11-05,LL30,Dihydrcodeine,Not Stated,White,Tablet,Oral,"Increased Energy, Increased Confidence, Increased Stamina, Increased Strength, Relaxed, Pain Relief",Dihydrocodeine,,53.325,-3.8315
-W070518,2025-11-12,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Paracetamol, N-propionitrile chlorphine, Medetomidine",,51.648575,-1.2559833333333332
+W070716,2025-11-12,EH48,Heroin,Heroin,Brown,Powder,Smoked,"Empathy, Relaxed","Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
+W070666,2025-11-12,AB43,Heroin,Not Stated,Brown,Crystalline,Smoked,"Loss of consciousness, Overdose","6-MAM, Noscapine, Paracetamol, Heroin, Caffeine","Papaverine, Etonitazene",57.65489545454545,-2.046884090909091
 W070573,2025-11-12,LL30,Codeine phosphate,Not Stated,White,Tablet,Not Stated,Not Stated,Codeine,,53.325,-3.8315
 W070667,2025-11-12,DA5,Buprenorphine,Not Stated,Orange,Tablet,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Paranoia, Panic Attack, Agitation, Insomnia, Diarrhoea",Buprenorphine,,51.4406,0.1446
 000236467,2025-11-12,NP4,Heroin,Heroin,Grey,Powder,Intravenous,Increased Energy,"Noscapine, 6-MAM","Paracetamol, Heroin, Caffeine, 6-Acetylcodeine, Papaverine",51.718515789473685,-3.030521052631579
-W070716,2025-11-12,EH48,Heroin,Heroin,Brown,Powder,Smoked,"Empathy, Relaxed","Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
 W070646,2025-11-12,HP20,Tapentadol,Tapentadol,Orange,Tablet,Oral,"Increased Confidence, Empathy, Relaxed, Memory Loss",Tapentadol,,51.8167,-0.8146
-W070666,2025-11-12,AB43,Heroin,Not Stated,Brown,Crystalline,Smoked,"Loss of consciousness, Overdose","6-MAM, Noscapine, Paracetamol, Heroin, Caffeine","Papaverine, Etonitazene",57.65489545454545,-2.046884090909091
-W070941,2025-11-14,WV6,Oxycontin,Oxycontin,Blue,Tablet,Not Stated,Not Stated,Oxycodone,,52.59424545454545,-2.2206454545454544
+W070518,2025-11-12,OX14,heroin,Not Stated,Brown,Powder,Smoked,"Relaxed, Breathlesness, Memory Loss, Confusion, Loss of consciousness","Paracetamol, N-propionitrile chlorphine, Medetomidine",,51.648575,-1.2559833333333332
 W070742,2025-11-14,WN5,Codeine phosphate,Not Stated,White,Tablet,Oral,"Relaxed, Pain Relief",Codeine,,53.497899999999994,-2.7081
-W071007,2025-11-18,CF43,Oxy,Oxy,White,Tablet,Not Stated,Not Stated,"Bromazolam, N-desethylprotonitazene",,51.66792,-3.4671
-000233873,2025-11-18,NP12,Heroin,Not Stated,,,Smoked,Not Stated,No Active Component Identified,,51.6678,-3.2075
-W071006,2025-11-18,CF43,Nitazene,Desethylprotonitazene,Yellow,Powder,Not Stated,Not Stated,N-desethylprotonitazene,,51.66792,-3.4671
+W070941,2025-11-14,WV6,Oxycontin,Oxycontin,Blue,Tablet,Not Stated,Not Stated,Oxycodone,,52.59424545454545,-2.2206454545454544
 000236414,2025-11-18,NP20,heroin,Not Stated,,Powder,Not Stated,Not Stated,"Paracetamol, Heroin, Noscapine, Caffeine",,51.5877,-2.9984
-W071338,2025-11-24,SG14,codeine ,codeine ,White,Tablet,Not Stated,Not Stated,Codeine,,51.811775,-0.11705
-000235820,2025-11-24,CF10,heroin,Not Stated,"Brown, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine","Heroin, 6-MAM",51.48,-3.18
-W071339,2025-11-24,SG14,DIHYDROCODEINE,DIHYDROCODEINE,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.811775,-0.11705
+W071007,2025-11-18,CF43,Oxy,Oxy,White,Tablet,Not Stated,Not Stated,"Bromazolam, N-desethylprotonitazene",,51.66792,-3.4671
+W071006,2025-11-18,CF43,Nitazene,Desethylprotonitazene,Yellow,Powder,Not Stated,Not Stated,N-desethylprotonitazene,,51.66792,-3.4671
+000233873,2025-11-18,NP12,Heroin,Not Stated,,,Smoked,Not Stated,No Active Component Identified,,51.6678,-3.2075
 000235819,2025-11-24,CF10,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","6-MAM, Papaverine",51.48,-3.18
 000235818,2025-11-24,CF10 5DW,HEROIN,Not Stated,Brown,Powder,Intravenous,"No Effect, Relaxed, Irregular Heartbeat, Paranoia, Panic Attack, Agitation, Depression","Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Paracetamol",51.48,-3.18
-W071281,2025-11-24,SY23,Tapentadol,Not Stated,"Orange, White",Solid,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion",Tapentadol,,52.34458541666667,-3.9885
+W071338,2025-11-24,SG14,codeine ,codeine ,White,Tablet,Not Stated,Not Stated,Codeine,,51.811775,-0.11705
+W071339,2025-11-24,SG14,DIHYDROCODEINE,DIHYDROCODEINE,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.811775,-0.11705
 W071292,2025-11-24,KY5,HEROIN,Not Stated,Brown,Powder,Smoked,"Nausea, Depression",Paracetamol,"Noscapine, Heroin",56.1493125,-3.285875
-W069093,2025-11-24,EH26,Heroin,Not Stated,"White, Brown",Powder,Intravenous,"Empathy, Relaxed","Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin","Papaverine, Phenacetin, 6-Acetylcodeine, Etonitazene, Morphine",55.82387142857142,-3.241371428571429
-W070790,2025-11-24,EH76,heroin,Not Stated,"White, Brown",Powder,Snort / Sniff,"Breathlesness, Chest Pains, Irregular Heartbeat, Nausea, Vomiting, Confusion","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, Papaverine","6-Acetylcodeine, Metonitazene",55.9521,-3.1965
+W071281,2025-11-24,SY23,Tapentadol,Not Stated,"Orange, White",Solid,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion",Tapentadol,,52.34458541666667,-3.9885
+000235820,2025-11-24,CF10,heroin,Not Stated,"Brown, Brown",Powder,Not Stated,Not Stated,"Paracetamol, Noscapine","Heroin, 6-MAM",51.48,-3.18
 W071113,2025-11-24,NE8,Accord Codeine Phosphate,Accord Codeine Phosphate,White,Tablet,Oral,Relaxed,xylazine,,54.9621,-1.6017
-W071157,2025-11-24,SY87,Pressed nitazenes,V48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,,52.36667333333334,-2.6940066666666667
-W071158,2025-11-24,ST87,Oxycodone,Labelled V48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,,53.11565714285714,-2.169114285714286
-W071159,2025-11-24,ST87,Codeine,Codeine,White,Tablet,Oral,Relaxed,Codeine,,53.11565714285714,-2.169114285714286
+W069093,2025-11-24,EH26,Heroin,Not Stated,"White, Brown",Powder,Intravenous,"Empathy, Relaxed","Paracetamol, Noscapine, Caffeine, 6-MAM, Heroin","Papaverine, Phenacetin, 6-Acetylcodeine, Etonitazene, Morphine",55.82387142857142,-3.241371428571429
 W071179,2025-11-24,SO23,Oxycodone,Oxypro,"White, Pink",Tablet,Not Stated,"Euphoria, Increased Energy, Increased Confidence, Increased Stamina, Increased Libido, Relaxed, Irregular Heartbeat, Nausea, Vomiting, Agitation, Insomnia",Oxycodone,,51.07606666666667,-1.3140666666666665
+W071158,2025-11-24,ST87,Oxycodone,Labelled V48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,,53.11565714285714,-2.169114285714286
+W071157,2025-11-24,SY87,Pressed nitazenes,V48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,,52.36667333333334,-2.6940066666666667
+W071159,2025-11-24,ST87,Codeine,Codeine,White,Tablet,Oral,Relaxed,Codeine,,53.11565714285714,-2.169114285714286
+W070790,2025-11-24,EH76,heroin,Not Stated,"White, Brown",Powder,Snort / Sniff,"Breathlesness, Chest Pains, Irregular Heartbeat, Nausea, Vomiting, Confusion","Noscapine, Paracetamol, Heroin, Caffeine, 6-MAM, Papaverine","6-Acetylcodeine, Metonitazene",55.9521,-3.1965
 W070695,2025-11-27,G83,Dihydrocodeine,Dihydrocodeine ,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,56.03989166666666,-4.6006583333333335
 W071410,2025-11-28,G83,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,56.03989166666666,-4.6006583333333335
 000236479,2025-11-28,NP4,Heroin,Heroin,"Grey, Brown",Powder,Intravenous,Not Stated,"Heroin, Noscapine, Paracetamol","6-MAM, 6-Acetylcodeine, Papaverine",51.718515789473685,-3.030521052631579
 000234498,2025-12-03,CF10,Heroin,Not Stated,Brown,Powder,Smoked,"Agitation, Insomnia","Heroin, Noscapine, 6-Acetylcodeine","Paracetamol, 6-MAM, Papaverine, Caffeine",51.48,-3.18
-W071545,2025-12-03,TQ14,Tapentadol,Tapentadol,"Orange, Red",Tablet,Oral,"Increased Strength, Relaxed, Irregular Heartbeat, Nausea, Vomiting, Confusion",Tapentadol,,50.54670000000001,-3.515233333333333
-W071500,2025-12-03,SY23,Heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","6-MAM, 6-Acetylcodeine, Papaverine",52.34458541666667,-3.9885
 W071484,2025-12-03,CM20,Heroin,Not Stated,Brown,Solid,Smoked,Relaxed,"Noscapine, Heroin, 6-MAM","Papaverine, 6-Acetylcodeine, Dextromethorphan, Paracetamol",51.779333333333334,0.0966666666666666
 100004518,2025-12-03,TQ14,Tapentadol,Tapentadol,"Orange, Red",Tablet,Oral,"Increased Strength, Irregular Heartbeat, Vomiting, Confusion",Tapentadol,,50.54670000000001,-3.515233333333333
+W071500,2025-12-03,SY23,Heroin,Not Stated,Brown,Granules,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol","6-MAM, 6-Acetylcodeine, Papaverine",52.34458541666667,-3.9885
+W071545,2025-12-03,TQ14,Tapentadol,Tapentadol,"Orange, Red",Tablet,Oral,"Increased Strength, Relaxed, Irregular Heartbeat, Nausea, Vomiting, Confusion",Tapentadol,,50.54670000000001,-3.515233333333333
 W071631,2025-12-09,PL14,Tramadol Hydrochloride,Tramadol Hydrochloride,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,50.46451290322581,-4.464809677419355
 000236435,2025-12-09,NP20,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Paracetamol, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine",51.5877,-2.9984
-000238401,2025-12-09,CD1,Tamol x - Tapentadol and carisoprodol,Not Stated,White,Tablet,Oral,"Increased Energy, Chest Pains, Paranoia, Confusion",Tapentadol,Carisoprodol,,
 W071615,2025-12-09,G17,Heroin,PP Heroin,White,Powder,Intravenous,"Increased Energy, Auditory Hallucinations, Visual Hallucinations, Paranoia, Confusion, Loss of consciousness","Heroin, Noscapine, Diazepam, 6-Acetylcodeine","6-MAM, Papaverine",,
+000238401,2025-12-09,CD1,Tamol x - Tapentadol and carisoprodol,Not Stated,White,Tablet,Oral,"Increased Energy, Chest Pains, Paranoia, Confusion",Tapentadol,Carisoprodol,,
 W071582,2025-12-09,HR11,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Paracetamol, Papaverine, Caffeine",52.08174186046512,-2.612990697674419
 W071703,2025-12-11,BA11,dihydrocodeine,"dihydrocodeine, accord",White,Tablet,Oral,Relaxed,Dihydrocodeine,,51.216945,-2.351325
 W071695,2025-12-11,SA15,Codeine,Codeine phosphate -30mg,White,Tablet,Oral,Pain Relief,Codeine,,51.74003,-4.187250000000001
@@ -1017,24 +1017,24 @@ W071737,2025-12-16,CF24,Tramadol 100mg,Tamol -x,"Colourless, White",Capsule,Not 
 000230540,2025-12-16,SW59,heroin,heroin,"White, White",Powder,Not Stated,Not Stated,No Active Component Identified,,51.487,-0.1909999999999999
 W071954,2025-12-16,CF42,Tramadol 100mg,Tramadol 100mg,White,Tablet,Oral,Relaxed,Tramadol,,51.66798333333333,-3.5247833333333336
 W069991,2025-12-16,EH7,heroin,Not Stated,Brown,Powder,Smoked,Relaxed,"Paracetamol, Caffeine, Noscapine, Heroin","6-MAM, 6-Acetylcodeine, Papaverine, Metonitazene",55.9521,-3.1965
-W071951,2025-12-19,SY23,Morphine,Not Stated,White,Solid,Intravenous,"Euphoria, Relaxed, Memory Loss","Paracetamol, Tramadol, Nitrazepam, Tapentadol",,52.34458541666667,-3.9885
-W072083,2025-12-19,BT47,Tramadol HCl,Not Stated,White,Capsule,Not Stated,Not Stated,Tramadol,,54.94983333333333,-7.084177777777778
+W071332,2025-12-19,KA18,Heroin,Not Stated,Brown,Powder,Smoked,Overdose,"Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.459129999999995,-4.2176599999999995
 W071957,2025-12-19,LS16,Dihydrocodeine,Not Stated,White,Tablet,Oral,"Paranoia, Panic Attack",Dihydrocodeine,,53.868475,-1.5981
+W071951,2025-12-19,SY23,Morphine,Not Stated,White,Solid,Intravenous,"Euphoria, Relaxed, Memory Loss","Paracetamol, Tramadol, Nitrazepam, Tapentadol",,52.34458541666667,-3.9885
 000238655,2025-12-19,NP22,Heroin,Not Stated,"Grey, Brown",,Smoked,"Euphoria, Breathlesness, Chest Pains, Vomiting","Noscapine, Heroin, Paracetamol, Papaverine, Caffeine","6-MAM, 6-Acetylcodeine",51.7725,-3.2468
 W072089,2025-12-19,SA11,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol, Caffeine","6-Acetylcodeine, 6-MAM, Papaverine",51.70800714285714,-3.6944071428571426
-W071332,2025-12-19,KA18,Heroin,Not Stated,Brown,Powder,Smoked,Overdose,"Paracetamol, Noscapine, Caffeine, Heroin, 6-MAM",Papaverine,55.459129999999995,-4.2176599999999995
-W071802,2025-12-22,YO10,Kratom,Not Stated,Green,Powder,Not Stated,Not Stated,Mitragynine,,53.9576,-1.0827
+W072083,2025-12-19,BT47,Tramadol HCl,Not Stated,White,Capsule,Not Stated,Not Stated,Tramadol,,54.94983333333333,-7.084177777777778
+W072007,2025-12-22,SR3,Desethylprotonitazene,Not Stated,Yellow,Powder,Not Stated,Not Stated,N-desethylprotonitazene,,54.874233333333336,-1.4153666666666669
 W071943,2025-12-22,G61,Toseina Codeine Syrup,Toseina,Pink,Liquid,Oral,"Euphoria, Irregular Heartbeat, Vomiting, Memory Loss",Codeine,,55.9154,-4.3328
+W071802,2025-12-22,YO10,Kratom,Not Stated,Green,Powder,Not Stated,Not Stated,Mitragynine,,53.9576,-1.0827
 W072008,2025-12-22,SR3,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Caffeine, Paracetamol",54.874233333333336,-1.4153666666666669
 W072183,2025-12-22,G12,tapentadol,Tapentadol,White,Tablet,Not Stated,Not Stated,Tapentadol,,55.8804,-4.3007
 W072124,2025-12-22,NW7,Heroin,Iranian Black Glass,"Black, Brown",Solid,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed","Noscapine, Heroin","6-Acetylcodeine, Papaverine, 6-MAM",51.6094,-0.2273
-W072007,2025-12-22,SR3,Desethylprotonitazene,Not Stated,Yellow,Powder,Not Stated,Not Stated,N-desethylprotonitazene,,54.874233333333336,-1.4153666666666669
-W072155,2025-12-23,NR14,Kratom,Kratom,"Green, Red",Powder,Oral,"Euphoria, Increased Confidence, Increased Stamina, Empathy, Relaxed, Breathlesness, Irregular Heartbeat, Confusion, Panic Attack, Agitation, Depression",Mitragynine,,52.56780769230769,1.371471794871795
-W072105,2025-12-23,NW7,Heroin,Trilogy Cream #3,"Grey, Brown",Powder,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed, Nausea, Loss of consciousness","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine, Paracetamol",51.6094,-0.2273
-W072157,2025-12-23,HR27,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Increased Energy, Increased Confidence, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM",Papaverine,51.98334078947369,-2.796544736842105
-W072026,2025-12-23,NE23,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Euphoria, Increased Energy, Relaxed",Dihydrocodeine,,55.067877777777774,-1.560788888888889
 W072189,2025-12-23,CF42,Tramadol,Not Stated,"Green, Yellow",Capsule,Oral,"Relaxed, Confusion, Tiredness, Dizziness",Pregabalin,,51.66798333333333,-3.5247833333333336
+W072026,2025-12-23,NE23,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Euphoria, Increased Energy, Relaxed",Dihydrocodeine,,55.067877777777774,-1.560788888888889
 W072250,2025-12-23,CB10,"SR-17018 5,6-dichlorodesmethylchlorphine",Not Stated,"Colourless, Orange",Powder,Not Stated,Not Stated,Lidocaine,"5,6-dichloro desmethylchlorphine",52.03342941176471,0.2682294117647059
+W072105,2025-12-23,NW7,Heroin,Trilogy Cream #3,"Grey, Brown",Powder,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed, Nausea, Loss of consciousness","Heroin, Noscapine, 6-Acetylcodeine","6-MAM, Papaverine, Paracetamol",51.6094,-0.2273
+W072155,2025-12-23,NR14,Kratom,Kratom,"Green, Red",Powder,Oral,"Euphoria, Increased Confidence, Increased Stamina, Empathy, Relaxed, Breathlesness, Irregular Heartbeat, Confusion, Panic Attack, Agitation, Depression",Mitragynine,,52.56780769230769,1.371471794871795
+W072157,2025-12-23,HR27,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Increased Energy, Increased Confidence, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM",Papaverine,51.98334078947369,-2.796544736842105
 W072234,2025-12-24,RH19,Tramadol,Not Stated,White,Tablet,Not Stated,Agitation,Tramadol,,51.11741818181818,-0.0221727272727272
 W072305,2025-12-31,GL3,Tapentadol,Tapentadol,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,51.852,-2.1625750000000004
 000236273,2025-12-31,CF83,Heroin,Not Stated,White,,Smoked,No Effect,"Heroin, Noscapine, Paracetamol, 6-Acetylcodeine, 6-MAM","Caffeine, Papaverine, Diazepam, Phenacetin",51.59288333333333,-3.2333833333333337
@@ -1042,10 +1042,10 @@ W072427,2026-01-05,G63,HEROIN,T3-TRILOGY #3 CREAM,"Brown, Brown",Powder,Not Stat
 W072353,2026-01-05,NW7,HEROIN,PD CREAM HEROIN,Brown,Powder,"Smoked, Snort / Sniff","Euphoria, Relaxed, Nausea","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine",Papaverine,51.6094,-0.2273
 W072455,2026-01-05,GU15,dihydrocodeine ,bristol laboratories 30mg DHC,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.337,-0.7426
 W072421,2026-01-06,DH11,Metonitazene + etonitazene,artical heroin,"White, Grey",Powder,Not Stated,Not Stated,"Noscapine, Paracetamol, Heroin, Caffeine","Papaverine, 6-MAM",54.77482,-1.56714
-W072664,2026-01-13,BN23,dhydracodeine 30mg,dhydracodeine 30mg,White,Tablet,Oral,Chest Pains,Dihydrocodeine,,50.7977,0.3125
+W069992,2026-01-13,EH76LD,heroin,heroin,"Grey, Brown",Powder,Intravenous,"Increased Confidence, Increased Stamina, Relaxed","Paracetamol, Noscapine, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine, Metonitazene, Etonitazene",55.9521,-3.1965
 W072560,2026-01-13,E83,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin","6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine, Caffeine",,
 W072423,2026-01-13,DH11,Nitazene ,M30 oxy,"White, Blue",Tablet,Not Stated,Not Stated,Metonitazene,,54.77482,-1.56714
-W069992,2026-01-13,EH76LD,heroin,heroin,"Grey, Brown",Powder,Intravenous,"Increased Confidence, Increased Stamina, Relaxed","Paracetamol, Noscapine, Caffeine, 6-Acetylcodeine","6-MAM, Papaverine, Metonitazene, Etonitazene",55.9521,-3.1965
+W072664,2026-01-13,BN23,dhydracodeine 30mg,dhydracodeine 30mg,White,Tablet,Oral,Chest Pains,Dihydrocodeine,,50.7977,0.3125
 W063076,2026-01-15,ML1,Heroin,Not Stated,"Orange, Pink",Powder,Smoked,"Breathlesness, Loss of consciousness, Overdose","Paracetamol, Noscapine, Caffeine, Heroin","6-MAM, Papaverine, Etonitazene",55.80563333333333,-3.95475
 W072769,2026-01-15,M30,Heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Empathy, Relaxed, Nystagmus","Noscapine, Heroin","Paracetamol, 6-Acetylcodeine, Papaverine, 6-MAM",53.4833,-2.3333
 W072678,2026-01-19,S11,Heroin,Heroin,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Noscapine, Paracetamol, Heroin, Caffeine","6-MAM, 6-Acetylcodeine, Papaverine",53.3608,-1.5084
@@ -1056,24 +1056,24 @@ W072692,2026-01-19,EH3,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Par
 W072964,2026-01-19,NN12,heroin,Not Stated,White,Powder,Smoked,Not Stated,"N-propionitrile chlorphine, Medetomidine",,52.12114285714286,-1.03124
 W072905,2026-01-19,NW7,heroin,the dream cream afghan,Brown,Powder,"Oral, Smoked, Snort / Sniff, Intramuscular","Euphoria, Increased Confidence, Relaxed","Heroin, Noscapine, 6-Acetylcodeine, 6-MAM","Papaverine, Paracetamol, Caffeine",51.6094,-0.2273
 W072937,2026-01-19,W8,Dihydrocodeine,dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
+W073043,2026-01-23,BT17,Tramadol ,tramadol,"Orange, White",Capsule,Not Stated,Not Stated,Tramadol,,54.56660000000001,-5.9648
+W073055,2026-01-23,L8,Heroin,Afghan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Phenacetin, 6-Acetylcodeine, Papaverine, 6-MAM, Paracetamol, Caffeine",Medetomidine,53.4106,-2.9779
 W072907,2026-01-23,WR1,heroin,Not Stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Memory Loss, Confusion, Loss of consciousness","Paracetamol, Caffeine, Medetomidine, Clozapine, 6-MAM, Noscapine","6-Acetylcodeine, Heroin, Papaverine",52.1894,-2.22
 W069523,2026-01-23,AB42,Heroin,Black glass,"Brown, Black",Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, 6-Acetylcodeine","Papaverine, Caffeine",57.48231142857143,-1.924825714285714
 W073034,2026-01-23,DH11,Spiro brophine,spiro bororphine -orphine,White,Powder,Not Stated,Not Stated,Spirobrorphine,,54.77482,-1.56714
 W072939,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W072934,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W072962,2026-01-23,NN12,heroin,Not Stated,Orange,Powder,Smoked,Not Stated,N-pyrrolidino protonitazene,,52.12114285714286,-1.03124
 W072933,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine Bristol labs,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
+W072938,2026-01-23,W8,dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W072931,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine Bristol labs,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W073055,2026-01-23,L8,Heroin,Afghan heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, Phenacetin, 6-Acetylcodeine, Papaverine, 6-MAM, Paracetamol, Caffeine",Medetomidine,53.4106,-2.9779
+W072962,2026-01-23,NN12,heroin,Not Stated,Orange,Powder,Smoked,Not Stated,N-pyrrolidino protonitazene,,52.12114285714286,-1.03124
 W072226,2026-01-23,LU13,Tramadol,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,51.8693,-0.42528
 W072941,2026-01-23,W8,Dihydrocodeine,dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W072938,2026-01-23,W8,dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W073043,2026-01-23,BT17,Tramadol ,tramadol,"Orange, White",Capsule,Not Stated,Not Stated,Tramadol,,54.56660000000001,-5.9648
+W072934,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W073111,2026-01-23,N1,Codeine &amp; promethazine,Codeine &amp; promethazine,Purple,Liquid,Oral,Relaxed,"Codeine, Promethazine",,51.53669,-0.0944
-W073075,2026-01-26,EH48,Heroin,Not Stated,Brown,Powder,Snort / Sniff,Overdose,"Noscapine, Paracetamol, Diazepam, Caffeine, Etonitazene, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
+W073099,2026-01-26,W8,Codeine phosphate,codeine phosphat teva,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W073110,2026-01-26,NW7,heroin,harrods pakistani deluxe heroin,Brown,Powder,"Smoked, Snort / Sniff, Intravenous","Euphoria, Relaxed, Breathlesness, Vomiting, Loss of consciousness","Heroin, Noscapine, Paracetamol, 6-Acetylcodeine","Caffeine, 6-MAM, Papaverine",51.6094,-0.2273
 W073098,2026-01-26,W8,Codeine phosphate,codeine phosphate teva,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
-W073099,2026-01-26,W8,Codeine phosphate,codeine phosphat teva,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
+W073075,2026-01-26,EH48,Heroin,Not Stated,Brown,Powder,Snort / Sniff,Overdose,"Noscapine, Paracetamol, Diazepam, Caffeine, Etonitazene, Heroin","6-MAM, Papaverine",55.91305714285714,-3.6746285714285714
 000234134,2026-01-28,NP20,Heroin,Not Stated,Brown,Liquid,Not Stated,Not Stated,"xylazine, Metonitazene, Phenacetin, Caffeine, Paracetamol","Protonitazene, 6-MAM, Noscapine, Cocaine, Heroin, 6-Acetylcodeine, Papaverine",51.5877,-2.9984
 W073246,2026-01-28,S70,codeine,codeine,White,Tablet,Oral,"Breathlesness, Chest Pains, Irregular Heartbeat",Codeine,,53.53123333333334,-1.4773333333333334
 W073170,2026-01-28,WR5,heroin,Not Stated,Brown,,Intravenous,Relaxed,"Cocaine, Noscapine, Paracetamol, 6-MAM, Medetomidine, Clozapine","Caffeine, Heroin, Papaverine, 6-Acetylcodeine, Norcocaine",52.1651,-2.1974428571428573
@@ -1083,12 +1083,12 @@ W073357,2026-01-28,BN23,Dihdrocodeine 60mg,Not Stated,White,Tablet,Oral,Pain Rel
 W073356,2026-01-28,BN23,dihydrocodeine 90mg mr ,Not Stated,White,Tablet,Oral,Pain Relief,Dihydrocodeine,,50.7977,0.3125
 W073291,2026-01-28,G31,heroin,heroin,Green,Liquid,Intravenous,"Memory Loss, Confusion, Panic Attack, Loss of consciousness, Insomnia, Irregular Heartbeat","Paracetamol, Caffeine, 6-MAM, Noscapine, Heroin","6-Acetylcodeine, Papaverine, Morphine",55.857,-4.209
 W073469,2026-02-03,NN12,Heroin,Not Stated,White,Powder,Not Stated,Not Stated,Lidocaine,,52.12114285714286,-1.03124
-W073191,2026-02-03,KA3,Tramadol,tamol x,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,55.64550714285714,-4.502764285714286
 W073435,2026-02-03,G73,Heroin,heroin,Brown,Powder,Smoked,"Enhanced Senses, Nausea, Paranoia, Confusion, Panic Attack, Agitation","Noscapine, Paracetamol, Heroin","6-Acetylcodeine, 6-MAM, Papaverine",55.8289,-4.2138
-W073334,2026-02-03,BR7,Tramadol 200mg,Santeria,White,Tablet,Oral,"Relaxed, Loss of consciousness",Tramadol,,51.4171,0.0686
+W073365,2026-02-03,ST87,Tramadol,Tramadol,White,Tablet,Oral,No Effect,Tramadol,,53.11565714285714,-2.169114285714286
+W073191,2026-02-03,KA3,Tramadol,tamol x,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,55.64550714285714,-4.502764285714286
 W073303,2026-02-03,DE24,Tramadol,Not Stated,"Green, Yellow",Capsule,Oral,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Vomiting, Confusion, Agitation",Tramadol,,52.89066666666667,-1.4422666666666668
 W073006,2026-02-03,ST87,Oxycodone,v48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,Metonitazene,53.11565714285714,-2.169114285714286
-W073365,2026-02-03,ST87,Tramadol,Tramadol,White,Tablet,Oral,No Effect,Tramadol,,53.11565714285714,-2.169114285714286
+W073334,2026-02-03,BR7,Tramadol 200mg,Santeria,White,Tablet,Oral,"Relaxed, Loss of consciousness",Tramadol,,51.4171,0.0686
 W073552,2026-02-06,WF2,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"N-pyrrolidino protonitazene, Paracetamol, N-propionitrile chlorphine, Heroin, Medetomidine, Caffeine, Noscapine","N-desethylprotonitazene, Etodezitramide, 6-MAM, Papaverine",53.66534,-1.51568
 W073554,2026-02-06,WF2,Heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Diazepam","Papaverine, Paracetamol, Phenacetin, Caffeine",53.66534,-1.51568
 W073502,2026-02-06,E83H,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, 6-Acetylcodeine, Paracetamol, Papaverine","Caffeine, Morphine",,
@@ -1096,40 +1096,40 @@ W073459,2026-02-06,CF47,oxycodone,oxycodone,Blue,Tablet,Oral,Relaxed,Oxycodone,,
 W073509,2026-02-06,NW10,heroin,Not Stated,Grey,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Nausea, Vomiting, Confusion, Depression","Heroin, Noscapine, 6-MAM, 6-Acetylcodeine","Papaverine, Diazepam",51.53758571428572,-0.2431214285714285
 W073505,2026-02-06,TA6,Codeine. co-codamol ,codeine phosphate 30mg co-codomol 30mg/500mg,White,Tablet,Not Stated,Not Stated,Codeine,,51.139228571428575,-3.006471428571429
 W073716,2026-02-10,BN23,Dhydracodeine,dhydracodeine,White,Tablet,Oral,Not Stated,Dihydrocodeine,,50.7977,0.3125
-000238822,2026-02-10,CF83,Heroin,heroive,Brown,,Smoked,Relaxed,No Active Component Identified,,51.59288333333333,-3.2333833333333337
 000238826,2026-02-10,CF83,Heroin,Not Stated,Brown,,Smoked,Relaxed,"Noscapine, Heroin","Paracetamol, Papaverine",51.59288333333333,-3.2333833333333337
+000238822,2026-02-10,CF83,Heroin,heroive,Brown,,Smoked,Relaxed,No Active Component Identified,,51.59288333333333,-3.2333833333333337
 W073790,2026-02-10,W8,Codeine phosphate,codeine phospahte teva 30mg,"Colourless, White",Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W073727,2026-02-10,BS5,Tapendatol,tapendatol,Orange,Tablet,Oral,"Euphoria, Chest Pains, Irregular Heartbeat, Nausea, Vomiting, Paranoia, Memory Loss",Tapentadol,,51.462,-2.5519
-W073692,2026-02-10,PL26,Heroin,Turkish delight,Brown,Solid,Smoked,"Euphoria, Increased Energy, Enhanced Senses, Empathy, Relaxed","Heroin, Noscapine","6-MAM, Thebacon, Papaverine",50.34738918918919,-4.827086486486486
 000239195,2026-02-10,DT4,Heroin,heroin,Brown,Solid,Smoked,"Relaxed, Chest Pains, Nausea, Memory Loss, Confusion, Agitation, Depression","Noscapine, Heroin","6-MAM, Paracetamol, 6-Acetylcodeine, Papaverine",50.60802,-2.4613799999999997
 W073725,2026-02-10,TS30,heroin,heroin,Brown,Powder,Smoked,"Increased Energy, Increased Confidence","Noscapine, Paracetamol, Heroin","6-Acetylcodeine, Papaverine",54.562099999999994,-1.1877666666666666
+W073692,2026-02-10,PL26,Heroin,Turkish delight,Brown,Solid,Smoked,"Euphoria, Increased Energy, Enhanced Senses, Empathy, Relaxed","Heroin, Noscapine","6-MAM, Thebacon, Papaverine",50.34738918918919,-4.827086486486486
 W073673,2026-02-10,L8,heroin,PK Heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine","6-Acetylcodeine, 6-MAM, Papaverine",53.4106,-2.9779
 W073497,2026-02-10,SG14,tramadol,trakem 100 (tramadol 100mg),White,Tablet,Not Stated,Not Stated,Tramadol,,51.811775,-0.11705
 W073845,2026-02-13,G83,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,"Paracetamol, Caffeine, Noscapine, Heroin, Etonitazene","6-MAM, Papaverine",56.03989166666666,-4.6006583333333335
+W073981,2026-02-17,E83H,HEROIN,HEROIN,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine, Caffeine",,
 W073988,2026-02-17,CF24,heroin,no label,Brown,Solid,Not Stated,Not Stated,"Noscapine, Heroin, Paracetamol",6-MAM,51.48,-3.18
 W073907,2026-02-17,NE11,tramadol,tramadol hydrochloride ,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,54.932825,-1.629725
 000233528,2026-02-17,NP20,HEROIN,Not Stated,Brown,Powder,Not Stated,Not Stated,xylazine,"Phenacetin, Metonitazene, Paracetamol, Caffeine, Protonitazene, nitrazolam, Bromazolam, Noscapine, 6-MAM",51.5877,-2.9984
-W073981,2026-02-17,E83H,HEROIN,HEROIN,Brown,Powder,Not Stated,Not Stated,"Noscapine, Heroin, 6-MAM, Paracetamol","6-Acetylcodeine, Papaverine, Caffeine",,
 W073574,2026-02-17,YO10,Codeine,Not Stated,White,Tablet,Oral,"Nausea, Loss of consciousness, Agitation",Codeine,,53.9576,-1.0827
 W074083,2026-02-18,WF2,heroin,heroin,Brown,Powder,Not Stated,Not Stated,"Heroin, Noscapine, 6-MAM, Diazepam, 6-Acetylcodeine","Papaverine, Caffeine, Paracetamol, Morphine",53.66534,-1.51568
 W074149,2026-02-20,NW9,Tramadol,Tramol x tramadol 100mg,"Yellow, Red",Capsule,Not Stated,Not Stated,Pregabalin,,51.5894,-0.25692
 W074060,2026-02-20,M20,Propranadol,betacap tr80,"Colourless, Blue",Capsule,Not Stated,Not Stated,Propranolol,,53.4258,-2.23295
 W074167,2026-02-20,W8,Tramadol,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074165,2026-02-20,W8,Tramadol ,tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074160,2026-02-25,W8,Tramadol ,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074166,2026-02-25,W8,Tramadol,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074163,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074161,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074100,2026-02-25,DD2,Tramadol,Royal tramadol 225mg (UKP),Red,Tablet,Oral,"Euphoria, Increased Confidence, Relaxed, Increased Stamina, Itching",Tramadol,,56.47777692307693,-3.0589461538461538
+W074161,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074129,2026-02-25,W8,Tramadol ,tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074166,2026-02-25,W8,Tramadol,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074160,2026-02-25,W8,Tramadol ,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074163,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074162,2026-02-25,W8,Tramadol ,Tramadol 50mg Somex pharam,Yellow,Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074256,2026-02-25,KA56,Morphine,morphine,Blue,Tablet,Oral,"Relaxed, Confusion, No Effect",Morphine,,55.4981,-4.4046199999999995
+W074170,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W074164,2026-02-25,W8,Tramadol,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074356,2026-02-25,TN39,Tramadol,tramadol,White,Tablet,Oral,"Enhanced Senses, Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation",Tramadol,,50.851925,0.450875
-W074170,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
+W074240,2026-02-25,TW7,Anadol tramadol Sr 100mg,Anadol tramadol sr 100mg,"Red, Blue",Capsule,Not Stated,Not Stated,Tramadol,,51.4752,-0.3425
 W074169,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg Accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W074168,2026-02-25,W8,Codeine phosphate,codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
-W074240,2026-02-25,TW7,Anadol tramadol Sr 100mg,Anadol tramadol sr 100mg,"Red, Blue",Capsule,Not Stated,Not Stated,Tramadol,,51.4752,-0.3425
+W074256,2026-02-25,KA56,Morphine,morphine,Blue,Tablet,Oral,"Relaxed, Confusion, No Effect",Morphine,,55.4981,-4.4046199999999995
 W074384,2026-02-27,HR4,Heroin,Not Stated,"White, Brown",Powder,Snort / Sniff,Not Stated,"Heroin, 6-MAM, Phenacetin, 6-Acetylcodeine, Noscapine","Diazepam, Papaverine, Paracetamol, Caffeine",52.10106744186046,-2.8000232558139535
 W074246,2026-02-27,DN16,Dihydrocodeine ,Not Stated,White,Tablet,Oral,Nausea,Dihydrocodeine,,53.55885,-0.64505
 000232757,2026-02-27,CF83,"Morphine, lorazepam, zopiclone",Not Stated,White,Tablet,Oral,"Memory Loss, Confusion, Loss of consciousness",Zopiclone,,51.59288333333333,-3.2333833333333337
@@ -1199,10 +1199,10 @@ W075677,2026-04-16,SK16,oxycontin 80mg,Mundharma oxyontin 80mg,Green,Tablet,Not 
 000234164,2026-04-17,NP20,Heroin,Not Stated,Not stated Sample form Not stated Consumption method Smoked Self-reported effects No Effect,Not stated,Smoked,No Effect,"6-MAM, Heroin, Noscapine, Papaverine","Paracetamol, Morphine, 6-Acetylcodeine, Diazepam",51.5877,-2.9984
 000234158,2026-04-17,NP20,Heroin,Not Stated,Brown,Granules,Intravenous,Relaxed,Noscapine,"Papaverine, Heroin, 6-MAM, Paracetamol",51.5877,-2.9984
 000234169,2026-04-17,NP20,heroin,Not Stated,Brown,Powder,Not Stated,Not Stated,"Cocaine, Noscapine, Heroin, Paracetamol","Caffeine, 6-Acetylcodeine, Papaverine, 6-MAM",51.5877,-2.9984
-W076029,2026-04-22,CF47,Tramadol,tramadol tablet 100mg,Orange,Tablet,Oral,"Increased Energy, Breathlesness, Irregular Heartbeat, Confusion, Loss of consciousness, Suicidal Ideation, Dry nose, Pain Relief",Tapentadol,,51.7479,-3.3778
+W076092,2026-04-22,TF1,Tramadol,tramadol,White,Tablet,Oral,"Relaxed, Agitation",Tramadol,,52.7,-2.5
 W076101,2026-04-22,DD9,Oxycontin,Mundi pharama oxycontin 80mg,Green,Tablet,Oral,"Not stated,  ",Gabapentin,Paracetamol,56.83844871794872,-2.6685538461538463
 W076048,2026-04-22,DT11,Tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.86008723404256,-2.1794021276595745
-W076092,2026-04-22,TF1,Tramadol,tramadol,White,Tablet,Oral,"Relaxed, Agitation",Tramadol,,52.7,-2.5
+W076029,2026-04-22,CF47,Tramadol,tramadol tablet 100mg,Orange,Tablet,Oral,"Increased Energy, Breathlesness, Irregular Heartbeat, Confusion, Loss of consciousness, Suicidal Ideation, Dry nose, Pain Relief",Tapentadol,,51.7479,-3.3778
 W076196,2026-04-28,NW10,Oxycodone,Oxydolor 40mg,Orange,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.53758571428572,-0.2431214285714285
 W076203,2026-04-28,W1F,Oxycodone 80mg,Oxydolor 80mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.5085,-0.1257
 W076168,2026-04-28,NN56,Codeine phosphate 30mg,codeine teva 30mg,White,Tablet,Oral,"Euphoria, Increased confidence, Increased strength, Relaxed",Codeine,,52.242575,-0.93795
@@ -1217,15 +1217,15 @@ W100251,2026-05-01,LI19,Oxycodone,Not stated,Grey,Tablet,Oral,"Euphoria, Increas
 000239662,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Diazepam, Heroin, Morphine, Morphine, 6 Monoacetyl, Papaverine","Codeine, Noscapine, Oxymorphone, Phenacetine",51.718515789473685,-3.030521052631579
 000236453,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,"Not stated,  ",No active compound identified,,51.718515789473685,-3.030521052631579
 000239652,2026-05-01,NP4,Heroin,heroin,Brown,Powder,Smoked,Relaxed,"Morphine, Morphine, 6 Monoacetyl, Papaverine",Acetylcodeine,51.718515789473685,-3.030521052631579
-W100262,2026-05-01,RG14,Heroin,Not stated,White,Powder,Smoked,"Euphoria, Increased confidence, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,51.407383333333335,-1.3243833333333337
 000239693,2026-05-01,Not stated,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, 6 Monoacetyl","Acetylcodeine, Morphine, Noscapine, Papaverine",,
-W100206,2026-05-01,CV7,ksadol xanax 1mg lcm,ksaol xanax 1mg lcm,Blue,Tablet,Not stated,"Not stated,  ",Alprazolam,,52.44593888888889,-1.5487333333333335
-W100207,2026-05-01,CV2,Tapentadol 100mg tap ash 100,Tapentadol 100mg tap ash 100,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.424525,-1.459175
-W100208,2026-05-01,CV4,Tydel tapentadol 100mg,tydel tapentadol 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.3833,-1.5833000000000002
-000239700,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Caffeine, Codeine, Noscapine, Papaverine",51.718515789473685,-3.030521052631579
-000239651,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Acetylcodeine, Caffeine, Noscapine, Papaverine, Phenacetin",51.718515789473685,-3.030521052631579
 W100040,2026-05-01,M1,heroin,,Grey,Powder,Snort / Sniff,"Auditory hallucinations, Visual hallucinations, Relaxed","Heroin, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Papaverine",53.4809,-2.2374
+000239651,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Acetylcodeine, Caffeine, Noscapine, Papaverine, Phenacetin",51.718515789473685,-3.030521052631579
 000239694,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Morphine, 6 Monoacetyl","Acetylcodeine, Caffeine, Heroin, Morphine, Noscapine, Papaverine, Paracetamol",51.718515789473685,-3.030521052631579
+W100262,2026-05-01,RG14,Heroin,Not stated,White,Powder,Smoked,"Euphoria, Increased confidence, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,51.407383333333335,-1.3243833333333337
+W100208,2026-05-01,CV4,Tydel tapentadol 100mg,tydel tapentadol 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.3833,-1.5833000000000002
+W100207,2026-05-01,CV2,Tapentadol 100mg tap ash 100,Tapentadol 100mg tap ash 100,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.424525,-1.459175
+W100206,2026-05-01,CV7,ksadol xanax 1mg lcm,ksaol xanax 1mg lcm,Blue,Tablet,Not stated,"Not stated,  ",Alprazolam,,52.44593888888889,-1.5487333333333335
+000239700,2026-05-01,NP4,heroin,heroin,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, Morphine, 6 Monoacetyl, Paracetamol","Caffeine, Codeine, Noscapine, Papaverine",51.718515789473685,-3.030521052631579
 W100254,2026-05-06,EH12,Heroin,Not stated,Brown,Powder,Smoked,"Paranoia, Agitation, Loss of consciousness","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine, Phenacetin",55.9429,-3.285
 W100027,2026-05-06,G12,oxycodone 80mg,Oxycodone 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
 W100397,2026-05-06,LI5B,Heroin,Not stated,Green,Powder,Smoked,"Euphoria, Increased strength, Chest pains, Vomiting, Agitation, Depression, Panic attack, Breathlessness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
@@ -1233,6 +1233,7 @@ W100383,2026-05-06,KY12,Tapentadol,Not stated,Orange,Tablet,Oral,"Euphoria, Incr
 W100264,2026-05-06,Not stated,Diazepam and dihydrocodeine,Not stated,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,,
 W100466,2026-05-07,E8,Heroin cookie dough,heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl, Paracetamol",51.548,-0.0629
 W100393,2026-05-07,BL49,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",,53.54165,-2.3916500000000003
+W076231,2026-05-07,BL49,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine, Paracetamol",53.54165,-2.3916500000000003
 000235224,2026-05-07,CF31,heroin,Not stated,Brown,Solid,Smoked,"Paranoia, Confusion, Agitation, Insomnia, Depression, Panic attack","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",,51.507666666666665,-3.577733333333333
 W076228,2026-05-07,SL3,Oxycodone Oxylon 20mg,oxylon 20mg,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
 W100495,2026-05-07,SL3,Oxycodone 10mg,oxeltra,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
@@ -1240,12 +1241,11 @@ W100343,2026-05-07,B1,tapaday tapentadol 200mg,tapaday tapentadol 200mg,White,Ta
 W100434,2026-05-07,SR15,Tapendadol,tapentadol,Orange,Tablet,Oral,"Euphoria, Relaxed, Pain relief",Tapentadol,,54.9046,-1.3822
 W100345,2026-05-07,B12,Tapendatol tablets 100mg,tapendatol tablet 100mg,Red,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4814,-1.8998
 W100347,2026-05-07,B9,Tapentadol tap-ash 100mg,tapentadol tap-ash 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4783,-1.8506
-W076231,2026-05-07,BL49,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine, Paracetamol",53.54165,-2.3916500000000003
 W100577,2026-05-11,EH32,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased confidence, Relaxed, Memory loss, Confusion",Buprenorphine,,55.97811428571429,-2.9193571428571423
 W100544,2026-05-11,DY4,Heroin,Not stated,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",52.529599999999995,-2.0677
 W100635,2026-05-13,PA7,Tramadol,Tramadol,Red,Tablet,Not stated,"Not stated,  ",Tramadol,,55.9097,-4.5056
-W100580,2026-05-13,Not stated,heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Heroin, Noscapine, Paracetamol","Acetylcodeine, Morphine, 6 Monoacetyl, Papaverine",,
 W100618,2026-05-13,SY23,Tramadol,Not stated,White,Tablet,Not stated,Relaxed,Tramadol,,52.34458541666667,-3.9885
+W100580,2026-05-13,Not stated,heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Heroin, Noscapine, Paracetamol","Acetylcodeine, Morphine, 6 Monoacetyl, Papaverine",,
 W100608,2026-05-13,SK10,TAPENTADOL,TAMOLX,White,Tablet,Oral,"Euphoria, Auditory hallucinations, Relaxed, Nausea, Vomiting, Memory loss, Confusion",Tapentadol,Carisoprodol,53.2902,-2.14415
 W100629,2026-05-13,TS20,heroin,Not stated,Brown,Powder,Snort / Sniff,Relaxed,"Cocaine, Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Codeine, Dextromethorphan, Morphine",54.5868,-1.3138
 W100593,2026-05-13,TD9,Heroin,H 0.2,Brown,Granules,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",55.39354782608696,-2.707571739130435
@@ -1253,98 +1253,98 @@ W100593,2026-05-13,TD9,Heroin,H 0.2,Brown,Granules,Not stated,"Not stated,  ","A
 W100591,2026-05-14,TD9,OXYCODONE,OXYLAN 10MG,White,Tablet,Oral,Relaxed,Unable to Identify (Insufficient sample for repeat analysis),,55.39354782608696,-2.707571739130435
 W100704,2026-05-14,W8,TRAMADOL,TRAMADOL 50MG SOMEX PHARMA,Yellow,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
 000236839,2026-05-14,CF63,HEROIN,Not stated,Brown,Powder,Smoked,"Confusion, Loss of consciousness","Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol","Acetylcodeine, Caffeine, Medetomidine",51.4172,-3.2614
-W100703,2026-05-14,W8,dihydrocodeine,dihydrocodeine accord,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.501125,-0.1985
+W100700,2026-05-14,W8,TRAMADOL,TRAMADOL BRISTOL LABS 50MG,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
 W100702,2026-05-14,W8,TRAMADOL,TRAMADOL 50MG BRISTOL LABS,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
 W100722,2026-05-14,SA2,OXYCODONE (40MG),OXYCODONE (40MG) BRAND: FAROXY - ER,Orange,Tablet,Intravenous,"Euphoria, Relaxed",Oxycodone,,51.61628,-4.04254
 W100712,2026-05-14,OL2,CODEINE,CODEINE,White,Tablet,Oral,"Euphoria, Relaxed, No effect",Codeine,,53.5659,-2.103
-W100700,2026-05-14,W8,TRAMADOL,TRAMADOL BRISTOL LABS 50MG,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
-W100960,2026-05-19,LI58,Heroin,Not stated,Brown,Granules,Smoked,"Euphoria, Increased strength, Confusion, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
+W100703,2026-05-14,W8,dihydrocodeine,dihydrocodeine accord,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.501125,-0.1985
 W100861,2026-05-19,M4,oxycodone 30mg,oxycodone M30,White,Tablet,Not stated,"Not stated,  ",AB-MDMSBA,,53.4809,-2.2374
 W073584,2026-05-19,FK3,HEROIN,HEROIN,White,Powder,Smoked,Relaxed,Caffeine,Amphetamine,56.0114,-3.7218
 W100912,2026-05-19,RH16,Tapentadol 200mg,Tapentadol 200mg,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,51.00466666666667,-0.0919333333333333
+W100960,2026-05-19,LI58,Heroin,Not stated,Brown,Granules,Smoked,"Euphoria, Increased strength, Confusion, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
 W100959,2026-05-19,LI58,Heroin,Not stated,Brown,Granules,Smoked,"Vomiting, Loss of consciousness","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Papaverine",,
+W100823,2026-05-19,SA11,heroin,heroin,Grey,Solid,Smoked,"Chest pains, Irregular heartbeat, No effect, Loss of consciousness","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.70800714285714,-3.6944071428571426
 W100715,2026-05-19,Not stated,tramadol,tramadol tablet 100mg,Orange,Tablet,Oral,Relaxed,Tapentadol,,,
 000235793,2026-05-19,Not stated,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased stamina, Relaxed, Breathlessness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,,
-W100831,2026-05-19,CF24,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Euphoria,Dihydrocodeine,,51.48,-3.18
 W100709,2026-05-19,EH6,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, No effect","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Caffeine","Acetylcodeine, Etonitazene, Metonitazene, Papaverine",55.9617,-3.1844
 W100810,2026-05-19,CV8,Tramadol,tramadol,Green,Capsule,Oral,Relaxed,Tramadol,,52.35924166666666,-1.5064916666666666
 W100809,2026-05-19,SE7,Oxycontin,oxycontin,Yellow,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4842,0.0339
-W076295,2026-05-19,HR27,heroin,Not stated,Yellow,Powder,Intravenous,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",51.98334078947369,-2.796544736842105
+W100831,2026-05-19,CF24,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Euphoria,Dihydrocodeine,,51.48,-3.18
 W100879,2026-05-19,E14,Tramadol,Tramadol hydrochloride,White,Tablet,Oral,"Euphoria, Relaxed",Tramadol,,51.50563529411765,-0.0187647058823529
 W100869,2026-05-19,SA1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Ketamine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Papaverine",51.633979999999994,-3.94848
 W100826,2026-05-19,EH16,Opiods,Not stated,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,55.92249999999999,-3.1511333333333336
-W100823,2026-05-19,SA11,heroin,heroin,Grey,Solid,Smoked,"Chest pains, Irregular heartbeat, No effect, Loss of consciousness","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.70800714285714,-3.6944071428571426
 W100738,2026-05-19,BT2,Dihydrocodeine 30mg,Not stated,White,Tablet,Oral,"Euphoria, Increased strength, Relaxed",Dihydrocodeine,,54.5833,-5.9333
+W076295,2026-05-19,HR27,heroin,Not stated,Yellow,Powder,Intravenous,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Papaverine",51.98334078947369,-2.796544736842105
 W100980,2026-05-26,SO21,heroin,Not stated,Black,Granules,Smoked,"Increased senses, Agitation","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",Morphine,51.08811935483871,-1.300141935483871
 000239023,2026-05-26,B9,heroin,Not stated,Brown,Powder,Intravenous,"Paranoia, Loss of consciousness, Itching","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,52.4783,-1.8506
 W101031,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, Confusion","Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Dimethocaine, Heroin, Papaverine",55.91305714285714,-3.6746285714285714
 W101032,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed, Confusion, Loss of consciousness","Caffeine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Dimethocaine, Medetomidine, Morphine, Papaverine",55.91305714285714,-3.6746285714285714
 W101033,2026-05-29,EH48,HEROIN,Not stated,Brown,Powder,Smoked,"Euphoria, Empathy, Relaxed","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.91305714285714,-3.6746285714285714
 W101009,2026-05-29,L10,HEROIN,Not stated,Brown,Powder,Intravenous,"Euphoria, Increased energy, Relaxed, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",Paracetamol,53.4754,-2.952
-W101291,2026-06-05,PH1,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
-W101371,2026-06-05,L2,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",53.4106,-2.9779
 W101410,2026-06-05,PH1,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Dimethocaine, Heroin, Papaverine",56.43174736842105,-3.4980552631578945
+W101371,2026-06-05,L2,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Empathy, Relaxed","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",53.4106,-2.9779
+W101291,2026-06-05,PH1,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
 W101136,2026-06-05,AB24,DIHYDROCODEINE 30MG,Not stated,White,Tablet,Oral,"Relaxed, Loss of consciousness",Dihydrocodeine,,57.1437,-2.0981
-W069113,2026-06-05,EH15,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Noscapine, Paracetamol","Heroin, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.948033333333335,-3.1120666666666668
 W101357,2026-06-05,S21,DIHYDROCODEINE CONTINUS 120MG,DIHYDROCODEINE CONTINUS 120MG,White,Tablet,Oral,"Not stated,  ",Dihydrocodeine,,53.3123,-1.3394
+W069113,2026-06-05,EH15,HEROIN,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Noscapine, Paracetamol","Heroin, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",55.948033333333335,-3.1120666666666668
 W100279,2026-06-06,EH54,heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Memory loss, Depression, Loss of consciousness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Etonitazene, Medetomidine, Metonitazene, Tetracaine",55.9029,-3.5226
 W101547,2026-06-09,NN56,Codeine phosphate,codeine 30mg,White,Tablet,Oral,"Euphoria, Increased energy, Increased senses, Relaxed",Codeine,,52.242575,-0.93795
 W101584,2026-06-09,BS24,Codeine,Cocodamol 30mg/500mg codeine phosphate paracetamol,White,Tablet,Not stated,"Not stated,  ","Codeine, Paracetamol",,51.32409,-2.91161
 W101340,2026-06-09,W3,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Increased confidence, Empathy, Relaxed","Heroin, Noscapine, Papaverine","Morphine, 6 Monoacetyl, Paracetamol",51.51048333333333,-0.2657166666666666
 000237711,2026-06-09,CF42,Heroin,Not stated,Brown,Powder,Smoked,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,51.66798333333333,-3.5247833333333336
-W101614,2026-06-10,M4,heroin,China white,Yellow,Powder,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine",53.4809,-2.2374
 000234184,2026-06-10,NP20,HEROIN,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Benzoylecgonine, Morphine, 6 Monoacetyl, Noscapine, Papaverine","Acetylcodeine, Caffeine, Ecgonine methyl ester, Heroin, Paracetamol",51.5877,-2.9984
 000234185,2026-06-10,NP20,HEROIN,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl, Papaverine, Paracetamol",51.5877,-2.9984
+W101614,2026-06-10,M4,heroin,China white,Yellow,Powder,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine",53.4809,-2.2374
 W101631,2026-06-11,DD2,TAPENTADOL + CARISOPRADOL,TAMOL-X225,White,Tablet,Oral,"Euphoria, Increased energy, Increased confidence, Increased stamina, Relaxed",Tapentadol,,56.47777692307693,-3.0589461538461538
 W101385,2026-06-11,Not stated,TRAMADOL,TRAKEM-100 TRAMADOL,White,Tablet,Oral,No effect,Tramadol,,,
-000239411,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Diazepam, Heroin, Noscapine, Paracetamol","Medetomidine, Morphine, 6 Monoacetyl, Papaverine, Phenacetine",51.5877,-2.9984
 W101644,2026-06-15,EH6,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl",55.9617,-3.1844
 W101643,2026-06-15,NP21,Zomorph morphine sulfate,Zomorph Morphine Sulfate,Colourless,Capsule,Not stated,"Not stated,  ",Morphine,,,
 W101766,2026-06-15,AL10,Oxycodone,Oxycodone,Blue,Tablet,Oral,"Euphoria, Increased energy, Increased confidence, Empathy, Relaxed",Oxycodone,,51.7634,-0.2242
 000239408,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Papaverine",51.5877,-2.9984
+000239411,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Diazepam, Heroin, Noscapine, Paracetamol","Medetomidine, Morphine, 6 Monoacetyl, Papaverine, Phenacetine",51.5877,-2.9984
 000239409,2026-06-15,NP20,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol","Diazepam, Morphine",51.5877,-2.9984
-W101836,2026-06-16,AB41,Heroin,Not stated,Brown,Solid,Smoked,"Auditory hallucinations, Relaxed, Confusion, Loss of consciousness","Caffeine, Medetomidine, Paracetamol","Morphine, 6 Monoacetyl, Noscapine",57.35964615384615,-2.199930769230769
 W101880,2026-06-16,G83,Dihydrocodeine,Dihydrocodeine Bristol,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,56.03989166666666,-4.6006583333333335
-W069114,2026-06-16,EH15,Heroin,Heroin,Brown,Powder,Intravenous,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",55.948033333333335,-3.1120666666666668
+W101836,2026-06-16,AB41,Heroin,Not stated,Brown,Solid,Smoked,"Auditory hallucinations, Relaxed, Confusion, Loss of consciousness","Caffeine, Medetomidine, Paracetamol","Morphine, 6 Monoacetyl, Noscapine",57.35964615384615,-2.199930769230769
 W075011,2026-06-16,BL8,Heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased confidence, Empathy, Relaxed","Caffeine, Paracetamol, Tapentadol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",53.6194,-2.33925
 W101723,2026-06-16,L8,heroin,Not stated,Brown,Granules,Smoked,"Empathy, Chest pains, Insomnia, Breathlessness","Caffeine, Heroin, Noscapine, Papaverine, Paracetamol",,53.4106,-2.9779
 W101752,2026-06-16,NE11,Tramadol,Tramadol,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,54.932825,-1.629725
+W069114,2026-06-16,EH15,Heroin,Heroin,Brown,Powder,Intravenous,"Euphoria, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",55.948033333333335,-3.1120666666666668
 W101796,2026-06-16,PA20,PK Heroin,PK heroin,White,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Heroin, Noscapine, Paracetamol",,55.82871538461538,-5.053757692307692
 W101876,2026-06-16,BH14,Tapentadol,Tapaday-200,White,Tablet,Oral,"Euphoria, Increased confidence, Empathy, Relaxed, Irregular heartbeat, Nausea, Vomiting, Confusion, Loss of consciousness",Tapentadol,,50.7299,-1.9449
-W101984,2026-06-18,TS12,heroin,Afgan dream cream heroin,White,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Thebacon",,54.5516,-0.963011111111111
-W101986,2026-06-18,TS12,Heroin,Afghani dream cream heroin,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,54.5516,-0.963011111111111
-W102012,2026-06-18,E3,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Pain relief,Dihydrocodeine,,51.527657142857144,-0.0265714285714285
+W101985,2026-06-18,TS12,Heroin,Afghani Black glass heroin,Black,Solid,Not stated,"Not stated,  ","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,54.5516,-0.963011111111111
 W101983,2026-06-18,TS12,Heroin,Afghan dream cream heroin,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",54.5516,-0.963011111111111
 W101976,2026-06-18,WR14,heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Tiredness","6-Acetylcodeine, Caffeine, Heroin","Morphine, 6 Monoacetyl",52.095075,-2.327225
-W101985,2026-06-18,TS12,Heroin,Afghani Black glass heroin,Black,Solid,Not stated,"Not stated,  ","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine",Papaverine,54.5516,-0.963011111111111
-W101987,2026-06-19,HR97,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Nausea","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon","Papaverine, Paracetamol",51.908220588235295,-2.5675235294117646
-W102020,2026-06-19,PH1,Heroin,Not stated,Grey,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Caffeine, Dimethocaine, Medetomidine, Paracetamol","6-Acetylcodeine, Morphine, 6 Monoacetyl, N-desethyl Protonitazene, Noscapine, Papaverine",56.43174736842105,-3.4980552631578945
+W101986,2026-06-18,TS12,Heroin,Afghani dream cream heroin,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,54.5516,-0.963011111111111
+W101984,2026-06-18,TS12,heroin,Afgan dream cream heroin,White,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Thebacon",,54.5516,-0.963011111111111
+W102012,2026-06-18,E3,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Pain relief,Dihydrocodeine,,51.527657142857144,-0.0265714285714285
+W102085,2026-06-19,TS13,heroin,Turkish delight Heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Thebacon",Papaverine,54.53400555555556,-0.8374833333333334
 W102086,2026-06-19,TS11,Heroin,Iran Choc chip heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon","Dextromethorphan, Paracetamol",54.57873333333333,-1.028166666666667
 W102090,2026-06-19,TS23,heroin,Iranian crumble heroin,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Papaverine, Thebacon",54.596666666666664,-1.2684
-W102085,2026-06-19,TS13,heroin,Turkish delight Heroin,Brown,Solid,Not stated,"Not stated,  ","Heroin, Noscapine, Thebacon",Papaverine,54.53400555555556,-0.8374833333333334
+W101987,2026-06-19,HR97,heroin,Not stated,Brown,Powder,Smoked,"Euphoria, Nausea","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon","Papaverine, Paracetamol",51.908220588235295,-2.5675235294117646
+W102020,2026-06-19,PH1,Heroin,Not stated,Grey,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Caffeine, Dimethocaine, Medetomidine, Paracetamol","6-Acetylcodeine, Morphine, 6 Monoacetyl, N-desethyl Protonitazene, Noscapine, Papaverine",56.43174736842105,-3.4980552631578945
 W102008,2026-06-22,GL20,heroin,Not stated,Brown,Powder,Intramuscular,"Euphoria, Relaxed, Loss of consciousness","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Thebacon",,52.01829655172414,-2.094306896551724
 000233466,2026-06-23,LL65,Morphine,Zomorph 10mg,White,Capsule,Not stated,"Not stated,  ",Morphine,,53.289686206896555,-4.534455172413793
-W074875,2026-06-24,EH6,Heroin,Not stated,Brown,Powder,Intravenous,Relaxed,"Caffeine, Paracetamol",,55.9617,-3.1844
+W101785,2026-06-24,CF47,Heroin,Not stated,Brown,Powder,Smoked,"Increased confidence, Relaxed","6-Acetylcodeine, Heroin, Noscapine, Paracetamol, Phenacetine","Morphine, 6 Monoacetyl",51.7479,-3.3778
 W102136,2026-06-24,TS22,Heroin,pk Heroin,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Heroin, Paracetamol",Papaverine,54.6331,-1.291675
 W102135,2026-06-24,TS11,Heroin,Pk Heroin,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Paracetamol, Tapentadol","Noscapine, Papaverine",54.57873333333333,-1.028166666666667
 W102156,2026-06-24,TR8,Heroin,Not stated,Brown,Powder,Smoked,"Auditory hallucinations, Irregular heartbeat, Nausea, Paranoia, Confusion, Agitation, Depression, Panic attack, Breathlessness","Caffeine, Heroin, Paracetamol","6-Acetylcodeine, Diazepam, Morphine, 6 Monoacetyl, Noscapine, Phenacetin",50.384992,-5.042204000000001
-W101785,2026-06-24,CF47,Heroin,Not stated,Brown,Powder,Smoked,"Increased confidence, Relaxed","6-Acetylcodeine, Heroin, Noscapine, Paracetamol, Phenacetine","Morphine, 6 Monoacetyl",51.7479,-3.3778
 000238642,2026-06-24,NP23,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,51.7771,-3.2079
 W102159,2026-06-24,SM2,Heroin,Not stated,Brown,Granules,Smoked,"Memory loss, Confusion, Loss of consciousness, Overdose","Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Heroin, Medetomidine, Papaverine, Phenacetine",51.351,-0.1994
+W074875,2026-06-24,EH6,Heroin,Not stated,Brown,Powder,Intravenous,Relaxed,"Caffeine, Paracetamol",,55.9617,-3.1844
 W102160,2026-06-25,AB42,Heroin,Heroin,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",,57.48231142857143,-1.924825714285714
-W076337,2026-06-26,CR0,China white heroin,Not stated,White,Powder,Smoked,"Paranoia, Memory loss, Confusion, Panic attack, Loss of consciousness","Medetomidine, Paracetamol",,51.3703,-0.060975
-W076338,2026-06-26,EX8,Pk heroin,Not stated,Brown,Powder,Smoked,Paranoia,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Caffeine, Diazepam, Papaverine, Phenacetine",50.631025,-3.409475
-W102354,2026-06-26,G74,dihydrocodeine Accord,Dihydrocodeine 30mg,White,Tablet,Oral,"Nausea, Paranoia, Agitation",Dihydrocodeine,,55.76583333333334,-4.1700333333333335
 W102352,2026-06-26,B43,heroin,Not stated,Brown,Powder,Smoked,"Memory loss, Confusion, Loss of consciousness","Acetylcodeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine","Caffeine, Morphine, Papaverine, Paracetamol",52.5472,-1.9319
-000239420,2026-06-29,NP20,heroin,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",,51.5877,-2.9984
-000239417,2026-06-29,NP20,heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",,51.5877,-2.9984
-000239416,2026-06-29,NP20,heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Medetomidine, Papaverine",51.5877,-2.9984
+W076337,2026-06-26,CR0,China white heroin,Not stated,White,Powder,Smoked,"Paranoia, Memory loss, Confusion, Panic attack, Loss of consciousness","Medetomidine, Paracetamol",,51.3703,-0.060975
+W102354,2026-06-26,G74,dihydrocodeine Accord,Dihydrocodeine 30mg,White,Tablet,Oral,"Nausea, Paranoia, Agitation",Dihydrocodeine,,55.76583333333334,-4.1700333333333335
+W076338,2026-06-26,EX8,Pk heroin,Not stated,Brown,Powder,Smoked,Paranoia,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Caffeine, Diazepam, Papaverine, Phenacetine",50.631025,-3.409475
 000239415,2026-06-29,NP20,Heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Paracetamol",Medetomidine,51.5877,-2.9984
+000239416,2026-06-29,NP20,heroin,Not stated,White,Powder,Smoked,Visual hallucinations,"Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Acetylcodeine, Medetomidine, Papaverine",51.5877,-2.9984
+000239420,2026-06-29,NP20,heroin,Not stated,Brown,Other,Intravenous,Relaxed,"Cocaine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",,51.5877,-2.9984
 W102330,2026-06-29,EH48,heroin,Not stated,Brown,Powder,Intravenous,Loss of consciousness,"Caffeine, Paracetamol","Morphine, 6 Monoacetyl, Noscapine",55.91305714285714,-3.6746285714285714
-W102376,2026-06-30,G12,Oxycodone 80mg,Oxydolor 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
+000239417,2026-06-29,NP20,heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",,51.5877,-2.9984
 W102121,2026-06-30,NN2,Oxycodone,Toroxycon 40mg prolonged release oxycodone HCl,Yellow,Tablet,Not stated,"Not stated,  ",Oxycodone,,52.27265,-0.90015
-W102507,2026-07-03,CF44,Heroin pure advertised,Not stated,Brown,Powder,Smoked,"Loss of consciousness, Breathlessness","Heroin, Ketamine","Acetylcodeine, Morphine, 6 Monoacetyl, Noscapine, Papaverine",51.7327125,-3.48293125
+W102376,2026-06-30,G12,Oxycodone 80mg,Oxydolor 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
 000042904,2026-07-03,Not stated,Oxycodone,Oxycodone hydrochloride,Pink,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,,
+W102507,2026-07-03,CF44,Heroin pure advertised,Not stated,Brown,Powder,Smoked,"Loss of consciousness, Breathlessness","Heroin, Ketamine","Acetylcodeine, Morphine, 6 Monoacetyl, Noscapine, Papaverine",51.7327125,-3.48293125
 W102539,2026-07-06,EH54,heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Relaxed, Memory loss, Confusion, Loss of consciousness","Caffeine, Paracetamol","Heroin, Medetomidine, Noscapine, Thebacon",55.9029,-3.5226
 W102490,2026-07-06,CH6,Tramadol,Tramadol,Green,Capsule,Oral,"Not stated,  ",Tramadol,,53.255125,-3.1489
 W102467,2026-07-06,EH21,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Relaxed, Chest pains, Memory loss, Confusion, Agitation, Depression, Suicidal ideation, Loss of consciousness, Breathlessness, Dissociation",Dihydrocodeine,,55.94169999999999,-3.0499
@@ -1352,35 +1352,46 @@ W102467,2026-07-06,EH21,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Relaxed
 W102570,2026-07-14,Not stated,heroin,Not stated,Brown,Powder,Smoked,"Chest pains, Irregular heartbeat, Confusion, Agitation, Panic attack, Breathlessness","Caffeine, Heroin, Paracetamol","Diazepam, Morphine, 6 Monoacetyl, Noscapine, Papaverine, Thebacon",,
 W102870,2026-07-16,AB42,heroin,Not stated,Brown,Liquid,Intravenous,"Relaxed, Irregular heartbeat, Paranoia, Memory loss, Loss of consciousness","Cocaine, Benzoylecgonine, Ecgonine methyl ester, Noscapine","Heroin, Morphine, 6 Monoacetyl, Paracetamol",57.48231142857143,-1.924825714285714
 W102807,2026-07-16,SO40,heroin,Not stated,Brown,Liquid,Smoked,"Confusion, Fatigue, Tiredness","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine","Papaverine, Paracetamol",50.91249375,-1.51341875
-W102863,2026-07-16,G82,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Paracetamol","Cocaine, Heroin, Metonitazene, Morphine, Morphine, 6 Monoacetyl, Noscapine",55.954800000000006,-4.5815222222222225
-W102881,2026-07-16,TN39,Tramadol 50mg,Tramadol Hydrochloride 50mg,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,50.851925,0.450875
 W102889,2026-07-16,EC1V,heroin,heroin,Brown,Powder,Smoked,"Euphoria, Increased energy, Increased stamina, Relaxed","Heroin, Noscapine, Paracetamol","Acetylcodeine, Caffeine, Medetomidine, Morphine, 6 Monoacetyl, Papaverine",51.5265,-0.0986
-W102461,2026-07-16,TS4,Heroin,Heroin,Brown,Powder,Not stated,"Increased energy, Increased strength, Auditory hallucinations, Relaxed, Irregular heartbeat, Confusion, Agitation, Depression","Heroin, Noscapine, Paracetamol","Morphine, 6 Monoacetyl, Papaverine",54.5762,-1.2348
+W102881,2026-07-16,TN39,Tramadol 50mg,Tramadol Hydrochloride 50mg,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,50.851925,0.450875
 W102774,2026-07-16,NN2,Tramadol,Tramadol (Tamol-x),Green,Capsule,Not stated,"Not stated,  ",Pregabalin,,52.27265,-0.90015
 W102882,2026-07-16,TN39,Tramadol 50mg,Tramadol Hydrochloride 50mg,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,50.851925,0.450875
-000238585,2026-07-20,NP4,Heroin,heroin,Brown,Powder,Intravenous,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
-000238582,2026-07-20,NP4,Heroin,Not stated,Brown,Granules,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
-W102976,2026-07-20,PH1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
-W102941,2026-07-20,LS11,Oxypro 80mg,OxyPro Xr 80mg,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.7667,-1.5667
+W102863,2026-07-16,G82,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Paracetamol","Cocaine, Heroin, Metonitazene, Morphine, Morphine, 6 Monoacetyl, Noscapine",55.954800000000006,-4.5815222222222225
+W102461,2026-07-16,TS4,Heroin,Heroin,Brown,Powder,Not stated,"Increased energy, Increased strength, Auditory hallucinations, Relaxed, Irregular heartbeat, Confusion, Agitation, Depression","Heroin, Noscapine, Paracetamol","Morphine, 6 Monoacetyl, Papaverine",54.5762,-1.2348
 W102829,2026-07-20,CH15,Tapentadol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.2239,-2.9434428571428577
+W102941,2026-07-20,LS11,Oxypro 80mg,OxyPro Xr 80mg,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.7667,-1.5667
+000238582,2026-07-20,NP4,Heroin,Not stated,Brown,Granules,Not stated,"Not stated,  ","Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
+000238585,2026-07-20,NP4,Heroin,heroin,Brown,Powder,Intravenous,Relaxed,"Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol, Phenacetine",Papaverine,51.718515789473685,-3.030521052631579
+W102976,2026-07-20,PH1,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","Caffeine, Heroin, Noscapine, Paracetamol","Acetylcodeine, Metonitazene, Morphine, 6 Monoacetyl, Papaverine",56.43174736842105,-3.4980552631578945
 W102753,2026-07-22,IP12,heroin,Not stated,Black,Granules,Smoked,"Increased confidence, Relaxed","Heroin, Noscapine, Papaverine","Acetylcodeine, Morphine, 6 Monoacetyl",52.0811,1.3992074074074072
+W103210,2026-07-23,SW1W,Codeine,Codeine,White,Tablet,Not stated,"Not stated,  ",Codeine,,51.5085,-0.1257
+W103144,2026-07-23,BN17,tapentadol,Naturon Pentamax Tapentadol,Orange,Liquid,Not stated,"Not stated,  ",Tapentadol,,50.81636,-0.5498000000000001
 W103205,2026-07-23,CF47,Tramadol,Tramadol,Green,Capsule,Oral,"Euphoria, Relaxed",Pregabalin,,51.7479,-3.3778
 W103126,2026-07-23,LL11,Fentanyl,Fentanyl patch,Colourless,Solid,Not stated,"Not stated,  ",Fentanyl,,53.064506666666674,-3.052973333333333
-W103144,2026-07-23,BN17,tapentadol,Naturon Pentamax Tapentadol,Orange,Liquid,Not stated,"Not stated,  ",Tapentadol,,50.81636,-0.5498000000000001
-W103210,2026-07-23,SW1W,Codeine,Codeine,White,Tablet,Not stated,"Not stated,  ",Codeine,,51.5085,-0.1257
-W102023,2026-07-27,WR14,Heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Nausea, Breathlessness","Heroin, Noscapine, Thebacon","Morphine, 6 Monoacetyl",52.095075,-2.327225
 000233449,2026-07-27,LL65,Oxycodone,Oxycodone,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.289686206896555,-4.534455172413793
+W102023,2026-07-27,WR14,Heroin,Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Nausea, Breathlessness","Heroin, Noscapine, Thebacon","Morphine, 6 Monoacetyl",52.095075,-2.327225
 W103474,2026-07-29,EH7,Heroin,Heroin,Brown,Powder,Intravenous,"Paranoia, Memory loss, Confusion, Loss of consciousness","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Lidocaine, Medetomidine, Morphine, 6 Monoacetyl, Noscapine, Papaverine",55.9521,-3.1965
 W101277,2026-07-29,SW17,heroin,Not stated,Grey,Crystalline,Snort / Sniff,No effect,"Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Noscapine",51.4307,-0.1647
 W103420,2026-07-29,YO23,Accord Dihydrocodeine 30mg,Accord Dihydrocodeine 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,53.914883333333336,-1.1672333333333331
 W103522,2026-07-29,TS20,Heroin,Adghan cream heroin kll,White,Powder,Not stated,"Not stated,  ","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon",Papaverine,54.5868,-1.3138
-W103567,2026-07-29,BH14,M30 Oxy pressed,RC,Blue,Tablet,Oral,"Euphoria, Empathy, Relaxed, Nausea, Memory loss, Confusion",N-desethyl Protonitazene,,50.7299,-1.9449
 W103523,2026-07-29,TS12,Heroin,Afghan heroin (mid),White,Powder,Not stated,"Not stated,  ","Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Thebacon",,54.5516,-0.963011111111111
+W103567,2026-07-29,BH14,M30 Oxy pressed,RC,Blue,Tablet,Oral,"Euphoria, Empathy, Relaxed, Nausea, Memory loss, Confusion",N-desethyl Protonitazene,,50.7299,-1.9449
 W103299,2026-07-29,EH7,Heroin,Not stated,Brown,Powder,Intravenous,"Euphoria, Empathy, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Papaverine",55.9521,-3.1965
 W103521,2026-07-29,TS28,Heroin,China white #4 heroin,White,Powder,Not stated,"Not stated,  ",Heroin,"Morphine, 6 Monoacetyl, Thebacon",54.72895,-1.37705
 W103706,2026-07-31,TQ13,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Relaxed, Confusion, Agitation",Dihydrocodeine,,50.593135,-3.68865
-W103629,2026-08-11,ST8,Tapentadol,tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.11565714285714,-2.169114285714286
-W103913,2026-08-11,KA11,heroin (nitazine),heroin (nitazine),Brown,Powder,Not stated,"Euphoria, Increased energy, Increased confidence, Relaxed","Caffeine, Paracetamol, Phenacetin, Heroin","Noscapine, N-Desethyl Isotonitazene, Morphine, 6 Monoacetyl, 6-Acetylcodeine",55.613125,-4.617725
-000234873,2026-08-11,SA70,Tramadol,Tramadol,Pink,Tablet,Not stated,"Not stated,  ",Tramadol,,51.6747,-4.769346153846154
-000235614,2026-08-11,SY16,Morphine,30mg Morphine,Pink,Capsule,Not stated,"Not stated,  ",Morphine,,52.50787647058824,-3.3015823529411765
+W103858,2026-08-11,SG11,Heroin,Not stated,Brown,Powder,Not stated,Euphoria,"6-Acetylcodeine, Diazepam, Heroin, Morphine, 6 Monoacetyl","Noscapine, Papaverine, Paracetamol",51.89398461538462,0.0461076923076923
 W103695,2026-08-11,EH7,heroin,heroin,Brown,Powder,Intravenous,"Nausea, Paranoia, Memory loss, Confusion","Caffeine, Heroin, Paracetamol","Morphine, 6 Monoacetyl, Noscapine, Papaverine, Acetylcodeine",55.9521,-3.1965
+W103629,2026-08-11,ST8,Tapentadol,tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.11565714285714,-2.169114285714286
+W103880,2026-08-11,G82,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,55.954800000000006,-4.5815222222222225
+000234873,2026-08-11,SA70,Tramadol,Tramadol,Pink,Tablet,Not stated,"Not stated,  ",Tramadol,,51.6747,-4.769346153846154
+W103913,2026-08-11,KA11,heroin (nitazine),heroin (nitazine),Brown,Powder,Not stated,"Euphoria, Increased energy, Increased confidence, Relaxed","Caffeine, Paracetamol, Phenacetin, Heroin","Noscapine, N-Desethyl Isotonitazene, Morphine, 6 Monoacetyl, 6-Acetylcodeine",55.613125,-4.617725
+W103892,2026-08-11,LL13,Heroin,Not stated,Brown,Powder,Not stated,"Not stated,  ","6-Acetylcodeine, Caffeine, Heroin, Noscapine","Papaverine, Paracetamol",52.9917619047619,-2.9116809523809524
+000235614,2026-08-11,SY16,Morphine,30mg Morphine,Pink,Capsule,Not stated,"Not stated,  ",Morphine,,52.50787647058824,-3.3015823529411765
+000233370,2026-08-13,LD3,tramadol,tramadol,Red,Tablet,Not stated,Overdose,Tramadol,,51.99435362318841,-3.411075362318841
+W103928,2026-08-13,BS14,heroin,Not stated,Black,Solid,Not stated,"Not stated,  ","Codeine, Morphine, Papaverine","Noscapine, Thebaine",51.4061,-2.5627
+W104087,2026-08-13,BN21,Codeine Phosphate,Not stated,Red,Capsule,Not stated,"Not stated,  ",Paracetamol,Codeine,50.7687,0.2845
+W103997,2026-08-14,SK14,Teva codeine Phosphate 300mg,Teva codiene phosphate 300mg,White,Tablet,Not stated,"Not stated,  ",Codeine,,53.45065,-2.04802
+000233460,2026-08-14,LL55,Kratom,Not stated,Green,Powder,Not stated,"Not stated,  ",Mitragynine,,53.12915357142857,-4.195053571428572
+W103842,2026-08-14,E18,Paki heroin powder (PP),Not stated,Brown,Powder,Snort / Sniff,"Euphoria, Relaxed, Loss of consciousness, Loss of coordination","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Phenacetin, Thebacon",Papaverine,51.5923,0.0225
+W104082,2026-08-14,EH55,Heroin,Not stated,Brown,Powder,Intravenous,"Increased senses, Empathy, Relaxed","Caffeine, Paracetamol","6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl",55.8253,-3.5762
+W104044,2026-08-14,WR14,Heroin,Not stated,Brown,Powder,Oral,"Increased energy, Relaxed","6-Acetylcodeine, Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",Papaverine,52.095075,-2.327225
