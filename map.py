@@ -192,6 +192,24 @@ def getCategories(type_arg):
             'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
             'Ketamine': substring_dict['ketamine']
         }
+    elif type and 'zdrug' in type: 
+        categories = {
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Gabapentinoids': substring_dict['gabapentinoid'],
+            'Benzos': substring_dict['benzo'],
+            'Ketamine': substring_dict['ketamine'],
+            'Promethazine': ['promethazine'],
+        }
+    elif type and 'gabapentinoid' in type: 
+        categories = {
+            'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos': substring_dict['benzo'],
+            'Z-drugs': substring_dict['zdrug'],
+            'Ketamine': substring_dict['ketamine'],
+            'Promethazine': ['promethazine']
+        }
     else:
         categories = {
             'Orphines': substring_dict['orphine'],
