@@ -41,7 +41,7 @@
     "2c-b": ["2c-b","2cb", "2-cb","4-bromo-2,5-dimethoxyphenethylamine"],
     "pyro": ["pyrro","pyro","pyrovalerone","pyrrolidinohexiophenone","pyrrolidinopentiophenone","pyrrolidinopentiothiophenone",
                                 "mdpv","mdphp","md-pihp", "α-pvp", "alpha-pvp", "apvp", "flakka"],
-    "gabapentinoid": ["gabapentin","pregabalin","pregablin","pregab","mirogabalin","phenibut","lyrica","neurontin"],
+    "gabapentinoid": ["gabapentin","pregabalin","pregablin","gablin","pregab","mirogabalin","phenibut","lyrica","neurontin"],
     "zdrug": ["zolpidem","zopiclone","zaleplon"],
     "not_opioid": ["hydroxybutyr","oxyphenethylamine","oxyamphetamine","oxyqualone","oxyapatite","oxycillin","oxymethoxetamine","paracetamol"],
     "not_benzo": ["benzoylecgonine","benzocaine"],
