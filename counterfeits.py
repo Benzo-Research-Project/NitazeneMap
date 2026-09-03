@@ -32,7 +32,7 @@ data_path = config['dataPath']
 #}
 ### New – checking if benzos were counterfeit or not
 # 27.06.26 added  and (row['minor']=='') to not counterfeit condition
-def checkRowStatus(row, intent):
+def checkRowStatus(row, intent, debug=False):
     #initialise
     intent_label = f"{str(row.get('intent', ''))} {str(row.get('label', ''))}".lower()
     major_str = str(row.get('major', '')).lower()
@@ -89,6 +89,16 @@ def checkRowStatus(row, intent):
                 status='not counterfeit'
             elif intent == 'mdma' and (major_str=='mdma') and (minor_str==''):
                 status='not counterfeit'    
+            elif intent == 'gabapentinoid' and any(substring in intent_label for substring in substring_dict.get('pregabalin',[])):
+                if ('pregabalin' in major_str) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'
+            elif intent == 'gabapentinoid' and any(substring in intent_label for substring in substring_dict.get('4-fluorophenibut',[])):
+                if ('4-fluorophenibut' in major_str) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
             else:
                 status='counterfeit'
                 #print(row['intent'],': ',row['major'],'with',row['minor'])
@@ -98,10 +108,11 @@ def checkRowStatus(row, intent):
         sold_as='0'
         not_class='1'
         status='n/a'
-
+    if debug and status=='counterfeit':
+        print(f'COUNTERFEIT FOUND: {intent_label} contained {major_minor}!')
     return pd.Series({'sold_as': sold_as, 'status': status, 'class-mismatch': not_class})
 
-def checkStatusPerRow(df, intent, dates=''):
+def checkStatusPerRow(df, intent, dates='', debug=False):
     '''Adds columns to a dataframe indicating if benzos were sold as benzos and if they were counterfeit or not.
     This function is slightly quicker (0:00:00.877416 vs 0:00:01.538990 for checkStatus)'''
     df['minor'] = df['minor'].fillna('')
@@ -118,7 +129,7 @@ def checkStatusPerRow(df, intent, dates=''):
         print('NB: No date provided to checkStatus function. Please double-check that you filtered by dates prior if needed.')
     
     df[['sold_as', 'status', 'class-mismatch']] = df.apply(
-        lambda row: checkRowStatus(row, intent), axis=1
+        lambda row: checkRowStatus(row, intent, debug=debug), axis=1
     )
     total = len(df)
     #print(df)
@@ -148,6 +159,7 @@ def checkStatusPerRow(df, intent, dates=''):
     return df, dictMetrics
 
 def checkStatus(df, intent, dates=''):
+    # OLD
     "Adds columns to a dataframe indicating if benzos were sold as benzos and if they were counterfeit or not"
 
     df['minor'] = df['minor'].fillna('')
@@ -352,6 +364,8 @@ def main():
                         help="which drug type are you investigating? e.g. benzo/opioid/diazepam")
     parser.add_argument("-c", "--counterfeits", type=str, metavar="COUNTERFEITS",
                         help="all/counterfeits/both")
+    parser.add_argument("-x", "--debug", type=str, metavar="DEBUG",
+                        help="print counterfeit samples for debugging (y/n, default = n)")
     start_time = dt.now()
     args = parser.parse_args()
 
@@ -359,7 +373,8 @@ def main():
 
     intent = args.intent if args.intent[-1]!='s' else args.intent[:-1]
     print(args.daterange)
-    df_status, array = checkStatusPerRow(df, intent, args.daterange)
+    debug = True if args.debug == 'y' else False
+    df_status, array = checkStatusPerRow(df, intent, args.daterange, debug=debug)
 
     if (args.counterfeits == 'both') or (args.counterfeits == 'counterfeits'):
         contents = getContents(df_status, intent, args.daterange, counterfeits=True)
