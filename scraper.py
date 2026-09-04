@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
+
 # Single page scraper for WEDINOS Data
 from bs4 import BeautifulSoup
 import json
@@ -20,6 +22,7 @@ from join import joinJSON, convertDates
 from glob import glob
 import os
 from datetime import datetime as dt
+import random
 from map import dateFilter
 
 with open('config.yaml', 'r') as file:
@@ -68,14 +71,31 @@ not_benzo_substring_list = config['not_benzo_substring_list']
 col=["date_received","postcode","intent","label","colour","form","consumption_method","effects","major","minor","latitude","longitude"]
 allJSON = max(glob(f'{config['dataPath']}/wedinos_alerts_ALL*'), key=os.path.getctime).split('/')[-1]
 
-def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedinos.org/sample-results
+def scrape(num_pages, current_page, url="https://wedinos.wales/sample/"): # old: https://wedinos.org/sample-results
     driver = webdriver.Chrome()
     driver.get(url)
 
-    current_page = 0
-    max_pages = num_pages #367 was number of pages for 1 Jan to 4 Dec 2024, 250+21+28+8 for Jan-Aug and Sept 2025
+    #current_page = 0
+    #max_pages = num_pages #367 was number of pages for 1 Jan to 4 Dec 2024, 250+21+28+8 for Jan-Aug and Sept 2025
     all_pages = []
     time.sleep(5)
+    if current_page > 0:
+        max_pages = current_page + num_pages
+        try:
+            skip_button = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']"))
+            )
+
+            driver.execute_script(f"arguments[0].setAttribute('href', 'page={current_page}')", skip_button)
+
+            skip_button.click()
+            time.sleep(random.uniform(2.5, 3.5))
+        except Exception as e:
+            print(f'Failed to jump to page {current_page}: {e}')
+            current_page = 0
+            max_pages = num_pages
+    else:
+        current_page = 0
 
     while current_page < max_pages:
         try:
@@ -84,10 +104,14 @@ def scrape(num_pages, url="https://wedinos.wales/sample/"): # old: https://wedin
                 
             load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']") # By.XPATH, "//a[text()='Next']"
             load_more_button.click()
-            time.sleep(3)  # Give time for content to load
+            time.sleep(random.uniform(3, 4))  # Give time for content to load
             current_page += 1
-        except:
+        except TimeoutException:
+            print('No more pages or page timed out.')
             break
+        except StaleElementReferenceException:
+            print('DOM refreshed, retrying...')
+            continue
 
     driver.quit()
     return all_pages
@@ -189,7 +213,11 @@ def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=F
         for i in daterange.split('-'):
             datelist.append(dt.strftime(dt.strptime(i,'%d%m%y'),'%Y-%m-%d'))
         df = dateFilter(df,datelist[0],datelist[1])
-    dates = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
+    try:
+        dates = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
+    except:
+        print("Date string couldn't be formatted - remember to change!")
+        dates = 'DDMMYY-DDMMYY'
 
     if intent_only:
         filename = f'{config['dataPath']}/wedinos_{component_type}s_intent_{dates}.csv'
@@ -213,6 +241,8 @@ def main():
     parser = ArgumentParser()
     parser.add_argument("-n", "--num", type=int,
                         help="number of pages to scrape", metavar="NUM")
+    parser.add_argument("-s", "--start", type=int,
+                        help="initial page number", metavar="START")
     parser.add_argument("-d", "--daterange", type=str, metavar="DATERANGE",
                         help="dates scanned in DDMMYY-DDMMYY format") # could probably automate this in future
     parser.add_argument("-f", "--alertsfile", type=str, metavar="ALERTSFILE",
@@ -226,7 +256,8 @@ def main():
     start_time = dt.now()
     args = parser.parse_args()
     if args.num:
-        all_pages = scrape(args.num)
+        start_page = args.start if args.start else 0
+        all_pages = scrape(args.num, start_page)
         all_alerts = parse(all_pages, args.join)
         print('Scrape and parse duration: {}'.format(dt.now() - start_time))
     elif args.alertsfile:
