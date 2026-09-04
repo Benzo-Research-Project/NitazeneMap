@@ -223,11 +223,12 @@ def main():
                         help="filter by intent only? y/n")
     parser.add_argument("-j", "--join", type=str, metavar="JOIN",
                         help="join scraped data to master file? y/n")
-
+    start_time = dt.now()
     args = parser.parse_args()
     if args.num:
         all_pages = scrape(args.num)
         all_alerts = parse(all_pages, args.join)
+        print('Scrape and parse duration: {}'.format(dt.now() - start_time))
     elif args.alertsfile:
         suffix = '' if '.json' in args.alertsfile else '.json'
         with open(f'{config['dataPath']}/{args.alertsfile}{suffix}', 'r', encoding='utf-8') as f:
@@ -245,6 +246,8 @@ def main():
     elif args.type:
         type = args.type if args.type[-1]!='s' else args.type[:-1]
         getFilteredDataframe(all_alerts, type, daterange=daterange, intent_only=intent_only)
- 
+    
+    end_time = dt.now()
+    print('Total duration: {}'.format(end_time - start_time))
 if __name__ == "__main__":
     main()

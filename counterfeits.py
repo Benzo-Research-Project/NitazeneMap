@@ -386,7 +386,6 @@ def main():
         plotContents(contents, intent, args.daterange, counterfeits=False)
         getUniqueContents(contents, intent, args.daterange, counterfeits=False)
 
-    # do your work here
     end_time = dt.now()
     print('Duration: {}'.format(end_time - start_time))
 if __name__ == "__main__":
