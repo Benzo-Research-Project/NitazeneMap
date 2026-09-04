@@ -61,6 +61,7 @@ not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(
 #    'heroin': ['placeholder'],
 #    'vapes': ['placeholder']
 #}
+types_list = ['benzo', 'opioid', 'vape', 'cocaine', 'ketamine', 'mdma', 'heroin', 'gabapentinoid', 'zdrug']
 
 save_data = config['saveData']
 not_benzo_substring_list = config['not_benzo_substring_list']
@@ -143,12 +144,16 @@ def parse(all_pages, join, save_data=save_data):
         daterange = f'{min(dates).strftime('%d%m%y')}-{max(dates).strftime('%d%m%y')}'
         with open(f'{config['dataPath']}/wedinos_alerts_{daterange}.json', 'w', encoding='utf-8') as f:
             json.dump(all_alerts, f, ensure_ascii=False, indent=4)
+
         if join=='y': # indented inside if save as it has to call the scraped file from path
+            time.sleep(2)
             print(f'Joining scraped data to {allJSON}...')
             joinJSON([allJSON,f'wedinos_alerts_{daterange}.json'], config['dataPath'], save_data=save_data)
     return all_alerts
 
-def getFilteredDataframe(all_alerts, substring_list, daterange='', not_substring_list=['placeholder'], intent_only=False, save_data=save_data):
+def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=False, save_data=save_data): #not_substring_list=['placeholder'], 
+    substring_list = substring_dict[component_type]
+    not_substring_list = not_substring_dict['not_'+component_type]
     df = pd.DataFrame(columns=col)
     for alert in all_alerts:
         for i in alert:
@@ -187,9 +192,9 @@ def getFilteredDataframe(all_alerts, substring_list, daterange='', not_substring
     dates = f'{df['date_received'].min().strftime('%d%m%y')}-{df['date_received'].max().strftime('%d%m%y')}'
 
     if intent_only:
-        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_intent_{dates}.csv'
+        filename = f'{config['dataPath']}/wedinos_{component_type}s_intent_{dates}.csv'
     else:
-        filename = f'{config['dataPath']}/wedinos_{substring_list[0]}s_all_{dates}.csv'
+        filename = f'{config['dataPath']}/wedinos_{component_type}s_all_{dates}.csv'
     if save_data:
         df.to_csv(filename, sep=',', encoding='utf-8')
         print(f'Saved {len(df)} sample results as {filename}.')
@@ -202,7 +207,7 @@ def main():
     -n = number of pages to scrape
     -d = filter by dates in DDMMYY-DDMMYY format
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
-    -t = type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)
+    -t = type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos); all = all drugmapuk categories
     -i = filter by intent only? y/n
     '''#-j = join scraped data to master file? y/n (seems to be broken, check samples haven't gone missing)
     parser = ArgumentParser()
@@ -213,7 +218,7 @@ def main():
     parser.add_argument("-f", "--alertsfile", type=str, metavar="ALERTSFILE",
                         help="alerts file to reparse")
     parser.add_argument("-t", "--type", type=str, metavar="TYPE",
-                        help="type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos)")
+                        help="type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos); all = all drugmapuk categories")
     parser.add_argument("-i", "--intent", type=str, metavar="INTENT",
                         help="filter by intent only? y/n")
     parser.add_argument("-j", "--join", type=str, metavar="JOIN",
@@ -233,9 +238,13 @@ def main():
     else:
         intent_only=False
     daterange = args.daterange if args.daterange else ''
-    if args.type:
-        type = args.type if args.type[-1]!='s' else args.type[:-1]
-        getFilteredDataframe(all_alerts, substring_dict[type], daterange=daterange, not_substring_list=not_substring_dict['not_'+type], intent_only=intent_only)
+    if args.type=='all':
+        for type in types_list:
+            getFilteredDataframe(all_alerts, type, daterange=daterange, intent_only=intent_only)
 
+    elif args.type:
+        type = args.type if args.type[-1]!='s' else args.type[:-1]
+        getFilteredDataframe(all_alerts, type, daterange=daterange, intent_only=intent_only)
+ 
 if __name__ == "__main__":
     main()

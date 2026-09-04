@@ -239888,5 +239888,1377 @@
             "major": "Dihydrocodeine",
             "minor": ""
         }
+    },
+    {
+        "000239975": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Intravenous",
+            "effects": "Relaxed, Nausea, Breathlessness",
+            "major": "Caffeine, Morphine, 6 Monoacetyl, Paracetamol",
+            "minor": "6-Acetylcodeine, Medetomidine, Morphine, Noscapine, Papaverine"
+        }
+    },
+    {
+        "000239977": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Smoked",
+            "effects": "Loss of consciousness",
+            "major": "Caffeine, Paracetamol",
+            "minor": "6-Acetylcodeine, Heroin, Medetomidine, Morphine, Morphine, 6 Monoacetyl, Noscapine, Papaverine"
+        }
+    },
+    {
+        "000239976": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Solid",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "6-Acetylcodeine, Caffeine, Heroin, Morphine, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",
+            "minor": "Papaverine"
+        }
+    },
+    {
+        "000239997": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Caffeine, Heroin, Morphine, 6 Monoacetyl, Paracetamol",
+            "minor": "6-Acetylcodeine, Diazepam, Medetomidine, Morphine, Noscapine"
+        }
+    },
+    {
+        "000239974": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Intravenous",
+            "effects": "Overdose",
+            "major": "Cocaine, Caffeine, Paracetamol, Phenacetin",
+            "minor": "Medetomidine, Metonitazene, Morphine, Morphine, 6 Monoacetyl, Xylazine"
+        }
+    },
+    {
+        "000239998": {
+            "date_received": "28/08/2026",
+            "postcode": "NP20",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Not stated",
+            "effects": "Relaxed, Nausea, Breathlessness",
+            "major": "Caffeine, Morphine, 6 Monoacetyl, Paracetamol",
+            "minor": "6-Acetylcodeine, Heroin, Medetomidine, Morphine, Noscapine"
+        }
+    },
+    {
+        "W104268": {
+            "date_received": "19/08/2026",
+            "postcode": "NE61",
+            "intent": "mdma",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Caffeine, MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104208": {
+            "date_received": "19/08/2026",
+            "postcode": "N7",
+            "intent": "Codeine",
+            "label": "Codeine",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Paracetamol",
+            "minor": "Dihydrocodeine"
+        }
+    },
+    {
+        "W104246": {
+            "date_received": "19/08/2026",
+            "postcode": "CT17",
+            "intent": "LSD",
+            "label": "LSD",
+            "colour": "Green",
+            "form": "Blotter Paper",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "LSD",
+            "minor": ""
+        }
+    },
+    {
+        "W076389": {
+            "date_received": "19/08/2026",
+            "postcode": "RG20",
+            "intent": "Lorazepam",
+            "label": "hemofarm",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Not stated,  ",
+            "major": "Lorazepam, Paracetamol",
+            "minor": ""
+        }
+    },
+    {
+        "W104251": {
+            "date_received": "19/08/2026",
+            "postcode": "CT19",
+            "intent": "2cb",
+            "label": "2cb",
+            "colour": "Green",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W103978": {
+            "date_received": "19/08/2026",
+            "postcode": "CV21",
+            "intent": "heroin",
+            "label": "9/10",
+            "colour": "Brown",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "6-Acetylcodeine, Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",
+            "minor": "Diazepam, Papaverine"
+        }
+    },
+    {
+        "W076388": {
+            "date_received": "19/08/2026",
+            "postcode": "RG20",
+            "intent": "Diazepam",
+            "label": "Galenika",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104282": {
+            "date_received": "19/08/2026",
+            "postcode": "HP11",
+            "intent": "Diazepam 5mg",
+            "label": "sedil diazepam 5",
+            "colour": "Yellow",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Increased confidence, Relaxed",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104292": {
+            "date_received": "19/08/2026",
+            "postcode": "PL28",
+            "intent": "Xanax",
+            "label": "Xanax",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Bromazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104218": {
+            "date_received": "18/08/2026",
+            "postcode": "BA16",
+            "intent": "Tramadol 225mg",
+            "label": "Tramadol 225mg",
+            "colour": "Red",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Tramadol",
+            "minor": ""
+        }
+    },
+    {
+        "W104219": {
+            "date_received": "18/08/2026",
+            "postcode": "BA16",
+            "intent": "Gabapentin 800mg",
+            "label": "Gabapentin 800mg",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Gabapentin",
+            "minor": ""
+        }
+    },
+    {
+        "W104288": {
+            "date_received": "18/08/2026",
+            "postcode": "LL29",
+            "intent": "ketamine",
+            "label": "Ketamine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Not stated,  ",
+            "major": "Ketamine",
+            "minor": ""
+        }
+    },
+    {
+        "W104211": {
+            "date_received": "18/08/2026",
+            "postcode": "LU4",
+            "intent": "Heroin",
+            "label": "hero brown sugar heroin",
+            "colour": "Brown",
+            "form": "Powder",
+            "consumption_method": "Subcutaneous",
+            "effects": "No effect",
+            "major": "Paracetamol, Caffeine",
+            "minor": "Papaverine, Noscapine, Morphine, 6 Monoacetyl, Heroin, 6-Acetylcodeine"
+        }
+    },
+    {
+        "W104159": {
+            "date_received": "18/08/2026",
+            "postcode": "M11",
+            "intent": "Xanax 1mg",
+            "label": "Xanax 1mg",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "No effect",
+            "major": "Alprazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104165": {
+            "date_received": "18/08/2026",
+            "postcode": "NE61",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "Orange",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104191": {
+            "date_received": "18/08/2026",
+            "postcode": "G12",
+            "intent": "Ecstasy",
+            "label": "Not stated",
+            "colour": "Yellow",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104194": {
+            "date_received": "18/08/2026",
+            "postcode": "HP23",
+            "intent": "4mmc",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "3-Methylmethcathinone (3-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W104195": {
+            "date_received": "18/08/2026",
+            "postcode": "HP23",
+            "intent": "3mmc",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "4-Methylmethcathinone (Mephedrone; 4-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W104158": {
+            "date_received": "18/08/2026",
+            "postcode": "BN7",
+            "intent": "2cb",
+            "label": "2cb",
+            "colour": "Red",
+            "form": "Solid",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "2C-B",
+            "minor": ""
+        }
+    },
+    {
+        "W104141": {
+            "date_received": "18/08/2026",
+            "postcode": "SA1",
+            "intent": "Pregabalin",
+            "label": "pregabalin",
+            "colour": "Red",
+            "form": "Capsule",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Pregabalin",
+            "minor": ""
+        }
+    },
+    {
+        "W104225": {
+            "date_received": "18/08/2026",
+            "postcode": "NW10",
+            "intent": "2cb",
+            "label": "pepe 2cb",
+            "colour": "Green",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "2C-B",
+            "minor": ""
+        }
+    },
+    {
+        "W104223": {
+            "date_received": "18/08/2026",
+            "postcode": "HR1",
+            "intent": "Found",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Solid",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "THC (Tetrahydrocannabinol)",
+            "minor": "Cannabidiol, Cannabinol, MDMB-4en-PINACA"
+        }
+    },
+    {
+        "W103952": {
+            "date_received": "18/08/2026",
+            "postcode": "BS20",
+            "intent": "Ecstasy",
+            "label": "Ecstasy",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Euphoria, Increased energy, Increased senses, Increased stamina, Empathy",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W103951": {
+            "date_received": "18/08/2026",
+            "postcode": "BS20",
+            "intent": "Ecstasy",
+            "label": "Ecstasy",
+            "colour": "Pink",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Euphoria, Increased energy, Increased senses, Increased stamina, Empathy",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104156": {
+            "date_received": "18/08/2026",
+            "postcode": "BN7",
+            "intent": "MDMA",
+            "label": "MDMA",
+            "colour": "Blue",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104176": {
+            "date_received": "18/08/2026",
+            "postcode": "E18",
+            "intent": "alprazolam 1mg",
+            "label": "galenika 1mg Ksalol, alprazolam",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Euphoria, Relaxed, Memory loss, Confusion, Agitation, Loss of consciousness",
+            "major": "Alprazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104132": {
+            "date_received": "18/08/2026",
+            "postcode": "SN25",
+            "intent": "Xanax",
+            "label": "halk Xanax 5.90.3",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Relaxed",
+            "major": "Bromazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104184": {
+            "date_received": "18/08/2026",
+            "postcode": "RH20",
+            "intent": "Diazepam 5mg",
+            "label": "Accord Diazepam 5mg",
+            "colour": "Yellow",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104215": {
+            "date_received": "18/08/2026",
+            "postcode": "ML66",
+            "intent": "Diazepam",
+            "label": "10mg diazepam",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104217": {
+            "date_received": "18/08/2026",
+            "postcode": "ML66",
+            "intent": "Diazepam",
+            "label": "10mg Diazepam",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104205": {
+            "date_received": "18/08/2026",
+            "postcode": "G12",
+            "intent": "Cocaine",
+            "label": "El rey stamp",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine",
+            "minor": "Ecgonine methyl ester, Tropacocaine"
+        }
+    },
+    {
+        "000234944": {
+            "date_received": "18/08/2026",
+            "postcode": "CF40",
+            "intent": "Diazepam",
+            "label": "Diazepam",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Relaxed",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W103901": {
+            "date_received": "18/08/2026",
+            "postcode": "PH1",
+            "intent": "Cocaine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Increased energy, Increased confidence, Visual hallucinations, Nosebleeds, Memory loss, Confusion, Agitation, Loss of consciousness",
+            "major": "Cocaine",
+            "minor": "Benzoylecgonine"
+        }
+    },
+    {
+        "W104146": {
+            "date_received": "18/08/2026",
+            "postcode": "E1",
+            "intent": "Promethazine",
+            "label": "Promethazine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Oral",
+            "effects": "Relaxed",
+            "major": "Promethazine",
+            "minor": ""
+        }
+    },
+    {
+        "W104152": {
+            "date_received": "18/08/2026",
+            "postcode": "CF44",
+            "intent": "Amphetamine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Oral",
+            "effects": "Increased stamina, Auditory hallucinations, Relaxed, Nausea, Vomiting, Paranoia, Insomnia, Panic attack",
+            "major": "Amphetamine, Caffeine",
+            "minor": ""
+        }
+    },
+    {
+        "000239967": {
+            "date_received": "18/08/2026",
+            "postcode": "NP20",
+            "intent": "Diazepam MSJ",
+            "label": "Not stated",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Ethylbromazolam",
+            "minor": ""
+        }
+    },
+    {
+        "000239966": {
+            "date_received": "18/08/2026",
+            "postcode": "NP20",
+            "intent": "Cocaine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine, Phenacetin",
+            "minor": "Tropacocaine"
+        }
+    },
+    {
+        "000239965": {
+            "date_received": "18/08/2026",
+            "postcode": "NP20",
+            "intent": "Cocaine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine",
+            "minor": "Benzoylecgonine, Cocaine, Nor, Phenacetin, Tropacocaine"
+        }
+    },
+    {
+        "000239964": {
+            "date_received": "18/08/2026",
+            "postcode": "NP2",
+            "intent": "pregabalin",
+            "label": "Not stated",
+            "colour": "Red",
+            "form": "Capsule",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Pregabalin",
+            "minor": ""
+        }
+    },
+    {
+        "000239962": {
+            "date_received": "18/08/2026",
+            "postcode": "NP20",
+            "intent": "medical cannabis",
+            "label": "Not stated",
+            "colour": "Green",
+            "form": "Plant Matter",
+            "consumption_method": "Vaped",
+            "effects": "Relaxed",
+            "major": "THC (Tetrahydrocannabinol)",
+            "minor": ""
+        }
+    },
+    {
+        "000239909": {
+            "date_received": "18/08/2026",
+            "postcode": "NP20",
+            "intent": "diazepam",
+            "label": "Not stated",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Ethylbromazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104212": {
+            "date_received": "18/08/2026",
+            "postcode": "LU4",
+            "intent": "heroin",
+            "label": "pakistani cream heroin wwuk",
+            "colour": "Brown",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "6-Acetylcodeine, Caffeine, Diazepam, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",
+            "minor": "Papaverine"
+        }
+    },
+    {
+        "W104164": {
+            "date_received": "18/08/2026",
+            "postcode": "NE61",
+            "intent": "LSD",
+            "label": "Not stated",
+            "colour": "Green",
+            "form": "Blotter Paper",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "LSD",
+            "minor": ""
+        }
+    },
+    {
+        "W104163": {
+            "date_received": "18/08/2026",
+            "postcode": "NE61",
+            "intent": "Tapendatol",
+            "label": "Tapentadol",
+            "colour": "Orange",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Tapentadol",
+            "minor": ""
+        }
+    },
+    {
+        "W104145": {
+            "date_received": "18/08/2026",
+            "postcode": "W3",
+            "intent": "ketamine",
+            "label": "ketamine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Relaxed",
+            "major": "Ketamine",
+            "minor": ""
+        }
+    },
+    {
+        "W104166": {
+            "date_received": "18/08/2026",
+            "postcode": "W1B",
+            "intent": "Cocaine",
+            "label": "Cleaned cocaine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine, Procaine",
+            "minor": "Tropacocaine"
+        }
+    },
+    {
+        "W103897": {
+            "date_received": "18/08/2026",
+            "postcode": "EH52",
+            "intent": "Zopiclone 7.5mg",
+            "label": "Zopiclone IP Zopsign 7.5mg",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Zopiclone",
+            "minor": ""
+        }
+    },
+    {
+        "W104263": {
+            "date_received": "18/08/2026",
+            "postcode": "B24",
+            "intent": "clonazepam nauraxpharm 2mg",
+            "label": "Clonazepam",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Clonazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104046": {
+            "date_received": "14/08/2026",
+            "postcode": "TA2",
+            "intent": "CBD vape",
+            "label": "Not stated",
+            "colour": "Colourless",
+            "form": "Liquid",
+            "consumption_method": "Vaped",
+            "effects": "Relaxed, Chest pains, No effect",
+            "major": "Cannabidiol",
+            "minor": ""
+        }
+    },
+    {
+        "W104105": {
+            "date_received": "14/08/2026",
+            "postcode": "BH14",
+            "intent": "Xanax",
+            "label": "alprazolam",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Alprazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W104134": {
+            "date_received": "14/08/2026",
+            "postcode": "TA20",
+            "intent": "Zopiclone",
+            "label": "Zopiclone",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Zopiclone",
+            "minor": ""
+        }
+    },
+    {
+        "W104170": {
+            "date_received": "14/08/2026",
+            "postcode": "TQ13",
+            "intent": "Zolpidem 5mg",
+            "label": "Zolpidem 5mg",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Not stated,  ",
+            "major": "Zolpidem",
+            "minor": ""
+        }
+    },
+    {
+        "000034041": {
+            "date_received": "14/08/2026",
+            "postcode": "Not stated",
+            "intent": "Cocaine",
+            "label": "Cocaine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Auditory hallucinations, Irregular heartbeat, Confusion, Insomnia",
+            "major": "Cocaine, Levamisole",
+            "minor": "Benzoylecgonine, Tropacocaine"
+        }
+    },
+    {
+        "W104167": {
+            "date_received": "14/08/2026",
+            "postcode": "TW8",
+            "intent": "Cocaine",
+            "label": "cocaine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Increased energy, Increased confidence, Increased senses, Increased strength, Nosebleeds, Agitation, Insomnia",
+            "major": "Cocaine, Procaine",
+            "minor": "Benzoylecgonine, Tropacocaine"
+        }
+    },
+    {
+        "000237493": {
+            "date_received": "14/08/2026",
+            "postcode": "NP20",
+            "intent": "Crack cocaine",
+            "label": "Not stated",
+            "colour": "Grey",
+            "form": "Granules",
+            "consumption_method": "Smoked",
+            "effects": "Increased energy, Increased confidence, Increased senses, Relaxed, Paranoia",
+            "major": "Cocaine, Phenacetin",
+            "minor": "Benzoylecgonine, Tropacocaine"
+        }
+    },
+    {
+        "W104115": {
+            "date_received": "14/08/2026",
+            "postcode": "M27",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine, Phenacetin",
+            "minor": ""
+        }
+    },
+    {
+        "000236800": {
+            "date_received": "14/08/2026",
+            "postcode": "SA1",
+            "intent": "MSJ",
+            "label": "Not stated",
+            "colour": "Yellow",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Promethazine",
+            "minor": "Meclonazepam"
+        }
+    },
+    {
+        "W104171": {
+            "date_received": "14/08/2026",
+            "postcode": "IG6",
+            "intent": "Oxycontin 80mg",
+            "label": "Oxycontin 80mg",
+            "colour": "Green",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Gabapentin",
+            "minor": ""
+        }
+    },
+    {
+        "W104168": {
+            "date_received": "14/08/2026",
+            "postcode": "TW8",
+            "intent": "Cocaine",
+            "label": "Cocaine",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Increased energy, Increased confidence, Increased senses, Increased strength, Nosebleeds, Agitation, Insomnia",
+            "major": "Cocaine, Procaine",
+            "minor": "Benzoylecgonine"
+        }
+    },
+    {
+        "000239963": {
+            "date_received": "14/08/2026",
+            "postcode": "Not stated",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W104056": {
+            "date_received": "14/08/2026",
+            "postcode": "EH15",
+            "intent": "lorazepam 3mg",
+            "label": "lorazepam 3mg",
+            "colour": "Grey",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Lorazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104074": {
+            "date_received": "14/08/2026",
+            "postcode": "BN13",
+            "intent": "Zopiclone",
+            "label": "Not stated",
+            "colour": "Blue",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Not stated,  ",
+            "major": "Zopiclone",
+            "minor": ""
+        }
+    },
+    {
+        "W103998": {
+            "date_received": "14/08/2026",
+            "postcode": "BN3",
+            "intent": "Diazepam",
+            "label": "Diazepam",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104136": {
+            "date_received": "14/08/2026",
+            "postcode": "LL29",
+            "intent": "Ketamine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Not stated,  ",
+            "major": "Ketamine",
+            "minor": ""
+        }
+    },
+    {
+        "W104102": {
+            "date_received": "14/08/2026",
+            "postcode": "BR6",
+            "intent": "Valium/ diazepam 10mg",
+            "label": "Valium/Diazepam 10mg Exclusive pharma",
+            "colour": "Blue",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W104097": {
+            "date_received": "14/08/2026",
+            "postcode": "E1",
+            "intent": "Heroin",
+            "label": "Not stated",
+            "colour": "Brown",
+            "form": "Powder",
+            "consumption_method": "Smoked",
+            "effects": "Relaxed, Confusion",
+            "major": "6-Acetylcodeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol",
+            "minor": "Papaverine"
+        }
+    },
+    {
+        "W103885": {
+            "date_received": "11/08/2026",
+            "postcode": "AB24",
+            "intent": "Pregabalin",
+            "label": "Pregabalin 300",
+            "colour": "Red",
+            "form": "Capsule",
+            "consumption_method": "Oral",
+            "effects": "Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Empathy, Relaxed, Paranoia, Memory loss, Violence",
+            "major": "Pregabalin",
+            "minor": ""
+        }
+    },
+    {
+        "W103943": {
+            "date_received": "11/08/2026",
+            "postcode": "M16",
+            "intent": "Clonazepam benham",
+            "label": "Clonazepam 2mg",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Relaxed, Memory loss, Loss of consciousness",
+            "major": "Clonazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W103870": {
+            "date_received": "11/08/2026",
+            "postcode": "M14",
+            "intent": "Cocaine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Cocaine",
+            "minor": "Cocaine, Nor, Tropacocaine"
+        }
+    },
+    {
+        "W103867": {
+            "date_received": "11/08/2026",
+            "postcode": "M14",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "Grey",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W103825": {
+            "date_received": "11/08/2026",
+            "postcode": "SE3",
+            "intent": "Ketamine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Auditory hallucinations, Visual hallucinations, Irregular heartbeat, Memory loss, Panic attack",
+            "major": "Ketamine",
+            "minor": ""
+        }
+    },
+    {
+        "W103933": {
+            "date_received": "11/08/2026",
+            "postcode": "CM1",
+            "intent": "Alprazolam 1mg",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Euphoria, Relaxed",
+            "major": "Alprazolam",
+            "minor": ""
+        }
+    },
+    {
+        "W103985": {
+            "date_received": "11/08/2026",
+            "postcode": "CF40",
+            "intent": "Ketamine",
+            "label": "Not stated",
+            "colour": "Colourless",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Euphoria, Relaxed",
+            "major": "Ketamine",
+            "minor": ""
+        }
+    },
+    {
+        "W103918": {
+            "date_received": "11/08/2026",
+            "postcode": "BT37",
+            "intent": "Cocaine",
+            "label": "Cocaine Clover",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Increased energy, Increased confidence, Increased senses, Increased libido, Relaxed, Insomnia, Loss of consciousness",
+            "major": "Cocaine, Phenacetin",
+            "minor": "Cocaine, Nor, Ecgonine methyl ester, Tropacocaine"
+        }
+    },
+    {
+        "W103847": {
+            "date_received": "11/08/2026",
+            "postcode": "BA15",
+            "intent": "MDMA",
+            "label": "MDMA Crystals",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W103764": {
+            "date_received": "11/08/2026",
+            "postcode": "SL7",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "Green",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "Increased energy, Increased senses, Nausea, Vomiting, Paranoia, Memory loss, Confusion, Agitation, Depression, Suicidal ideation",
+            "major": "MDMA",
+            "minor": ""
+        }
+    },
+    {
+        "W103938": {
+            "date_received": "11/08/2026",
+            "postcode": "NE33",
+            "intent": "Nictone",
+            "label": "Nictone",
+            "colour": "Yellow",
+            "form": "Liquid",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Nicotine",
+            "minor": ""
+        }
+    },
+    {
+        "W103924": {
+            "date_received": "11/08/2026",
+            "postcode": "NR33",
+            "intent": "4mmc - mephedrone",
+            "label": "Not stated",
+            "colour": "Yellow",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "4-Methylmethcathinone (Mephedrone; 4-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W103926": {
+            "date_received": "11/08/2026",
+            "postcode": "NR33",
+            "intent": "MDMA",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "4-Methylmethcathinone (Mephedrone; 4-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W103710": {
+            "date_received": "11/08/2026",
+            "postcode": "E12",
+            "intent": "2mmc",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Oral",
+            "effects": "Increased energy, Increased senses, Increased stamina, Increased libido, Relaxed",
+            "major": "2-Methylmethcathinone (2-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W103740": {
+            "date_received": "11/08/2026",
+            "postcode": "SY1",
+            "intent": "mkat",
+            "label": "White kat",
+            "colour": "Brown",
+            "form": "Crystalline",
+            "consumption_method": "Snort / Sniff",
+            "effects": "Euphoria, Increased energy, Increased strength",
+            "major": "4-Methylmethcathinone (Mephedrone; 4-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W103766": {
+            "date_received": "11/08/2026",
+            "postcode": "SE5",
+            "intent": "4mmc",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "4-Methylmethcathinone (Mephedrone; 4-MMC)",
+            "minor": ""
+        }
+    },
+    {
+        "W103568": {
+            "date_received": "11/08/2026",
+            "postcode": "KY6",
+            "intent": "weed vape",
+            "label": "ihdica",
+            "colour": "Brown",
+            "form": "Liquid",
+            "consumption_method": "Not stated",
+            "effects": "Empathy, Relaxed, Irregular heartbeat, Memory loss",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "000239626": {
+            "date_received": "11/08/2026",
+            "postcode": "NP12",
+            "intent": "Clenbuterol",
+            "label": "Not stated",
+            "colour": "Orange",
+            "form": "Tablet",
+            "consumption_method": "Oral",
+            "effects": "No effect",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103617": {
+            "date_received": "11/08/2026",
+            "postcode": "B38",
+            "intent": "THC",
+            "label": "Not stated",
+            "colour": "Colourless",
+            "form": "Liquid",
+            "consumption_method": "Vaped",
+            "effects": "Nausea, Memory loss, Agitation, Insomnia",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103637": {
+            "date_received": "11/08/2026",
+            "postcode": "SW14",
+            "intent": "THC",
+            "label": "100mg THC",
+            "colour": "Green",
+            "form": "Solid",
+            "consumption_method": "Oral",
+            "effects": "Euphoria, Increased confidence, Relaxed",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103759": {
+            "date_received": "11/08/2026",
+            "postcode": "L5",
+            "intent": "Cannabis",
+            "label": "Not stated",
+            "colour": "Green",
+            "form": "Plant Matter",
+            "consumption_method": "Not stated",
+            "effects": "Irregular heartbeat",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103703": {
+            "date_received": "11/08/2026",
+            "postcode": "DD5",
+            "intent": "Teva diazepam 5mg",
+            "label": "Accord diazepam 5mg",
+            "colour": "Yellow",
+            "form": "Tablet",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Diazepam",
+            "minor": ""
+        }
+    },
+    {
+        "W103756": {
+            "date_received": "11/08/2026",
+            "postcode": "PH7",
+            "intent": "Cannabis",
+            "label": "Not stated",
+            "colour": "Green",
+            "form": "Plant Matter",
+            "consumption_method": "Smoked",
+            "effects": "Increased energy, Relaxed",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103663": {
+            "date_received": "11/08/2026",
+            "postcode": "BT1",
+            "intent": "Crack Cocaine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Crystalline",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "Buprenorphine",
+            "minor": ""
+        }
+    },
+    {
+        "000236942": {
+            "date_received": "11/08/2026",
+            "postcode": "Not stated",
+            "intent": "Cocaine or Ketamine",
+            "label": "Not stated",
+            "colour": "White",
+            "form": "Powder",
+            "consumption_method": "Not stated",
+            "effects": "Not stated,  ",
+            "major": "No active compound identified",
+            "minor": ""
+        }
+    },
+    {
+        "W103797": {
+            "date_received": "11/08/2026",
+            "postcode": "M18",
+            "intent": "THC liquid",
+            "label": "Not stated",
+            "colour": "Grey",
+            "form": "Liquid",
+            "consumption_method": "Vaped",
+            "effects": "Euphoria, Increased energy, Increased confidence, Increased senses, Relaxed, Irregular heartbeat, Paranoia, Panic attack",
+            "major": "No active compound identified",
+            "minor": ""
+        }
     }
 ]

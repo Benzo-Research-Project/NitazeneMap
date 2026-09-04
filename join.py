@@ -28,6 +28,7 @@ def joinJSON(args, data_path, year_restrict=None, save_data=save_data):
         files = [args.file1, args.file2]
     except:
         # if files are inputted as a list of strings
+        print(args[0], args[1])
         files = args
 
     td = dict()
@@ -58,7 +59,7 @@ def joinJSON(args, data_path, year_restrict=None, save_data=save_data):
             if year_restrict:
                 jsonFilename = f'wedinos_alerts_{year_restrict}.json'
             else:
-                jsonFilename = f'{args.file1.split('-')[0]}-{args.file2.split('-')[1]}'
+                jsonFilename = f'{files[0].split('-')[0]}-{files[1].split('-')[1]}'
         except:
             print('NOTE: file will be saved as merged.json. Remember to update the filename')
             jsonFilename = 'merged.json'
