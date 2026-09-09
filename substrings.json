@@ -47,6 +47,7 @@
     "gabapentinoid": ["gabapentin","pregabalin","pregablin","gablin","pregab","mirogabalin","phenibut","lyrica","neurontin"],
     "pregabalin": ["pregabalin","pregablin","gablin","pregab"],
     "4-fluorophenibut": ["fluorophenibut","f-phenibut","f- phenibut"],
+    "sedatingantihistamine": ["chlorpheniramine", "chlorphenamine","promethazine","hydroxyzine","diphenhydramine","cinnarizine"],
     "zdrug": ["zolpidem","zopiclone","zaleplon"],
     "not_opioid": ["hydroxybutyr","oxyphenethylamine","oxyamphetamine","oxyqualone","oxyapatite","oxycillin","oxymethoxetamine","paracetamol"],
     "not_benzo": ["benzoylecgonine","benzocaine"],
@@ -76,5 +77,6 @@
     "not_gabapentinoid": ["placeholder"],
     "not_pregabalin": ["placeholder"],
     "not_4-fluorophenibut": ["placeholder"],
+    "not_sedatingantihistamine": ["placeholder"],
     "not_zdrug": ["placeholder"]
 }
