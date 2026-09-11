@@ -95,6 +95,7 @@ def scrape(num_pages, current_page, url="https://wedinos.wales/sample/"): # old:
             current_page = 0
             max_pages = num_pages
     else:
+        max_pages = num_pages
         current_page = 0
 
     while current_page < max_pages:
