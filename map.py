@@ -130,16 +130,16 @@ def getCategories(type_arg):
     type = str.lower(type_arg)
     if type and 'benzo' in type: 
         categories = {
-            'Nitazenes': substring_dict['nitazene'],
-            'Medetomidine': ['medetomidine'],
-            'Tramadol': ['tramadol'],
-            'Amphetamines': substring_dict['amphetamine'],
-            'Promethazine': ['promethazine'],
+            'Potent synthetic opioids': substring_dict['nitazene']+substring_dict['orphine']+substring_dict['fentanyl'],
+            'Other opioids': substring_dict['opioid'][1:], #removing 'oxy'
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Stimulants': substring_dict['amphetamine']+substring_dict['cathinone']+substring_dict['mdma']+substring_dict['cocaine'],
+            'Sedating antihistamines': substring_dict['sedatingantihistamine'],
             'Z-drugs': substring_dict['zdrug'],
+            'Ethylflualprazolam': ['ethylflualprazolam'],
             'Ethylbromazolam': ['ethylbromazolam'],
             'Other novel benzos': substring_dict['othernovelbenzo'],
-            'Bromazolam': ['bromazolam'],
-            'Etizolam': ['etizolam']
+            'Cutting agents': substring_dict['cuttingagent'][:-1]
         }
     elif type and 'cocaine' in type:
         categories = {
@@ -176,17 +176,20 @@ def getCategories(type_arg):
         }
     elif type and any(substring in type for substring in ['opioid','heroin','oxy','tramadol','tapentadol']):
         categories = {
-            'Nitazenes': substring_dict['nitazene'],
             'Orphines': substring_dict['orphine'],
+            'Nitazenes': substring_dict['nitazene'],
+            'Fentanyls': substring_dict['fentanyl'],
             'α2-adrenergic agonists': substring_dict['adrenergic'],
-            'Benzos': substring_dict['benzo'][1:], #removing 'benzo'
+            'Benzos + Z-drugs': substring_dict['benzo'][1:]+substring_dict['zdrug'], #removing 'benzo'
             'Gabapentinoids': substring_dict['gabapentinoid'],
+            'SCRAs': substring_dict['SCRA'],
             'Ketamine': substring_dict['ketamine'],
-            'Promethazine': ['promethazine']
+            'Sedating antihistamines': substring_dict['sedatingantihistamine']
         }
     elif type and 'vape' in type:
         categories = {
             'SCRAs': substring_dict['SCRA'],
+            'Neocannabinoids': substring_dict['neocannabinoid'],
             'Cannabinoids': substring_dict['cannabinoid'],
             'Psychedelics': substring_dict['psychedelic'],
             'Opioids': substring_dict['opioid'][1:], #removing 'oxy'
@@ -199,7 +202,7 @@ def getCategories(type_arg):
             'Gabapentinoids': substring_dict['gabapentinoid'],
             'Benzos': substring_dict['benzo'],
             'Ketamine': substring_dict['ketamine'],
-            'Promethazine': ['promethazine'],
+            'Sedating antihistamines': substring_dict['sedatingantihistamine']
         }
     elif type and 'gabapentinoid' in type: 
         categories = {
@@ -208,14 +211,26 @@ def getCategories(type_arg):
             'Benzos': substring_dict['benzo'],
             'Z-drugs': substring_dict['zdrug'],
             'Ketamine': substring_dict['ketamine'],
-            'Promethazine': ['promethazine']
+            'Sedating antihistamines': substring_dict['sedatingantihistamine']
+        }
+    elif type and 'nitazene' in type:
+        categories = {
+            'Orphines': substring_dict['orphine'],
+            'Fentanyls': substring_dict['fentanyl'],
+            'α2-adrenergic agonists': substring_dict['adrenergic'],
+            'Benzos + Z-drugs': substring_dict['benzo'][1:]+substring_dict['zdrug'], #removing 'benzo'
+            'Gabapentinoids': substring_dict['gabapentinoid'],
+            'SCRAs': substring_dict['SCRA'],
+            'Ketamine': substring_dict['ketamine'],
+            'Sedating antihistamines': substring_dict['sedatingantihistamine'],
+            'Nitazenes': substring_dict['nitazene'],
+            'Other opioids': substring_dict['opioid'][1:],
         }
     else:
         categories = {
-            'Orphines': substring_dict['orphine'],
-            'Nitazenes': substring_dict['nitazene'],
+            'Potent synthetic opioids': substring_dict['nitazene']+substring_dict['orphine']+substring_dict['fentanyl'],
             'α2-adrenergic agonists': substring_dict['adrenergic'],
-            'Benzos': substring_dict['benzo'][1:],
+            'Benzos + Z-drugs': substring_dict['benzo'][1:]+substring_dict['zdrug'],
             'SCRAs': substring_dict['SCRA'],
             'Gabapentinoids': substring_dict['gabapentinoid'],
             'Cannabinoids': substring_dict['cannabinoid'],
@@ -234,17 +249,15 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
     num_categories = len(categories.keys())
     colormap = cm['rainbow_r'].resampled(num_categories)
     category_colors = {}
+    cluster_dict = {}
+    cluster_count = {}
     for i, cat_name in enumerate(categories.keys()):
         rgba = colormap(i)
         category_colors[cat_name] = colors.rgb2hex(rgba)
+        cluster_dict[cat_name] = plugins.MarkerCluster(name=cat_name, control=False).add_to(m)
+        cluster_count[cat_name] = 0
 
     fallback_color = '#1e3d77'
-    
-    cluster_dict = {}
-    cluster_count = {}
-    for cat_name in categories.keys():
-        cluster_dict[cat_name] = plugins.MarkerCluster(name=cat_name).add_to(m)
-        cluster_count[cat_name] = 0
     
     if include_all:
         other_cluster = plugins.MarkerCluster(name="Other Compounds").add_to(m)
@@ -343,12 +356,20 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
             <b style="font-size: 14px; margin-top:0; position: sticky; top: 0;">Compound Found</b>
             <div class="menu-content">
     '''
+    filter_index=0
+    filter_html=''
     for cat, col in category_colors.items():
-        legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> {cat} ({cluster_count[cat]})</p>'
+        if cluster_count[cat] > 0:
+            cluster_dict[cat].control = True
+            filter_index+=1
+            legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> {cat} ({cluster_count[cat]})</p>'
+            filter_html += f'.leaflet-control-layers-overlays > label:nth-child({filter_index}) input'+'{accent-color: '+col+'''; } 
+                        '''
+    
     if include_all:
         legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{fallback_color}; margin-right: 4px;"></i> Other ({num_points-sum(cluster_count.values())})</p>'
     
-    if filename!='':
+    if filename!='' and (('-' in filename) or ('20' in filename)):
         dates = []
         for d in filename.split('_')[-1].replace('.csv','').split('-'):
             if len(d)==4:
@@ -397,11 +418,12 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
             }
         }
         '''
-    
-    for i, cat_name in enumerate(category_colors.keys()): 
-        print(i, cat_name)
-        legend_html += f'.leaflet-control-layers-overlays > label:nth-child({i+1}) input'+'{accent-color: '+category_colors[cat_name]+'''; } 
-        '''
+    legend_html += filter_html
+    #for i, cat_name in enumerate(category_colors.keys()): 
+        #print(i, cat_name)
+        #if cluster_count[cat_name]>0:
+            #legend_html += f'.leaflet-control-layers-overlays > label:nth-child({i+1}) input'+'{accent-color: '+category_colors[cat_name]+'''; } 
+            #'''
     
     legend_html += '''
                     .leaflet-touch .leaflet-control-layers-toggle {
@@ -440,13 +462,19 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
 
     # Define your text and styling (adjust position with top, bottom, left, right) #border-radius: 5px; border: 1px solid grey; 
     watermark_html = """
-        <a href="https://brp.org.uk" target="_blank" title="Powered by the Benzo Research Project">
-            <img style="position: fixed; height: 14px; width: 14px;
-                    bottom: 0px; right: 246.63px; 
-                    z-index:9990;" 
-                    src='https://brp.org.uk/uploads/1/3/9/0/139000106/custom_themes/134408445896420373/files/images/brp_logo.png'/>
-        </a>
-    """
+            <a href="https://www.release.org.uk" target="_blank" title="Powered by Release">
+                <img style="position: fixed; height: 14px; width: 28px;
+                        bottom: 0px; right: 244.63px;
+                        z-index:9990;" 
+                        src='/assets/releaselogo.jpg'/>
+            </a>
+            <a href="https://brp.org.uk" target="_blank" title="Powered by the Benzo Research Project">
+                <img style="position: fixed; height: 14px; width: 14px;
+                        bottom: 0px; right: 230.63px;
+                        z-index:9990;" 
+                        src='/assets/brplogo.jpg'/>
+            </a>
+        """
 
     # Add the element to the map root
     m.get_root().html.add_child(folium.Element(watermark_html))
