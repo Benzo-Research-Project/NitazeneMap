@@ -13,6 +13,7 @@ from argparse import ArgumentParser
 from matplotlib import colormaps as cm
 import matplotlib.colors as colors
 from datetime import datetime as dt
+import random
 
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
@@ -43,17 +44,33 @@ not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(
 #cuttingagents_substring_list = config['cuttingagents_substring_list']
 
 #df_benzo_month = df_benzo.loc[df_benzo['date_received'].dt.month == 5]
+with open('CARTOAPIKEY.txt', 'r') as file:
+    CARTO_API_KEY=file.read()
+if not CARTO_API_KEY:
+    tileurl = 'openstreetmap'
+    print(
+        '''ERROR: CARTO_API_KEY environment variable is missing or empty!
+        Go to https://carto.com/basemaps/apikey/ to request an API key, and add it in your base folder as a CARTOAPIKEY.txt file.'''
+    )
+else:
+    tileurl = "https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key="+CARTO_API_KEY
 
-def counterfeit_map(df, filename, intent_list, result_list, include_all=False, save=False, plots_path=plots_path):
-    # Initialize map
+def counterfeit_map(df, filename, intent, result, include_all=False, save=False, plots_path=plots_path, tiles=tileurl, min_zoom=5, max_zoom=14):
+    attr = ' © OpenStreetMap contributors © CARTO' if tileurl!='openstreetmap' else None
     m = folium.Map(
         location=[53.989955, -3.151694],  # center of the map
         zoom_start=5,  # dezoom
-        tiles='cartodb positron'  # background style 
+        tiles=folium.TileLayer(tiles=tiles, attr=attr, name='Sample groups', min_zoom=min_zoom, max_zoom=max_zoom, max_native_zoom=max_zoom),#'cartodb positron'  # background style 
     )
+
+    intent_list = substring_dict[intent]
+    result_list = substring_dict[result]
     #folium.TileLayer('cartodb positron', control=False).add_to(m)
     cluster = plugins.MarkerCluster(name=intent_list[0]).add_to(m)
     cluster_2 = plugins.MarkerCluster(name=result_list[0]).add_to(m)
+
+    intent_count=0
+
     # Add all the individual earthquakes to the map
     for idx, row in df.iterrows():
         if type(row['minor']) == float:
@@ -98,6 +115,7 @@ def counterfeit_map(df, filename, intent_list, result_list, include_all=False, s
                     popup=popup,
                     lazy=True
                 ).add_to(cluster)
+                intent_count+=1
             elif include_all == True:
                 folium.CircleMarker(
                     location=[row['latitude'], row['longitude']],
@@ -112,6 +130,7 @@ def counterfeit_map(df, filename, intent_list, result_list, include_all=False, s
                 ).add_to(cluster_2)
         except:
             pass
+    print(f'{intent_count} {intent} samples plotted.')
     if save:
         m.save(f'data/{filename}_map.html')
     return m
@@ -238,6 +257,23 @@ def getCategories(type_arg):
         }
     return categories
 
+def addJitter(coord, amount=0.0070):
+    return [coord[0] + random.uniform(-amount, amount), 
+            coord[1] + random.uniform(-amount, amount)]
+
+def iconColourFunction(cat_name, colour):
+    function = f"""
+        function(cluster) {{
+            var count = cluster.getChildCount();
+            return L.divIcon({{
+                html: '<div style="background-color: {colour}; opacity: 0.85; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; border: 2px solid white; box-shadow: 0 0 6px rgba(0,0,0,0.45); font-size: 11px;">' + count + '</div>',
+                className: 'custom-cluster-{cat_name.replace(" ","-")}',
+                iconSize: L.point(32, 32)
+            }});
+        }}
+        """
+    return function
+
 def concernMap(df, categories, filename='',include_all=False, save=False, sort_by_form=True):
     # Initialize map
     m = folium.Map(
@@ -245,7 +281,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         zoom_start=5,  # dezoom
         tiles='cartodb positron'  # background style
     )
-
+    max_zoom=14
     num_categories = len(categories.keys())
     colormap = cm['rainbow_r'].resampled(num_categories)
     category_colors = {}
@@ -254,14 +290,16 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
     for i, cat_name in enumerate(categories.keys()):
         rgba = colormap(i)
         category_colors[cat_name] = colors.rgb2hex(rgba)
-        cluster_dict[cat_name] = plugins.MarkerCluster(name=cat_name, control=False).add_to(m)
+        group_colour_function = iconColourFunction(cat_name,category_colors[cat_name])
+        cluster_dict[cat_name] = plugins.MarkerCluster(name=cat_name, icon_create_function=group_colour_function,disableClusteringAtZoom=max_zoom, control=False).add_to(m)
         cluster_count[cat_name] = 0
 
-    fallback_color = '#1e3d77'
+    fallback_color = "#464646"
     
     if include_all:
-        other_cluster = plugins.MarkerCluster(name="Other Compounds").add_to(m)
-    
+        group_colour_function=iconColourFunction("Other Compounds",fallback_color)
+        other_cluster = plugins.MarkerCluster(name="Other Compounds", icon_create_function=group_colour_function,disableClusteringAtZoom=max_zoom).add_to(m)
+        
     #featureGroups = {}
     #if sort_by_form:
         #df['form'] = df['form'].fillna('Not stated')
@@ -311,7 +349,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
                 marker_color = category_colors[cat_name] # Match pin color to cluster group
                 cluster_count[cat_name]+=1
                 break  
-
+        coords = addJitter([row['latitude'], row['longitude']])
         if assigned_cluster is not None:
             marker = folium.CircleMarker(
                 location=[row['latitude'], row['longitude']],
@@ -500,22 +538,32 @@ def main():
     parser = ArgumentParser()
     parser.add_argument("-f", "--filename", type=str, metavar="FILENAME",
                         help="data file to map in .csv format")
-    #parser.add_argument("-d", "--daterange", type=str, metavar="DATERANGE",
-                        #help="date range (month range e.g. 1-9)") # currently doesn't do anything
+    parser.add_argument("-d", "--daterange", type=str, metavar="DATERANGE",
+                            help="filter by date range (optional, e.g. 010126-010226)")
     parser.add_argument("-t", "--type", type=str, metavar="TYPE",
                         help="type of input data (opioid/benzo)")
     parser.add_argument("-a", "--includeall", type=str, metavar="INCLUDEALL",
                         help="(optional) include all, y/n") 
-    #parser.add_argument("-s", "--sortby", type=str, metavar="SORTBY",
-                        #help="(optional) form – sort datapoints by sample form") # currently doesn't do anything
+    parser.add_argument("-r", "--result", type=str, metavar="RESULT",
+                        help="(optional) identify") # currently doesn't do anything
 
     args = parser.parse_args()
 
     df = pd.read_csv(f'{data_path}/{args.filename}', index_col=0)
+    dates = args.daterange
+    if dates!='' and dates:
+        print('Filtering by dates:',dates)
+        datelist = []
+        for i in dates.split('-'):
+            datelist.append(dt.strftime(dt.strptime(i,'%d%m%y'),'%Y-%m-%d'))
+        df = dateFilter(df,datelist[0],datelist[1])
     filename = f'{args.filename}'.split('.csv')[0] #+f'_{args.daterange}'
     include_all = True if args.includeall == 'y' else False
     #sortby = True if args.sortby == 'form' else False
-    concernMap(df, getCategories(args.type), filename=filename, include_all=include_all, save=save_data) #, sort_by_form=sortby
+    if args.result:
+        counterfeit_map(df, filename, args.type, args.result, include_all=include_all, save=save_data)
+    else:
+        concernMap(df, getCategories(args.type), filename=filename, include_all=include_all, save=save_data) #, sort_by_form=sortby
 
 if __name__ == "__main__":
     main()

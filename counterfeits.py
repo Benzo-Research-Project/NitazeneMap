@@ -99,6 +99,38 @@ def checkRowStatus(row, intent, debug=False):
                     status='not counterfeit'
                 else:
                     status='counterfeit'  
+            # psychedelic categories in active development
+            elif intent == 'psychedelic' and any(substring in intent_label for substring in ['acid','lucy','lsd','lysergic acid diethylamide']):
+                if ('lysergic acid diethylamide' in major_str) and (minor_str==''):
+                    status='not counterfeit'
+                elif (major_str=='lsd') and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
+            elif intent == 'psychedelic' and any(substring in intent_label for substring in ['2cb','2c-b','2-cb','nexus','erox','4-bromo-2,5-dimethoxyphenethylamine']):
+                if any(substring in major_str for substring in ['4-bromo-2,5-dimethoxyphenethylamine', '2cb','2c-b','2-cb']) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
+            elif intent == 'psychedelic' and any(substring in intent_label for substring in substring_dict.get('4-aco-dmt',[])):
+                if any(substring in major_str for substring in substring_dict.get('4-aco-dmt',[])) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
+            elif intent == 'psychedelic' and any(substring in intent_label for substring in substring_dict.get('5-meo-dmt',[])):
+                if any(substring in major_str for substring in substring_dict.get('5-meo-dmt',[])) and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
+            elif intent == 'psychedelic' and any(substring in intent_label for substring in ['shroom','golden teacher','liberty cap','penis envy','psilocybin']):
+                if any(substring in major_str for substring in ['psilocybin','psilocin']) and ((minor_str=='') or any(substring in minor_str for substring in ['psilocybin','psilocin'])):
+                    status='not counterfeit'
+                elif (major_str=='psilocin') and (minor_str==''):
+                    status='not counterfeit'
+                else:
+                    status='counterfeit'  
+            elif 'insufficient sample' in major_str:
+                status='inconclusive'
             else:
                 status='counterfeit'
                 #print(row['intent'],': ',row['major'],'with',row['minor'])
@@ -108,6 +140,8 @@ def checkRowStatus(row, intent, debug=False):
         sold_as='0'
         not_class='1'
         status='n/a'
+        if debug:
+            print(f'NOT SOLD AS: {intent_label} contained {major_minor}!')
     if debug and status=='counterfeit':
         print(f'COUNTERFEIT FOUND: {intent_label} contained {major_minor}!')
     return pd.Series({'sold_as': sold_as, 'status': status, 'class-mismatch': not_class})
