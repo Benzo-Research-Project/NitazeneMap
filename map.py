@@ -266,7 +266,7 @@ def iconColourFunction(cat_name, colour):
         function(cluster) {{
             var count = cluster.getChildCount();
             return L.divIcon({{
-                html: '<div style="background-color: {colour}; opacity: 0.85; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; border: 2px solid white; box-shadow: 0 0 6px rgba(0,0,0,0.45); font-size: 11px;">' + count + '</div>',
+                html: '<div style="background-color: {colour}; opacity: 0.85; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; border: 2px solid {colour}; box-shadow: 0 0 6px rgba(0,0,0,0.45); font-size: 11px;">' + count + '</div>',
                 className: 'custom-cluster-{cat_name.replace(" ","-")}',
                 iconSize: L.point(32, 32)
             }});
@@ -274,16 +274,27 @@ def iconColourFunction(cat_name, colour):
         """
     return function
 
+hex_colourlist = ['#ff0000','#ff572c','#ffa457','#dddd7f','#6faf52','#005c00','#2bdddd','#0081c6','#0f23ff','#8000ff']
+hex_cmap = colors.LinearSegmentedColormap.from_list("CustomPriority", hex_colourlist)
+
 def concernMap(df, categories, filename='',include_all=False, save=False, sort_by_form=True):
     # Initialize map
     m = folium.Map(
-        location=[53.989955, -3.151694],  # center of the map
+        location=[55.089955, -3.151694],  # center of the map
         zoom_start=5,  # dezoom
+        max_bounds=True,
+        min_zoom=5,
+        max_zoom=14,
+        min_lat=46.4,
+        max_lat=64.5,
+        min_lon=-12.2,
+        max_lon=6.0,
         tiles='cartodb positron'  # background style
     )
+    #m.fit_bounds([[49.9, -8.0], [60.8, 2.0]])
     max_zoom=14
     num_categories = len(categories.keys())
-    colormap = cm['rainbow_r'].resampled(num_categories)
+    colormap = hex_cmap.resampled(num_categories) #cm['turbo_r']
     category_colors = {}
     cluster_dict = {}
     cluster_count = {}
@@ -309,7 +320,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
     # Add all the individual samples to the map
     num_points = 0
     for idx, row in df.iterrows():
-        if pd.isna(row['latitude']) or pd.isna(row['longitude']):
+        if pd.isna(row['latitude']) or pd.isna(row['longitude']) or pd.isna(row['postcode']):
             continue
         minor_str = str(row['minor']).lower() if pd.notna(row['minor']) else ""
         major_str = str(row['major']).lower() if pd.notna(row['major']) else ""
@@ -330,6 +341,7 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         #        """
         #else:
             #popup = f"{row['postcode']} – Sold as {row['intent']}, tested as {row['major']} with {row['minor']}"
+        
         popup = f"""
                 <h1>{idx}</h1>
                 <p>
@@ -385,13 +397,13 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         
     legend_html = f'''
          <div id='big-legend-wrap' style="position: fixed; 
-                     bottom: 10px; left: 10px; width: 240px; max-height: 320px; 
+                     bottom: 10px; left: 10px; width: 240px; max-height: 350px; 
                      overflow-y: auto; border:2px solid grey; z-index:9999; font-size:12px;
-                     background-color:white; opacity: 0.90; padding: 10px;
+                     background-color: white; opacity: 0.90; padding: 10px;
                      border-radius: 10px; font-family: sans-serif;">
             <input type="checkbox" id="legend">
             <label for="legend"></label>
-            <b style="font-size: 14px; margin-top:0; position: sticky; top: 0;">Compound Found</b>
+            <b style="font-size: 14px; margin-top:0; position: sticky; top: 0;">'''+str(num_points)+''' samples mapped</b>
             <div class="menu-content">
     '''
     filter_index=0
@@ -400,7 +412,10 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         if cluster_count[cat] > 0:
             cluster_dict[cat].control = True
             filter_index+=1
-            legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> {cat} ({cluster_count[cat]})</p>'
+            if cat in substring_dict['tooltips'].keys():
+                legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> <span class="dm-tooltip">{cat.replace('2','<sub>2</sub>')}<span class="dm-tooltiptext">{substring_dict['tooltips'][cat]}</span></span> ({cluster_count[cat]})</p>'
+            else:
+                legend_html += f'<p style="margin: 4px 0;"><i class="fa fa-circle" style="color:{col}; margin-right: 4px;"></i> {cat} ({cluster_count[cat]})</p>'
             filter_html += f'.leaflet-control-layers-overlays > label:nth-child({filter_index}) input'+'{accent-color: '+col+'''; } 
                         '''
     
@@ -428,27 +443,52 @@ def concernMap(df, categories, filename='',include_all=False, save=False, sort_b
         dates = pd.to_datetime(dates)
         dateString = dates.min().strftime("%d %b %Y")+' — '+dates.max().strftime("%d %b %Y")
     legend_html += f'''
-            <p style="border-top: 1px solid #eee; padding-top: 4px; margin: 4px 0 0 0; font-size: 10px;">Colour = highest-priority compound at location.
-            <br/>Mapped {num_points} samples tested by <a href="https://wedinos.wales" target="_blank">WEDINOS</a>:<br/>{dateString}</p>
+            <p style="border-top: 1px solid #eee; padding-top: 4px; margin: 4px 0 0 0; font-size: 10px;">Colour = <a class="dm-tooltip" style="cursor: pointer" href="/assets/drugmapuk-instructions.pdf#page=7" target="_blank">highest-priority compound</a> at location.
+            <br/>{len(df)} samples tested by <a href="https://wedinos.wales" target="_blank">WEDINOS</a>:<br/>{dateString}</p>
             </div>
         </div>'''
     legend_html +='''
         <style>
         .menu-content {
-            max-height: 0;
-            overflow: hidden;
+            max-height: 100%;
         }
         input#legend {
             display: none;
         }
         input + label:after {
-            content: '▲';
-        }
-        input:checked + label:after {
             content: '▼';
         }
+        input:checked + label:after {
+            content: '▲';
+        }
         input:checked ~ .menu-content {
-            max-height: 100%;
+            max-height: 0;
+            overflow: hidden;
+        }
+        .dm-tooltip {
+            position: relative;
+            display: inline-block;
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+            cursor: help;
+            color: #333;
+        }
+        .dm-tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 0;
+            z-index: 10000;
+            position: absolute;
+            bottom: 100%;
+            left: 0%;
+            margin-left: -5px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .dm-tooltip:hover .dm-tooltiptext {
+            visibility: visible;
         }
         @media (max-width: 600px) {
             #big-legend-wrap {

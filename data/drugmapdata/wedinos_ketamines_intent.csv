@@ -265,11 +265,11 @@ W061547,2025-01-29,CH6,Ketamine,Not Stated,"Colourless, White",Crystalline,Not S
 000042548,2025-01-30,NP20,Ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.5877,-2.9984
 W052802,2025-02-04,AB14,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Visual Hallucinations, Relaxed, Confusion",Ketamine,,57.0993,-2.2659
 000232136,2025-02-06,NP10,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Euphoria, Auditory Hallucinations, Visual Hallucinations, Relaxed, Confusion, Agitation",Ketamine,,51.5877,-2.9984
-000231919,2025-02-06,CH5,Ketamine,Not Stated,White,Powder,Oral,Not Stated,Ketamine,,53.19930000000001,-3.03614
 000234605,2025-02-06,CF10,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Relaxed, Tiredness",Ketamine,,51.48,-3.18
+000234606,2025-02-06,CF10,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Relaxed, Tiredness",Ketamine,,51.48,-3.18
 W061676,2025-02-06,S2,Ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,53.383,-1.4659
 W061709,2025-02-06,LE11,Ketamine,Not Stated,White,Powder,Snort / Sniff,"Auditory Hallucinations, Visual Hallucinations, Irregular Heartbeat, Nosebleeds, Memory Loss, Confusion, Loss of consciousness",Ketamine,,52.76669999999999,-1.2
-000234606,2025-02-06,CF10,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Relaxed, Tiredness",Ketamine,,51.48,-3.18
+000231919,2025-02-06,CH5,Ketamine,Not Stated,White,Powder,Oral,Not Stated,Ketamine,,53.19930000000001,-3.03614
 W057919,2025-02-11,EH75,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Enhanced Senses, Empathy, Auditory Hallucinations, Visual Hallucinations, Relaxed, Irregular Heartbeat, Nosebleeds, Memory Loss, Confusion, Agitation, Violence/Aggression, Vomiting",Ketamine,,55.9521,-3.1965
 000233835,2025-02-11,NP44,Ketamine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Nausea, Confusion, Agitation",Ketamine,,51.65070000000001,-3.0178
 W061963,2025-02-11,RM78,Ketamine,Not Stated,White,Crystalline,Oral,Not Stated,Ketamine,,51.5602,0.1792
@@ -522,10 +522,10 @@ W071373,2025-12-03,BD18,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Inc
 W071519,2025-12-03,SE4,Ketamine,Not Stated,"Colourless, White",Crystalline,Snort / Sniff,"Increased Energy, Relaxed, Memory Loss",Ketamine,,51.46099999999999,-0.0352
 W071547,2025-12-03,SE4,Ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.46099999999999,-0.0352
 W071772,2025-12-09,BS2,Ketamine,Ketamine,"Colourless, White",Crystalline,Snort / Sniff,"Empathy, Increased Energy, Increased Stamina, Increased Libido, Relaxed, Paranoia, Memory Loss, Confusion",Ketamine,Phenacetin,51.4552,-2.5966
-W071673,2025-12-09,MK18,Ketamine,Not Stated,White,Crystalline,Not Stated,Not Stated,Ketamine,,51.968651515151514,-0.965221212121212
-W071639,2025-12-09,SA11,Ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.70800714285714,-3.6944071428571426
 000234477,2025-12-09,CF3,Ketamine,KEtamine,White,Crystalline,Snort / Sniff,"Euphoria, Relaxed, Panic Attack, Nausea",Ketamine,,51.52382222222222,-3.0891333333333333
+W071639,2025-12-09,SA11,Ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.70800714285714,-3.6944071428571426
 W071627,2025-12-09,EH12,Ketamine,Not Stated,White,Granules,Not Stated,Not Stated,Ketamine,,55.9429,-3.285
+W071673,2025-12-09,MK18,Ketamine,Not Stated,White,Crystalline,Not Stated,Not Stated,Ketamine,,51.968651515151514,-0.965221212121212
 W071714,2025-12-11,TF13,ket,Not Stated,"Colourless, White",Crystalline,Not Stated,Not Stated,Ketamine,,52.56572857142857,-2.602778571428572
 000237192,2025-12-16,CF10,ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.48,-3.18
 000237200,2025-12-16,CF10,ketamine,Not Stated,"White, White",Powder,Not Stated,Not Stated,Ketamine,,51.48,-3.18
@@ -550,9 +550,9 @@ W072338,2025-12-24,SE17,Ketamine,Not Stated,White,Crystalline,Not Stated,Not Sta
 W071872,2025-12-24,BS1,Ketamine,Not Stated,White,Powder,Snort / Sniff,"Memory Loss, Confusion, Loss of consciousness, Agitation, loss of coordination",Ketamine,,51.4552,-2.5966
 100004523,2025-12-24,BS1,Ketamine,Not Stated,White,Crystalline,Not Stated,"Relaxed, Irregular Heartbeat, Confusion, Loss of consciousness",Ketamine,,51.4552,-2.5966
 W071869,2025-12-24,BS1,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Memory Loss, Confusion, Loss of consciousness, Agitation",Ketamine,,51.4552,-2.5966
-W072385,2025-12-31,PL1,Ketamine,Not Stated,"White, Colourless",Crystalline,Snort / Sniff,"Euphoria, Visual Hallucinations, Relaxed",Ketamine,,50.37435000000001,-4.1642
 W072254,2025-12-31,S61,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,Not Stated,Ketamine,,53.4567,-1.3738
 W072386,2025-12-31,PL1,Ketamine,Not Stated,"White, Colourless",Crystalline,Not Stated,Not Stated,Ketamine,,50.37435000000001,-4.1642
+W072385,2025-12-31,PL1,Ketamine,Not Stated,"White, Colourless",Crystalline,Snort / Sniff,"Euphoria, Visual Hallucinations, Relaxed",Ketamine,,50.37435000000001,-4.1642
 W072384,2025-12-31,PL1,ketamine,Not Stated,"Colourless, White",Crystalline,Snort / Sniff,"Visual Hallucinations, Relaxed, Chest Pains, Irregular Heartbeat, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness",Ketamine,,50.37435000000001,-4.1642
 W072302,2025-12-31,S61,Ketamine,Not Stated,White,Crystalline,Snort / Sniff,Not Stated,Ketamine,,53.4567,-1.3738
 W072469,2026-01-05,BN84,ketamine ,Not Stated,White,Crystalline,Not Stated,Not Stated,Ketamine,,50.90176086956522,0.0753
@@ -663,26 +663,26 @@ W075945,2026-04-15,ME10,ketamine,ket,White,Crystalline,Not Stated,Not Stated,Ket
 W075934,2026-04-15,SA1,ketamine,Not Stated,White,Powder,Not Stated,Empathy,Ketamine,,51.633979999999994,-3.94848
 W076001,2026-04-17,HG50,ketamine,Not Stated,White,Crystalline,Snort / Sniff,"Euphoria, Increased Confidence, Increased Energy, Increased Stamina, Empathy, Relaxed, Vomiting, Paranoia, Confusion, Loss of consciousness, Insomnia, Depression, Suicidal Ideation",Ketamine,,54.02320909090909,-1.4480000000000002
 W075954,2026-04-17,CF10,ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.48,-3.18
+W075995,2026-04-17,PE29,ketamine,ket,Colourless,Crystalline,Not Stated,Not Stated,Ketamine,,52.3305,-0.1865
 W076015,2026-04-17,BT41,ketamine,ketamine,White,Powder,Not Stated,Not Stated,Ketamine,,54.70416,-6.19582
 W076024,2026-04-17,CR2,ketamine,Not Stated,White,Powder,Not Stated,Not Stated,Ketamine,,51.3359,-0.0778
 000233482,2026-04-17,LL65,ketamine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Auditory Hallucinations, Visual Hallucinations, Relaxed, Memory Loss, Confusion",Ketamine,,53.289686206896555,-4.534455172413793
-W075995,2026-04-17,PE29,ketamine,ket,Colourless,Crystalline,Not Stated,Not Stated,Ketamine,,52.3305,-0.1865
-W076144,2026-04-22,EH12,KETAMINE,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.9429,-3.285
 W076007,2026-04-22,LL55,Ketamine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Nausea",Ketamine,,53.12915357142857,-4.195053571428572
+W076144,2026-04-22,EH12,KETAMINE,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.9429,-3.285
 W076206,2026-04-28,BA11,ketamine,Himalyan ket 'washed quality',Pink,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.216945,-2.351325
 W100069,2026-04-28,W12,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.505,-0.2211
 W075654,2026-04-28,CH5,ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.19930000000001,-3.03614
 W075997,2026-04-28,CH5,ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.19930000000001,-3.03614
-W076204,2026-04-30,E17,KETAMINE,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Paranoia, Memory loss, Confusion, Depression, Suicidal ideation",Ketamine,,51.58758,-0.02048
 W075804,2026-04-30,S10,KETAMINE,KETAMINE,White,Crystalline,Oral,"Euphoria, Increased senses, Auditory hallucinations, Relaxed",Ketamine,,53.35,-1.55
+W076204,2026-04-30,E17,KETAMINE,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Paranoia, Memory loss, Confusion, Depression, Suicidal ideation",Ketamine,,51.58758,-0.02048
 W100235,2026-05-01,PL14,Ketamine,Not stated,White,Crystalline,Snort / Sniff,"Nausea, Agitation, Insomnia",Ketamine,,50.46451290322581,-4.464809677419355
 W076222,2026-05-04,SG89,Ketamine,ketamine,White,Crystalline,Snort / Sniff,"Increased energy, Increased confidence, Increased senses, Empathy, Visual hallucinations, Relaxed, Chest pains, Nosebleeds, Confusion, Agitation",Ketamine,,52.07207058823529,-0.0231647058823529
 W100356,2026-05-06,EH10,Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Diazepam,,55.91466666666667,-3.2046333333333337
 W100132,2026-05-07,SK14,ketamine,ketamine,White,Crystalline,Not stated,"Not stated,  ",MDMA,,53.45065,-2.04802
 W100543,2026-05-07,SP10,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.2167,-1.49775
 W100455,2026-05-07,SE16,ketamine,bloodline ketamine,Brown,Crystalline,Not stated,"Not stated,  ","Mephedrone, Ketamine",,51.49742,-0.0528
-W100563,2026-05-13,LS21,ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Relaxed, Panic attack",Ketamine,,53.9217,-1.6693555555555557
 W075205,2026-05-13,CH53,ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Paracetamol,"Caffeine, Synephrine",53.19930000000001,-3.03614
+W100563,2026-05-13,LS21,ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Relaxed, Panic attack",Ketamine,,53.9217,-1.6693555555555557
 W100822,2026-05-15,WA9,Ketamine,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.426433333333335,-2.7348666666666666
 W071274,2026-05-15,AB21,Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,57.2111,-2.2037
 000236455,2026-05-19,NP4,ketamine,Not stated,White,Crystalline,Snort / Sniff,"Euphoria, Increased senses, Auditory hallucinations, Visual hallucinations, Relaxed, Memory loss, Loss of consciousness",Ketamine,,51.718515789473685,-3.030521052631579
@@ -693,44 +693,44 @@ W100893,2026-05-19,M14,ketamine,Not stated,Colourless,Crystalline,Not stated,"No
 W100904,2026-05-19,B26,Ketamine,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,52.45953333333333,-1.7873333333333334
 W100933,2026-05-19,Not stated,Ketamine,Not stated,Colourless,Crystalline,Snort / Sniff,"Relaxed, No effect",Ketamine,,,
 W100903,2026-05-26,TA2,Ketamine,Not stated,White,Granules,Snort / Sniff,"Not stated,  ",Ketamine,,51.04662,-3.08832
-W101117,2026-05-29,WN5,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.497899999999994,-2.7081
-W100554,2026-05-29,CB58,ketamine,Not stated,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,52.21305384615385,0.154976923076923
 W101092,2026-05-29,CO11,ketamin,Not stated,Colourless,Granules,Not stated,"Not stated,  ",Ketamine,,51.93195,1.0912416666666669
-W076303,2026-05-29,DY13,Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,52.33356428571428,-2.2796285714285713
-W101119,2026-05-29,WN5,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.497899999999994,-2.7081
-W101127,2026-05-29,L3,ketamine,ket,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.4106,-2.9779
+W100554,2026-05-29,CB58,ketamine,Not stated,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,52.21305384615385,0.154976923076923
 W101118,2026-05-29,WN5,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.497899999999994,-2.7081
+W101117,2026-05-29,WN5,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.497899999999994,-2.7081
+W101119,2026-05-29,WN5,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.497899999999994,-2.7081
+W076303,2026-05-29,DY13,Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,52.33356428571428,-2.2796285714285713
+W101127,2026-05-29,L3,ketamine,ket,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.4106,-2.9779
 W069519,2026-06-05,AB24,KETAMINE,KETAMINE,Colourless,Other,Subcutaneous,"Euphoria, Increased energy, Increased confidence, Increased senses, Relaxed, Memory loss, Confusion, Insomnia",Ketamine,,57.1437,-2.0981
 W101352,2026-06-05,N4,ketamine,ketamine,Colourless,Crystalline,Snort / Sniff,Relaxed,Ketamine,,51.5693,-0.1069
-000236572,2026-06-08,CF39,ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,51.5988125,-3.447975
 000236571,2026-06-08,CF37,KETAMINE,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,51.613815384615386,-3.3598076923076925
+000236572,2026-06-08,CF39,ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,51.5988125,-3.447975
 W101506,2026-06-08,L15,KETAMINE,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.3975,-2.9206
 W069522,2026-06-09,AB11,Ketamine,ketamine,Colourless,Crystalline,Snort / Sniff,"Euphoria, Increased senses, Auditory hallucinations, Visual hallucinations, Relaxed, Irregular heartbeat, Nausea, Vomiting, Paranoia, Memory loss, Confusion, Insomnia, Depression, Loss of consciousness",Ketamine,,57.1437,-2.0981
-000235444,2026-06-09,SY16,ketamine,Not stated,White,Powder,Snort / Sniff,"Memory loss, Agitation, Depression, Loss of consciousness",Ketamine,,52.50787647058824,-3.3015823529411765
 W101530,2026-06-09,EH12,ketamine,Not stated,White,Powder,Snort / Sniff,"Confusion, No effect",Cocaine,,55.9429,-3.285
+000235444,2026-06-09,SY16,ketamine,Not stated,White,Powder,Snort / Sniff,"Memory loss, Agitation, Depression, Loss of consciousness",Ketamine,,52.50787647058824,-3.3015823529411765
+W101617,2026-06-10,BS14,KETAMINE,Not stated,White,Granules,Snort / Sniff,"Relaxed, Confusion, Agitation, Insomnia, Depression",Ketamine,,51.4061,-2.5627
 W101616,2026-06-10,M4,Rock ketamine,Not stated,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,53.4809,-2.2374
 W101615,2026-06-10,M4,Rock ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,53.4809,-2.2374
-W101617,2026-06-10,BS14,KETAMINE,Not stated,White,Granules,Snort / Sniff,"Relaxed, Confusion, Agitation, Insomnia, Depression",Ketamine,,51.4061,-2.5627
-000235754,2026-06-11,CF48,KETAMINE,Not stated,White,Powder,Not stated,"Euphoria, Relaxed",Ketamine,Paracetamol,51.73028000000001,-3.37198
 W101629,2026-06-11,LN2,KETAMINE,Not stated,White,Other,Snort / Sniff,"Increased senses, Relaxed, Irregular heartbeat, Agitation",Ketamine,,53.26475789473684,-0.4992684210526316
+000235754,2026-06-11,CF48,KETAMINE,Not stated,White,Powder,Not stated,"Euphoria, Relaxed",Ketamine,Paracetamol,51.73028000000001,-3.37198
 W101523,2026-06-11,NN11,KETAMINE,KETAMINE-S-ISOMER,White,Crystalline,Snort / Sniff,"Increased energy, Increased senses, Vomiting, Confusion",Methamphetamine,,52.21614,-1.179288
-W101720,2026-06-15,BN1,ketamine,ketamine,White,Crystalline,Snort / Sniff,"Euphoria, Relaxed, Nausea, Paranoia, Confusion, Insomnia",Ketamine,,50.8614,-0.1204166666666666
 W101438,2026-06-15,NG5,ketamine,Not stated,White,Crystalline,Snort / Sniff,"Euphoria, Increased senses, Empathy, Auditory hallucinations, Confusion",Ketamine,,53.0006,-1.1315
+W101720,2026-06-15,BN1,ketamine,ketamine,White,Crystalline,Snort / Sniff,"Euphoria, Relaxed, Nausea, Paranoia, Confusion, Insomnia",Ketamine,,50.8614,-0.1204166666666666
 W069115,2026-06-16,EH15,Ketamine,ketamine,Colourless,Crystalline,Snort / Sniff,"Visual hallucinations, Memory loss, Confusion",Ketamine,,55.948033333333335,-3.1120666666666668
 W101951,2026-06-17,SN3,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.5892,-1.7194
 W102283,2026-06-24,IG11,Ketamine,Ketamine,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.5333,0.0833
 W101948,2026-06-24,N1,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.53669,-0.0944
 W102310,2026-06-26,CF45,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.66452,-3.3537
 W102218,2026-06-29,E20,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.5468,-0.0096
-W102395,2026-06-30,WA10,Ketamine,Not stated,White,Granules,Snort / Sniff,"Euphoria, Increased senses, Visual hallucinations, Relaxed, Nausea",Ketamine,,53.45000000000001,-2.7583
 W102396,2026-06-30,Not stated,ketamine,Not stated,White,Granules,Snort / Sniff,"Euphoria, Increased senses, Relaxed",Ketamine,,,
+W102395,2026-06-30,WA10,Ketamine,Not stated,White,Granules,Snort / Sniff,"Euphoria, Increased senses, Visual hallucinations, Relaxed, Nausea",Ketamine,,53.45000000000001,-2.7583
 W102468,2026-07-02,AB25,ketamine,Not stated,White,Crystalline,Snort / Sniff,"Visual hallucinations, Confusion, Depression, Loss of consciousness",Ketamine,,57.1437,-2.0981
-W102536,2026-07-03,LL29,Ketamine,Ketamine,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.283275,-3.6966
 W102406,2026-07-03,EH13,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.9074,-3.2561
 000042900,2026-07-03,LL65,Ketamine,Not stated,White,Crystalline,Snort / Sniff,"Relaxed, Irregular heartbeat, Nausea, Memory loss",Ketamine,,53.289686206896555,-4.534455172413793
+W102536,2026-07-03,LL29,Ketamine,Ketamine,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.283275,-3.6966
 W102477,2026-07-06,LN4,ketamine,Not stated,White,Powder,Snort / Sniff,"Relaxed, Irregular heartbeat, Nausea",Ketamine,,53.12072222222222,-0.3503583333333333
-W102631,2026-07-06,WA10,Ketamine,Not stated,Brown,Powder,Snort / Sniff,"Irregular heartbeat, Nausea, Confusion, Violence",No active compound identified,,53.45000000000001,-2.7583
 W102554,2026-07-06,EH32,Ketamine,racemic ketamine cali_soul,White,Powder,Not stated,"Not stated,  ",Ketamine,,55.97811428571429,-2.9193571428571423
+W102631,2026-07-06,WA10,Ketamine,Not stated,Brown,Powder,Snort / Sniff,"Irregular heartbeat, Nausea, Confusion, Violence",No active compound identified,,53.45000000000001,-2.7583
 W102667,2026-07-14,OX13,Ketamine,Not stated,Brown,Powder,Not stated,"Not stated,  ",Caffeine,,51.673544444444445,-1.3561166666666666
 W102556,2026-07-14,SG2,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.899049999999995,-0.14905
 W102739,2026-07-14,N4,Ketamine,Ketamine,White,Crystalline,Snort / Sniff,"Increased energy, Visual hallucinations, Relaxed, Irregular heartbeat, Nausea, Insomnia",Ketamine,,51.5693,-0.1069
@@ -738,27 +738,27 @@ W102787,2026-07-14,NW9,Ketamine,Not stated,White,Crystalline,Not stated,"Not sta
 W102981,2026-07-16,NR14,Ketamine,Ketamine,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,52.56780769230769,1.371471794871795
 W102887,2026-07-16,NW4,Ketamine,Not stated,Colourless,Crystalline,Oral,"Dissociation, Other",Ketamine,,51.6,-0.2166999999999999
 W103041,2026-07-20,TN14,Ketamine,Ketamine,White,Powder,Snort / Sniff,"Relaxed, Nausea, Dissociation",Ketamine,,51.29797857142857,0.1372928571428571
-W102817,2026-07-20,CF44,Ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Empathy, Relaxed, Nosebleeds, Insomnia, Other",Ketamine,,51.7327125,-3.48293125
-000233834,2026-07-20,NP25,Ketamine,Not stated,White,Powder,Snort / Sniff,No effect,Cocaine,,51.8127,-2.7136
 000231865,2026-07-20,LL61,Ketamine,Not stated,Colourless,Crystalline,Snort / Sniff,"Euphoria, Relaxed, Insomnia",Ketamine,,53.191199999999995,-4.267242857142857
 W103120,2026-07-20,W5,Ketamine,ketamine,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.516333333333336,-0.2851888888888889
+000233834,2026-07-20,NP25,Ketamine,Not stated,White,Powder,Snort / Sniff,No effect,Cocaine,,51.8127,-2.7136
+W102817,2026-07-20,CF44,Ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Empathy, Relaxed, Nosebleeds, Insomnia, Other",Ketamine,,51.7327125,-3.48293125
 W076357,2026-07-23,LS42,Ketamine,Not stated,White,Granules,Not stated,"Not stated,  ",Ketamine,,53.8103,-1.5846
 000233448,2026-07-27,LL65,Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.289686206896555,-4.534455172413793
 W103479,2026-07-29,SG18,Ketamine,Not stated,White,Granules,Not stated,"Not stated,  ",Ketamine,,52.07824545454545,-0.2732454545454545
 W103589,2026-07-29,N1,Ketamine,S-isomer ketamine (sugar),White,Powder,Not stated,"Not stated,  ",Ketamine,,51.53669,-0.0944
 W103553,2026-07-30,LS31,Ketamine,Not stated,White,Granules,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Auditory hallucinations, Relaxed, Memory loss, Confusion",Ketamine,,53.7965,-1.5478
 W103666,2026-07-31,TQ12,Ketamine,Ketamine Astral sand,White,Granules,Not stated,"Not stated,  ",Ketamine,,50.526051851851854,-3.6118259259259258
+000236942,2026-08-11,Not stated,Cocaine or Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",No active compound identified,,,
 W103985,2026-08-11,CF40,Ketamine,Not stated,Colourless,Crystalline,Not stated,"Euphoria, Relaxed",Ketamine,,51.627316666666665,-3.461883333333333
 W103825,2026-08-11,SE3,Ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Auditory hallucinations, Visual hallucinations, Irregular heartbeat, Memory loss, Panic attack",Ketamine,,51.46596666666667,0.0175
-000236942,2026-08-11,Not stated,Cocaine or Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",No active compound identified,,,
 W103888,2026-08-11,SK23,Ketamine,Not stated,White,Powder,Snort / Sniff,"Relaxed, Memory loss, Confusion, Agitation",Cocaine,,53.33156666666667,-1.9448333333333336
-W103814,2026-08-11,NE61,Ketamine,Not stated,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.165690000000005,-1.7111625
-W103868,2026-08-11,M14,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,Paracetamol,53.4482,-2.2257
 W103720,2026-08-11,SY1,Ketamine,Ket,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,52.71675,-2.7468
 W103768,2026-08-11,CF47,Ketamine,Not stated,White,Powder,Snort / Sniff,Relaxed,Ketamine,,51.7479,-3.3778
 W103789,2026-08-11,OX28,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.7836,-1.4854
 W103707,2026-08-11,HR4,ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Empathy, Chest pains, Irregular heartbeat, Memory loss, Depression, Suicidal ideation, Panic attack, Anxiety",MDMA,,52.10106744186046,-2.8000232558139535
 W103869,2026-08-11,M14,Ketamine,Not stated,White,Crystalline,Not stated,"Euphoria, Increased energy, Increased confidence, Relaxed, Memory loss",Ketamine,,53.4482,-2.2257
+W103868,2026-08-11,M14,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,Paracetamol,53.4482,-2.2257
+W103814,2026-08-11,NE61,Ketamine,Not stated,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.165690000000005,-1.7111625
 W076378,2026-08-13,OX16,KETAMINE,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,52.0617,-1.34125
 W076377,2026-08-13,OX16,Ketamine,Not stated,White,Powder,Snort / Sniff,"Auditory hallucinations, Visual hallucinations, Relaxed, Paranoia, Confusion, Agitation, Insomnia, Depression",Ketamine,,52.0617,-1.34125
 W104136,2026-08-14,LL29,Ketamine,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.283275,-3.6966
@@ -766,12 +766,17 @@ W103915,2026-08-14,CF31,ketamine,Not stated,White,Crystalline,Snort / Sniff,"Eup
 W104288,2026-08-18,LL29,ketamine,Ketamine,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.283275,-3.6966
 W104145,2026-08-18,W3,ketamine,ketamine,White,Powder,Snort / Sniff,"Euphoria, Relaxed",Ketamine,,51.51048333333333,-0.2657166666666666
 W104202,2026-09-01,M3,ketamine,Not stated,White,Crystalline,Snort / Sniff,Memory loss,Ketamine,,53.4809,-2.2374
-W075762,2026-09-02,NE29,Ketamine crystals/shards,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.0165,-1.4493
 W104663,2026-09-02,BH21,ketamine,ketamine shards,Colourless,Crystalline,Not stated,"Not stated,  ",Ketamine,,50.83123846153846,-1.9751820512820513
-000239452,2026-09-04,NP16,Ketamine,ketamine,White,Crystalline,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Increased stamina",Ketamine,,51.6409,-2.6768
+W075762,2026-09-02,NE29,Ketamine crystals/shards,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,55.0165,-1.4493
 W104733,2026-09-04,BS49,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",2-oxo-PCE,,51.389,-2.8187
 W104731,2026-09-04,BS49,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",2-oxo-PCE,,51.389,-2.8187
 W104589,2026-09-04,CF44,Ketamine,Not stated,White,Powder,Not stated,"Increased confidence, Increased senses, Empathy, Relaxed, Irregular heartbeat, Nosebleeds, Nausea, Memory loss, Confusion, Depression",Ketamine,,51.7327125,-3.48293125
 W104732,2026-09-04,LL29,ketamine,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Ketamine,,53.283275,-3.6966
+000239452,2026-09-04,NP16,Ketamine,ketamine,White,Crystalline,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Increased stamina",Ketamine,,51.6409,-2.6768
 W104861,2026-09-07,N13,ketamine,ketamine Red Soul,Colourless,Powder,Not stated,"Not stated,  ",Ketamine,,51.6179,-0.1101
 W104846,2026-09-07,EX38,ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased confidence, Increased senses, Increased stamina, Auditory hallucinations, Relaxed, Irregular heartbeat, Nausea, Paranoia, Memory loss, Confusion, Agitation, Insomnia, Depression, Suicidal ideation, Breathlessness",Ketamine,,50.9311,-4.168915384615385
+W104818,2026-09-07,EX16,ketamine,Not stated,White,Crystalline,Oral,"Euphoria, Increased confidence, Empathy, Auditory hallucinations, Visual hallucinations, Relaxed, Chest pains, Irregular heartbeat, Nosebleeds, Nausea, Paranoia, Memory loss, Depression, Suicidal ideation, Panic attack",Ketamine,,50.93113255813954,-3.543744186046512
+W105006,2026-09-07,DA12,ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,51.4177875,0.3915125
+W104992,2026-09-10,Not stated,ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased confidence, Empathy, Auditory hallucinations, Visual hallucinations, Irregular heartbeat, Memory loss, Confusion, Depression, Suicidal ideation",Ketamine,,,
+W105129,2026-09-10,L4,Ketamine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Ketamine,,53.4378,-2.9611
+000238549,2026-09-10,NP4,Ketamine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Relaxed, Chest pains, Memory loss",Ketamine,,51.718515789473685,-3.030521052631579

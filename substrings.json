@@ -92,5 +92,14 @@
     "not_pregabalin": ["placeholder"],
     "not_4-fluorophenibut": ["placeholder"],
     "not_sedatingantihistamine": ["placeholder"],
-    "not_zdrug": ["placeholder"]
+    "not_zdrug": ["placeholder"],
+    "tooltips": {
+        "α2-adrenergic agonists": "e.g. medetomidine, xylazine",
+        "Arylcyclohexamines": "Ketamine/PCP analogues, e.g. 2F-DCK",
+        "Gabapentinoids": "e.g. pregabalin, gabapentin",
+        "Pyrovalerones": "Potent cathinone stimulants, e.g. α-PVP",
+        "Potent synthetic opioids": "e.g. nitazenes, fentanyls, orphines",
+        "SCRAs": "Synthetic cannabinoids, spice",
+        "Neocannabinoids": "Semi-synthetic, e.g. HHC"
+    }
 }
