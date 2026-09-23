@@ -64,7 +64,7 @@ not_substring_dict = {k: v for k, v in substrings_dict.items() if 'not_' in str(
 #    'heroin': ['placeholder'],
 #    'vapes': ['placeholder']
 #}
-types_list = ['benzo', 'cocaine', 'gabapentinoid', 'heroin', 'ketamine', 'opioid', 'mdma', 'nitazene', 'vape', 'zdrug']
+types_list = ['benzo', 'cocaine', 'gabapentinoid', 'heroin', 'ketamine', 'opioid', 'mdma', 'nitazene', 'prescriptionopioid', 'vape', 'zdrug']
 
 save_data = config['saveData']
 not_benzo_substring_list = config['not_benzo_substring_list']
