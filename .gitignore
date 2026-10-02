@@ -1,4 +1,5 @@
 .DS_store
+.DS_Store
 data/preprocessed
 __pycache__
 assets/*
