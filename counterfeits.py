@@ -46,7 +46,7 @@ def checkRowStatus(row, intent, debug=False):
 
         try: # try-except to avoid errors with missing testing data
             # checking if sample contents match intent/label and there are no other minor components
-            if ((major_str in intent_label) or (str.lower(row['intent']) in major_str) or (str.lower(row['label']) in major_str)) and ((minor_str=='') or ((major_str==minor_str) and major_str!='')):
+            if ((major_str in intent_label) or (str.lower(row['intent']) == major_str) or (str.lower(row['label']) == major_str)) and ((minor_str=='') or ((major_str==minor_str) and major_str!='')):
                 status='not counterfeit'
             elif ('unable to identify' in major_str):
                 status='inconclusive'
@@ -106,7 +106,7 @@ def checkRowStatus(row, intent, debug=False):
                     status='counterfeit'
             elif any(substring in intent for substring in ['opioid','dihydrocodeine']) and any(substring in intent_label for substring in substring_dict.get('dihydrocodeine',[])):
                 if 'promethazine' in intent_label:
-                    if all(substring in major_str for substring in ['promethazine', 'dihydrocodeine']) or (major_minor == 'promethazine, dihydrocodeine') or(major_minor == 'dihydrocodeine, promethazine'):
+                    if all(substring in major_str for substring in ['promethazine', 'dihydrocodeine']) or (major_minor == 'promethazine dihydrocodeine') or(major_minor == 'dihydrocodeine promethazine'):
                         status='not counterfeit'
                     else:
                         status='counterfeit'
@@ -116,12 +116,12 @@ def checkRowStatus(row, intent, debug=False):
                     status='counterfeit'
             elif any(substring in intent for substring in ['opioid','codeine','cocodamol','zapain','solpadeine']) and any(substring in intent_label for substring in substring_dict.get('codeine',[])):
                 if 'promethazine' in intent_label:
-                    if all(substring in major_str for substring in ['promethazine', 'codeine']) or (major_minor == 'promethazine, codeine') or(major_minor == 'codeine, promethazine'):
+                    if all(substring in major_str for substring in ['promethazine', 'codeine']) or (major_minor == 'promethazine codeine') or(major_minor == 'codeine promethazine'):
                         status='not counterfeit'
                     else:
                         status='counterfeit'
                 elif any(substring in intent_label for substring in substring_dict.get('cocodamol',[])): 
-                    if all(substring in major_str for substring in ['paracetamol', 'codeine']) or (major_minor == 'codeine, paracetamol') or(major_minor == 'paracetamol, codeine'):
+                    if all(substring in major_str for substring in ['paracetamol', 'codeine']) or (major_minor == 'codeine paracetamol') or(major_minor == 'paracetamol codeine'):
                         status='not counterfeit'
                     else:
                         status='counterfeit'
@@ -136,7 +136,7 @@ def checkRowStatus(row, intent, debug=False):
                     status='counterfeit'
             elif any(substring in intent for substring in ['opioid','tapentadol']) and any(substring in intent_label for substring in substring_dict.get('tapentadol',[])):
                 if 'carisoprodol' in intent_label:
-                    if all(substring in major_str for substring in ['carisoprodol', 'tapentadol']) or (major_minor == 'tapentadol, carisoprodol') or(major_minor == 'carisoprodol, tapentadol'):
+                    if all(substring in major_str for substring in ['carisoprodol', 'tapentadol']) or (major_minor == 'tapentadol carisoprodol') or(major_minor == 'carisoprodol tapentadol'):
                         status='not counterfeit'
                     else:
                         status='counterfeit'
@@ -170,7 +170,6 @@ def checkRowStatus(row, intent, debug=False):
                     status='impure not counterfeit'
                 else:
                     status='counterfeit'
-                print(status, components_list)
             # psychedelic categories in active development
             elif intent == 'psychedelic' and any(substring in intent_label for substring in ['acid','lucy','lsd','lysergic acid diethylamide']):
                 if ('lysergic acid diethylamide' in major_str) and (minor_str==''):
