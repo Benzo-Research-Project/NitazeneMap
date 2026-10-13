@@ -17,10 +17,10 @@ W050182,2024-04-10,NG5,M30 Oxycodone,M30 Oxycodone,Blue,Tablet,Snort / Sniff,"Eu
 W050608,2024-04-18,N14,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,Metonitazene,,51.63298,-0.13062
 W050660,2024-04-22,PO39,Oxycodone,Not Stated,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,50.6847,-1.5369
 W051253,2024-04-25,CR8,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,Unable to identify,,51.331599999999995,-0.10655
-W051326,2024-04-30,TA9,Oxycodone ,Not Stated,Blue,Powder,Snort / Sniff,"Euphoria, Increased Confidence, Increased Libido, Increased Strength, Relaxed, Nausea",Metonitazene,,51.221475,-2.949875
 W051332,2024-04-30,B63,Oxycodone,GL Pharma Oxylan,White,Tablet,Not Stated,Not Stated,Oxycodone,,52.44826666666666,-2.067133333333333
 W051098,2024-04-30,CF64,Oxycodone,Oxycodone M30,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.42878,-3.21045
 W051100,2024-04-30,CF64,Oxycodone,Oxycodone V4812,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.42878,-3.21045
+W051326,2024-04-30,TA9,Oxycodone ,Not Stated,Blue,Powder,Snort / Sniff,"Euphoria, Increased Confidence, Increased Libido, Increased Strength, Relaxed, Nausea",Metonitazene,,51.221475,-2.949875
 W051545,2024-05-10,SW9,Oxycodone,Oxycodone,Yellow,Tablet,Not Stated,Not Stated,Metonitazene,,51.474,-0.1168
 W053666,2024-07-02,M14,Oxycodone,Oxycodone,Green,Powder,Not Stated,Not Stated,Metonitazene,,53.4482,-2.2257
 000235256,2024-07-09,CF72,Oxycodone,Oxycodone,"White, Brown",Capsule,Not Stated,Not Stated,Oxycodone,,51.530146153846154,-3.408415384615384
@@ -28,9 +28,9 @@ W053862,2024-07-09,EH21,Oxycodone,Oxypro,Pink,Tablet,Not Stated,Not Stated,Oxyco
 W054220,2024-07-25,NE6,Oxycodone,Oxycontin MundiPharma,"White, Yellow",Tablet,Not Stated,Not Stated,Oxycodone,,54.9775,-1.5656
 W054816,2024-08-07,NR20,Oxycodone,Yellow Oxycodone,Yellow,Tablet,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Relaxed",Isotonitazepyne,,52.744662857142856,0.9706371428571428
 W055103,2024-08-15,TA9,Oxycodone 40mg tablet,Oxycodone 40mg tablet,Yellow,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Irregular Heartbeat, Nausea, Memory Loss, Loss of appetite","Isotonitazepyne, Tramadol",,51.221475,-2.949875
+W055065,2024-08-20,NE15,Oxycodone ,Oxycodone - Pressed oxycodone -30,Blue,Granules,Oral,"Euphoria, Relaxed",Metonitazene,,54.99177142857143,-1.7885428571428572
 W056996,2024-08-20,W114,Oxycodone,Not Stated,Yellow,Tablet,Not Stated,Not Stated,Isotonitazepyne,,51.507525,-0.205
 W056993,2024-08-20,EH21,Oxycodone,Not Stated,Green,Tablet,Not Stated,"Nausea, Vomiting, Paranoia, Memory Loss, Confusion, Panic Attack, Loss of consciousness, Agitation",Isotonitazepyne,,55.94169999999999,-3.0499
-W055065,2024-08-20,NE15,Oxycodone ,Oxycodone - Pressed oxycodone -30,Blue,Granules,Oral,"Euphoria, Relaxed",Metonitazene,,54.99177142857143,-1.7885428571428572
 W057135,2024-08-23,BS10,Oxy ,Not Stated,"Orange, Yellow",Tablet,Not Stated,Not Stated,Oxycodone,,51.509866666666674,-2.635366666666666
 W057164,2024-08-28,NG15,Oxycodone,Oxycodene,Blue,Solid,Oral,"Euphoria, Increased Energy",Metonitazene,,53.0614625,-1.2034125
 W057162,2024-08-28,NG15,Oxycodone ,Not Stated,Orange,Tablet,Oral,Relaxed,Caffeine,Amphetamine,53.0614625,-1.2034125
@@ -62,16 +62,16 @@ W063446,2025-04-08,CH65,Oxycodone,Oxy,White,Tablet,Not Stated,Not Stated,Oxycodo
 W063651,2025-04-08,YO10,Oxycodone,Oxycontin 80fm Mundipharma,"White, Green",Tablet,Snort / Sniff,No Effect,"N,N-dimethyletonitazene",,53.9576,-1.0827
 W064092,2025-04-24,GL7,Oxycontin,Oxycontin,"Green, Green",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,51.716703389830506,-1.8806542372881356
 000230720,2025-04-30,NP23,Oxycodone,Not Stated,White,Tablet,Oral,Pain Relief,Oxycodone,,51.7771,-3.2079
+W064567,2025-05-13,TW14,Oxycodone,Oxycodene 30mg (pressed),Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.4528,-0.4215
 W064671,2025-05-13,AB10,Oxycodone 80mg,Not Stated,White,Tablet,Oral,"No Effect, Relaxed",No Active Component Identified,,57.1437,-2.0981
 W064560,2025-05-13,N5,Oxycodone 'Oxylan' 80mg,GL Pharma oxylan 80mg,Colourless,Tablet,Oral,"Euphoria, Increased Confidence, Empathy, Relaxed",Oxycodone,,51.55,-0.1
-W064567,2025-05-13,TW14,Oxycodone,Oxycodene 30mg (pressed),Blue,Tablet,Not Stated,Not Stated,Metonitazene,,51.4528,-0.4215
 W064996,2025-05-16,SW1V,Oxycodone,Oxycodone hydrochloride 80mg,White,Tablet,Oral,"Euphoria, Relaxed",Tramadol,,51.5085,-0.1257
 W064908,2025-05-28,YO31,Oxycodone,Not Stated,Green,Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
-W065445,2025-06-13,EN89,Oxycodone HCL,Mundipharma Oxycontin 40mg,Yellow,Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
 000235329,2025-06-13,NP22,Oxycontin 80mg,Oxycontin 80mg,White,Tablet,Oral,"Increased Confidence, Relaxed, Depression",Oxycodone,,51.7725,-3.2468
+W065445,2025-06-13,EN89,Oxycodone HCL,Mundipharma Oxycontin 40mg,Yellow,Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
 W064842,2025-06-16,NE29,Oxycontin Oxycodone Mundi Pharma,Not Stated,Green,Tablet,Not Stated,Not Stated,Gabapentin,,55.0165,-1.4493
-W065781,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrax,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
 W065780,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrotrust,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
+W065781,2025-06-17,M28,Hydroxyzine hydrochloride,Hydrax,White,Tablet,Not Stated,Not Stated,Hydroxyzine,,53.50606666666667,-2.3990666666666667
 W065751,2025-06-24,YO10,Oxycodone,Not Stated,"Green, White",Tablet,Not Stated,Not Stated,"N,N-dimethyletonitazene",,53.9576,-1.0827
 W066112,2025-06-25,,Oxy,Not Stated,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,0,0
 W066258,2025-07-01,YO10,Oxycodone,Faroxy 40mg,Orange,Tablet,Oral,No Effect,Oxycodone,,53.9576,-1.0827
@@ -87,8 +87,8 @@ W068684,2025-09-09,BP80,Oxycodone 80mg Prolong release gearheadz,Oxydolor 80mg p
 W068591,2025-09-09,EN89,Oxycodone HCL,GL Pharma Oxydolor 80mg,"White, Green",Tablet,Not Stated,Not Stated,Oxycodone,,51.6985,-0.03535
 W069124,2025-09-22,BS21,oxycodone,Not Stated,Green,Tablet,Not Stated,No Effect,"Tramadol, Caffeine",,51.43066,-2.8366800000000003
 W069577,2025-10-07,TN37,OXYCODONE,OXYDOLOR,White,Tablet,Oral,"Euphoria, Increased Confidence, Increased Energy, Relaxed",Oxycodone,,50.87460000000001,0.5477
-W070061,2025-10-28,BH11,Doxycycline,Not Stated,Green,Capsule,Not Stated,Not Stated,No Active Component Identified,,50.7655,-1.9096
 W070136,2025-10-28,WV10,Oxycontin,Oxycantin,Blue,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Increased Strength, Irregular Heartbeat, Confusion, Violence/Aggression",No Active Component Identified,,52.651114285714286,-2.101428571428571
+W070061,2025-10-28,BH11,Doxycycline,Not Stated,Green,Capsule,Not Stated,Not Stated,No Active Component Identified,,50.7655,-1.9096
 W070318,2025-10-30,SN10,Oxycodone (faroxy),40mg ER Oxycodone,"Orange, Pink",Tablet,Oral,"Euphoria, Chest Pains, Vomiting, Panic Attack",Oxycodone,,51.324556666666666,-1.9961633333333333
 W070520,2025-11-05,E18,oxycodone 80mg,OC - on one side of pill + 10 on other ,Green,Tablet,Not Stated,Not Stated,Tramadol,,51.5923,0.0225
 W070534,2025-11-05,E18,OXYCODONE 30MG,M - ON ONE SIDE + 30 ON THE OTHER,Blue,Tablet,Not Stated,Not Stated,Tramadol,,51.5923,0.0225
@@ -106,17 +106,17 @@ W075291,2026-03-31,N7,Oxycodone,Oxycodone,Orange,Tablet,Not Stated,Not Stated,Ox
 W075270,2026-04-01,YO8,Oxycontin,Oxycontin,Yellow,Tablet,Snort / Sniff,"Euphoria, Increased Confidence",Oxycodone,,53.77469393939394,-1.0269030303030302
 W075677,2026-04-16,SK16,oxycontin 80mg,Mundharma oxyontin 80mg,Green,Tablet,Not Stated,Not Stated,Gabapentin,,53.475,-2.0881
 W076101,2026-04-22,DD9,Oxycontin,Mundi pharama oxycontin 80mg,Green,Tablet,Oral,"Not stated,  ",Gabapentin,Paracetamol,56.83844871794872,-2.6685538461538463
+W076203,2026-04-28,W1F,Oxycodone 80mg,Oxydolor 80mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.5085,-0.1257
 W076196,2026-04-28,NW10,Oxycodone,Oxydolor 40mg,Orange,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.53758571428572,-0.2431214285714285
 W076055,2026-04-28,BS44,Oxycodone,Oxydolor 80g G.L.Pharma,White,Powder,Not stated,"Not stated,  ",Oxycodone,,51.4345,-2.55525
-W076203,2026-04-28,W1F,Oxycodone 80mg,Oxydolor 80mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.5085,-0.1257
 W100251,2026-05-01,LI19,Oxycodone,Not stated,Grey,Tablet,Oral,"Euphoria, Increased energy, Relaxed, Paranoia, Confusion, Agitation, Insomnia, Itching","Cocaine, Oxycodone",,,
 W100027,2026-05-06,G12,oxycodone 80mg,Oxycodone 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
-W100495,2026-05-07,SL3,Oxycodone 10mg,oxeltra,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
 W076228,2026-05-07,SL3,Oxycodone Oxylon 20mg,oxylon 20mg,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
-W100591,2026-05-14,TD9,OXYCODONE,OXYLAN 10MG,White,Tablet,Oral,Relaxed,Unable to Identify (Insufficient sample for repeat analysis),,55.39354782608696,-2.707571739130435
+W100495,2026-05-07,SL3,Oxycodone 10mg,oxeltra,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
 W100722,2026-05-14,SA2,OXYCODONE (40MG),OXYCODONE (40MG) BRAND: FAROXY - ER,Orange,Tablet,Intravenous,"Euphoria, Relaxed",Oxycodone,,51.61628,-4.04254
-W100861,2026-05-19,M4,oxycodone 30mg,oxycodone M30,White,Tablet,Not stated,"Not stated,  ",AB-MDMSBA,,53.4809,-2.2374
+W100591,2026-05-14,TD9,OXYCODONE,OXYLAN 10MG,White,Tablet,Oral,Relaxed,Unable to Identify (Insufficient sample for repeat analysis),,55.39354782608696,-2.707571739130435
 W100809,2026-05-19,SE7,Oxycontin,oxycontin,Yellow,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4842,0.0339
+W100861,2026-05-19,M4,oxycodone 30mg,oxycodone M30,White,Tablet,Not stated,"Not stated,  ",AB-MDMSBA,,53.4809,-2.2374
 W100978,2026-05-21,NP26,Oxycontin,Oxycontin,Green,Tablet,Not stated,"Not stated,  ",Gabapentin,,51.5866,-2.7574
 W100967,2026-05-26,KA17,Oxycodone 40mg,Foroxy oxycodone 40mg extered,Orange,Tablet,Not stated,"Not stated,  ",Oxycodone,,55.6098,-4.2814
 W076308,2026-05-29,WF12,Oxycodone,Oxylan,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.68023333333334,-1.6275333333333333
@@ -133,3 +133,4 @@ W103200,2026-07-22,NE46,Oxycodone 10mg,Not stated,Brown,Tablet,Not stated,"Not s
 W103567,2026-07-29,BH14,M30 Oxy pressed,RC,Blue,Tablet,Oral,"Euphoria, Empathy, Relaxed, Nausea, Memory loss, Confusion",N-desethyl Protonitazene,,50.7299,-1.9449
 W104171,2026-08-14,IG6,Oxycontin 80mg,Oxycontin 80mg,Green,Tablet,Not stated,"Not stated,  ",Gabapentin,,51.59805,0.09435
 W104694,2026-09-02,SN1,Oxycodone,oxycodone,Brown,Tablet,Oral,No effect,Gabapentin,,51.558,-1.7812
+W105882,2026-10-01,G12,Oxydolor 80mg (oxycodone),Oxydolor 80mg,White,Granules,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
