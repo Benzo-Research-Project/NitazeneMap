@@ -459,11 +459,15 @@ def getUniqueContents(contents, intent, dates='', counterfeits=True, save=config
                         contents_list.append(j)
     uniqueContents = list(set(contents_list))
     contentsDict = dict.fromkeys(uniqueContents)
-    contentsDict = {key: 0 for key in contentsDict}
+    contentsDict = {key: 0 for key in contentsDict if (len(key)>1) and not key.isspace()}
+    
     for idx, row in df.iterrows():
         for i in uniqueContents:
-            if i in idx:
-                contentsDict[i] = contentsDict[i]+int(row['count'])
+            if i in idx and not i.isspace():
+                try:
+                    contentsDict[i] = contentsDict[i]+int(row['count'])
+                except:
+                    print(f'WARNING! {i} not in contents dictionary.')
     uniqueCounts = pd.DataFrame(contentsDict.items(), columns=['Compound','Count']).set_index('Compound').sort_values('Count', ascending=False)
     if save:
         all_or_counterfeit = 'counterfeit' if counterfeits else 'all'
