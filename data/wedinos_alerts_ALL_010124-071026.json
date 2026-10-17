@@ -228569,12 +228569,12 @@
             "postcode": "NP20",
             "intent": "FOUND AT SUPPORTED ACCOMODATION",
             "label": "Not stated",
-            "colour": "Not stated Sample form Not stated Consumption method Not stated Self-reported effects Not stated",
+            "colour": "Not stated",
             "form": "Not stated",
             "consumption_method": "Not stated",
             "effects": "Not stated,  ",
-            "major": "Not stated, Sample upon analysis (minor), Not stated, Postcode,                 NP20              , Package label,             Not stated          , Sample colour, Not stated, Sample form,             Not stated          , Consumption method          ,             Not stated          , Self-reported effects          , Not stated,  ",
-            "minor": ""
+            "major": "Not stated",
+            "minor": "Not stated"
         }
     },
     {
@@ -236105,8 +236105,8 @@
             "form": "Tablet",
             "consumption_method": "Oral",
             "effects": "Not stated,  ",
-            "major": "Not stated, Sample upon analysis (minor), Not stated, Postcode,                 NW3              , Package label,             Diazepam          , Sample colour, Not stated, Sample form,             Tablet          , Consumption method          ,             Oral          , Self-reported effects          , Not stated,  ",
-            "minor": ""
+            "major": "Not stated",
+            "minor": "Not stated"
         }
     },
     {
@@ -248673,12 +248673,12 @@
             "postcode": "E8",
             "intent": "heroin",
             "label": "heroin",
-            "colour": "Not stated Sample form Powder Consumption method Not stated Self-reported effects Not stated",
+            "colour": "Not stated",
             "form": "Powder",
             "consumption_method": "Not stated",
             "effects": "Not stated,  ",
-            "major": "Not stated, Sample upon analysis (minor), Not stated, Postcode,                 E8              , Package label,             heroin          , Sample colour, Not stated, Sample form,             Powder          , Consumption method          ,             Not stated          , Self-reported effects          , Not stated,  ",
-            "minor": ""
+            "major": "Not stated",
+            "minor": "Not stated"
         }
     },
     {
