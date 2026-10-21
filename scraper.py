@@ -234,6 +234,7 @@ def main():
     Scrape and parse data from WEDINOS.
     Args:
     -n = number of pages to scrape
+    -s = page number to start scraping from (optional, default = 0)
     -d = filter by dates in DDMMYY-DDMMYY format
     -f = alerts file to reparse (optional: only needed to reparse saved alert .json files, if leaving -n blank)
     -t = type of drugs to filter for (benzos/opioids/alprazolam/diazepam/heroin/nitazenes/adrenergics/orphines/miscbenzos); all = all drugmapuk categories
