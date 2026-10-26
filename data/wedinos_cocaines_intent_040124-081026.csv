@@ -654,8 +654,8 @@ W063653,2025-04-07,UB7,Cocaine,TPS,White,Solid,Not Stated,Not Stated,Cocaine,,51
 W063336,2025-04-07,G11,Cocaine,Streee deal,White,Powder,Not Stated,Not Stated,Cocaine,,55.8708,-4.3057
 W063463,2025-04-07,WC1,Cocaine,Cocaine,White,Powder,Not Stated,Not Stated,Cocaine,,51.525485714285715,-0.1222999999999999
 W063606,2025-04-07,NP19,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Increased Energy, Increased Confidence, Paranoia, Breathlesness, Chest Pains, Irregular Heartbeat",Cocaine,,51.5888,-2.9638
-000233816,2025-04-07,NP4,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,51.718515789473685,-3.030521052631579
 000235402,2025-04-07,LD3,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Irregular Heartbeat, Agitation, Insomnia, Nausea","Cocaine, Procaine",,51.99435362318841,-3.411075362318841
+000233816,2025-04-07,NP4,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,51.718515789473685,-3.030521052631579
 W063602,2025-04-08,KY5,Crack cocaine,Not Stated,"White, White",Crystalline,Smoked,Not Stated,Cocaine,Benzoylecgonine,56.1493125,-3.285875
 W063577,2025-04-08,TW9,Cocaine,High Purity cocaine (UKP),White,Powder,Snort / Sniff,No Effect,Phenacetin,Benzocaine,51.47153333333333,-0.2963666666666666
 W062544,2025-04-08,CH65,Bolivian coke,Coke,White,Granules,Not Stated,Not Stated,Cocaine,,53.2787,-2.9013
@@ -731,8 +731,8 @@ W065179,2025-05-22,FK3,Cocaine,Not Stated,White,Powder,Smoked,"Increased Energy,
 W065063,2025-05-22,CB22,Bolivian cocaine,Not Stated,White,Powder,Snort / Sniff,"Increased Energy, Enhanced Senses, Insomnia",Cocaine,,52.13283157894737,0.1341894736842105
 W065119,2025-05-22,RG12,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Enhanced Senses, Increased Stamina, Empathy, Insomnia",Cocaine,Norcocaine,51.4007,-0.7635
 W065177,2025-05-22,MS0,Coke,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence",No Active Component Identified,,,
-W065120,2025-05-22,RG12,Cocaine,Fifa,White,Powder,Snort / Sniff,"Empathy, Auditory Hallucinations, Visual Hallucinations, Insomnia",Cocaine,Levamisole,51.4007,-0.7635
 W065148,2025-05-22,AB51,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Chest Pains, Irregular Heartbeat, Breathlesness, Nosebleeds, Nausea, Paranoia, Confusion, Agitation",Cocaine,Levamisole,57.276892045454545,-2.442275
+W065120,2025-05-22,RG12,Cocaine,Fifa,White,Powder,Snort / Sniff,"Empathy, Auditory Hallucinations, Visual Hallucinations, Insomnia",Cocaine,Levamisole,51.4007,-0.7635
 000234086,2025-05-22,NP20,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Libido",Cocaine,,51.5877,-2.9984
 000232895,2025-05-22,CF83,Cocaine,Cocaine,White,Powder,Snort / Sniff,Not Stated,Cocaine,,51.59288333333333,-3.2333833333333337
 W065178,2025-05-22,MS01,Coke,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence",No Active Component Identified,,,
@@ -1033,14 +1033,14 @@ W071485,2025-12-03,SW8,Cocaine,Not Stated,White,Powder,Not Stated,"Euphoria, Inc
 W071448,2025-12-03,NG5,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Irregular Heartbeat, Agitation",Cocaine,,53.0006,-1.1315
 W071379,2025-12-03,NW10,Cocaine,Not Stated,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Increased Libido, Visual Hallucinations, Nosebleeds, Paranoia",Cocaine,Norcocaine,51.53758571428572,-0.2431214285714285
 W071515,2025-12-03,EC1,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,51.52320909090909,-0.1055181818181818
+W071701,2025-12-09,HR3,Cocaine,Snow White Euro,White,Powder,Not Stated,Not Stated,Cocaine,Norcocaine,52.08754242424242,-3.049269696969697
 W071651,2025-12-09,PO77,Cocaine,Coke,White,Powder,Not Stated,Not Stated,Cocaine,,50.8953875,-1.0532125
-000239501,2025-12-09,NP20,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,51.5877,-2.9984
 W071700,2025-12-09,HR3,Cocaine ,UKP Pure,White,Powder,Not Stated,Not Stated,Cocaine,Norcocaine,52.08754242424242,-3.049269696969697
 W071680,2025-12-09,SK14,Cocaine,Flake,White,Powder,Not Stated,Not Stated,Cocaine,,53.45065,-2.04802
 W071672,2025-12-09,MK18,Cocaine,Cocaine C,"White, White",Powder,Not Stated,Not Stated,Cocaine,,51.968651515151514,-0.965221212121212
 W071731,2025-12-09,WS11,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,52.682460000000006,-2.02148
 W071712,2025-12-09,TF13,Crack cocaine,Not Stated,White,Granules,Not Stated,Not Stated,Cocaine,,52.56572857142857,-2.602778571428572
-W071701,2025-12-09,HR3,Cocaine,Snow White Euro,White,Powder,Not Stated,Not Stated,Cocaine,Norcocaine,52.08754242424242,-3.049269696969697
+000239501,2025-12-09,NP20,Cocaine,Not Stated,White,Powder,Not Stated,Not Stated,Cocaine,,51.5877,-2.9984
 W071777,2025-12-11,WR1,heroin and crack,Not Stated,"White, Brown",Powder,Not Stated,"Euphoria, Relaxed","Phenacetin, Cocaine","Noscapine, 6-MAM, Heroin, Diazepam, 6-Acetylcodeine, Papaverine",52.1894,-2.22
 W071823,2025-12-11,BS34,Cocaine,cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased Energy, Increased Confidence, Agitation",Cocaine,,51.5241,-2.5661
 W071917,2025-12-16,GL51,cocaine,TPS,White,Powder,Not Stated,Not Stated,Cocaine,,51.90277692307692,-2.1239538461538463
@@ -1289,98 +1289,98 @@ W101873,2026-06-19,CF24,Cocaine,A,White,Powder,Not stated,"Not stated,  ","Cocai
 W102105,2026-06-22,SO20,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.1102125,-1.4976625
 W101875,2026-06-22,CF24,Cocaine,B,White,Powder,Not stated,"Not stated,  ",Cocaine,Tropacocaine,51.48,-3.18
 W102158,2026-06-24,AB42,Crack cocaine,Crack cocaine,White,Crystalline,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Ecgonine methyl ester",57.48231142857143,-1.924825714285714
+W102276,2026-06-24,NW3,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.5462,-0.168075
 W102251,2026-06-24,SE1,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.49874615384616,-0.0930384615384615
 W101946,2026-06-24,N1,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.53669,-0.0944
-W102276,2026-06-24,NW3,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.5462,-0.168075
 W102288,2026-06-26,LL28,Cocaine (powder),Not stated,White,Granules,Not stated,"Not stated,  ",Cocaine,,53.28348999999999,-3.7664
-000239418,2026-06-29,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",No active compound identified,,51.5877,-2.9984
 W102331,2026-06-29,EH48,Cocaine,Not stated,White,Granules,Smoked,"Increased libido, Relaxed, Confusion",Cocaine,,55.91305714285714,-3.6746285714285714
-W102513,2026-07-02,BS3,Cocaine,Colombian cocaine 93%,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased stamina",Cocaine,,51.4552,-2.5966
+000239418,2026-06-29,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",No active compound identified,,51.5877,-2.9984
 W102512,2026-07-02,BS3,Cocaine,Columbian cocaine 93%,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased stamina, Diarrhoea",Cocaine,,51.4552,-2.5966
+W102513,2026-07-02,BS3,Cocaine,Colombian cocaine 93%,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased stamina",Cocaine,,51.4552,-2.5966
 W102360,2026-07-03,G12,Cocaine,7CE,White,Powder,Not stated,"Not stated,  ",Cocaine,,55.8804,-4.3007
 W102405,2026-07-03,EH13,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Cocaine, Nor",Benzoylecgonine,55.9074,-3.2561
 W102550,2026-07-06,CB25,Cocaine,Not stated,White,Granules,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",52.26066923076923,0.2374153846153846
-W102643,2026-07-06,TQ12,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,50.526051851851854,-3.6118259259259258
 W102593,2026-07-06,LL65,Pink cocaine,Pink cocaine,Pink,Powder,Snort / Sniff,"Increased senses, Empathy, Relaxed, Nausea, Confusion, Agitation, Depression","Ketamine, MDMA","Caffeine, Procaine",53.289686206896555,-4.534455172413793
+W102643,2026-07-06,TQ12,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,50.526051851851854,-3.6118259259259258
 W102588,2026-07-06,M30,Cocaine,Not stated,White,Powder,Snort / Sniff,"Chest pains, Irregular heartbeat, Confusion, Loss of consciousness, Breathlessness",Cocaine,Tropacocaine,53.4833,-2.3333
-W102685,2026-07-14,BT17,Cocaine,Cocaine uncut,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased libido, Relaxed, Nosebleeds, Nausea, Paranoia, Agitation, Insomnia, Depression, Suicidal ideation, Violence, Loss of consciousness",Cocaine,"Cocaine, Nor, Levamisole",54.56660000000001,-5.9648
-W102783,2026-07-14,WA10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.45000000000001,-2.7583
-W102504,2026-07-14,WA10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Tropacocaine,53.45000000000001,-2.7583
-W102735,2026-07-14,Not stated,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Tropacocaine",,
-W102728,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,52.34458541666667,-3.9885
-W102757,2026-07-14,SW17,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,51.4307,-0.1647
-W102727,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ","Cocaine, Benzoylecgonine","Cocaine, Nor, Paracetamol",52.34458541666667,-3.9885
-W102729,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",52.34458541666667,-3.9885
-W102561,2026-07-14,CV4,Cocaine,cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Nausea, Agitation, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",52.3833,-1.5833000000000002
 W102673,2026-07-14,FY8,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",53.7435,-2.9898
 000040220,2026-07-14,CF63,Crack,Not stated,Brown,Granules,Smoked,"Relaxed, Tiredness",Cocaine,"Benzoylecgonine, Cocaine, Nor, Paracetamol, Tropacocaine",51.4172,-3.2614
-000232443,2026-07-16,SY16,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,52.50787647058824,-3.3015823529411765
+W102561,2026-07-14,CV4,Cocaine,cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Nausea, Agitation, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",52.3833,-1.5833000000000002
+W102729,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",52.34458541666667,-3.9885
+W102727,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ","Cocaine, Benzoylecgonine","Cocaine, Nor, Paracetamol",52.34458541666667,-3.9885
+W102757,2026-07-14,SW17,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,51.4307,-0.1647
+W102685,2026-07-14,BT17,Cocaine,Cocaine uncut,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased libido, Relaxed, Nosebleeds, Nausea, Paranoia, Agitation, Insomnia, Depression, Suicidal ideation, Violence, Loss of consciousness",Cocaine,"Cocaine, Nor, Levamisole",54.56660000000001,-5.9648
+W102735,2026-07-14,Not stated,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Tropacocaine",,
+W102728,2026-07-14,SY23,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,52.34458541666667,-3.9885
+W102504,2026-07-14,WA10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Tropacocaine,53.45000000000001,-2.7583
+W102783,2026-07-14,WA10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.45000000000001,-2.7583
+W102695,2026-07-16,CB22,Ethanol + acetone washed cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence",Cocaine,,52.13283157894737,0.1341894736842105
+W102940,2026-07-16,SW18,Coke-mr white,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.4489,-0.1971
 W102822,2026-07-16,SN25,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Headache","Cocaine, Procaine",,51.558,-1.7812
 W102974,2026-07-16,SO20,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.1102125,-1.4976625
-W102940,2026-07-16,SW18,Coke-mr white,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.4489,-0.1971
-W102695,2026-07-16,CB22,Ethanol + acetone washed cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence",Cocaine,,52.13283157894737,0.1341894736842105
 W102694,2026-07-16,CB22,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence",Cocaine,,52.13283157894737,0.1341894736842105
+000232443,2026-07-16,SY16,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,52.50787647058824,-3.3015823529411765
 W103018,2026-07-20,HS1,Cocaine,Not stated,White,Powder,Oral,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased libido, Empathy, Irregular heartbeat, Insomnia",Cocaine,Levamisole,58.211675,-6.382675
-W103228,2026-07-23,B20,Double wash cocaine,double wash,White,Powder,Snort / Sniff,"Euphoria, Increased stamina, Numbness",Cocaine,"Cocaine, Nor",52.5156,-1.9195
 000235872,2026-07-23,CF10,Cocaine,Not stated,White,Powder,Intravenous,"Chest pains, Panic attack",Cocaine,,51.48,-3.18
+W103228,2026-07-23,B20,Double wash cocaine,double wash,White,Powder,Snort / Sniff,"Euphoria, Increased stamina, Numbness",Cocaine,"Cocaine, Nor",52.5156,-1.9195
 000235814,2026-07-23,CF10,Cocaine,Not stated,White,Powder,Not stated,No effect,"Cocaine, Phenacetine",Procaine,51.48,-3.18
 W103167,2026-07-23,E3,Pink cocaine,Not stated,Pink,Powder,Not stated,"Not stated,  ",Ketamine,MDMA,51.527657142857144,-0.0265714285714285
 W103215,2026-07-23,ZE10,Cocaine,cocaine,White,Powder,Snort / Sniff,No effect,"Cocaine, Procaine",,60.14640000000001,-1.2131857142857143
 W102752,2026-07-23,IP12,Cocaine,Not stated,White,Powder,Smoked,"Euphoria, Increased energy, Memory loss, Insomnia",Cocaine,"Benzoylecgonine, Ecgonine methyl ester",52.0811,1.3992074074074072
 W103181,2026-07-23,TQ9,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,50.40683125,-3.696409375
 000235613,2026-07-27,SY16,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased stamina, Insomnia",Cocaine,"Cocaine, Nor",52.50787647058824,-3.3015823529411765
-W103377,2026-07-27,KY11,Cocaine,Cocaine,White,Crystalline,Not stated,"Not stated,  ",Phenacetin,,56.037644444444446,-3.422588888888889
-000239443,2026-07-27,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",51.5877,-2.9984
-W103406,2026-07-27,BD21,Crack Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ","Cocaine, Phenacetin",Benzoylecgonine,53.8611,-1.91155
 000233452,2026-07-27,LL65,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,53.289686206896555,-4.534455172413793
-000232125,2026-07-29,NP44,Crack,Crack,White,Crystalline,Not stated,"Not stated,  ","Cocaine, Phenacetin",Caffeine,51.65070000000001,-3.0178
-W074876,2026-07-29,EH26,Cocaine,Not stated,White,Liquid,Intravenous,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Agitation",Phenacetin,Cocaine,55.82387142857142,-3.241371428571429
+W103406,2026-07-27,BD21,Crack Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ","Cocaine, Phenacetin",Benzoylecgonine,53.8611,-1.91155
+000239443,2026-07-27,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",51.5877,-2.9984
+W103377,2026-07-27,KY11,Cocaine,Cocaine,White,Crystalline,Not stated,"Not stated,  ",Phenacetin,,56.037644444444446,-3.422588888888889
 W103229,2026-07-29,B20,Cocaine,C,White,Powder,Snort / Sniff,"Euphoria, Increased senses, Increased strength, Nosebleeds","Cocaine, Cocaine, Nor",Tropacocaine,52.5156,-1.9195
+W074876,2026-07-29,EH26,Cocaine,Not stated,White,Liquid,Intravenous,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Agitation",Phenacetin,Cocaine,55.82387142857142,-3.241371428571429
+000232125,2026-07-29,NP44,Crack,Crack,White,Crystalline,Not stated,"Not stated,  ","Cocaine, Phenacetin",Caffeine,51.65070000000001,-3.0178
 W103286,2026-07-29,L4,Cocaine,coke,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased stamina",Cocaine,"Benzoylecgonine, Tropacocaine",53.4378,-2.9611
 W103631,2026-07-31,UB7,Cocaine,Eagle,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.50226,-0.47134
-W103894,2026-08-11,LL13,Crack cocaine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,,52.9917619047619,-2.9116809523809524
-W103723,2026-08-11,SY1,cocaine,coke 1,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased senses, Increased stamina",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",52.71675,-2.7468
 000236942,2026-08-11,Not stated,Cocaine or Ketamine,Not stated,White,Powder,Not stated,"Not stated,  ",No active compound identified,,,
 W103663,2026-08-11,BT1,Crack Cocaine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Buprenorphine,,54.5833,-5.9333
 W103918,2026-08-11,BT37,Cocaine,Cocaine Clover,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased libido, Relaxed, Insomnia, Loss of consciousness","Cocaine, Phenacetin","Cocaine, Nor, Ecgonine methyl ester, Tropacocaine",54.6598,-5.9086
 W103870,2026-08-11,M14,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Tropacocaine",53.4482,-2.2257
-W103718,2026-08-11,BR87,cocaine,Not stated,White,Solid,Snort / Sniff,"Euphoria, Increased energy, Increased confidence","Cocaine, Phenacetine","Cocaine, Nor",51.3972,0.1732
-W103725,2026-08-11,PL4,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,50.3715,-4.143
 W103813,2026-08-11,E11,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin",,51.57656666666667,0.0171666666666666
-W103791,2026-08-11,NE61,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,Tropacocaine,55.165690000000005,-1.7111625
 W103794,2026-08-11,RG12,Cocaine,Bitcoin 1,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Empathy, Insomnia",Cocaine,"Cocaine, Nor",51.4007,-0.7635
+W103765,2026-08-11,SE5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Cocaine, Nor, Ecgonine methyl ester, Tropacocaine",51.474575,-0.090125
 W103773,2026-08-11,SE5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Cocaine, Nor, Tropacocaine",51.474575,-0.090125
 W103749,2026-08-11,CF50,Cocaine,Chess,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence",Cocaine,"Benzoylecgonine, Tropacocaine, Gabapentin, Cocaine, Nor",51.471875,-3.275816666666667
+W103718,2026-08-11,BR87,cocaine,Not stated,White,Solid,Snort / Sniff,"Euphoria, Increased energy, Increased confidence","Cocaine, Phenacetine","Cocaine, Nor",51.3972,0.1732
+W103725,2026-08-11,PL4,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,50.3715,-4.143
+W103791,2026-08-11,NE61,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,Tropacocaine,55.165690000000005,-1.7111625
+W103723,2026-08-11,SY1,cocaine,coke 1,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased senses, Increased stamina",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",52.71675,-2.7468
+W103795,2026-08-11,RG12,Cocaine,Bitcoin 2,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased libido, Empathy, Insomnia",Cocaine,"Cocaine, Nor",51.4007,-0.7635
 W103712,2026-08-11,BS5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Procaine","Benzoylecgonine, Caffeine, Tropacocaine, Ecgonine methyl ester",51.462,-2.5519
 000239904,2026-08-11,NP20,Crack,Not stated,White,Granules,Smoked,"Euphoria, Increased energy",Cocaine,Ecgonine methyl ester,51.5877,-2.9984
-W103795,2026-08-11,RG12,Cocaine,Bitcoin 2,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased libido, Empathy, Insomnia",Cocaine,"Cocaine, Nor",51.4007,-0.7635
-W103765,2026-08-11,SE5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Cocaine, Nor, Ecgonine methyl ester, Tropacocaine",51.474575,-0.090125
+W103894,2026-08-11,LL13,Crack cocaine,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,,52.9917619047619,-2.9116809523809524
 000236931,2026-08-12,CF47,Cocaine,not app,White,Powder,Snort / Sniff,"Not stated,  ",Cocaine,Tropacocaine,51.7479,-3.3778
-W104014,2026-08-13,SE26,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Irregular heartbeat, Nosebleeds, Nausea, Agitation, Shaking",Cocaine,,51.422775,-0.0665
 W103941,2026-08-13,TD13,Cocaine,Not stated,White,Powder,Smoked,Increased energy,"Cocaine, Caffeine, Procaine","Cocaine, Nor",55.93094,-2.3812
-W104037,2026-08-14,BS1,Cocaine,Not stated,White,Powder,Not stated,No effect,Caffeine,,51.4552,-2.5966
-W103931,2026-08-14,PO13,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence",No active compound identified,,50.8144,-1.1886666666666663
+W104014,2026-08-13,SE26,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Irregular heartbeat, Nosebleeds, Nausea, Agitation, Shaking",Cocaine,,51.422775,-0.0665
 000236868,2026-08-14,CF63,crack cocaine,Not stated,Yellow,Powder,Snort / Sniff,"Not stated,  ",No active compound identified,,51.4172,-3.2614
-W103911,2026-08-14,SY2,Cocaine,Coke 2,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Increased libido","Cocaine, Phenacetin","Cocaine, Nor, Tropacocaine",52.7065,-2.7295
-W104116,2026-08-14,BS31,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Phenacetin",51.4084,-2.4918
+W103931,2026-08-14,PO13,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence",No active compound identified,,50.8144,-1.1886666666666663
 W104168,2026-08-14,TW8,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased senses, Increased strength, Nosebleeds, Agitation, Insomnia","Cocaine, Procaine",Benzoylecgonine,51.4862,-0.3083
 000237493,2026-08-14,NP20,Crack cocaine,Not stated,Grey,Granules,Smoked,"Increased energy, Increased confidence, Increased senses, Relaxed, Paranoia","Cocaine, Phenacetin","Benzoylecgonine, Tropacocaine",51.5877,-2.9984
-000034041,2026-08-14,Not stated,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Euphoria, Auditory hallucinations, Irregular heartbeat, Confusion, Insomnia","Cocaine, Levamisole","Benzoylecgonine, Tropacocaine",,
+W104116,2026-08-14,BS31,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Phenacetin",51.4084,-2.4918
+W103911,2026-08-14,SY2,Cocaine,Coke 2,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Increased libido","Cocaine, Phenacetin","Cocaine, Nor, Tropacocaine",52.7065,-2.7295
+W104037,2026-08-14,BS1,Cocaine,Not stated,White,Powder,Not stated,No effect,Caffeine,,51.4552,-2.5966
 W104167,2026-08-14,TW8,Cocaine,cocaine,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Increased senses, Increased strength, Nosebleeds, Agitation, Insomnia","Cocaine, Procaine","Benzoylecgonine, Tropacocaine",51.4862,-0.3083
+000034041,2026-08-14,Not stated,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Euphoria, Auditory hallucinations, Irregular heartbeat, Confusion, Insomnia","Cocaine, Levamisole","Benzoylecgonine, Tropacocaine",,
+W104166,2026-08-18,W1B,Cocaine,Cleaned cocaine,White,Powder,Not stated,"Not stated,  ","Cocaine, Procaine",Tropacocaine,51.5085,-0.1257
 W104205,2026-08-18,G12,Cocaine,El rey stamp,White,Powder,Not stated,"Not stated,  ",Cocaine,"Ecgonine methyl ester, Tropacocaine",55.8804,-4.3007
 W103901,2026-08-18,PH1,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Visual hallucinations, Nosebleeds, Memory loss, Confusion, Agitation, Loss of consciousness",Cocaine,Benzoylecgonine,56.43174736842105,-3.4980552631578945
 000239966,2026-08-18,NP20,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin",Tropacocaine,51.5877,-2.9984
 000239965,2026-08-18,NP20,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Phenacetin, Tropacocaine",51.5877,-2.9984
-W104166,2026-08-18,W1B,Cocaine,Cleaned cocaine,White,Powder,Not stated,"Not stated,  ","Cocaine, Procaine",Tropacocaine,51.5085,-0.1257
 W104335,2026-08-25,EH22,Crack,cocaine,Brown,Solid,Smoked,"Not stated,  ","Caffeine, Heroin, Morphine, 6 Monoacetyl, Noscapine, Paracetamol","Medetomidine, Papaverine, Thebacon",55.90278333333333,-3.078175
 W076392,2026-08-25,W15,cocaine,Not stated,White,Crystalline,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased stamina, Chest pains, Irregular heartbeat, Nosebleeds, Paranoia, Depression",Cocaine,,,
-W104351,2026-08-25,CF5,cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence","Cocaine, Ketamine, MDMA",,51.471875,-3.275816666666667
 W104353,2026-08-25,CF5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence","Cocaine, MDMA",Caffeine,51.471875,-3.275816666666667
+W104351,2026-08-25,CF5,cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence","Cocaine, Ketamine, MDMA",,51.471875,-3.275816666666667
 W104326,2026-08-26,L13,Crack cocaine,Not stated,White,Crystalline,Smoked,"Relaxed, Irregular heartbeat, Nausea, Vomiting, Paranoia, Breathlessness","Cocaine, Phenacetin",,53.4179,-2.9206
+000239972,2026-09-02,NP20,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Levamisole",51.5877,-2.9984
 000239973,2026-09-02,NP20,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.5877,-2.9984
 000233657,2026-09-02,CF10,Cocaine,Not stated,White,Powder,Snort / Sniff,"Relaxed, Loss of consciousness, Tiredness, Loss of coordination",Cocaine,,51.48,-3.18
 000233658,2026-09-02,CF10,Coke,Not stated,White,Powder,Not stated,No effect,Cocaine,"Benzoylecgonine, Tropacocaine",51.48,-3.18
-000239972,2026-09-02,NP20,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Levamisole",51.5877,-2.9984
 W104726,2026-09-04,SW17,Cocaine,Not stated,White,Powder,Not stated,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Increased strength, Chest pains",Cocaine,"Benzoylecgonine, Phenacetin, Tropacocaine",51.4307,-0.1647
 000237902,2026-09-04,Not stated,Cocaine,Cocaine,White,Granules,Snort / Sniff,"Increased energy, Irregular heartbeat, Paranoia, Insomnia",Cocaine,,,
 W104612,2026-09-04,NG24,cocaine,Cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Nausea, Depression, Suicidal ideation",Cocaine,"Benzoylecgonine, Tropacocaine",53.069,-0.7852571428571429
@@ -1390,75 +1390,76 @@ W104644,2026-09-04,G12,Cocaine,Don julio,White,Powder,Not stated,"Not stated,  "
 W104705,2026-09-04,Not stated,crack,Not stated,Colourless,Crystalline,Smoked,"Not stated,  ",No active compound identified,,,
 000240367,2026-09-04,CF62,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Procaine",51.4027,-3.37145
 W104552,2026-09-04,Not stated,Crack,Not stated,White,Crystalline,Vaped,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Increased libido, Increased strength, Empathy, Auditory hallucinations, Visual hallucinations, Relaxed, Irregular heartbeat, Paranoia, Agitation, Insomnia","Cocaine, Phenacetin",,,
-W104671,2026-09-07,SE26,Cocaine,Not stated,White,Powder,Snort / Sniff,Relaxed,Cocaine,"Benzoylecgonine, Cocaine, Nor, Ecgonine methyl ester, Phenacetin, Tropacocaine",51.422775,-0.0665
-W105005,2026-09-07,DA12,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.4177875,0.3915125
-W104864,2026-09-07,SO51,cocaine,boliko cocaine,White,Granules,Not stated,"Not stated,  ","Cocaine, Phenacetin","Tropacocaine, Benzoylecgonine",51.01539047619048,-1.494095238095238
-W104911,2026-09-07,EH11,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Caffeine, Ecgonine methyl ester",55.9326,-3.2531
-W104716,2026-09-07,RG12,Cocaine,Corona,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Increased stamina, Empathy, Insomnia",Cocaine,,51.4007,-0.7635
 W104865,2026-09-07,N13,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Visual hallucinations, Nausea, Vomiting, Paranoia",Cocaine,"Tropacocaine, Benzoylecgonine",51.6179,-0.1101
+W104716,2026-09-07,RG12,Cocaine,Corona,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Increased stamina, Empathy, Insomnia",Cocaine,,51.4007,-0.7635
 W104815,2026-09-07,N16,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin",Caffeine,51.5625,-0.074
-W105122,2026-09-10,BS31,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.4084,-2.4918
+W104864,2026-09-07,SO51,cocaine,boliko cocaine,White,Granules,Not stated,"Not stated,  ","Cocaine, Phenacetin","Tropacocaine, Benzoylecgonine",51.01539047619048,-1.494095238095238
+W105005,2026-09-07,DA12,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.4177875,0.3915125
+W104671,2026-09-07,SE26,Cocaine,Not stated,White,Powder,Snort / Sniff,Relaxed,Cocaine,"Benzoylecgonine, Cocaine, Nor, Ecgonine methyl ester, Phenacetin, Tropacocaine",51.422775,-0.0665
+W104911,2026-09-07,EH11,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Caffeine, Ecgonine methyl ester",55.9326,-3.2531
+W104965,2026-09-10,CF10,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ","Mirtazapine, Paracetamol",,51.48,-3.18
+W076405,2026-09-10,GL51,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor",51.90277692307692,-2.1239538461538463
 W105049,2026-09-10,LN6,cocaine,Not stated,White,Powder,Snort / Sniff,"Not stated,  ",Benzocaine,,53.18841538461538,-0.6413692307692307
 W105029,2026-09-10,BB5,Crack cocaine,Not stated,White,Solid,Smoked,No effect,Phenacetin,,53.7561875,-2.372
-W076405,2026-09-10,GL51,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor",51.90277692307692,-2.1239538461538463
-W104965,2026-09-10,CF10,Cocaine,Not stated,White,Solid,Not stated,"Not stated,  ","Mirtazapine, Paracetamol",,51.48,-3.18
 W104962,2026-09-10,CF10,cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",51.48,-3.18
-W105196,2026-09-15,CT17,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Phenacetin,"Cocaine, Benzoylecgonine, Cocaine, Nor, Ketamine, Tropacocaine",51.129,1.2939
+W105122,2026-09-10,BS31,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,51.4084,-2.4918
 W104605,2026-09-15,G22,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Memory loss","Cocaine, Phenacetin",Tropacocaine,55.8651,-4.2576
-000239706,2026-09-15,Not stated,cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Ecgonine methyl ester, Tropacocaine",,
+W105196,2026-09-15,CT17,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Phenacetin,"Cocaine, Benzoylecgonine, Cocaine, Nor, Ketamine, Tropacocaine",51.129,1.2939
 W104968,2026-09-15,SO51,Cocaine,Don Julian Cocaine,White,Granules,Not stated,"Not stated,  ",Phenacetin,Cocaine,51.01539047619048,-1.494095238095238
+000240410,2026-09-15,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",51.5877,-2.9984
+000238805,2026-09-15,Not stated,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",,
 000238820,2026-09-15,Not stated,cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor",,
 W105178,2026-09-15,SY23,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",52.34458541666667,-3.9885
-000238805,2026-09-15,Not stated,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",,
-000240410,2026-09-15,NP20,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Tropacocaine",51.5877,-2.9984
+000239706,2026-09-15,Not stated,cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Ecgonine methyl ester, Tropacocaine",,
+W105301,2026-09-17,SW18,Cocaine Viktor Vaughn,Viktor vaughn,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor",51.4489,-0.1971
+W076416,2026-09-17,PO37,Cocaine,Not stated,White,Powder,Snort / Sniff,"Chest pains, Irregular heartbeat, Nausea, Vomiting, Confusion, Panic attack",Cocaine,"Benzoylecgonine, Cocaine, Nor",50.6261,-1.1785
 W105281,2026-09-17,SO51,Cocaine,SDK straight fire cocaine,White,Granules,Not stated,"Not stated,  ",Cocaine,,51.01539047619048,-1.494095238095238
 W076418,2026-09-17,YO8,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Ecgonine methyl ester, Tropacocaine",53.77469393939394,-1.0269030303030302
 000232427,2026-09-17,SY22,Cocaine,Not stated,White,Powder,Smoked,"Chest pains, No effect",Cocaine,Benzoylecgonine,52.72475,-3.2291958333333337
-W076416,2026-09-17,PO37,Cocaine,Not stated,White,Powder,Snort / Sniff,"Chest pains, Irregular heartbeat, Nausea, Vomiting, Confusion, Panic attack",Cocaine,"Benzoylecgonine, Cocaine, Nor",50.6261,-1.1785
-W105301,2026-09-17,SW18,Cocaine Viktor Vaughn,Viktor vaughn,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor",51.4489,-0.1971
-W105486,2026-09-21,CT12,Cocaine,Not stated,White,Powder,Snort / Sniff,"Visual hallucinations, Chest pains, Memory loss, Confusion, Depression",Cocaine,Benzoylecgonine,51.34236,1.33812
 W105352,2026-09-21,LS4,Cocaine,rw elray,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor",53.8103,-1.5846
+W105486,2026-09-21,CT12,Cocaine,Not stated,White,Powder,Snort / Sniff,"Visual hallucinations, Chest pains, Memory loss, Confusion, Depression",Cocaine,Benzoylecgonine,51.34236,1.33812
 W105490,2026-09-21,SN1,Crack cocaine,Not stated,White,Solid,Smoked,"Euphoria, Auditory hallucinations, Irregular heartbeat, Lethargy",Cocaine,"Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",51.558,-1.7812
-W076432,2026-09-22,SW16,cocaine,Washed cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.42283333333334,-0.1242666666666666
-W105690,2026-09-22,GL5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Auditory hallucinations, Visual hallucinations, Irregular heartbeat, Memory loss, Agitation, Depression",Cocaine,"Benzoylecgonine, Tropacocaine",51.7366,-2.21976
-W076431,2026-09-22,SW16,Cocaine,cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.42283333333334,-0.1242666666666666
-W105600,2026-09-22,TR6,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Tropacocaine",50.3438,-5.1556
-W105602,2026-09-22,SO45,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased senses, Relaxed, Memory loss, Confusion, Headache",Cocaine,,50.82128181818182,-1.377381818181818
 W105439,2026-09-22,TF10,Cocaine,cocaine,White,Powder,Snort / Sniff,"Increased energy, Relaxed, Irregular heartbeat",Phenacetin,,52.765905,-2.350815
+W076431,2026-09-22,SW16,Cocaine,cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.42283333333334,-0.1242666666666666
+W105602,2026-09-22,SO45,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased senses, Relaxed, Memory loss, Confusion, Headache",Cocaine,,50.82128181818182,-1.377381818181818
+W105600,2026-09-22,TR6,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Cocaine, Nor, Tropacocaine",50.3438,-5.1556
 W105359,2026-09-22,WA10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Ketamine,,53.45000000000001,-2.7583
+W105690,2026-09-22,GL5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Auditory hallucinations, Visual hallucinations, Irregular heartbeat, Memory loss, Agitation, Depression",Cocaine,"Benzoylecgonine, Tropacocaine",51.7366,-2.21976
+W076432,2026-09-22,SW16,cocaine,Washed cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.42283333333334,-0.1242666666666666
 W076426,2026-09-22,CA5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Tropacocaine",54.856148387096766,-3.0198096774193552
-W105585,2026-09-22,N20,cocaine,Not stated,White,Powder,Not stated,"Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Panic attack",Cocaine,"Benzoylecgonine, Levamisole, Tropacocaine",51.6333,-0.1833199999999999
+W105564,2026-09-22,KT15,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",51.36555,-0.495375
 W105562,2026-09-22,RH16,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,51.00466666666667,-0.0919333333333333
-W076427,2026-09-22,CA5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Caffeine, Cocaine, Nor",54.856148387096766,-3.0198096774193552
 W105432,2026-09-22,NP10,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",51.5877,-2.9984
 W105419,2026-09-22,G12,cocaine,Dolphin stamp,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,55.8804,-4.3007
-W105564,2026-09-22,KT15,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",51.36555,-0.495375
-W076424,2026-09-22,CA5,cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Cocaine, Nor, Tropacocaine",54.856148387096766,-3.0198096774193552
 W076425,2026-09-22,CA5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",54.856148387096766,-3.0198096774193552
+W076427,2026-09-22,CA5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Caffeine, Cocaine, Nor",54.856148387096766,-3.0198096774193552
+W105585,2026-09-22,N20,cocaine,Not stated,White,Powder,Not stated,"Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Panic attack",Cocaine,"Benzoylecgonine, Levamisole, Tropacocaine",51.6333,-0.1833199999999999
 W105548,2026-09-22,NW10,cocaine,Not stated,White,Solid,Snort / Sniff,"Visual hallucinations, Chest pains, Irregular heartbeat, Paranoia, Agitation, Panic attack, Breathlessness",Cocaine,"Benzoylecgonine, Ecgonine methyl ester, Tropacocaine",51.53758571428572,-0.2431214285714285
+W076424,2026-09-22,CA5,cocaine,Not stated,White,Powder,Not stated,"Not stated,  ","Cocaine, Phenacetin","Benzoylecgonine, Cocaine, Nor, Tropacocaine",54.856148387096766,-3.0198096774193552
 W104522,2026-09-25,NN15,Cocaine,Cocaine,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased stamina, Increased libido, Nosebleeds",Cocaine,Tropacocaine,52.3637,-0.6785
 W105745,2026-09-25,EH36,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Nosebleeds, Nausea, Paranoia, Insomnia, Depression, Suicidal ideation",Cocaine,Benzoylecgonine,55.8547,-2.8654
-W105734,2026-09-28,RG12,Cocaine,Cat,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased strength, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.4007,-0.7635
-W105733,2026-09-28,RG12,Cocaine,Berretta,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Empathy, Nosebleeds, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",51.4007,-0.7635
-W105820,2026-09-28,BD21,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,53.8611,-1.91155
 W105366,2026-09-28,LL11,Crack,Not stated,White,Crystalline,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,53.064506666666674,-3.052973333333333
+W105820,2026-09-28,BD21,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,,53.8611,-1.91155
+W105733,2026-09-28,RG12,Cocaine,Berretta,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Empathy, Nosebleeds, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",51.4007,-0.7635
+W105734,2026-09-28,RG12,Cocaine,Cat,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased strength, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.4007,-0.7635
 W105736,2026-09-30,RG12,Cocaine,Joker,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased senses, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Cocaine, Nor",51.4007,-0.7635
 W105735,2026-09-30,RG12,Cocaine,Shamrock,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Empathy, Insomnia",Cocaine,"Benzoylecgonine, Tropacocaine",51.4007,-0.7635
 W105834,2026-09-30,DN5,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,53.53578181818182,-1.229072727272727
+W105277,2026-10-01,CF50,Cocaine,Esco,White,Crystalline,Snort / Sniff,"Irregular heartbeat, Agitation, No effect",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.471875,-3.275816666666667
+W105974,2026-10-01,B11,Crack,Not stated,White,Solid,Intravenous,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Increased strength",5F-AEB,,52.4548,-1.8596
 W235961,2026-10-01,KY5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Euphoria, Increased energy, Increased confidence, Chest pains, Irregular heartbeat, Nausea, Vomiting, Paranoia, Panic attack, Breathlessness",Procaine,,56.1493125,-3.285875
 000043579,2026-10-01,LD3,Cocaine,Not stated,White,Powder,Not stated,"Increased energy, Increased confidence, Increased senses, Increased stamina, Increased libido",Cocaine,,51.99435362318841,-3.411075362318841
 W105963,2026-10-01,N20,Cocaine,Not stated,White,Powder,Not stated,"Euphoria, Increased energy, Increased confidence, Increased senses, Increased stamina, Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Panic attack",Cocaine,"Benzoylecgonine, Tropacocaine",51.6333,-0.1833199999999999
 W076428,2026-10-01,CA5,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Phenacetin,54.856148387096766,-3.0198096774193552
-W105277,2026-10-01,CF50,Cocaine,Esco,White,Crystalline,Snort / Sniff,"Irregular heartbeat, Agitation, No effect",Cocaine,"Benzoylecgonine, Cocaine, Nor, Tropacocaine",51.471875,-3.275816666666667
-W106010,2026-10-07,N6,cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Relaxed, Anxiety, Numbness",Cocaine,"Benzoylecgonine, Tropacocaine",51.56570000000001,-0.159
 W106155,2026-10-07,N12,Cocaine,Cocaine,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,51.6077,-0.166
 W106019,2026-10-07,AB42,Crack cocaine,Not stated,White,Solid,Not stated,"Not stated,  ",Cocaine,"Benzoylecgonine, Cocaine, Nor",57.48231142857143,-1.924825714285714
-W106130,2026-10-07,G12,Cocaine,PSG,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,55.8804,-4.3007
-W106144,2026-10-07,N20,Cocaine,Not stated,White,Solid,Not stated,"Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Depression, Panic attack",Cocaine,"Benzoylecgonine, Tropacocaine",51.6333,-0.1833199999999999
-W106135,2026-10-07,Not stated,cocaine,Not stated,White,Powder,Not stated,"Increased energy, Increased confidence, Increased stamina, Increased strength, Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Panic attack",Cocaine,"Levamisole, Tropacocaine",,
-W106044,2026-10-07,PE1,cocaine,Not stated,White,Powder,Not stated,"Nausea, Loss of consciousness, Breathlessness",Cocaine,Tropacocaine,52.58253333333334,-0.2419333333333333
-W105966,2026-10-07,PL14,Crack,Not stated,White,Solid,Smoked,"Not stated,  ","Cocaine, Phenacetin",Benzoylecgonine,50.46451290322581,-4.464809677419355
-W105981,2026-10-07,E5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Nausea, Agitation, Insomnia, Headache",Cocaine,,51.55991666666667,-0.0545166666666666
 W106051,2026-10-07,TD12,Cocaine,Not stated,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzocaine,55.600560869565214,-2.204578260869565
 W106141,2026-10-07,N20,cocaine,Not stated,White,Powder,Not stated,"Increased energy, Increased stamina, Auditory hallucinations, Vomiting, Paranoia, Confusion, Agitation, Insomnia, Depression, Panic attack",Cocaine,Tropacocaine,51.6333,-0.1833199999999999
+W106135,2026-10-07,Not stated,cocaine,Not stated,White,Powder,Not stated,"Increased energy, Increased confidence, Increased stamina, Increased strength, Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Panic attack",Cocaine,"Levamisole, Tropacocaine",,
+W105966,2026-10-07,PL14,Crack,Not stated,White,Solid,Smoked,"Not stated,  ","Cocaine, Phenacetin",Benzoylecgonine,50.46451290322581,-4.464809677419355
+W105981,2026-10-07,E5,Cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Nausea, Agitation, Insomnia, Headache",Cocaine,,51.55991666666667,-0.0545166666666666
+W106044,2026-10-07,PE1,cocaine,Not stated,White,Powder,Not stated,"Nausea, Loss of consciousness, Breathlessness",Cocaine,Tropacocaine,52.58253333333334,-0.2419333333333333
+W106010,2026-10-07,N6,cocaine,Not stated,White,Powder,Snort / Sniff,"Increased energy, Increased confidence, Relaxed, Anxiety, Numbness",Cocaine,"Benzoylecgonine, Tropacocaine",51.56570000000001,-0.159
+W106130,2026-10-07,G12,Cocaine,PSG,White,Powder,Not stated,"Not stated,  ",Cocaine,Benzoylecgonine,55.8804,-4.3007
+W106144,2026-10-07,N20,Cocaine,Not stated,White,Solid,Not stated,"Auditory hallucinations, Paranoia, Confusion, Agitation, Insomnia, Depression, Panic attack",Cocaine,"Benzoylecgonine, Tropacocaine",51.6333,-0.1833199999999999
 W106202,2026-10-08,UB2,Cocaine,Not stated,White,Powder,Not stated,"Increased energy, Irregular heartbeat, Paranoia, Agitation, Depression",Cocaine,"Benzoylecgonine, Cocaine, Nor",51.4954,-0.3763
