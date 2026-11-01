@@ -207,7 +207,7 @@ def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=F
                 df.loc[i] = pd.Series(alert[i])
                 print(i,alert[i]['date_received'], alert[i]['postcode'],'– Sold as', alert[i]['intent'], ', tested as',alert[i]['major'], 'with' if(len(alert[i]['minor'])>=1) else '', alert[i]['minor'])
     print(df.head(5))
-
+    df = df.loc[~df.index.duplicated(keep='first'), :]
     df = convertDates(df)
     if daterange!='':
         datelist = []

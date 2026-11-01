@@ -515,6 +515,7 @@ def main():
     args = parser.parse_args()
 
     df = pd.read_csv(f'{data_path}/{args.file}', index_col=0)
+    df = df.loc[~df.index.duplicated(keep='first'), :]
 
     intent = args.intent if args.intent[-1]!='s' else args.intent[:-1]
     print(args.daterange)
