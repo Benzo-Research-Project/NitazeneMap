@@ -176,7 +176,7 @@ def parse(all_pages, join, save_data=save_data):
             joinJSON([allJSON,f'wedinos_alerts_{daterange}.json'], config['dataPath'], save_data=save_data)
     return all_alerts
 
-def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=False, save_data=save_data): #not_substring_list=['placeholder'], 
+def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=False, save_data=save_data, overwrite=False): #not_substring_list=['placeholder'], 
     substring_list = substring_dict[component_type]
     not_substring_list = not_substring_dict['not_'+component_type]
     df = pd.DataFrame(columns=col)
@@ -220,10 +220,20 @@ def getFilteredDataframe(all_alerts, component_type, daterange='', intent_only=F
         print("Date string couldn't be formatted - remember to change!")
         dates = 'DDMMYY-DDMMYY'
 
-    if intent_only:
+    if intent_only and overwrite:
+        dmd_filename = f'{config['dataPath']}/drugmapdata/wedinos_{component_type}s_intent.csv'
+        prev_file = pd.read_csv(dmd_filename, index_col=0)
+        if len(prev_file)<=len(df):
+            print(f'Proceeding to overwrite: new file contains {len(df)-len(prev_file)} new entries...')
+            filename = dmd_filename
+        else:
+            print(f'WARNING: New file has fewer entries than current file. Files saved normally inside /data for manual inspection.')
+            filename = f'{config['dataPath']}/wedinos_{component_type}s_intent_{dates}.csv'
+    elif intent_only:
         filename = f'{config['dataPath']}/wedinos_{component_type}s_intent_{dates}.csv'
     else:
         filename = f'{config['dataPath']}/wedinos_{component_type}s_all_{dates}.csv'
+        
     if save_data:
         df.to_csv(filename, sep=',', encoding='utf-8')
         print(f'Saved {len(df)} sample results as {filename}.')
@@ -255,6 +265,8 @@ def main():
                         help="filter by intent only? y/n")
     parser.add_argument("-j", "--join", type=str, metavar="JOIN",
                         help="join scraped data to master file? y/n")
+    parser.add_argument("-o", "--overwrite", type=str, metavar="OVERWRITE",
+                        help="overwrite files in drugmapdata? y/n")
     start_time = dt.now()
     args = parser.parse_args()
     if args.num:
@@ -272,9 +284,10 @@ def main():
     else:
         intent_only=False
     daterange = args.daterange if args.daterange else ''
+    overwrite = True if args.overwrite == 'y' else False
     if args.type=='all':
         for type in types_list:
-            getFilteredDataframe(all_alerts, type, daterange=daterange, intent_only=intent_only)
+            getFilteredDataframe(all_alerts, type, daterange=daterange, intent_only=intent_only, overwrite=overwrite)
 
     elif args.type:
         type = args.type if args.type[-1]!='s' else args.type[:-1]
