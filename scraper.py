@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
+from selenium.common.exceptions import TimeoutException, StaleElementReferenceException, NoSuchElementException
 
 # Single page scraper for WEDINOS Data
 from bs4 import BeautifulSoup
@@ -102,13 +102,18 @@ def scrape(num_pages, current_page, url="https://wedinos.wales/sample/"): # old:
         try:
             # After loading all items, scrape the data
             all_pages.append(driver.page_source)
-                
-            load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']") # By.XPATH, "//a[text()='Next']"
+            load_more_button = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']")) # By.XPATH, "//a[text()='Next']"
+            )
+            #load_more_button = driver.find_element(By.XPATH, "//nav[@id='sample-results-pagination']/a[@class='phw-pagination__next']") # By.XPATH, "//a[text()='Next']"
             load_more_button.click()
             time.sleep(random.uniform(3, 4))  # Give time for content to load
             current_page += 1
         except TimeoutException:
             print('No more pages or page timed out.')
+            break
+        except NoSuchElementException:
+            print(f'No more pages or next button not found on page {current_page}.')
             break
         except StaleElementReferenceException:
             print('DOM refreshed, retrying...')
