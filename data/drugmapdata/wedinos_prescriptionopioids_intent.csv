@@ -236,8 +236,8 @@ W061783,2025-02-06,BA20,Tapentadol,Not Stated,Orange,Tablet,Oral,"Relaxed, Nause
 W061884,2025-02-11,YO10,Oxycodone,Oxylan 40mg GL Pharma,"White, Orange",Tablet,Snort / Sniff,Relaxed,Oxycodone,,53.9576,-1.0827
 W062006,2025-02-12,BR14,Tapentadol,Taoentadol Hydrochloride,Blue,Tablet,Oral,"Euphoria, Increased Confidence, Increased Strength, Empathy, Visual Hallucinations, Relaxed, Agitation",Tapentadol,,51.4037,0.0305
 000042543,2025-02-12,NP19,Lean Codeine and Promethazine,Codeien and Promethazine,"Colourless, Orange",Liquid,Oral,Relaxed,"Codeine, Promethazine",,51.5888,-2.9638
-W062055,2025-02-12,SE01,Dihydrocodeine,SEUK Dihdrocodeine,,,Not Stated,Not Stated,Dihydrocodeine,,,
 W062057,2025-02-12,SE01,Oxy,SEUk Oxycodone,,,Not Stated,Not Stated,Oxycodone,,,
+W062055,2025-02-12,SE01,Dihydrocodeine,SEUK Dihdrocodeine,,,Not Stated,Not Stated,Dihydrocodeine,,,
 W062248,2025-02-17,PL6,tapentadol Hydrochloride 200mg,Tapentradol Hydrochloride 200mg,White,Tablet,Oral,"Euphoria, Relaxed, Nausea, Memory Loss, Loss of consciousness",Tapentadol,,50.41898333333333,-4.113466666666667
 W062075,2025-02-17,HP3,tramadol,Not Stated,White,Tablet,Not Stated,Not Stated,Tramadol,,51.731966666666665,-0.4895
 W062182,2025-02-18,PE37,Oxycodone,GL pharma,Green,Tablet,Snort / Sniff,"Euphoria, Increased Confidence, Empathy, Relaxed, Nausea, Loss of consciousness",Oxycodone,,52.62712857142857,0.7206
@@ -324,8 +324,8 @@ W065709,2025-06-24,G63,Dihydrocodeine,DHC continus 60mg,White,Tablet,Not Stated,
 W066144,2025-06-25,SW2,Tramadol,Not Stated,White,Tablet,Oral,"Relaxed, Insomnia",Tramadol,,51.4548,-0.1158
 W066112,2025-06-25,,Oxy,Not Stated,Blue,Tablet,Not Stated,Not Stated,Metonitazene,,0,0
 W066001,2025-06-25,SG14,Tramadol,Tramadol 50mg,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.811775,-0.11705
-W065991,2025-06-25,SG14,Morphine,Morfine sulfaat aurobindo retard,White,Tablet,Not Stated,Not Stated,Morphine,,51.811775,-0.11705
 W065999,2025-06-25,SG14,Codeine,Codeine phosphate,White,Tablet,Not Stated,Not Stated,Codeine,,51.811775,-0.11705
+W065991,2025-06-25,SG14,Morphine,Morfine sulfaat aurobindo retard,White,Tablet,Not Stated,Not Stated,Morphine,,51.811775,-0.11705
 W066258,2025-07-01,YO10,Oxycodone,Faroxy 40mg,Orange,Tablet,Oral,No Effect,Oxycodone,,53.9576,-1.0827
 W066427,2025-07-02,CF64,Tramadol,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.42878,-3.21045
 W066426,2025-07-02,CF64,Tramadol,tramadol,"Green, Yellow",Capsule,Oral,Auditory Hallucinations,Tramadol,,51.42878,-3.21045
@@ -438,9 +438,9 @@ W072455,2026-01-05,GU15,dihydrocodeine ,bristol laboratories 30mg DHC,White,Tabl
 W072664,2026-01-13,BN23,dhydracodeine 30mg,dhydracodeine 30mg,White,Tablet,Oral,Chest Pains,Dihydrocodeine,,50.7977,0.3125
 000034050,2026-01-19,CF14,methadone,Not Stated,Green,Liquid,Not Stated,Not Stated,Methadone,,51.5199,-3.204
 W072937,2026-01-19,W8,Dihydrocodeine,dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W072938,2026-01-23,W8,dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
-W072939,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W072934,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
+W072939,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
+W072938,2026-01-23,W8,dihydrocodeine,Dihydrocodeine,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W073043,2026-01-23,BT17,Tramadol ,tramadol,"Orange, White",Capsule,Not Stated,Not Stated,Tramadol,,54.56660000000001,-5.9648
 W072931,2026-01-23,W8,Dihydrocodeine,Dihydrocodeine Bristol labs,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W072226,2026-01-23,LU13,Tramadol,Tramadol,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,51.8693,-0.42528
@@ -453,58 +453,58 @@ W073356,2026-01-28,BN23,dihydrocodeine 90mg mr ,Not Stated,White,Tablet,Oral,Pai
 W073357,2026-01-28,BN23,Dihdrocodeine 60mg,Not Stated,White,Tablet,Oral,Pain Relief,Dihydrocodeine,,50.7977,0.3125
 000233431,2026-01-28,LL55,Oxycodone,Not Stated,Grey,Tablet,Oral,Not Stated,Oxycodone,,53.12915357142857,-4.195053571428572
 W073246,2026-01-28,S70,codeine,codeine,White,Tablet,Oral,"Breathlesness, Chest Pains, Irregular Heartbeat",Codeine,,53.53123333333334,-1.4773333333333334
-W073191,2026-02-03,KA3,Tramadol,tamol x,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,55.64550714285714,-4.502764285714286
 W073303,2026-02-03,DE24,Tramadol,Not Stated,"Green, Yellow",Capsule,Oral,"Euphoria, Increased Energy, Increased Confidence, Relaxed, Vomiting, Confusion, Agitation",Tramadol,,52.89066666666667,-1.4422666666666668
 W073334,2026-02-03,BR7,Tramadol 200mg,Santeria,White,Tablet,Oral,"Relaxed, Loss of consciousness",Tramadol,,51.4171,0.0686
-W073365,2026-02-03,ST87,Tramadol,Tramadol,White,Tablet,Oral,No Effect,Tramadol,,53.11565714285714,-2.169114285714286
+W073191,2026-02-03,KA3,Tramadol,tamol x,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,55.64550714285714,-4.502764285714286
 W073006,2026-02-03,ST87,Oxycodone,v48/12,Blue,Tablet,Oral,Relaxed,AB-MDMSBA,Metonitazene,53.11565714285714,-2.169114285714286
+W073365,2026-02-03,ST87,Tramadol,Tramadol,White,Tablet,Oral,No Effect,Tramadol,,53.11565714285714,-2.169114285714286
 W073459,2026-02-06,CF47,oxycodone,oxycodone,Blue,Tablet,Oral,Relaxed,Oxycodone,,51.7479,-3.3778
 W073505,2026-02-06,TA6,Codeine. co-codamol ,codeine phosphate 30mg co-codomol 30mg/500mg,White,Tablet,Not Stated,Not Stated,Codeine,,51.139228571428575,-3.006471428571429
 W073497,2026-02-10,SG14,tramadol,trakem 100 (tramadol 100mg),White,Tablet,Not Stated,Not Stated,Tramadol,,51.811775,-0.11705
 W073727,2026-02-10,BS5,Tapendatol,tapendatol,Orange,Tablet,Oral,"Euphoria, Chest Pains, Irregular Heartbeat, Nausea, Vomiting, Paranoia, Memory Loss",Tapentadol,,51.462,-2.5519
 W073716,2026-02-10,BN23,Dhydracodeine,dhydracodeine,White,Tablet,Oral,Not Stated,Dihydrocodeine,,50.7977,0.3125
 W073790,2026-02-10,W8,Codeine phosphate,codeine phospahte teva 30mg,"Colourless, White",Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
-W073574,2026-02-17,YO10,Codeine,Not Stated,White,Tablet,Oral,"Nausea, Loss of consciousness, Agitation",Codeine,,53.9576,-1.0827
 W073907,2026-02-17,NE11,tramadol,tramadol hydrochloride ,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,54.932825,-1.629725
+W073574,2026-02-17,YO10,Codeine,Not Stated,White,Tablet,Oral,"Nausea, Loss of consciousness, Agitation",Codeine,,53.9576,-1.0827
 W074149,2026-02-20,NW9,Tramadol,Tramol x tramadol 100mg,"Yellow, Red",Capsule,Not Stated,Not Stated,Pregabalin,,51.5894,-0.25692
 W074167,2026-02-20,W8,Tramadol,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074165,2026-02-20,W8,Tramadol ,tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074160,2026-02-25,W8,Tramadol ,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074166,2026-02-25,W8,Tramadol,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074163,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074161,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074100,2026-02-25,DD2,Tramadol,Royal tramadol 225mg (UKP),Red,Tablet,Oral,"Euphoria, Increased Confidence, Relaxed, Increased Stamina, Itching",Tramadol,,56.47777692307693,-3.0589461538461538
 W074129,2026-02-25,W8,Tramadol ,tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074162,2026-02-25,W8,Tramadol ,Tramadol 50mg Somex pharam,Yellow,Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074161,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074166,2026-02-25,W8,Tramadol,Tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W074164,2026-02-25,W8,Tramadol,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W074168,2026-02-25,W8,Codeine phosphate,codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W074169,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg Accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
-W074256,2026-02-25,KA56,Morphine,morphine,Blue,Tablet,Oral,"Relaxed, Confusion, No Effect",Morphine,,55.4981,-4.4046199999999995
-W074240,2026-02-25,TW7,Anadol tramadol Sr 100mg,Anadol tramadol sr 100mg,"Red, Blue",Capsule,Not Stated,Not Stated,Tramadol,,51.4752,-0.3425
-W074170,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W074356,2026-02-25,TN39,Tramadol,tramadol,White,Tablet,Oral,"Enhanced Senses, Relaxed, Memory Loss, Confusion, Loss of consciousness, Agitation",Tramadol,,50.851925,0.450875
-000232757,2026-02-27,CF83,"Morphine, lorazepam, zopiclone",Not Stated,White,Tablet,Oral,"Memory Loss, Confusion, Loss of consciousness",Zopiclone,,51.59288333333333,-3.2333833333333337
+W074170,2026-02-25,W8,Codeine phosphate,Codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
+W074163,2026-02-25,W8,Tramadol ,tramadol 50mg Bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W074240,2026-02-25,TW7,Anadol tramadol Sr 100mg,Anadol tramadol sr 100mg,"Red, Blue",Capsule,Not Stated,Not Stated,Tramadol,,51.4752,-0.3425
+W074256,2026-02-25,KA56,Morphine,morphine,Blue,Tablet,Oral,"Relaxed, Confusion, No Effect",Morphine,,55.4981,-4.4046199999999995
+W074168,2026-02-25,W8,Codeine phosphate,codeine phosphate 30mg accord,White,Tablet,Not Stated,Not Stated,Codeine,,51.501125,-0.1985
 W074246,2026-02-27,DN16,Dihydrocodeine ,Not Stated,White,Tablet,Oral,Nausea,Dihydrocodeine,,53.55885,-0.64505
+000232757,2026-02-27,CF83,"Morphine, lorazepam, zopiclone",Not Stated,White,Tablet,Oral,"Memory Loss, Confusion, Loss of consciousness",Zopiclone,,51.59288333333333,-3.2333833333333337
 W074376,2026-03-09,NP7,Codeine phosphate 30mg,Codeine phosphate 30mg (TVEVA),White,Tablet,Not Stated,Not Stated,Codeine,Hydrocodone,51.851292105263155,-3.0386236842105263
 W074531,2026-03-09,SA15,Tapentadol ,tapentadol 100mg,Orange,Tablet,Oral,"Euphoria, Relaxed, Pain Relief","Tapentadol, Diazepam",,51.74003,-4.187250000000001
-W074961,2026-03-13,KA5,MORPHINE,Not Stated,"White, Pink",Capsule,Oral,Not Stated,Morphine,,55.4981,-4.4046199999999995
 W074698,2026-03-13,G12,TAPENTADOL 100MG,TAPDOL 100,"Orange, White",Tablet,Not Stated,Not Stated,Tapentadol,,55.8804,-4.3007
+W074961,2026-03-13,KA5,MORPHINE,Not Stated,"White, Pink",Capsule,Oral,Not Stated,Morphine,,55.4981,-4.4046199999999995
 W074954,2026-03-17,DE24,ZOMORPH 100MG,ZOMORPH 100MG,White,Capsule,Oral,"No Effect, Euphoria, Increased Energy, Increased Confidence, Relaxed",Morphine,,52.89066666666667,-1.4422666666666668
 W075074,2026-03-18,WA13,OXYCODONE,HYDROCHLORIDE,White,Tablet,Oral,Not Stated,Tramadol,,53.39149999999999,-2.46508
-W075065,2026-03-20,E2,Tramadol,Tamol -x Tramadol 100mg,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,51.5386,-0.055525
 W075141,2026-03-20,NW7,30mg v48/12 oxycodone pill,v48/12 blue pill chapd drughub,Blue,Tablet,Snort / Sniff,"Euphoria, Relaxed, Breathlesness, Irregular Heartbeat, Nausea, Vomiting, Memory Loss, Confusion, Loss of consciousness",Medetomidine,AB-MDMSBA,51.6094,-0.2273
-W075097,2026-03-20,W8,Tramadol,Tramadol 50mg bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W075095,2026-03-20,W8,TRAMADOL,TRAMADOL 50MG BRISTOL LABS ,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W075098,2026-03-20,W8,DIHYDROCODEINE ,DIHYDROCODEINE 30MG ACCORD,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W075099,2026-03-20,W8,dihydrocodeine ,dihydrocodeine 30mg accord ,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
 W075111,2026-03-20,EH10,tapentadol - 100mg,tapentadol 100mg,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,55.91466666666667,-3.2046333333333337
-W075094,2026-03-20,W8,Tramadol ,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W075097,2026-03-20,W8,Tramadol,Tramadol 50mg bristol labs,"Yellow, Green",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W075106,2026-03-20,SK14,teva Codeine 30mg,Teva Codeine 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
-W075098,2026-03-20,W8,DIHYDROCODEINE ,DIHYDROCODEINE 30MG ACCORD,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.501125,-0.1985
+W075065,2026-03-20,E2,Tramadol,Tamol -x Tramadol 100mg,"Green, Yellow",Capsule,Not Stated,Not Stated,Pregabalin,,51.5386,-0.055525
+W075095,2026-03-20,W8,TRAMADOL,TRAMADOL 50MG BRISTOL LABS ,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
+W075094,2026-03-20,W8,Tramadol ,Tramadol 50mg bristol labs,"Green, Yellow",Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W075192,2026-03-24,BN23,Oxycodone 30mg,Not Stated,White,,Oral,Not Stated,Dihydrocodeine,,50.7977,0.3125
-W075252,2026-03-25,CV2,Tapenatadol Tablet apple 100mg,Not Stated,Red,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence",Tapentadol,,52.424525,-1.459175
 W075232,2026-03-25,CV1,Aspadol tab 100mg tapendadol,Not Stated,Orange,Tablet,Oral,"Euphoria, Increased Energy",Carisoprodol,,52.4066,-1.5122
-W075348,2026-03-31,SW1,Dihyrocodeine 30mg,Accord dihydrocodeine 30mg,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.495583333333336,-0.1417916666666666
+W075252,2026-03-25,CV2,Tapenatadol Tablet apple 100mg,Not Stated,Red,Tablet,Oral,"Euphoria, Increased Energy, Increased Confidence",Tapentadol,,52.424525,-1.459175
 W075291,2026-03-31,N7,Oxycodone,Oxycodone,Orange,Tablet,Not Stated,Not Stated,Oxycodone,,51.5491,-0.1205142857142857
+W075348,2026-03-31,SW1,Dihyrocodeine 30mg,Accord dihydrocodeine 30mg,White,Tablet,Not Stated,Not Stated,Dihydrocodeine,,51.495583333333336,-0.1417916666666666
 W075270,2026-04-01,YO8,Oxycontin,Oxycontin,Yellow,Tablet,Snort / Sniff,"Euphoria, Increased Confidence",Oxycodone,,53.77469393939394,-1.0269030303030302
 W075430,2026-04-01,BH14,Methadone HCL,Not Stated,White,Powder,Oral,Relaxed,Methadone,,50.7299,-1.9449
 W075451,2026-04-07,G65,Tramadol ,Tramadol hydrochloride 100mg,White,Tablet,Oral,"Relaxed, Loss of consciousness, Agitation, Insomnia",Tramadol,,55.97357000000001,-4.05812
@@ -515,8 +515,8 @@ W075778,2026-04-13,Unknown,Tramadol,Tamol x tramadol HCL 100mg,Green,Tablet,Not 
 W075658,2026-04-13,W8,Tramadol 50mg,tramadol 50mg bristol labs,Green,Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
 W075788,2026-04-13,BN17,tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.81636,-0.5498000000000001
 W075659,2026-04-14,W8,Tramadol 50mg,tramadol 50mg bristol labs,Green,Capsule,Not Stated,Not Stated,Tramadol,,51.501125,-0.1985
-W075608,2026-04-14,SK14,Teva codeine 30mg,Teva codeine 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 W075607,2026-04-14,SK14,Teva codeine 30mg,teva codeine 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
+W075608,2026-04-14,SK14,Teva codeine 30mg,Teva codeine 30mg,White,Tablet,Not Stated,Not Stated,Codeine,,53.45065,-2.04802
 W075677,2026-04-16,SK16,oxycontin 80mg,Mundharma oxyontin 80mg,Green,Tablet,Not Stated,Not Stated,Gabapentin,,53.475,-2.0881
 W076101,2026-04-22,DD9,Oxycontin,Mundi pharama oxycontin 80mg,Green,Tablet,Oral,"Not stated,  ",Gabapentin,Paracetamol,56.83844871794872,-2.6685538461538463
 W076048,2026-04-22,DT11,Tapentadol,Not Stated,Orange,Tablet,Not Stated,Not Stated,Tapentadol,,50.86008723404256,-2.1794021276595745
@@ -524,123 +524,128 @@ W076029,2026-04-22,CF47,Tramadol,tramadol tablet 100mg,Orange,Tablet,Oral,"Incre
 W076092,2026-04-22,TF1,Tramadol,tramadol,White,Tablet,Oral,"Relaxed, Agitation",Tramadol,,52.7,-2.5
 W076168,2026-04-28,NN56,Codeine phosphate 30mg,codeine teva 30mg,White,Tablet,Oral,"Euphoria, Increased confidence, Increased strength, Relaxed",Codeine,,52.242575,-0.93795
 W076203,2026-04-28,W1F,Oxycodone 80mg,Oxydolor 80mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.5085,-0.1257
-W076055,2026-04-28,BS44,Oxycodone,Oxydolor 80g G.L.Pharma,White,Powder,Not stated,"Not stated,  ",Oxycodone,,51.4345,-2.55525
 W076196,2026-04-28,NW10,Oxycodone,Oxydolor 40mg,Orange,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.53758571428572,-0.2431214285714285
+W076055,2026-04-28,BS44,Oxycodone,Oxydolor 80g G.L.Pharma,White,Powder,Not stated,"Not stated,  ",Oxycodone,,51.4345,-2.55525
 W076176,2026-04-28,WA1,Dihydrocodeine,dihydrocodeine,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,53.3955,-2.561
 W076180,2026-04-29,EH8,TRAMADOL 100MG,TAMOL-X,Green,Capsule,Oral,"Not stated,  ",Pregabalin,,55.9489,-3.1632
 W100185,2026-04-30,PE32,TAPENTADOL,TAPENTADOL,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.7279794117647,0.6538411764705883
-W100208,2026-05-01,CV4,Tydel tapentadol 100mg,tydel tapentadol 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.3833,-1.5833000000000002
 W100207,2026-05-01,CV2,Tapentadol 100mg tap ash 100,Tapentadol 100mg tap ash 100,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.424525,-1.459175
 W100251,2026-05-01,LI19,Oxycodone,Not stated,Grey,Tablet,Oral,"Euphoria, Increased energy, Relaxed, Paranoia, Confusion, Agitation, Insomnia, Itching","Cocaine, Oxycodone",,,
+W100208,2026-05-01,CV4,Tydel tapentadol 100mg,tydel tapentadol 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.3833,-1.5833000000000002
 W100383,2026-05-06,KY12,Tapentadol,Not stated,Orange,Tablet,Oral,"Euphoria, Increased energy, Increased confidence, Increased stamina, Increased strength, Relaxed, Nausea, Memory loss, Insomnia",Tapentadol,,56.087095,-3.539235
 W100264,2026-05-06,Not stated,Diazepam and dihydrocodeine,Not stated,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,,
 W100027,2026-05-06,G12,oxycodone 80mg,Oxycodone 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
-W100347,2026-05-07,B9,Tapentadol tap-ash 100mg,tapentadol tap-ash 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4783,-1.8506
 W100345,2026-05-07,B12,Tapendatol tablets 100mg,tapendatol tablet 100mg,Red,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4814,-1.8998
-W100434,2026-05-07,SR15,Tapendadol,tapentadol,Orange,Tablet,Oral,"Euphoria, Relaxed, Pain relief",Tapentadol,,54.9046,-1.3822
+W100347,2026-05-07,B9,Tapentadol tap-ash 100mg,tapentadol tap-ash 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4783,-1.8506
 W100343,2026-05-07,B1,tapaday tapentadol 200mg,tapaday tapentadol 200mg,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.4814,-1.8998
 W100495,2026-05-07,SL3,Oxycodone 10mg,oxeltra,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
 W076228,2026-05-07,SL3,Oxycodone Oxylon 20mg,oxylon 20mg,White,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,51.50211428571429,-0.5512571428571429
-W100635,2026-05-13,PA7,Tramadol,Tramadol,Red,Tablet,Not stated,"Not stated,  ",Tramadol,,55.9097,-4.5056
+W100434,2026-05-07,SR15,Tapendadol,tapentadol,Orange,Tablet,Oral,"Euphoria, Relaxed, Pain relief",Tapentadol,,54.9046,-1.3822
 W100618,2026-05-13,SY23,Tramadol,Not stated,White,Tablet,Not stated,Relaxed,Tramadol,,52.34458541666667,-3.9885
 W100608,2026-05-13,SK10,TAPENTADOL,TAMOLX,White,Tablet,Oral,"Euphoria, Auditory hallucinations, Relaxed, Nausea, Vomiting, Memory loss, Confusion",Tapentadol,Carisoprodol,53.2902,-2.14415
-W100700,2026-05-14,W8,TRAMADOL,TRAMADOL BRISTOL LABS 50MG,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
-W100703,2026-05-14,W8,dihydrocodeine,dihydrocodeine accord,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.501125,-0.1985
-W100704,2026-05-14,W8,TRAMADOL,TRAMADOL 50MG SOMEX PHARMA,Yellow,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
+W100635,2026-05-13,PA7,Tramadol,Tramadol,Red,Tablet,Not stated,"Not stated,  ",Tramadol,,55.9097,-4.5056
+W100591,2026-05-14,TD9,OXYCODONE,OXYLAN 10MG,White,Tablet,Oral,Relaxed,Unable to Identify (Insufficient sample for repeat analysis),,55.39354782608696,-2.707571739130435
 W100722,2026-05-14,SA2,OXYCODONE (40MG),OXYCODONE (40MG) BRAND: FAROXY - ER,Orange,Tablet,Intravenous,"Euphoria, Relaxed",Oxycodone,,51.61628,-4.04254
 W100712,2026-05-14,OL2,CODEINE,CODEINE,White,Tablet,Oral,"Euphoria, Relaxed, No effect",Codeine,,53.5659,-2.103
 W100702,2026-05-14,W8,TRAMADOL,TRAMADOL 50MG BRISTOL LABS,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
-W100591,2026-05-14,TD9,OXYCODONE,OXYLAN 10MG,White,Tablet,Oral,Relaxed,Unable to Identify (Insufficient sample for repeat analysis),,55.39354782608696,-2.707571739130435
-W100879,2026-05-19,E14,Tramadol,Tramadol hydrochloride,White,Tablet,Oral,"Euphoria, Relaxed",Tramadol,,51.50563529411765,-0.0187647058823529
-W100912,2026-05-19,RH16,Tapentadol 200mg,Tapentadol 200mg,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,51.00466666666667,-0.0919333333333333
+W100703,2026-05-14,W8,dihydrocodeine,dihydrocodeine accord,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.501125,-0.1985
+W100700,2026-05-14,W8,TRAMADOL,TRAMADOL BRISTOL LABS 50MG,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
+W100704,2026-05-14,W8,TRAMADOL,TRAMADOL 50MG SOMEX PHARMA,Yellow,Capsule,Not stated,"Not stated,  ",Tramadol,,51.501125,-0.1985
+W100861,2026-05-19,M4,oxycodone 30mg,oxycodone M30,White,Tablet,Not stated,"Not stated,  ",AB-MDMSBA,,53.4809,-2.2374
 W100715,2026-05-19,Not stated,tramadol,tramadol tablet 100mg,Orange,Tablet,Oral,Relaxed,Tapentadol,,,
+W100879,2026-05-19,E14,Tramadol,Tramadol hydrochloride,White,Tablet,Oral,"Euphoria, Relaxed",Tramadol,,51.50563529411765,-0.0187647058823529
 W100738,2026-05-19,BT2,Dihydrocodeine 30mg,Not stated,White,Tablet,Oral,"Euphoria, Increased strength, Relaxed",Dihydrocodeine,,54.5833,-5.9333
 W100809,2026-05-19,SE7,Oxycontin,oxycontin,Yellow,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4842,0.0339
 W100810,2026-05-19,CV8,Tramadol,tramadol,Green,Capsule,Oral,Relaxed,Tramadol,,52.35924166666666,-1.5064916666666666
 W100831,2026-05-19,CF24,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Euphoria,Dihydrocodeine,,51.48,-3.18
-W100861,2026-05-19,M4,oxycodone 30mg,oxycodone M30,White,Tablet,Not stated,"Not stated,  ",AB-MDMSBA,,53.4809,-2.2374
+W100912,2026-05-19,RH16,Tapentadol 200mg,Tapentadol 200mg,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,51.00466666666667,-0.0919333333333333
 W100978,2026-05-21,NP26,Oxycontin,Oxycontin,Green,Tablet,Not stated,"Not stated,  ",Gabapentin,,51.5866,-2.7574
 W100967,2026-05-26,KA17,Oxycodone 40mg,Foroxy oxycodone 40mg extered,Orange,Tablet,Not stated,"Not stated,  ",Oxycodone,,55.6098,-4.2814
-W101248,2026-05-29,SW12,Oxycodone 10mg,ISG oxy 10mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4469,-0.1384
-W101247,2026-05-29,SW12,Oxycodone 20mg,ISG Oxy 200mg,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4469,-0.1384
-W076308,2026-05-29,WF12,Oxycodone,Oxylan,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.68023333333334,-1.6275333333333333
 W101104,2026-05-29,EH48,tapentadol,tapentadol,Red,Tablet,Oral,Relaxed,Tapentadol,,55.91305714285714,-3.6746285714285714
+W101248,2026-05-29,SW12,Oxycodone 10mg,ISG oxy 10mg,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4469,-0.1384
 W101028,2026-05-29,WA3,TRAMADOL HC 100MG,TRAMADOL HC 100MG,Green,Capsule,Not stated,"Not stated,  ",Pregabalin,,53.45247272727273,-2.5457272727272726
-W101357,2026-06-05,S21,DIHYDROCODEINE CONTINUS 120MG,DIHYDROCODEINE CONTINUS 120MG,White,Tablet,Oral,"Not stated,  ",Dihydrocodeine,,53.3123,-1.3394
+W076308,2026-05-29,WF12,Oxycodone,Oxylan,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.68023333333334,-1.6275333333333333
+W101247,2026-05-29,SW12,Oxycodone 20mg,ISG Oxy 200mg,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,51.4469,-0.1384
 W101136,2026-06-05,AB24,DIHYDROCODEINE 30MG,Not stated,White,Tablet,Oral,"Relaxed, Loss of consciousness",Dihydrocodeine,,57.1437,-2.0981
-W101547,2026-06-09,NN56,Codeine phosphate,codeine 30mg,White,Tablet,Oral,"Euphoria, Increased energy, Increased senses, Relaxed",Codeine,,52.242575,-0.93795
+W101357,2026-06-05,S21,DIHYDROCODEINE CONTINUS 120MG,DIHYDROCODEINE CONTINUS 120MG,White,Tablet,Oral,"Not stated,  ",Dihydrocodeine,,53.3123,-1.3394
 W101584,2026-06-09,BS24,Codeine,Cocodamol 30mg/500mg codeine phosphate paracetamol,White,Tablet,Not stated,"Not stated,  ","Codeine, Paracetamol",,51.32409,-2.91161
+W101547,2026-06-09,NN56,Codeine phosphate,codeine 30mg,White,Tablet,Oral,"Euphoria, Increased energy, Increased senses, Relaxed",Codeine,,52.242575,-0.93795
 W101631,2026-06-11,DD2,TAPENTADOL + CARISOPRADOL,TAMOL-X225,White,Tablet,Oral,"Euphoria, Increased energy, Increased confidence, Increased stamina, Relaxed",Tapentadol,,56.47777692307693,-3.0589461538461538
-W101385,2026-06-11,Not stated,TRAMADOL,TRAKEM-100 TRAMADOL,White,Tablet,Oral,No effect,Tramadol,,,
 W101384,2026-06-11,Not stated,TRAMADOL,OI-TRAM TRAMADOL,White,Tablet,Oral,Nausea,Tramadol,Chlorpheniramine,,
-W101643,2026-06-15,NP21,Zomorph morphine sulfate,Zomorph Morphine Sulfate,Colourless,Capsule,Not stated,"Not stated,  ",Morphine,,,
+W101385,2026-06-11,Not stated,TRAMADOL,TRAKEM-100 TRAMADOL,White,Tablet,Oral,No effect,Tramadol,,,
 W101766,2026-06-15,AL10,Oxycodone,Oxycodone,Blue,Tablet,Oral,"Euphoria, Increased energy, Increased confidence, Empathy, Relaxed",Oxycodone,,51.7634,-0.2242
-W101880,2026-06-16,G83,Dihydrocodeine,Dihydrocodeine Bristol,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,56.03989166666666,-4.6006583333333335
-W101876,2026-06-16,BH14,Tapentadol,Tapaday-200,White,Tablet,Oral,"Euphoria, Increased confidence, Empathy, Relaxed, Irregular heartbeat, Nausea, Vomiting, Confusion, Loss of consciousness",Tapentadol,,50.7299,-1.9449
+W101643,2026-06-15,NP21,Zomorph morphine sulfate,Zomorph Morphine Sulfate,Colourless,Capsule,Not stated,"Not stated,  ",Morphine,,,
 W101752,2026-06-16,NE11,Tramadol,Tramadol,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,54.932825,-1.629725
+W101876,2026-06-16,BH14,Tapentadol,Tapaday-200,White,Tablet,Oral,"Euphoria, Increased confidence, Empathy, Relaxed, Irregular heartbeat, Nausea, Vomiting, Confusion, Loss of consciousness",Tapentadol,,50.7299,-1.9449
+W101880,2026-06-16,G83,Dihydrocodeine,Dihydrocodeine Bristol,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,56.03989166666666,-4.6006583333333335
 W102012,2026-06-18,E3,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,Pain relief,Dihydrocodeine,,51.527657142857144,-0.0265714285714285
 000233466,2026-06-23,LL65,Morphine,Zomorph 10mg,White,Capsule,Not stated,"Not stated,  ",Morphine,,53.289686206896555,-4.534455172413793
 W102354,2026-06-26,G74,dihydrocodeine Accord,Dihydrocodeine 30mg,White,Tablet,Oral,"Nausea, Paranoia, Agitation",Dihydrocodeine,,55.76583333333334,-4.1700333333333335
 W102349,2026-06-26,NE46,Oxycodone,Not stated,Brown,Tablet,Not stated,"Not stated,  ",Diazepam,,54.9934,-2.09518125
-W102376,2026-06-30,G12,Oxycodone 80mg,Oxydolor 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
 W102121,2026-06-30,NN2,Oxycodone,Toroxycon 40mg prolonged release oxycodone HCl,Yellow,Tablet,Not stated,"Not stated,  ",Oxycodone,,52.27265,-0.90015
+W102376,2026-06-30,G12,Oxycodone 80mg,Oxydolor 80mg,White,Powder,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
 000042904,2026-07-03,Not stated,Oxycodone,Oxycodone hydrochloride,Pink,Tablet,Oral,"Euphoria, Relaxed",Oxycodone,,,
 W102467,2026-07-06,EH21,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Relaxed, Chest pains, Memory loss, Confusion, Agitation, Depression, Suicidal ideation, Loss of consciousness, Breathlessness, Dissociation",Dihydrocodeine,,55.94169999999999,-3.0499
 W102490,2026-07-06,CH6,Tramadol,Tramadol,Green,Capsule,Oral,"Not stated,  ",Tramadol,,53.255125,-3.1489
-W102774,2026-07-16,NN2,Tramadol,Tramadol (Tamol-x),Green,Capsule,Not stated,"Not stated,  ",Pregabalin,,52.27265,-0.90015
 W102881,2026-07-16,TN39,Tramadol 50mg,Tramadol Hydrochloride 50mg,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,50.851925,0.450875
+W102774,2026-07-16,NN2,Tramadol,Tramadol (Tamol-x),Green,Capsule,Not stated,"Not stated,  ",Pregabalin,,52.27265,-0.90015
 W102882,2026-07-16,TN39,Tramadol 50mg,Tramadol Hydrochloride 50mg,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,50.851925,0.450875
 W102941,2026-07-20,LS11,Oxypro 80mg,OxyPro Xr 80mg,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.7667,-1.5667
 W102829,2026-07-20,CH15,Tapentadol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.2239,-2.9434428571428577
 W103200,2026-07-22,NE46,Oxycodone 10mg,Not stated,Brown,Tablet,Not stated,"Not stated,  ",No active compound identified,,54.9934,-2.09518125
-W103210,2026-07-23,SW1W,Codeine,Codeine,White,Tablet,Not stated,"Not stated,  ",Codeine,,51.5085,-0.1257
 W103205,2026-07-23,CF47,Tramadol,Tramadol,Green,Capsule,Oral,"Euphoria, Relaxed",Pregabalin,,51.7479,-3.3778
+W103210,2026-07-23,SW1W,Codeine,Codeine,White,Tablet,Not stated,"Not stated,  ",Codeine,,51.5085,-0.1257
 W103144,2026-07-23,BN17,tapentadol,Naturon Pentamax Tapentadol,Orange,Liquid,Not stated,"Not stated,  ",Tapentadol,,50.81636,-0.5498000000000001
 000233449,2026-07-27,LL65,Oxycodone,Oxycodone,White,Tablet,Not stated,"Not stated,  ",Oxycodone,,53.289686206896555,-4.534455172413793
 W103420,2026-07-29,YO23,Accord Dihydrocodeine 30mg,Accord Dihydrocodeine 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,53.914883333333336,-1.1672333333333331
 W103567,2026-07-29,BH14,M30 Oxy pressed,RC,Blue,Tablet,Oral,"Euphoria, Empathy, Relaxed, Nausea, Memory loss, Confusion",N-desethyl Protonitazene,,50.7299,-1.9449
 W103706,2026-07-31,TQ13,Dihydrocodeine,Dihydrocodeine,White,Tablet,Oral,"Relaxed, Confusion, Agitation",Dihydrocodeine,,50.593135,-3.68865
 W103880,2026-08-11,G82,Dihydrocodeine,Dihydrocodeine,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,55.954800000000006,-4.5815222222222225
-W103936,2026-08-11,NE61,Tramadol,tramadol,Yellow,Capsule,Not stated,"Not stated,  ",Tramadol,,55.165690000000005,-1.7111625
 W103629,2026-08-11,ST8,Tapentadol,tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.11565714285714,-2.169114285714286
 000235614,2026-08-11,SY16,Morphine,30mg Morphine,Pink,Capsule,Not stated,"Not stated,  ",Morphine,,52.50787647058824,-3.3015823529411765
 000234873,2026-08-11,SA70,Tramadol,Tramadol,Pink,Tablet,Not stated,"Not stated,  ",Tramadol,,51.6747,-4.769346153846154
-000233370,2026-08-13,LD3,tramadol,tramadol,Red,Tablet,Not stated,Overdose,Tramadol,,51.99435362318841,-3.411075362318841
+W103936,2026-08-11,NE61,Tramadol,tramadol,Yellow,Capsule,Not stated,"Not stated,  ",Tramadol,,55.165690000000005,-1.7111625
 W104087,2026-08-13,BN21,Codeine Phosphate,Not stated,Red,Capsule,Not stated,"Not stated,  ",Paracetamol,Codeine,50.7687,0.2845
+000233370,2026-08-13,LD3,tramadol,tramadol,Red,Tablet,Not stated,Overdose,Tramadol,,51.99435362318841,-3.411075362318841
 W104171,2026-08-14,IG6,Oxycontin 80mg,Oxycontin 80mg,Green,Tablet,Not stated,"Not stated,  ",Gabapentin,,51.59805,0.09435
 W103997,2026-08-14,SK14,Teva codeine Phosphate 300mg,Teva codiene phosphate 300mg,White,Tablet,Not stated,"Not stated,  ",Codeine,,53.45065,-2.04802
-W104163,2026-08-18,NE61,Tapendatol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,55.165690000000005,-1.7111625
 W104218,2026-08-18,BA16,Tramadol 225mg,Tramadol 225mg,Red,Tablet,Not stated,"Not stated,  ",Tramadol,,51.1243,-2.7555666666666667
+W104163,2026-08-18,NE61,Tapendatol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,55.165690000000005,-1.7111625
 W104208,2026-08-19,N7,Codeine,Codeine,White,Tablet,Not stated,"Not stated,  ",Paracetamol,Dihydrocodeine,51.5491,-0.1205142857142857
 W104694,2026-09-02,SN1,Oxycodone,oxycodone,Brown,Tablet,Oral,No effect,Gabapentin,,51.558,-1.7812
 W104659,2026-09-04,TA6,Dihydrocodeine 30mg,Dihydrocodeine accord 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.139228571428575,-3.006471428571429
 W104770,2026-09-04,TR26,Tramadol 50mg,Tramadol 50mg,Green,Tablet,Not stated,"Not stated,  ",Tramadol,,50.19705,-5.502516666666666
 W104832,2026-09-07,BS3,Tramadol,tramadol,Green,Capsule,Not stated,"Not stated,  ",Tramadol,,51.4552,-2.5966
 W076404,2026-09-07,GU32,Tapentadol,Tapntadol,Orange,Tablet,Oral,"Not stated,  ",Tapentadol,,51.009375,-0.9793333333333332
-W104975,2026-09-10,HP3,Tapentadol,Tapentadol tablets Etadol 100 Elikem,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,51.731966666666665,-0.4895
 W105140,2026-09-10,PE11,Codeine tabs,Codeine phosphate TEVA,White,Tablet,Oral,"Increased energy, Relaxed, Irregular heartbeat, Paranoia, Panic attack",Codeine,,52.8163,-0.2212722222222222
 W105092,2026-09-10,ST8,Tapentadol,tapfine,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.11565714285714,-2.169114285714286
 W105091,2026-09-10,ST8,Tramadol,Tramhud,White,Tablet,Not stated,"Not stated,  ",Tramadol,,53.11565714285714,-2.169114285714286
 W104974,2026-09-10,HP3,Tramadol hydochloride 50mg,tramadol hydrocloride 50mg capsule,Green,Capsule,Oral,"Not stated,  ",Tramadol,,51.731966666666665,-0.4895
+W104975,2026-09-10,HP3,Tapentadol,Tapentadol tablets Etadol 100 Elikem,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,51.731966666666665,-0.4895
 W105347,2026-09-17,ST6,tapendatol,Tapfine,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.059133333333335,-2.1827166666666664
 W105348,2026-09-17,CW12,tapendatol,aspadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,53.17224166666667,-2.217375
 W105355,2026-09-21,IP2,Tramadol 50mg,Tramadol 50mg,White,Capsule,Not stated,"Not stated,  ",Tramadol,,52.0452,1.1247
-W105438,2026-09-22,TF10,Dihydrocodeine,Accord Dihydrocodeine tablets 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,52.765905,-2.350815
+W105392,2026-09-22,LE1,tapentadol,tapfine 100,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.6386,-1.1317
 W105500,2026-09-22,FY8,Dihydrocodeine,Dihydrocodeine BP 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,53.7435,-2.9898
 000230296,2026-09-22,LL11,Morphine,Oxycodone,Colourless,Liquid,Not stated,"Not stated,  ",Morphine,,53.064506666666674,-3.052973333333333
-W105392,2026-09-22,LE1,tapentadol,tapfine 100,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,52.6386,-1.1317
+W105438,2026-09-22,TF10,Dihydrocodeine,Accord Dihydrocodeine tablets 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,52.765905,-2.350815
 W105519,2026-09-25,PE6,Tapentadol 100mg,tapendatol 100mg,White,Tablet,Oral,Nausea,Tapentadol,,52.66211578947368,-0.2845105263157895
-W105870,2026-09-28,BN27,tapentadol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,50.879305263157896,0.2806947368421053
 W105871,2026-09-28,BN27,Tapendatol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,50.879305263157896,0.2806947368421053
+W105870,2026-09-28,BN27,tapentadol,Tapentadol,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,50.879305263157896,0.2806947368421053
 W105493,2026-09-30,WR14,Codeine phosphate,Codeine phosphate,White,Tablet,Oral,Relaxed,Codeine,,52.095075,-2.327225
-W105882,2026-10-01,G12,Oxydolor 80mg (oxycodone),Oxydolor 80mg,White,Granules,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
-W105883,2026-10-01,G12,tapentadol 100mg,Aspadol/Tapdol 100mg,Orange,Granules,Not stated,"Not stated,  ",Tapentadol,,55.8804,-4.3007
-W105939,2026-10-01,NR21,Tapentadol,Tapentadol 100mg,Orange,Tablet,Oral,"Paranoia, Confusion, Loss of consciousness, Nasal burning",Tapentadol,,52.83983333333333,0.8568066666666667
 000236148,2026-10-01,CF63,Codeine,Codeine,White,Tablet,Oral,Relaxed,Codeine,,51.4172,-3.2614
 W105789,2026-10-01,KY11,tapentadol,Tapentadol,Orange,Tablet,Oral,"Not stated,  ",Tapentadol,,56.037644444444446,-3.422588888888889
-000240379,2026-10-07,CF10,Dihydrocodeine 30mg,Dihydrocodeine 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.48,-3.18
+W105939,2026-10-01,NR21,Tapentadol,Tapentadol 100mg,Orange,Tablet,Oral,"Paranoia, Confusion, Loss of consciousness, Nasal burning",Tapentadol,,52.83983333333333,0.8568066666666667
+W105883,2026-10-01,G12,tapentadol 100mg,Aspadol/Tapdol 100mg,Orange,Granules,Not stated,"Not stated,  ",Tapentadol,,55.8804,-4.3007
+W105882,2026-10-01,G12,Oxydolor 80mg (oxycodone),Oxydolor 80mg,White,Granules,Not stated,"Not stated,  ",Oxycodone,,55.8804,-4.3007
 W106189,2026-10-07,NP19,Oxycontin,Oxycontin,Green,Tablet,Snort / Sniff,"Euphoria, Relaxed, Nausea",Oxycodone,,51.5888,-2.9638
 W106133,2026-10-07,G40,Tapentadol 100mg,Tapentadol 100mg,Orange,Tablet,Not stated,"Not stated,  ",Tapentadol,,55.8485,-4.2235
+000240379,2026-10-07,CF10,Dihydrocodeine 30mg,Dihydrocodeine 30mg,White,Tablet,Not stated,"Not stated,  ",Dihydrocodeine,,51.48,-3.18
 W106154,2026-10-08,L8,Tramadol,Tramadol (50mg accord),Green,Capsule,Not stated,"Not stated,  ",Tramadol,,53.4106,-2.9779
 W106260,2026-10-13,SA8,Zomorph Morphine 10mg,Morphine 10mg,White,Capsule,Oral,Euphoria,Morphine,,51.722449999999995,-3.8458625
 W106235,2026-10-14,BS4,Tramadol 100mg,Dolcare - 100,White,Tablet,Oral,No effect,Chlorpheniramine,Diclofenac,51.4345,-2.55525
+W106236,2026-10-14,BS4,Oxycontin 80mg,Mundipharma Oxycontin 80mg,Green,Tablet,Oral,No effect,Gabapentin,,51.4345,-2.55525
+W106894,2026-10-29,NN12,Oxycodone,80mg Oxycodone,Blue,Tablet,Not stated,"Not stated,  ",Oxycodone,,52.12114285714286,-1.03124
+W106175,2026-10-29,SW18,Oxycodone 20mg,Not stated,Pink,Capsule,Snort / Sniff,"Euphoria, Relaxed",Oxycodone,,51.4489,-0.1971
+W106169,2026-10-29,SW20,Tapentadol 200mg,Tapentadol x 200mg,Orange,Tablet,Not stated,Relaxed,Tapentadol,,51.4095,-0.22818
+W106803,2026-10-29,Not stated,Tapentadol,Tapentadol,White,Tablet,Not stated,"Not stated,  ",Tapentadol,,,
